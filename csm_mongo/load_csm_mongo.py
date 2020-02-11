@@ -49,7 +49,7 @@ def get_args() -> Args:
                         help='Mongo DB name',
                         metavar='str',
                         type=str,
-                        default='csm')
+                        default='uasrc')
 
     parser.add_argument('-D',
                         '--delimiter',
@@ -88,7 +88,8 @@ def process(fh: TextIO, db: str, args: Args) -> int:
     coll = db['csm']
     num_inserted = 0
 
-    for row in reader:
+    for i, row in enumerate(reader):
+        print(i)
         for fld in flds[5:-8]:
             date = dateparser.parse(row['date'])
             if not date:
@@ -109,16 +110,19 @@ def process(fh: TextIO, db: str, args: Args) -> int:
             if not exists:
                 # Try to convert value to float
                 val = row[fld]
+
+                # Remove leading "="?
+                if val.startswith('='):
+                    val = val[1:]
+
                 try:
                     val = float(val)
                 except:
                     pass
 
-                rec['value'] = val
+                rec['val'] = val
                 coll.insert_one(rec)
                 num_inserted += 1
-
-        break
 
     return num_inserted
 
