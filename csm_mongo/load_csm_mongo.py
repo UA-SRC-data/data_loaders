@@ -13,11 +13,12 @@ import dateparser
 import datetime
 from pprint import pprint as pp
 from pymongo import MongoClient
-from typing import List, NamedTuple, Optional, TextIO
+from typing import Dict, List, NamedTuple, Optional, TextIO
 
 
 class Args(NamedTuple):
     file: List[TextIO]
+    headers: Optional[TextIO]
     mongo_uri: str
     mongo_db: str
     delimiter: str
@@ -32,10 +33,17 @@ def get_args() -> Args:
         formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
     parser.add_argument('file',
-                        metavar='FILE',
                         nargs='+',
+                        metavar='FILE',
                         type=argparse.FileType('r'),
                         help='Input file(s)')
+
+    parser.add_argument('-H',
+                        '--headers',
+                        help='Headers file',
+                        metavar='FILE',
+                        type=argparse.FileType('r'),
+                        default=None)
 
     parser.add_argument('-m',
                         '--mongo_uri',
@@ -60,7 +68,8 @@ def get_args() -> Args:
 
     args = parser.parse_args()
 
-    return Args(args.file, args.mongo_uri, args.db, args.delimiter)
+    return Args(args.file, args.headers, args.mongo_uri, args.db,
+                args.delimiter)
 
 
 # --------------------------------------------------
@@ -71,16 +80,43 @@ def main() -> None:
     client = MongoClient(args.mongo_uri)
     db = client[args.mongo_db]
     num_inserted = 0
+    headers = get_headers(args.headers)
 
     for i, fh in enumerate(args.file, start=1):
         print(f'{i:3}: {os.path.basename(fh.name)}')
-        num_inserted += process(fh, db, args)
+        num_inserted += process(fh, headers, db, args)
 
     print(f'Done, inserted {num_inserted}.')
 
 
 # --------------------------------------------------
-def process(fh: TextIO, db: str, args: Args) -> int:
+def get_headers(fh: Optional[TextIO]) -> Dict[str, str]:
+    """Reader headers (optional)"""
+
+    headers = {}
+
+    if fh:
+        reader = csv.DictReader(fh, delimiter='\t')
+        flds = reader.fieldnames
+
+        expected = 'header order family genus_'.split()
+        if not set(flds) == set(expected):
+            msg = f'"{fh.name}" missing fields: {", ".join(expected)}'
+            raise Exception(msg)
+
+        for rec in reader:
+            hdr = rec['header']
+            if hdr:
+                headers[hdr.lower()] = ' '.join(
+                    map(lambda h: rec[h].strip(),
+                        'order family genus_'.split()))
+
+    return headers
+
+
+# --------------------------------------------------
+def process(fh: TextIO, headers: Optional[Dict[str, str]], db: str,
+            args: Args) -> int:
     """Process the file into Mongo (client)"""
 
     reader = csv.DictReader(fh, delimiter=args.delimiter)
@@ -89,40 +125,48 @@ def process(fh: TextIO, db: str, args: Args) -> int:
     num_inserted = 0
 
     for i, row in enumerate(reader):
-        print(i)
+        if not row.get('stream'):
+            continue
+
         for fld in flds[5:-8]:
             date = dateparser.parse(row['date'])
             if not date:
                 continue
+
+            measurement = headers.get(fld.lower(), fld) if headers else fld
 
             # Base record has station/date
             date = datetime.datetime.utcfromtimestamp(date.timestamp())
             rec = {
                 'station': row['station'],
                 'collection_date': date,
-                'measurement': fld,
+                'measurement': measurement,
             }
+
+            # Remove leading "="?
+            val = row[fld]
+            if val.startswith('='):
+                val = val[1:]
+
+            # Try to convert value to float
+            try:
+                val = float(val)
+            except:
+                pass
+
+            print(f'{i:4}: {fld} => {val}')
 
             # Look for the base record w/o the value
             exists = coll.find_one(rec)
 
             # If we need to insert, add the value, maybe float or str
-            if not exists:
-                # Try to convert value to float
-                val = row[fld]
-
-                # Remove leading "="?
-                if val.startswith('='):
-                    val = val[1:]
-
-                try:
-                    val = float(val)
-                except:
-                    pass
-
+            if exists:
                 rec['val'] = val
                 coll.insert_one(rec)
-                num_inserted += 1
+            else:
+                coll.update_one(rec, {"$set": {'val': val}})
+
+            num_inserted += 1
 
     return num_inserted
 
