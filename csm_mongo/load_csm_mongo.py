@@ -8,12 +8,22 @@ Purpose: Load CSM data into Mongo
 import argparse
 import csv
 import os
-import sys
 import dateparser
 import datetime
-from pprint import pprint as pp
-from pymongo import MongoClient
-from typing import Dict, List, NamedTuple, Optional, TextIO
+from pymongo import MongoClient, GEO2D
+from pprint import pprint
+from typing import Dict, List, Tuple, NamedTuple, Optional, TextIO
+
+LOCATIONS = {
+    'ABOVE RUSSEL': (39.764606, -105.446683),
+    'CC MAIN ABOVE NFCC': (39.740397, -105.411517),
+    'CONFLUENCE': (39.742069, -105.390567),
+    'PUMPHOUSE': (39.812636, -105.498117),
+    'RAIL-LESS': (39.792289, -105.472406),
+    'RIVIERA': (39.798722, -105.483097),
+    'UPPER REFERENCE': (39.815519, -105.500403),
+    'USGS GAUGE STATION': (39.749308, -105.399631),
+}
 
 
 class Args(NamedTuple):
@@ -98,25 +108,32 @@ def get_headers(fh: Optional[TextIO]) -> Dict[str, str]:
     if fh:
         reader = csv.DictReader(fh, delimiter='\t')
         flds = reader.fieldnames
+        print(f'>>>{flds}')
 
-        expected = 'header order family genus_'.split()
-        if not set(flds) == set(expected):
-            msg = f'"{fh.name}" missing fields: {", ".join(expected)}'
+        expected = 'header order family genus'.split()
+        missing = list(filter(lambda f: f not in flds, expected))
+
+        if missing:
+            msg = f'"{fh.name}" missing fields: {", ".join(missing)}'
             raise Exception(msg)
 
         for rec in reader:
             hdr = rec['header']
             if hdr:
-                headers[hdr.lower()] = ' '.join(
-                    map(lambda h: rec[h].strip(),
-                        'order family genus_'.split()))
+                order, family, genus = map(lambda h: rec[h].strip(),
+                                           'order family genus'.split())
+                if all([order, family, genus]):
+                    headers[hdr.lower()] = ' '.join([order, family, genus])
+                elif order:
+                    headers[hdr.lower()] = order
+                else:
+                    headers[hdr.lower()] = hdr
 
     return headers
 
 
 # --------------------------------------------------
-def process(fh: TextIO, headers: Optional[Dict[str, str]], db: str,
-            args: Args) -> int:
+def process(fh: TextIO, headers: Optional[Dict[str, str]], db: str, args: Args) -> int:
     """Process the file into Mongo (client)"""
 
     reader = csv.DictReader(fh, delimiter=args.delimiter)
@@ -124,7 +141,9 @@ def process(fh: TextIO, headers: Optional[Dict[str, str]], db: str,
     coll = db['csm']
     num_inserted = 0
 
-    for i, row in enumerate(reader):
+    coll.create_index([("location", GEO2D)])
+
+    for i, row in enumerate(reader, start=1):
         if not row.get('stream'):
             continue
 
@@ -143,6 +162,9 @@ def process(fh: TextIO, headers: Optional[Dict[str, str]], db: str,
                 'measurement': measurement,
             }
 
+            if row['station'] in LOCATIONS:
+                rec['location'] = LOCATIONS.get(row['station'])
+
             # Remove leading "="?
             val = row[fld]
             if val.startswith('='):
@@ -151,7 +173,7 @@ def process(fh: TextIO, headers: Optional[Dict[str, str]], db: str,
             # Try to convert value to float
             try:
                 val = float(val)
-            except:
+            except Exception:
                 pass
 
             print(f'{i:4}: {fld} => {val}')
@@ -161,10 +183,10 @@ def process(fh: TextIO, headers: Optional[Dict[str, str]], db: str,
 
             # If we need to insert, add the value, maybe float or str
             if exists:
+                coll.update_one(rec, {"$set": {'val': val}})
+            else:
                 rec['val'] = val
                 coll.insert_one(rec)
-            else:
-                coll.update_one(rec, {"$set": {'val': val}})
 
             num_inserted += 1
 
