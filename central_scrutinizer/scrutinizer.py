@@ -17,6 +17,7 @@ class LocationType(BaseModel):
         table_name = 'location_type'
 
 class Location(BaseModel):
+    lat_lon = TextField(null=True)
     location_id = AutoField(null=True)
     location_name = TextField(unique=True)
     location_type = ForeignKeyField(column_name='location_type_id', field='location_type_id', model=LocationType)
@@ -33,6 +34,7 @@ class Variable(BaseModel):
         table_name = 'variable'
 
 class Measurement(BaseModel):
+    collected_on = TextField(null=True)
     location = ForeignKeyField(column_name='location_id', field='location_id', model=Location)
     measurement_id = AutoField(null=True)
     value = TextField()

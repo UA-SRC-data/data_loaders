@@ -28,6 +28,7 @@ create table measurement (
   measurement_id integer primary key,
   variable_id integer not null,
   location_id integer not null,
+  collected_on text,
   value text not null,
   unique (variable_id, location_id, value),
   foreign key (variable_id) references variable (variable_id),

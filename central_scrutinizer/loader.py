@@ -18,6 +18,7 @@ class Record(NamedTuple):
     location_type: str
     variable_name: str
     variable_desc: str
+    collected_on: str
     value: str
 
 
@@ -43,13 +44,10 @@ def main():
     """Make a jazz noise here"""
 
     args = get_args()
-    #args.db.close()
-    #dbh = sqlite3.connect(args.db.name)
     total = 0
 
     for i, fh in enumerate(args.file, start=1):
         print(f'{i:3}: {os.path.basename(fh.name)}')
-
         total += process(fh, database)
 
     print(f'Done, processed {total} records.')
@@ -70,13 +68,20 @@ def process(fh, db):
             location_type_id=loc_type.location_type_id)
 
         variable, _ = Variable.get_or_create(
-            variable=rec.variable_name,
-            description=rec.variable_desc)
+            variable=rec.variable_name)
+
+        if rec.variable_desc:
+            variable.description = rec.variable_desc
+            variable.update()
 
         measurement, _ = Measurement.get_or_create(
             variable_id=variable.variable_id,
             location_id=location.location_id,
             value=rec.value)
+
+        if rec.collected_on:
+            measurement.collected_on = rec.collected_on
+            measurement.update()
 
         num += 1
 
