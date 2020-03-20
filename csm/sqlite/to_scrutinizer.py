@@ -163,10 +163,9 @@ def process(fh: TextIO, headers: Optional[Dict[str, str]],
             except Exception:
                 continue
 
-            desc = ""  # TODO: should we use fld/header?
             print(f'{i:4}: {fld} => {val}')
             outfile.write(','.join(
-                map(quote, [station, 'station', variable, desc, date, val])) +
+                map(quote, [station, 'station', fld, variable, date, val])) +
                          '\n')
 
     return num_inserted

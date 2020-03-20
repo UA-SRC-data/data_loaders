@@ -18,6 +18,7 @@ from typing import Dict, List, Tuple, NamedTuple, Optional, TextIO
 class Args(NamedTuple):
     file: List[TextIO]
     headers: Optional[TextIO]
+    collected_on: str
     outfile: TextIO
 
 
@@ -40,7 +41,14 @@ def get_args() -> Args:
                         help='Headers file',
                         metavar='FILE',
                         type=argparse.FileType('r'),
-                        default=None)
+                        required=True)
+
+    parser.add_argument('-c',
+                        '--collected_on',
+                        help='Date for "collected_on" field',
+                        metavar='str',
+                        type=str,
+                        required=True)
 
     parser.add_argument('-o',
                         '--outfile',
@@ -51,7 +59,7 @@ def get_args() -> Args:
 
     args = parser.parse_args()
 
-    return Args(args.file, args.headers, args.outfile)
+    return Args(args.file, args.headers, args.collected_on, args.outfile)
 
 
 # --------------------------------------------------
@@ -68,7 +76,7 @@ def main() -> None:
 
     for i, fh in enumerate(args.file, start=1):
         print(f'{i:3}: {os.path.basename(fh.name)}')
-        num_inserted += process(fh, headers, args.outfile)
+        num_inserted += process(fh, headers, args.collected_on, args.outfile)
 
     print(f'Done, inserted {num_inserted}.')
 
@@ -103,7 +111,9 @@ def quote(s):
 
 
 # --------------------------------------------------
-def process(in_fh: TextIO, headers: Optional[Dict[str, str]],
+def process(in_fh: TextIO, 
+            headers: Optional[Dict[str, str]],
+            collected_on: str,
             out_fh: TextIO) -> int:
     """Process the file into Mongo (client)"""
 
@@ -153,7 +163,6 @@ def process(in_fh: TextIO, headers: Optional[Dict[str, str]],
             except Exception:
                 pass
 
-            collected_on = ""  # TODO: what goes here?
             print(f'{i:4}: {block_id} {fld} => {val}')
             out_fh.write(','.join(
                 map(quote,

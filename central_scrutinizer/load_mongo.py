@@ -71,17 +71,23 @@ def main() -> None:
 
         exists = coll.find_one(qry)
 
+        value = m.value
+        try:
+            value = float(value)
+        except Exception:
+            pass
+
         # If we need to insert, add the value, maybe float or str
         if exists:
             coll.update_one(
                 qry, {
                     "$set": {
-                        'value': m.value,
+                        'value': value,
                         'collected_on': m.collected_on
                     }
                 })
         else:
-            qry['value'] = m.value
+            qry['value'] = value
             qry['collected_on'] = m.collected_on
             coll.insert_one(qry)
 

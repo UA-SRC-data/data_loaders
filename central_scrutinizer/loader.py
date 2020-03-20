@@ -60,6 +60,13 @@ def process(fh, db):
     reader = csv.DictReader(fh, delimiter=',')
     num = 0
     for rec in map(lambda r: Record(**r), reader):
+        value = rec.value
+
+        try:
+            value = float(value)
+        except Exception:
+            pass
+
         loc_type, _ = LocationType.get_or_create(
             location_type=rec.location_type)
 
@@ -72,16 +79,16 @@ def process(fh, db):
 
         if rec.variable_desc:
             variable.description = rec.variable_desc
-            variable.update()
+            variable.save()
 
         measurement, _ = Measurement.get_or_create(
             variable_id=variable.variable_id,
             location_id=location.location_id,
-            value=rec.value)
+            value=value)
 
         if rec.collected_on:
             measurement.collected_on = rec.collected_on
-            measurement.update()
+            measurement.save()
 
         num += 1
 

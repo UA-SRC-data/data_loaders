@@ -6,5 +6,8 @@ load:
 pwiz:
 	pwiz.py -e sqlite $(DB) > scrutinizer.py
 
-db:
-	sqlite3 $(DB) < schema.sql
+sqlitedb:
+	sqlite3 $(DB) < sqlite.schema
+
+mysqldb:
+	mysql scrutinizer < mysql.schema
