@@ -57,13 +57,16 @@ def main() -> None:
     args = get_args()
 
     file_num = 0
-    for file in args.file:
+    for i, file in enumerate(args.file, start=1):
+        print(f'{i:3}: {file.name}')
+
         sections = find_sections(file)
-        basename, _ = os.path.splitext(os.path.basename(file.name))
+        basename = os.path.basename(file.name)
+        root, _ = os.path.splitext(basename)
 
         icp = 'icp_aes'
         if icp not in sections:
-            print(f'File "{basename}" missing section "{icp}"!')
+            print(f'File "{file.name}" missing section "{icp}"!', file=sys.stderr)
             continue
 
         icp_aes = sections[icp]
@@ -74,11 +77,10 @@ def main() -> None:
             hdrs, data = parse_section(section, master_header, raw)
             if data:
                 out_file = write_out(data, hdrs, args.outdir,
-                                     f'{basename}_{section}.csv')
+                                     f'{root}_{section}.csv')
 
                 if out_file:
                     file_num += 1
-                    print(f'{file_num:3}: {os.path.basename(out_file)}')
 
     print(f'Done, see output in "{args.outdir}".')
 
@@ -90,6 +92,9 @@ def write_out(data: List[dict], headers: List[str], out_dir: str,
 
     if not data:
         return
+
+    # Get rid of the empty fields
+    headers = list(filter(lambda s: len(s) > 0, headers))
 
     out_file = os.path.join(out_dir, filename)
     fh = open(out_file, 'wt')
@@ -129,7 +134,6 @@ def test_expand_master_header() -> None:
             map(lambda s: replicate(s, 8),
                 ['Ref1', 'ANT', 'RAP', 'RBP', 'ARG', 'USGS'])))
 
-    print(f'expected "{expected}"')
     assert expand_master_header(sub) == expected
 
 
@@ -163,12 +167,12 @@ def parse_section(name: str, master_header: List[str],
     # print(f'header "{this_header}"')
 
     # start off with the 1st 2 flds
-    headers = this_header[:2] + merge_headers(repeater(master_header[2:]),
-                                              this_header[2:])
+    headers = this_header[:2] + unique_names(
+        merge_headers(repeater(master_header[2:]), this_header[2:]))
     headers[0] = 'measurement'
     headers = list(map(normalize, headers))
 
-    print(headers)
+    # print(headers)
 
     def num_col(i, val):
         if i >= 2:
@@ -191,9 +195,6 @@ def merge_headers(hdr1: List[str], hdr2: List[str]) -> List[str]:
     """ Merge sub/headers """
     def join(t):
         return '_'.join(t) if all(t) else t[1] if t[1] else ''
-
-    print(f'>>>HDR1 "{hdr1}"')
-    print(f'>>>HDR2 "{hdr2}"')
 
     return list(map(join, filter(any, zip(hdr1, popper(hdr2)))))
 
@@ -226,7 +227,7 @@ def test_merge_headers() -> None:
 def popper(vals: List[str]) -> List[str]:
     """ Remove missing values from the end of a list """
 
-    while not vals[-1]:
+    while vals and not vals[-1]:
         vals.pop()
 
     return vals
@@ -291,7 +292,6 @@ def find_sections(fh: TextIO) -> Dict[str, List[str]]:
 
         if hdr:
             group = normalize(hdr.group(1))
-            #print(f">>> HEADER match {group}")
             last_header = group
         elif last_header and not empty_line:
             sections[last_header].append(line)
@@ -314,7 +314,7 @@ def unique_names(names):
     seen = {}
     new_names = []
     for name in names:
-        if counts[name] > 1:
+        if name and counts[name] > 1:
             n = seen.get(name, 1)
             seen[name] = n + 1
             name += f'_{n}'

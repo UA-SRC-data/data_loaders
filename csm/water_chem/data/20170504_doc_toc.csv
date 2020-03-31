@@ -1,0 +1,2 @@
+measurement,ref2_doc1,ref2_doc2,ref2_avg_1,ref2_stdev_1,ref2_toc1,ref2_toc2,ref2_avg_2,ref2_stdev_2,ant_doc1,ant_doc2,ant_avg_1,ant_stdev_1,ant_toc1,ant_toc2,ant_avg_2,ant_stdev_2,rap_doc1,rap_doc2,rap_avg_1,rap_stdev_1,rap_toc1,rap_toc2,rap_avg_2,rap_stdev_2,rbp_doc1,rbp_doc2,rbp_avg_1,rbp_stdev_1,rbp_toc1,rbp_toc2,rbp_avg_2,rbp_stdev_2
+NPOC (ppm),2.44,2.35,2.39,0.060104076,2.26,2.33,2.29,0.049497475,2.41,2.41,2.41,0.004242641,2.34,2.51,2.43,0.123743687,2.21,2.26,2.23,0.036062446,2.28,2.31,2.29,0.02192031,1.91,2.06,1.99,0.102530483,2.14,2.06,2.1,0.053033009

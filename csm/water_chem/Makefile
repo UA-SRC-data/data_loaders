@@ -1,2 +1,2 @@
 run:
-	./parse.py water.csv
+	./parse.py sheets/*.csv -o data
