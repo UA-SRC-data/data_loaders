@@ -66,7 +66,8 @@ def main() -> None:
 
         icp = 'icp_aes'
         if icp not in sections:
-            print(f'File "{file.name}" missing section "{icp}"!', file=sys.stderr)
+            print(f'File "{file.name}" missing section "{icp}"!',
+                  file=sys.stderr)
             continue
 
         icp_aes = sections[icp]
