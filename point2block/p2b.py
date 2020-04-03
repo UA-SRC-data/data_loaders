@@ -7,11 +7,9 @@ Purpose: Add census block group to file containing lat/lon
 
 import argparse
 import os
-import re
 import shapefile
 import sys
 import csv
-from pprint import pprint
 from shapely.geometry import shape, Point
 
 
