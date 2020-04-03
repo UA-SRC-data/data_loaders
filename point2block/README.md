@@ -6,7 +6,7 @@ You need the shapefile for the US census blocks for Arizona:
 
 https://catalog.data.gov/dataset/tiger-line-shapefile-2017-state-arizona-current-block-group-state-based
 
-Given the `sample.csv` file with this structure:
+Given the `inputs/sample.csv` file with this structure:
 
 ```
 // ****** Record 1 ****** //
@@ -18,7 +18,7 @@ longitude : -109.1665
 Run with:
 
 ```
-$ ./p2b.py -s shape/tl_2017_04_bg.dbf sample.csv -o out-sample.csv
+$ ./p2b.py -s shape/tl_2017_04_bg.dbf inputs/sample.csv -o out-sample.csv
 ```
 
 The output file will look like this:
