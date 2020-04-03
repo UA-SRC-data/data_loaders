@@ -4,9 +4,9 @@ This program will add census "GEOID" field to delimited (CSV) file containing fi
 
 You need the shapefile(s) for the US census tracts, blocks, or block_groups for Arizona:
 
-* (TIGER/Line Shapefile, 2017, 2010 state, Arizona, 2010 Census Block State-based)[https://www2.census.gov/geo/tiger/TIGER2017//TABBLOCK/tl_2017_04_tabblock10.zip]
-* (TIGER/Line Shapefile, 2017, state, Arizona, Current Block Group State-based)[https://www2.census.gov/geo/tiger/TIGER2017/BG/tl_2017_04_bg.zip]
-* (TIGER/Line Shapefile, 2016, state, Arizona, Current Census Tract State-based)[https://www2.census.gov/geo/tiger/TIGER2016/TRACT/tl_2016_04_tract.zip]
+* [TIGER/Line Shapefile, 2017, 2010 state, Arizona, 2010 Census Block State-based](https://www2.census.gov/geo/tiger/TIGER2017//TABBLOCK/tl_2017_04_tabblock10.zip)
+* [TIGER/Line Shapefile, 2017, state, Arizona, Current Block Group State-based](https://www2.census.gov/geo/tiger/TIGER2017/BG/tl_2017_04_bg.zip)
+* [TIGER/Line Shapefile, 2016, state, Arizona, Current Census Tract State-based](https://www2.census.gov/geo/tiger/TIGER2016/TRACT/tl_2016_04_tract.zip)
 
 I would suggest creating a `shapefiles` directory containing directories for each type:
 
