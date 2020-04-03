@@ -23,7 +23,27 @@ def get_args():
 
     # Can't use argparse.FileType('r') here because I need to
     # know about the BOM to handle the open
-    parser.add_argument('file', metavar='FILE', type=str, help='Input file')
+    parser.add_argument('-f',
+                        '--file',
+                        metavar='FILE',
+                        type=str,
+                        required=True,
+                        help='Input file')
+
+    parser.add_argument('-s',
+                        '--shapefile',
+                        metavar='FILE',
+                        type=str,
+                        required=True,
+                        help='Input file')
+
+    parser.add_argument('-t',
+                        '--type',
+                        metavar='shapetype',
+                        type=str,
+                        required=True,
+                        choices=['tract', 'block', 'block_group'],
+                        help='Shapefile type')
 
     parser.add_argument('-d',
                         '--delimiter',
@@ -31,13 +51,6 @@ def get_args():
                         type=str,
                         default=',',
                         help='Input file field delimiter')
-
-    parser.add_argument('-s',
-                        '--shapefile',
-                        metavar='FILE',
-                        type=str,
-                        default='',
-                        help='Input file')
 
     parser.add_argument('-o',
                         '--outfile',
@@ -79,7 +92,7 @@ def main():
 
     shapes = read_shapefile(args.shapefile)
 
-    out_flds = flds + ['block_group']
+    out_flds = flds + ['geoid', 'geoid_type']
 
     args.outfile.write(','.join(out_flds) + '\n')
 
@@ -87,7 +100,8 @@ def main():
     for rec in reader:
         point = Point(float(rec['longitude']), float(rec['latitude']))
         block = list(filter(lambda s: s['SHAPE'].contains(point), shapes))
-        rec['block_group'] = block[0]['GEOID'] if len(block) == 1 else 'NA'
+        rec['geoid'] = block[0].get('GEOID', 'NA') if len(block) == 1 else 'NA'
+        rec['geoid_type'] = args.type
         args.outfile.write(','.join(map(rec.get, out_flds)) + '\n')
         num += 1
 
