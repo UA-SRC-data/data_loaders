@@ -70,10 +70,12 @@ def main():
     reader = csv.DictReader(args.file, delimiter=args.delimiter)
 
     flds = reader.fieldnames
-    for fld in ['latitude', 'longitude']:
-        if not flds:
-            print('"{args.file.name}" missing field "{fld}"', file=sys.stderr)
-            sys.exit(1)
+    missing = list(filter(lambda f: f not in flds, ['latitude', 'longitude']))
+    if missing:
+        print('Error: "{}" missing "{}"'.format(args.file.name,
+                                                ', '.join(missing)),
+              file=sys.stderr)
+        sys.exit(1)
 
     shapes = read_shapefile(args.shapefile)
 
