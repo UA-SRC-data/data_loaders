@@ -58,7 +58,7 @@ def get_args() -> Args:
                         '--headers',
                         help='Headers file',
                         metavar='FILE',
-                        type=argparse.FileType('r'),
+                        type=str,
                         default=None)
 
     parser.add_argument('-m',
@@ -83,6 +83,9 @@ def get_args() -> Args:
                         help='Field delimiter')
 
     args = parser.parse_args()
+
+    if args.headers and os.path.isfile(args.headers):
+        args.headers = open(args.headers, encoding='utf-8-sig')
 
     return Args(args.file, args.headers, args.mongo_uri, args.db,
                 args.delimiter)
@@ -112,7 +115,7 @@ def get_headers(fh: Optional[TextIO]) -> Dict[str, str]:
     headers = {}
 
     if fh:
-        reader = csv.DictReader(fh, delimiter='\t')
+        reader = csv.DictReader(fh, delimiter=',')
         flds = reader.fieldnames
 
         expected = 'header order family genus'.split()
@@ -203,17 +206,15 @@ def process(fh: TextIO, headers: Optional[Dict[str, str]], db: str,
                     rec, {
                         "$set": {
                             'val': val,
-                            'location': STATION_LOCATIONS.get(station)
+                            'location': STATION_LOCATION.get(station)
                         }
                     })
             else:
                 rec['val'] = val
-                rec['location'] = STATION_LOCATIONS.get(station)
+                rec['location'] = STATION_LOCATION.get(station)
                 coll.insert_one(rec)
 
             num_inserted += 1
-            break
-        break
 
     return num_inserted
 
