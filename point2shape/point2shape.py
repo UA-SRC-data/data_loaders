@@ -64,6 +64,11 @@ def get_args():
                         action='store_true',
                         help='Input file has byte-order mark')
 
+    parser.add_argument('-r',
+                        '--rmlatlon',
+                        action='store_true',
+                        help='Remove the original latitude/longitude fields')
+
     args = parser.parse_args()
 
     if not os.path.isfile(args.file):
@@ -82,8 +87,9 @@ def main():
 
     reader = csv.DictReader(args.file, delimiter=args.delimiter)
 
+    lat_lon = ['latitude', 'longitude']
     flds = reader.fieldnames
-    missing = list(filter(lambda f: f not in flds, ['latitude', 'longitude']))
+    missing = list(filter(lambda f: f not in flds, lat_lon))
     if missing:
         print('Error: "{}" missing "{}"'.format(args.file.name,
                                                 ', '.join(missing)),
@@ -93,6 +99,9 @@ def main():
     shapes = read_shapefile(args.shapefile)
 
     out_flds = flds + ['geoid', 'geoid_type']
+
+    if args.rmlatlon:
+        out_flds = list(filter(lambda f: f not in lat_lon, out_flds))
 
     args.outfile.write(','.join(out_flds) + '\n')
 

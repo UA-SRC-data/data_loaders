@@ -7,6 +7,9 @@ TRACT = shapefiles/tract/tl_2016_04_tract
 sample:
 	$(PRG) -s $(TRACT) -f inputs/sample.csv -t tract -o out-sample.csv
 
+rmlatlon:
+	$(PRG) -r -s $(TRACT) -f inputs/sample.csv -t tract -o out-sample-no-lat-lon.csv
+
 bom:
 	$(PRG) -s $(BLOCK_GROUP) -f inputs/bom.csv -t block_group -o out-bom.csv
 

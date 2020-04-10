@@ -90,6 +90,19 @@ geoid      : 04001944100
 geoid_type : tract
 ```
 
+The `-r`|`--rmlatlon` flag can be used to remove the original "latitude" and "longitude" fields from the output file:
+
+```
+$ ./point2shape.py -s shapefiles/tract/tl_2016_04_tract -t tract \
+>   -f inputs/sample.csv -o out-sample.csv -r
+Done, exported 6 to "out-sample.csv"
+$ tabchk.py out-sample.csv
+// ****** Record 1 ****** //
+id         : 1
+geoid      : 04001944100
+geoid_type : tract
+```
+
 When a shape cannot be found in the shapefile for a given lat/lon, the value will be "NA."
 
 The program can handle files with BOM (byte-order marks) if you use the `--bom` flag.
@@ -98,8 +111,8 @@ Run the program with `-h` or `--help` for the usage:
 
 ```
 $ ./point2shape.py -h
-usage: point2shape.py [-h] -f FILE -s FILE -t shapetype [-d delimiter]
-                      [-o FILE] [-b]
+usage: point2shape.py [-h] -f FILE -s FILE -t shapetype [-d delimiter] [-o FILE] [-b]
+                      [-r]
 
 Add census block group to file containing lat/lon
 
@@ -115,6 +128,7 @@ optional arguments:
   -o FILE, --outfile FILE
                         Output file (default: out.csv)
   -b, --bom             Input file has byte-order mark (default: False)
+  -r, --rmlatlon        Remove the original latitude/longitude fields (default: False)
 ```
 
 See Makefile for examples of how to run.
