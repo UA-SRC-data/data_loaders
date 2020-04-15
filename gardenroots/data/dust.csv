@@ -1,0 +1,13 @@
+contaminant,type,sample_type,agency_name,value,units,color,sampling_year,community
+aluminum,Limit,,Lower Limit of Detection,0.081,mg/kg,#f4cb66,2019-2020,
+arsenic,Limit,,Lower Limit of Detection,0.164,mg/kg,#f4cb66,2019-2020,
+barium,Limit,,Lower Limit of Detection,0.009,mg/kg,#f4cb66,2019-2020,
+beryllium,Limit,,Lower Limit of Detection,3.00E-03,mg/kg,#f4cb66,2019-2020,
+cadmium,Limit,,Lower Limit of Detection,4.00E-03,mg/kg,#f4cb66,2019-2020,
+chromium,Limit,,Lower Limit of Detection,0.008,mg/kg,#f4cb66,2019-2020,
+manganese,Limit,,Lower Limit of Detection,6.00E-03,mg/kg,#f4cb66,2019-2020,
+nickel,Limit,,Lower Limit of Detection,0.018,mg/kg,#f4cb66,2019-2020,
+lead,Limit,,Lower Limit of Detection,1.00E-03,mg/kg,#f4cb66,2019-2020,
+zinc,Limit,,Lower Limit of Detection,0.009,mg/kg,#f4cb66,2019-2020,
+copper,Limit,,Lower Limit of Detection,0.028,mg/kg,#f4cb66,2019-2020,
+iron,Limit,,Lower Limit of Detection,6.03E-01,mg/kg,#f4cb67,2019-2020,"here, but not reporting "

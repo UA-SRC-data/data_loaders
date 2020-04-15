@@ -1,0 +1,254 @@
+{
+    "profile": "tabular-data-package",
+    "resources": [
+        {
+            "path": "data/dust.csv",
+            "profile": "tabular-data-resource",
+            "name": "dust",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "contaminant",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "type",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "sample_type",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "agency_name",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "value",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "units",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "color",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "sampling_year",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "community",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    "",
+                    "no standard given"
+                ]
+            }
+        },
+        {
+            "path": "data/plants.csv",
+            "profile": "tabular-data-resource",
+            "name": "plants",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "contaminant",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "type",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "sample_type",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "agency_name",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "value",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "units",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "color",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "sampling_year",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "community",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    "",
+                    "no standard given"
+                ]
+            }
+        },
+        {
+            "path": "data/soil.csv",
+            "profile": "tabular-data-resource",
+            "name": "soil",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "contaminant",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "type",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "sample_type",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "agency_name",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "value",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "units",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "color",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "sampling_year",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "community",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    "",
+                    "no standard given"
+                ]
+            }
+        },
+        {
+            "path": "data/water.csv",
+            "profile": "tabular-data-resource",
+            "name": "water",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "contaminant",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "type",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "sample_type",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "agency_name",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "value",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "units",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "color",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "sampling_year",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "community",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    "",
+                    "no standard given"
+                ]
+            }
+        }
+    ]
+}

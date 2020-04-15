@@ -1,0 +1,48 @@
+contaminant,type,sample_type,agency_name,value,units,color,sampling_year,community 
+aluminum,Soil Remediation Level,,Arizona Department of Environmental Quality Soil Remediation Level,77000,mg/kg,#7b5f4e,,
+arsenic,Soil Remediation Level,,Arizona Department of Environmental Quality Soil Remediation Level,10,mg/kg,#7b5f4e,,
+barium,Soil Remediation Level,,Arizona Department of Environmental Quality Soil Remediation Level,15000,mg/kg,#7b5f4e,,
+beryllium,Soil Remediation Level,,Arizona Department of Environmental Quality Soil Remediation Level,150,mg/kg,#7b5f4e,,
+cadmium,Soil Remediation Level,,Arizona Department of Environmental Quality Soil Remediation Level,39,mg/kg,#7b5f4e,,
+chromium,Soil Remediation Level,,Arizona Department of Environmental Quality Soil Remediation Level,30,mg/kg,#7b5f4e,,
+copper,Soil Remediation Level,,Arizona Department of Environmental Quality Soil Remediation Level,3100,mg/kg,#7b5f4e,,
+manganese,Soil Remediation Level,,Arizona Department of Environmental Quality Soil Remediation Level,no standard given,mg/kg,#7b5f4e,,
+nickel,Soil Remediation Level,,Arizona Department of Environmental Quality Soil Remediation Level,1600,mg/kg,#7b5f4e,,
+lead,Soil Remediation Level,,Arizona Department of Environmental Quality Soil Remediation Level,400,mg/kg,#7b5f4e,,
+zinc,Soil Remediation Level,,Arizona Department of Environmental Quality Soil Remediation Level,23000,mg/kg,#7b5f4e,,
+aluminum,Limit,,Lower Limit of Detection,2.560705955,mg/kg,#f4cb66,2011-2012,Dewey
+arsenic,Limit,,Lower Limit of Detection,2.112002683,mg/kg,#f4cb66,2011-2012,Dewey
+barium,Limit,,Lower Limit of Detection,2.412851719,mg/kg,#f4cb66,2011-2012,Dewey
+beryllium,Limit,,Lower Limit of Detection,7.75E-02,mg/kg,#f4cb66,2011-2012,Dewey
+cadmium,Limit,,Lower Limit of Detection,1.05E-01,mg/kg,#f4cb66,2011-2012,Dewey
+chromium,Limit,,Lower Limit of Detection,2.268854952,mg/kg,#f4cb66,2011-2012,Dewey
+manganese,Limit,,Lower Limit of Detection,9.18E-01,mg/kg,#f4cb66,2011-2012,Dewey
+nickel,Limit,,Lower Limit of Detection,1.976397524,mg/kg,#f4cb66,2011-2012,Dewey
+lead,Limit,,Lower Limit of Detection,7.35E-02,mg/kg,#f4cb66,2011-2012,Dewey
+zinc,Limit,,Lower Limit of Detection,2.082174126,mg/kg,#f4cb66,2011-2012,Dewey
+copper,Limit,,Lower Limit of Detection,1.307449107,mg/kg,#f4cb66,2011-2012,Dewey
+iron,Limit,,Lower Limit of Detection,2.50E-01,mg/kg,#f4cb67,2011-2012,Dewey
+aluminum,Limit,,Lower Limit of Detection,2.560705955,mg/kg,#f4cb66,2015-2016,"Apache, Cochise, Greenlee"
+arsenic,Limit,,Lower Limit of Detection,2.112002683,mg/kg,#f4cb66,2015-2016,"Apache, Cochise, Greenlee"
+barium,Limit,,Lower Limit of Detection,2.412851719,mg/kg,#f4cb66,2015-2016,"Apache, Cochise, Greenlee"
+beryllium,Limit,,Lower Limit of Detection,7.75E-02,mg/kg,#f4cb66,2015-2016,"Apache, Cochise, Greenlee"
+cadmium,Limit,,Lower Limit of Detection,1.05E-01,mg/kg,#f4cb66,2015-2016,"Apache, Cochise, Greenlee"
+chromium,Limit,,Lower Limit of Detection,2.268854952,mg/kg,#f4cb66,2015-2016,"Apache, Cochise, Greenlee"
+manganese,Limit,,Lower Limit of Detection,9.18E-01,mg/kg,#f4cb66,2015-2016,"Apache, Cochise, Greenlee"
+nickel,Limit,,Lower Limit of Detection,1.976397524,mg/kg,#f4cb66,2015-2016,"Apache, Cochise, Greenlee"
+lead,Limit,,Lower Limit of Detection,7.35E-02,mg/kg,#f4cb66,2015-2016,"Apache, Cochise, Greenlee"
+zinc,Limit,,Lower Limit of Detection,2.082174126,mg/kg,#f4cb66,2015-2016,"Apache, Cochise, Greenlee"
+copper,Limit,,Lower Limit of Detection,1.307449107,mg/kg,#f4cb66,2015-2016,"Apache, Cochise, Greenlee"
+iron,Limit,,Lower Limit of Detection,2.50E-01,mg/kg,#f4cb67,2015-2016,"Apache, Cochise, Greenlee"
+aluminum,Limit,,Lower Limit of Detection,0.126,mg/kg,#f4cb66,2019-2020,Superior
+arsenic,Limit,,Lower Limit of Detection,0.066,mg/kg,#f4cb66,2019-2020,Superior
+barium,Limit,,Lower Limit of Detection,0.002,mg/kg,#f4cb66,2019-2020,Superior
+beryllium,Limit,,Lower Limit of Detection,1.80E-02,mg/kg,#f4cb66,2019-2020,Superior
+cadmium,Limit,,Lower Limit of Detection,8.00E-03,mg/kg,#f4cb66,2019-2020,Superior
+chromium,Limit,,Lower Limit of Detection,0.044,mg/kg,#f4cb66,2019-2020,Superior
+manganese,Limit,,Lower Limit of Detection,1.40E-02,mg/kg,#f4cb66,2019-2020,Superior
+nickel,Limit,,Lower Limit of Detection,0.011,mg/kg,#f4cb66,2019-2020,Superior
+lead,Limit,,Lower Limit of Detection,9.00E-03,mg/kg,#f4cb66,2019-2020,Superior
+zinc,Limit,,Lower Limit of Detection,0.065,mg/kg,#f4cb66,2019-2020,Superior
+copper,Limit,,Lower Limit of Detection,0.025,mg/kg,#f4cb66,2019-2020,Superior
+iron,Limit,,Lower Limit of Detection,6.59E-01,mg/kg,#f4cb67,2019-2020,Superior

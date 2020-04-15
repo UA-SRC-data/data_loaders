@@ -1,0 +1,88 @@
+contaminant,type,sample_type,agency_name,value,units,color,sampling_year,community 
+aluminum,Irrigation,,USDA Agricultural Irrigation Standard,5000,&mu;g/L,#76bebe,,
+aluminum,Livestock,,USDA Livestock Drinking Water Standard,5000,&mu;g/L,#ae5598,,
+aluminum,Drinking,,US EPA Primary Drinking Water Standard,50,&mu;g/L,#a1aad6,,
+arsenic,Irrigation,,USDA Agricultural Irrigation Standard,100,&mu;g/L,#76bebe,,
+arsenic,Partial,,ADEQ Surface Water - Partial Body Contact Standard,280,&mu;g/L,#c27571,,
+arsenic,Full,,ADEQ Surface Water - Full Body Contact Standard,30,&mu;g/L,#466fb4,,
+arsenic,Drinking,,US EPA Primary Drinking Water Standard,10,&mu;g/L,#a1aad6,,
+arsenic,Livestock,,USDA Livestock Drinking Water Standard,10,&mu;g/L,#ae5598,,
+barium,Partial,,ADEQ Surface Water - Partial Body Contact Standard,98000,&mu;g/L,#c27571,,
+barium,Full,,ADEQ Surface Water - Full Body Contact Standard,98000,&mu;g/L,#466fb4,,
+barium,Livestock,,USDA Livestock Drinking Water Standard,10000,&mu;g/L,#ae5598,,
+barium,Drinking,,US EPA Primary Drinking Water Standard,2000,&mu;g/L,#a1aad6,,
+beryllium,Partial,,ADEQ Surface Water - Partial Body Contact Standard,1867,&mu;g/L,#c27571,,
+beryllium,Full,,ADEQ Surface Water - Full Body Contact Standard,1867,&mu;g/L,#466fb4,,
+beryllium,Irrigation,,USDA Agricultural Irrigation Standard,100,&mu;g/L,#76bebe,,
+beryllium,Drinking,,US EPA Primary Drinking Water Standard,4,&mu;g/L,#a1aad6,,
+cadmium,Partial,,ADEQ Surface Water - Partial Body Contact Standard,700,&mu;g/L,#c27571,,
+cadmium,Full,,ADEQ Surface Water - Full Body Contact Standard,700,&mu;g/L,#466fb4,,
+cadmium,Irrigation,,USDA Agricultural Irrigation Standard,10,&mu;g/L,#76bebe,,
+cadmium,Livestock,,USDA Livestock Drinking Water Standard,50,&mu;g/L,#ae5598,,
+cadmium,Drinking,,US EPA Primary Drinking Water Standard,5,&mu;g/L,#a1aad6,,
+chromium,Partial,,ADEQ Surface Water - Partial Body Contact Standard,2800,&mu;g/L,#c27571,,
+chromium,Full,,ADEQ Surface Water - Full Body Contact Standard,2800,&mu;g/L,#466fb4,,
+chromium,Irrigation,,USDA Agricultural Irrigation Standard,100,&mu;g/L,#76bebe,,
+chromium,Livestock,,USDA Livestock Drinking Water Standard,1000,&mu;g/L,#ae5598,,
+chromium,Drinking,,US EPA Primary Drinking Water Standard,100,&mu;g/L,#a1aad6,,
+manganese,Partial,,ADEQ Surface Water - Partial Body Contact Standard,130667,&mu;g/L,#c27571,,
+manganese,Full,,ADEQ Surface Water - Full Body Contact Standard,130667,&mu;g/L,#466fb4,,
+manganese,Irrigation,,USDA Agricultural Irrigation Standard,200,&mu;g/L,#76bebe,,
+manganese,Livestock,,USDA Livestock Drinking Water Standard,50,&mu;g/L,#ae5598,,
+manganese,Drinking,,EPA Drinking Water Standard,50,&mu;g/L,#a1aad6,,
+nickel,Partial,,ADEQ Surface Water - Partial Body Contact Standard,28000,&mu;g/L,#c27571,,
+nickel,Full,,ADEQ Surface Water - Full Body Contact Standard,28000,&mu;g/L,#466fb4,,
+nickel,Irrigation,,USDA Agricultural Irrigation Standard,200,&mu;g/L,#76bebe,,
+nickel,Drinking,,ADEQ Drinking Water Standard,140,&mu;g/L,#a1aad6,,
+lead,Irrigation,,USDA Agricultural Irrigation Standard,5000,&mu;g/L,#76bebe,,
+lead,Livestock,,USDA Livestock Drinking Water Standard,100,&mu;g/L,#ae5598,,
+lead,Partial,,ADEQ Surface Water - Partial Body Contact Standard,15,&mu;g/L,#c27571,,
+lead,Full,,ADEQ Surface Water - Full Body Contact Standard,15,&mu;g/L,#466fb4,,
+lead,Drinking,,EPA Drinking Water Standard,15,&mu;g/L,#a1aad6,,
+zinc,Drinking,,EPA Drinking Water Standard,5000,&mu;g/L,#a1aad6,,
+zinc,Partial,,ADEQ Surface Water - Partial Body Contact Standard,280000,&mu;g/L,#c27571,,
+zinc,Full,,ADEQ Surface Water - Full Body Contact Standard,280000,&mu;g/L,#466fb4,,
+zinc,Livestock,,USDA Livestock Drinking Water Standard,25000,&mu;g/L,#ae5598,,
+zinc,Irrigation,,USDA Agricultural Irrigation Standard,2000,&mu;g/L,#76bebe,,
+aluminum,Limit,,Lower Limit of Detection,8.62E-01,&mu;g/L,#f4cb66,2011-2012,Dewey
+arsenic,Limit,,Lower Limit of Detection,7.11E-01,&mu;g/L,#f4cb66,2011-2012,Dewey
+barium,Limit,,Lower Limit of Detection,8.12E-01,&mu;g/L,#f4cb66,2011-2012,Dewey
+beryllium,Limit,,Lower Limit of Detection,2.61E-02,&mu;g/L,#f4cb66,2011-2012,Dewey
+cadmium,Limit,,Lower Limit of Detection,3.54E-02,&mu;g/L,#f4cb66,2011-2012,Dewey
+chromium,Limit,,Lower Limit of Detection,7.64E-01,&mu;g/L,#f4cb66,2011-2012,Dewey
+manganese,Limit,,Lower Limit of Detection,3.09E-01,&mu;g/L,#f4cb66,2011-2012,Dewey
+nickel,Limit,,Lower Limit of Detection,6.65E-01,&mu;g/L,#f4cb66,2011-2012,Dewey
+lead,Limit,,Lower Limit of Detection,2.47E-02,&mu;g/L,#f4cb66,2011-2012,Dewey
+zinc,Limit,,Lower Limit of Detection,7.01E-01,&mu;g/L,#f4cb66,2011-2012,Dewey
+copper,Limit,,Lower Limit of Detection,4.40E-01,&mu;g/L,#f4cb66,2011-2012,Dewey
+iron,Limit,,Lower Limit of Detection,8.42E-02,&mu;g/L,#f4cb67,2011-2012,Dewey
+copper,Drinking,,EPA Drinking Water Standard,1300,&mu;g/L,#a1aad6,,
+copper,Livestock,,USDA Livestock Drinking Water Standard,500,&mu;g/L,#ae5598,,
+copper,Irrigation,,USDA Agricultural Irrigation Standard,200,&mu;g/L,#76bebe,,
+iron,Drinking,,EPA Drinking Water Standard,300,&mu;g/L,#a1aad6,,
+iron,Livestock,,USDA Livestock Drinking Water Standard,300,&mu;g/L,#ae5598,,
+iron,Irrigation,,USDA Agricultural Irrigation Standard,500,&mu;g/L,#76bebe,,
+aluminum,Limit,,Lower Limit of Detection,8.62E-01,&mu;g/L,#f4cb66,2015-2016,"Apache, Cochise, Greenlee"
+arsenic,Limit,,Lower Limit of Detection,7.11E-01,&mu;g/L,#f4cb66,2015-2016,"Apache, Cochise, Greenlee"
+barium,Limit,,Lower Limit of Detection,8.12E-01,&mu;g/L,#f4cb66,2015-2016,"Apache, Cochise, Greenlee"
+beryllium,Limit,,Lower Limit of Detection,2.61E-02,&mu;g/L,#f4cb66,2015-2016,"Apache, Cochise, Greenlee"
+cadmium,Limit,,Lower Limit of Detection,3.54E-02,&mu;g/L,#f4cb66,2015-2016,"Apache, Cochise, Greenlee"
+chromium,Limit,,Lower Limit of Detection,7.64E-01,&mu;g/L,#f4cb66,2015-2016,"Apache, Cochise, Greenlee"
+manganese,Limit,,Lower Limit of Detection,3.09E-01,&mu;g/L,#f4cb66,2015-2016,"Apache, Cochise, Greenlee"
+nickel,Limit,,Lower Limit of Detection,6.65E-01,&mu;g/L,#f4cb66,2015-2016,"Apache, Cochise, Greenlee"
+lead,Limit,,Lower Limit of Detection,2.47E-02,&mu;g/L,#f4cb66,2015-2016,"Apache, Cochise, Greenlee"
+zinc,Limit,,Lower Limit of Detection,7.01E-01,&mu;g/L,#f4cb66,2015-2016,"Apache, Cochise, Greenlee"
+copper,Limit,,Lower Limit of Detection,4.40E-01,&mu;g/L,#f4cb66,2015-2016,"Apache, Cochise, Greenlee"
+iron,Limit,,Lower Limit of Detection,8.42E-02,&mu;g/L,#f4cb67,2015-2016,"Apache, Cochise, Greenlee"
+aluminum,Limit,,Lower Limit of Detection,1.50E-01,&mu;g/L,#f4cb66,2019-2020,Superior
+arsenic,Limit,,Lower Limit of Detection,2.00E-02,&mu;g/L,#f4cb66,2019-2020,Superior
+barium,Limit,,Lower Limit of Detection,6.00E-02,&mu;g/L,#f4cb66,2019-2020,Superior
+beryllium,Limit,,Lower Limit of Detection,1.00E-02,&mu;g/L,#f4cb66,2019-2020,Superior
+cadmium,Limit,,Lower Limit of Detection,2.00E-02,&mu;g/L,#f4cb66,2019-2020,Superior
+chromium,Limit,,Lower Limit of Detection,5.00E-01,&mu;g/L,#f4cb66,2019-2020,Superior
+manganese,Limit,,Lower Limit of Detection,1.00E-02,&mu;g/L,#f4cb66,2019-2020,Superior
+nickel,Limit,,Lower Limit of Detection,2.00E-02,&mu;g/L,#f4cb66,2019-2020,Superior
+lead,Limit,,Lower Limit of Detection,2.00E-02,&mu;g/L,#f4cb66,2019-2020,Superior
+zinc,Limit,,Lower Limit of Detection,1.20E-01,&mu;g/L,#f4cb66,2019-2020,Superior
+copper,Limit,,Lower Limit of Detection,2.00E-02,&mu;g/L,#f4cb66,2019-2020,Superior
+iron,Limit,,Lower Limit of Detection,4.40E-01,&mu;g/L,#f4cb67,2019-2020,Superior
