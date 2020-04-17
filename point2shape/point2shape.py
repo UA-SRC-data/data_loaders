@@ -59,6 +59,13 @@ def get_args():
                         default='out.csv',
                         help='Output file')
 
+    parser.add_argument('-c',
+                        '--cols',
+                        metavar='keepcols',
+                        nargs='*',
+                        type=str,
+                        help='Keep listed columns')
+
     parser.add_argument('-b',
                         '--bom',
                         action='store_true',
@@ -98,6 +105,9 @@ def main():
 
     shapes = read_shapefile(args.shapefile)
 
+    if args.cols:
+        flds = list(filter(lambda f: f in args.cols, flds))
+
     out_flds = flds + ['geoid', 'geoid_type']
 
     if args.rmlatlon:
@@ -105,16 +115,27 @@ def main():
 
     args.outfile.write(','.join(out_flds) + '\n')
 
-    num = 0
-    for rec in reader:
-        point = Point(float(rec['longitude']), float(rec['latitude']))
+    total, exported = 0, 0
+    for i, rec in enumerate(reader, start=1):
+        total += 1
+        point = None
+        try:
+            point = Point(float(rec['longitude']), float(rec['latitude']))
+        except Exception:
+            pass
+
+        if not point:
+            print('Line {} ({}) could not convert ({}, {}) to Point'.format(
+                i, rec[flds[0]], rec['longitude'], rec['longitude']), file=sys.stderr)
+            continue
+
         block = list(filter(lambda s: s['SHAPE'].contains(point), shapes))
         rec['geoid'] = block[0].get('GEOID', 'NA') if len(block) == 1 else 'NA'
         rec['geoid_type'] = args.type
         args.outfile.write(','.join(map(rec.get, out_flds)) + '\n')
-        num += 1
+        exported += 1
 
-    print(f'Done, exported {num} to "{args.outfile.name}"')
+    print(f'Done, exported {exported} of {total} to "{args.outfile.name}"')
 
 
 # --------------------------------------------------
