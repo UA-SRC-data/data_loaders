@@ -6,6 +6,7 @@ import csv
 import os
 import re
 import sys
+from pprint import pprint
 
 
 # --------------------------------------------------
@@ -76,7 +77,7 @@ def normalize(name):
 
     match = re.search(r'^([A-Z]+)[-\s]?(\d+)', name)
     if match:
-        name = match.group(1) + str(int(match.group(2)))
+        name = match.group(1) + '{:02d}'.format(int(match.group(2)))
 
     return name
 

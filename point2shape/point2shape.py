@@ -71,6 +71,11 @@ def get_args():
                         action='store_true',
                         help='Input file has byte-order mark')
 
+    parser.add_argument('-S',
+                        '--skipna',
+                        action='store_true',
+                        help='Skip values that cannot be found')
+
     parser.add_argument('-r',
                         '--rmlatlon',
                         action='store_true',
@@ -126,10 +131,15 @@ def main():
 
         if not point:
             print('Line {} ({}) could not convert ({}, {}) to Point'.format(
-                i, rec[flds[0]], rec['longitude'], rec['longitude']), file=sys.stderr)
+                i, rec[flds[0]], rec.get('longitude', 'missing'),
+                rec.get('longitude', 'missing')),
+                  file=sys.stderr)
             continue
 
         block = list(filter(lambda s: s['SHAPE'].contains(point), shapes))
+        if not block and args.skipna:
+            continue
+
         rec['geoid'] = block[0].get('GEOID', 'NA') if len(block) == 1 else 'NA'
         rec['geoid_type'] = args.type
         args.outfile.write(','.join(map(rec.get, out_flds)) + '\n')
