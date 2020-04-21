@@ -1,13 +1,13 @@
 DB = scrutinizer.db
 
 load:
-	./loader.py ../ejscreen/scrutinizer.csv ../usgs/scrutinizer.csv
+	./scripts/loader.py ../ejscreen/scrutinizer.csv ../usgs/scrutinizer.csv
 
 pwiz:
-	pwiz.py -e sqlite $(DB) > scrutinizer.py
+	pwiz.py -e sqlite $(DB) > scripts/scrutinizer.py
 
 sqlitedb:
-	sqlite3 $(DB) < sqlite.schema
+	sqlite3 $(DB) < sql/sqlite.schema
 
 mysqldb:
-	mysql scrutinizer < mysql.schema
+	mysql scrutinizer < sql/mysql.schema
