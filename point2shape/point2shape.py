@@ -145,7 +145,7 @@ def main():
         args.outfile.write(','.join(map(rec.get, out_flds)) + '\n')
         exported += 1
 
-    print(f'Done, exported {exported} of {total} to "{args.outfile.name}"')
+    print(f'Done, exported {exported:,} of {total:,} to "{args.outfile.name}"')
 
 
 # --------------------------------------------------

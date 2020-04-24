@@ -52,8 +52,10 @@ def main():
         root, ext = os.path.splitext(basename)
         out_file = os.path.join(out_dir, root + '_bg' + ext)
         out_fh = open(out_file, 'wt')
-        flds = reader.fieldnames + ['geoid', 'geoid_type']
-        out_fh.write(','.join(flds) + '\n')
+        flds = list(filter(lambda f: f,
+                           reader.fieldnames)) + ['geoid', 'geoid_type']
+        writer = csv.DictWriter(out_fh, fieldnames=flds)
+        writer.writeheader()
 
         for row in reader:
             sample = normalize(row.get('sample'))
@@ -68,7 +70,7 @@ def main():
 
             row['geoid'] = geo.get('geoid') or 'NA'
             row['geoid_type'] = geo.get('geoid_type') or 'NA'
-            out_fh.write(','.join(map(row.get, flds)) + '\n')
+            writer.writerow(row)
 
 
 # --------------------------------------------------

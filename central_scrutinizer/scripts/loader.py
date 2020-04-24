@@ -9,7 +9,7 @@ import argparse
 import csv
 import os
 import sys
-from scrutinizer import database, Location, LocationType, Measurement, Variable
+from scrutinizer import database, Location, LocationType, Measurement, Variable, Medium
 from typing import NamedTuple
 
 
@@ -18,6 +18,7 @@ class Record(NamedTuple):
     location_type: str
     variable_name: str
     variable_desc: str
+    medium: str
     collected_on: str
     value: str
 
@@ -50,7 +51,7 @@ def main():
         print(f'{i:3}: {os.path.basename(fh.name)}')
         total += process(fh, database)
 
-    print(f'Done, processed {total} records.')
+    print(f'Done, processed {total:,} records.')
 
 
 # --------------------------------------------------
@@ -65,7 +66,8 @@ def process(fh, db):
         try:
             value = float(value)
         except Exception:
-            pass
+            # we'll skip loading non-numeric values
+            continue
 
         loc_type, _ = LocationType.get_or_create(
             location_type=rec.location_type)
@@ -74,16 +76,18 @@ def process(fh, db):
             location_name=rec.location_name,
             location_type_id=loc_type.location_type_id)
 
-        variable, _ = Variable.get_or_create(
-            variable=rec.variable_name)
+        variable, _ = Variable.get_or_create(variable=rec.variable_name)
 
         if rec.variable_desc:
             variable.description = rec.variable_desc
             variable.save()
 
+        medium, _ = Medium.get_or_create(medium=rec.medium)
+
         measurement, _ = Measurement.get_or_create(
             variable_id=variable.variable_id,
             location_id=location.location_id,
+            medium_id=medium.medium_id,
             value=value)
 
         if rec.collected_on:

@@ -25,14 +25,23 @@ create table variable (
   unique (variable)
 );
 
+drop table if exists medium;
+create table medium (
+  medium_id int auto_increment primary key,
+  medium varchar(255) not null,
+  unique (medium)
+);
+
 drop table if exists measurement;
 create table measurement (
   measurement_id int auto_increment primary key,
   variable_id int not null,
   location_id int not null,
+  medium_id int not null,
   collected_on varchar(255),
   value double not null,
-  unique (variable_id, location_id, value),
+  unique (variable_id, location_id, medium_id, value),
   foreign key (variable_id) references variable (variable_id),
-  foreign key (location_id) references location (location_id)
+  foreign key (location_id) references location (location_id),
+  foreign key (medium_id) references medium (medium_id)
 );

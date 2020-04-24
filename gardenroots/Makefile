@@ -6,7 +6,7 @@ ll:
 	./scripts/clean_latlon.py ~/Desktop/v3-Groots\ LatLong.csv -o gardenroot_latlon.csv
 
 pkg:
-	$(MK_PKG) data/*.csv -o datapackage.json -f -m 'no standard given'
+	$(MK_PKG) data/plants_bg.csv data/water_bg.csv data/soil_bg.csv -o datapackage.json -f -m '#VALUE!' '≤LOD' '<LOD'
 
 bg:
 	$(P2S) -s $(BG_SHAPE) -f gardenroot_latlon.csv -o data/gardenroot_bg.csv -r -t block_group --bom --skipna

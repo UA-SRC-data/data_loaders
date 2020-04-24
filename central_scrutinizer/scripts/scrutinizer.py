@@ -1,11 +1,11 @@
 from peewee import *
 
-database = SqliteDatabase('scrutinizer.db')
-# database = MySQLDatabase('scrutinizer',
-#                          user='kyclark',
-#                          password='g0p3rl!',
-#                          host='127.0.0.1',
-#                          port=3306)
+# database = SqliteDatabase('scrutinizer.db')
+database = MySQLDatabase('scrutinizer',
+                         user='kyclark',
+                         password='g0p3rl!',
+                         host='127.0.0.1',
+                         port=3306)
 
 class UnknownField(object):
     def __init__(self, *_, **__): pass
@@ -30,6 +30,13 @@ class Location(BaseModel):
     class Meta:
         table_name = 'location'
 
+class Medium(BaseModel):
+    medium = TextField(unique=True)
+    medium_id = AutoField(null=True)
+
+    class Meta:
+        table_name = 'medium'
+
 class Variable(BaseModel):
     description = TextField(null=True)
     variable = TextField(unique=True)
@@ -42,6 +49,7 @@ class Measurement(BaseModel):
     collected_on = TextField(null=True)
     location = ForeignKeyField(column_name='location_id', field='location_id', model=Location)
     measurement_id = AutoField(null=True)
+    medium = ForeignKeyField(column_name='medium_id', field='medium_id', model=Medium)
     value = FloatField()
     variable = ForeignKeyField(column_name='variable_id', field='variable_id', model=Variable)
 

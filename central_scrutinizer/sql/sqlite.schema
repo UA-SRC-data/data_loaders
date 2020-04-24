@@ -23,14 +23,23 @@ create table variable (
   unique (variable)
 );
 
+drop table if exists medium;
+create table medium (
+  medium_id integer primary key,
+  medium text not null,
+  unique (medium)
+);
+
 drop table if exists measurement;
 create table measurement (
   measurement_id integer primary key,
   variable_id integer not null,
   location_id integer not null,
+  medium_id integer not null,
   collected_on text,
   value real not null,
-  unique (variable_id, location_id, value),
+  unique (variable_id, location_id, medium_id, value),
   foreign key (variable_id) references variable (variable_id),
+  foreign key (medium_id) references medium (medium_id),
   foreign key (location_id) references location (location_id)
 );

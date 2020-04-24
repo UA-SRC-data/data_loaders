@@ -83,12 +83,14 @@ def main() -> None:
                 qry, {
                     "$set": {
                         'value': value,
-                        'collected_on': m.collected_on
+                        'collected_on': m.collected_on,
+                        'medium': m.medium.medium
                     }
                 })
         else:
             qry['value'] = value
             qry['collected_on'] = m.collected_on
+            qry['medium'] = m.medium.medium
             coll.insert_one(qry)
 
     # cursor = database.cursor()

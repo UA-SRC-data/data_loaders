@@ -19,6 +19,7 @@ class Args(NamedTuple):
     file: List[TextIO]
     headers: Optional[TextIO]
     collected_on: str
+    medium: str
     outfile: TextIO
 
 
@@ -50,6 +51,13 @@ def get_args() -> Args:
                         type=str,
                         required=True)
 
+    parser.add_argument('-m',
+                        '--medium',
+                        help='Dummy value for "medium"',
+                        metavar='str',
+                        type=str,
+                        default='Population')
+
     parser.add_argument('-o',
                         '--outfile',
                         help='Mongo URI',
@@ -59,7 +67,8 @@ def get_args() -> Args:
 
     args = parser.parse_args()
 
-    return Args(args.file, args.headers, args.collected_on, args.outfile)
+    return Args(args.file, args.headers, args.collected_on, args.medium,
+                args.outfile)
 
 
 # --------------------------------------------------
@@ -71,14 +80,15 @@ def main() -> None:
     headers = get_headers(args.headers)
 
     out_flds = ('location_name location_type variable_name '
-                'variable_desc collected_on value'.split())
+                'variable_desc collected_on medium value'.split())
     args.outfile.write(','.join(map(quote, out_flds)) + '\n')
 
     for i, fh in enumerate(args.file, start=1):
         print(f'{i:3}: {os.path.basename(fh.name)}')
-        num_inserted += process(fh, headers, args.collected_on, args.outfile)
+        num_inserted += process(fh, headers, args.collected_on, args.medium,
+                                args.outfile)
 
-    print(f'Done, inserted {num_inserted}.')
+    print(f'Done, inserted {num_inserted:,}.')
 
 
 # --------------------------------------------------
@@ -111,10 +121,8 @@ def quote(s):
 
 
 # --------------------------------------------------
-def process(in_fh: TextIO, 
-            headers: Optional[Dict[str, str]],
-            collected_on: str,
-            out_fh: TextIO) -> int:
+def process(in_fh: TextIO, headers: Dict[str, str], collected_on: str,
+            medium: str, out_fh: TextIO) -> int:
     """Process the file into Mongo (client)"""
 
     reader = csv.DictReader(in_fh, delimiter=',')
@@ -165,9 +173,10 @@ def process(in_fh: TextIO,
 
             print(f'{i:4}: {block_id} {fld} => {val}')
             out_fh.write(','.join(
-                map(quote,
-                    [block_id, 'census_block', fld, desc, collected_on, val]))
-                         + '\n')
+                map(quote, [
+                    block_id, 'census_block', fld, desc, collected_on, medium,
+                    val
+                ])) + '\n')
             num += 1
 
     return num
