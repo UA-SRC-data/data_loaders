@@ -26,7 +26,7 @@ STATION_LOCATION = {
     'USGS_GAUGE_STATION': (39.749308, -105.399631),
 }
 
-STAITION_ALIAS = {
+STATION_ALIAS = {
     'RIVIERA': ['RIVERA'],
     'USGS_GAUGE_STATION': ['GUAGE'],
 }
@@ -160,7 +160,7 @@ def process(fh: TextIO, headers: Optional[Dict[str, str]], db: str,
             # Handle aliases, misspelling
             # Covert spaces and dashes to underscores
             station = row['STATION'].strip().upper().replace(' ', '_')
-            for name, aliases in STAITION_ALIAS.items():
+            for name, aliases in STATION_ALIAS.items():
                 if any(map(lambda s: station == s, [name] + aliases)):
                     station = name
 

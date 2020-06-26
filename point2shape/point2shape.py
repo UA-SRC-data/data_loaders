@@ -42,7 +42,7 @@ def get_args():
                         metavar='shapetype',
                         type=str,
                         required=True,
-                        choices=['tract', 'block', 'block_group'],
+                        choices=['tract', 'block', 'block_group', 'centroid'],
                         help='Shapefile type')
 
     parser.add_argument('-d',
@@ -118,7 +118,8 @@ def main():
     if args.rmlatlon:
         out_flds = list(filter(lambda f: f not in lat_lon, out_flds))
 
-    args.outfile.write(','.join(out_flds) + '\n')
+    writer = csv.DictWriter(args.outfile, fieldnames=out_flds)
+    writer.writeheader()
 
     total, exported = 0, 0
     for i, rec in enumerate(reader, start=1):
@@ -136,13 +137,26 @@ def main():
                   file=sys.stderr)
             continue
 
-        block = list(filter(lambda s: s['SHAPE'].contains(point), shapes))
-        if not block and args.skipna:
+        blocks = list(filter(lambda s: s['SHAPE'].contains(point), shapes))
+        if len(blocks) != 1:
             continue
 
-        rec['geoid'] = block[0].get('GEOID', 'NA') if len(block) == 1 else 'NA'
+        block = blocks[0]
+
+        geoid = block.get('GEOID', 'NA')
+        if geoid == 'NA' and args.skipna:
+            continue
+
+        if args.type == 'centroid':
+            centroid = block['SHAPE'].centroid
+            rec['geoid'] = ','.join(
+                map('{:.02f}'.format, [centroid.y, centroid.x]))
+        else:
+            rec['geoid'] = geoid
+
         rec['geoid_type'] = args.type
-        args.outfile.write(','.join(map(rec.get, out_flds)) + '\n')
+
+        writer.writerow({key: rec[key] for key in out_flds})
         exported += 1
 
     print(f'Done, exported {exported:,} of {total:,} to "{args.outfile.name}"')

@@ -11,7 +11,6 @@ import re
 import sys
 import io
 from itertools import chain, starmap
-from pprint import pprint
 from collections import defaultdict, Counter
 from typing import Dict, List, TextIO, NamedTuple
 
@@ -56,7 +55,6 @@ def main() -> None:
 
     args = get_args()
 
-    file_num = 0
     for i, file in enumerate(args.file, start=1):
         print(f'{i:3}: {file.name}')
 
@@ -76,19 +74,14 @@ def main() -> None:
 
         for section, raw in sections.items():
             hdrs, data = parse_section(section, master_header, raw)
-            if data:
-                out_file = write_out(data, hdrs, args.outdir,
-                                     f'{root}_{section}.csv')
-
-                if out_file:
-                    file_num += 1
+            _ = write_out(data, hdrs, args.outdir, f'{root}_{section}.csv')
 
     print(f'Done, see output in "{args.outdir}".')
 
 
 # --------------------------------------------------
 def write_out(data: List[dict], headers: List[str], out_dir: str,
-              filename: str) -> bool:
+              filename: str) -> str:
     """ Write data to file """
 
     if not data:
@@ -160,8 +153,8 @@ def parse_section(name: str, master_header: List[str],
     def split(line):
         return line.split(',')
 
-    this_header = split(data.pop(0))
     master_header = split(master_header)
+    this_header = '' if name == 'field_data' else split(data.pop(0))
 
     # print(f'name "{name}"')
     # print(f'master_header "{master_header}"')
@@ -169,14 +162,13 @@ def parse_section(name: str, master_header: List[str],
 
     # start off with the 1st 2 flds
     headers = this_header[:2] + unique_names(
-        merge_headers(repeater(master_header[2:]), this_header[2:]))
+        merge_headers(repeater(master_header[2:]),
+                      this_header[2:])) if this_header else master_header
     headers[0] = 'measurement'
     headers = list(map(normalize, headers))
 
-    # print(headers)
-
     def num_col(i, val):
-        if i >= 2:
+        if i >= 2 and val != 'BDL':
             try:
                 val = str(float(val))
             except Exception:
@@ -184,9 +176,15 @@ def parse_section(name: str, master_header: List[str],
         return val
 
     ret = []
+    prev_measurement = ''
     for row in map(split, data):
-        row = starmap(num_col, enumerate(row))
+        # Have to carry down "pH" for this!
+        if name == 'field_data' and row[0] == '':
+            row[0] = prev_measurement
+
+        row = list(starmap(num_col, enumerate(row)))
         ret.append(dict(filter(all, zip(headers, row))))
+        prev_measurement = row[0]
 
     return headers, ret
 

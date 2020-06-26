@@ -61,12 +61,15 @@ def process(fh, db):
     reader = csv.DictReader(fh, delimiter=',')
     num = 0
     for rec in map(lambda r: Record(**r), reader):
-        value = rec.value
+        value = None
 
         try:
-            value = float(value)
+            value = float(rec.value)
         except Exception:
-            # we'll skip loading non-numeric values
+            pass
+
+        # we'll skip loading non-numeric values
+        if value is None:
             continue
 
         loc_type, _ = LocationType.get_or_create(

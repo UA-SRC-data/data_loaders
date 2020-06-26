@@ -18,6 +18,7 @@ class Args(NamedTuple):
     mongo_uri: str
     mongo_db: str
     mongo_collection: str
+    location_type: str
 
 
 # --------------------------------------------------
@@ -49,9 +50,16 @@ def get_args() -> Args:
                         type=str,
                         default='scrutinizer')
 
+    parser.add_argument('-l',
+                        '--location_type',
+                        help='Restrict to location_type',
+                        metavar='str',
+                        type=str,
+                        default='')
+
     args = parser.parse_args()
 
-    return Args(args.mongo_uri, args.db, args.collection)
+    return Args(args.mongo_uri, args.db, args.collection, args.location_type)
 
 
 # --------------------------------------------------
@@ -64,6 +72,10 @@ def main() -> None:
     coll = db[args.mongo_collection]
 
     for i, m in enumerate(Measurement, start=1):
+        if args.location_type:
+            if m.location.location_type.location_type != args.location_type:
+                continue
+
         print(f'{i:6}: {m.variable.variable} {m.value}')
         qry = {'variable': m.variable.variable,
                'location_name': m.location.location_name,
@@ -71,9 +83,9 @@ def main() -> None:
 
         exists = coll.find_one(qry)
 
-        value = m.value
+        value = None
         try:
-            value = float(value)
+            value = float(m.value)
         except Exception:
             pass
 

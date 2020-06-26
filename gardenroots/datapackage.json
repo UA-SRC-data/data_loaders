@@ -235,6 +235,239 @@
             }
         },
         {
+            "path": "data/plants_centroid.csv",
+            "profile": "tabular-data-resource",
+            "name": "plants_centroid",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sample",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "sampleLong",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "community",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "type",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "sampling_year",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "sampling",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "units",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "sample_name",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "aluminumRaw",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "aluminum",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "aluminumIdentifier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "arsenicRaw",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "arsenic",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "arsenicIdentifier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "bariumRaw",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "barium",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "bariumIdentifier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "berylliumRaw",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "beryllium",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "berylliumIdentifier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "cadmiumRaw",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "cadmium",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "cadmiumIdentifier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "chromiumRaw",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "chromium",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "chromiumIdentifier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "manganeseRaw",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "manganese",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "manganeseIdentifier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "nickelRaw",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "nickel",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "nickelIdentifier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "leadRaw",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "lead",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "leadIdentifier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "zincRaw",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "zinc",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "zincIdentifier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "copperRaw",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "copper",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "copperIdentifier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "geoid",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "geoid_type",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    "",
+                    "#VALUE!",
+                    "\u2264LOD",
+                    "<LOD"
+                ]
+            }
+        },
+        {
             "path": "data/water_bg.csv",
             "profile": "tabular-data-resource",
             "name": "water_bg",
@@ -468,6 +701,239 @@
             }
         },
         {
+            "path": "data/water_centroid.csv",
+            "profile": "tabular-data-resource",
+            "name": "water_centroid",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sample",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "sampleLong",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "community",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "type",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "sampling_year",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "sampling",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "units",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "sample_name",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "aluminum",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "aluminumRaw",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "aluminumIdentifier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "arsenic",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "arsenicRaw",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "arsenicIdentifier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "barium",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "bariumRaw",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "bariumIdentifier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "berylliumRaw",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "beryllium",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "berylliumIdentifier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "cadmiumRaw",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "cadmium",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "cadmiumIdentifier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "chromiumRaw",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "chromium",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "chromiumIdentifier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "manganeseRaw",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "manganese",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "manganeseIdentifier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "nickelRaw",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "nickel",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "nickelIdentifier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "leadRaw",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "lead",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "leadIdentifier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "zincRaw",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "zinc",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "zincIdentifier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "copperRaw",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "copper",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "copperIdentifier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "geoid",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "geoid_type",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    "",
+                    "#VALUE!",
+                    "\u2264LOD",
+                    "<LOD"
+                ]
+            }
+        },
+        {
             "path": "data/soil_bg.csv",
             "profile": "tabular-data-resource",
             "name": "soil_bg",
@@ -684,6 +1150,239 @@
                     {
                         "name": "geoid",
                         "type": "integer",
+                        "format": "default"
+                    },
+                    {
+                        "name": "geoid_type",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    "",
+                    "#VALUE!",
+                    "\u2264LOD",
+                    "<LOD"
+                ]
+            }
+        },
+        {
+            "path": "data/soil_centroid.csv",
+            "profile": "tabular-data-resource",
+            "name": "soil_centroid",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "sample",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "sampleLong",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "community",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "type",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "sampling_year",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "sampling",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "units",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "sample_name",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "arsenicRaw",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "arsenic",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "arsenicIdentifier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "aluminumRaw",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "aluminum",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "aluminumIdentifier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "bariumRaw",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "barium",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "bariumIdentifier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "berylliumRaw",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "beryllium",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "berylliumIdentifier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "cadmiumRaw",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "cadmium",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "cadmiumIdentifier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "chromiumRaw",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "chromium",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "chromiumIdentifier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "manganeseRaw",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "manganese",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "manganeseIdentifier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "nickelRaw",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "nickel",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "nickelIdentifier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "leadRaw",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "lead",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "leadIdentifier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "zincRaw",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "zinc",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "zincIdentifier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "copperRaw",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "copper",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "copperIdentifier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "geoid",
+                        "type": "string",
                         "format": "default"
                     },
                     {

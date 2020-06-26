@@ -6,9 +6,9 @@ Purpose: Rock the Casbah
 """
 
 import argparse
+import csv
 import os
 import re
-import sys
 from datapackage import Package
 from pprint import pprint
 
@@ -36,6 +36,13 @@ def get_args():
                         type=str,
                         default='out')
 
+    parser.add_argument('-d',
+                        '--delimiter',
+                        help='Output file delimiter',
+                        metavar='str',
+                        type=str,
+                        default=',')
+
     parser.add_argument('-v',
                         '--verbose',
                         help='Talk loudly',
@@ -55,13 +62,13 @@ def main():
 
     for fh in args.file:
         fh.close()
-        process(fh.name, args.outdir, args.verbose)
+        process(fh.name, args)
 
     print('Done.')
 
 
 # --------------------------------------------------
-def process(pkg_name, out_dir, verbose):
+def process(pkg_name, args):
     """Process resource into output directory"""
 
     _, ext = os.path.splitext(pkg_name)
@@ -87,53 +94,48 @@ def process(pkg_name, out_dir, verbose):
             continue
 
         print(f'==> {resource.name} <==')
-        out_file = os.path.join(out_dir, resource.name + '.csv')
-        out_fh = open(out_file, 'wt')
-        delim = ','
-        out_fh.write(
-            delim.join([
-                'location_name', 'location_type', 'variable_name',
-                'variable_desc', 'collected_on', 'medium', 'value'
-            ]) + '\n')
+        ext = '.csv' if args.delimiter == ',' else '.txt'
+        out_file = os.path.join(args.outdir, resource.name + ext)
+        flds = [
+            'location_name', 'location_type', 'variable_name',
+            'variable_desc', 'collected_on', 'medium', 'value'
+        ]
 
-        data = []
-        for row in resource.iter(keyed=True):
-            if verbose:
-                pprint(row)
-            sampling_year = row.get('sampling_year')
-            match = re.match(r'(20\d{2})', sampling_year)
-            collected_on = '{}-01-01'.format(match.group(1)) if match else None
+        with open(out_file, 'wt') as out_fh:
+            writer = csv.DictWriter(out_fh,
+                                    fieldnames=flds,
+                                    delimiter=args.delimiter)
+            writer.writeheader()
 
-            if not collected_on:
-                continue
+            for row in resource.iter(keyed=True):
+                if args.verbose:
+                    pprint(row)
 
-            medium = row.get('type')
-            location_name = row.get('geoid')
-            location_type = row.get('geoid_type')
+                sampling_year = row.get('sampling_year')
+                match = re.match(r'(20\d{2})', sampling_year)
+                collected_on = '{}-01-01'.format(
+                    match.group(1)) if match else ''
 
-            for variable_name in contaiminants:
-                value = row.get(variable_name)
-                try:
-                    value = float(value)
-                except Exception:
-                    value = None
-
-                if value is None:
+                if not collected_on:
                     continue
 
-                out_fh.write(
-                    delim.join(
-                        map(
-                            str,
-                            [
-                                location_name,
-                                location_type,
-                                variable_name,
-                                '',  # variable_desc
-                                collected_on,
-                                medium,
-                                value
-                            ])) + '\n')
+                for variable_name in contaiminants:
+                    value = None
+                    try:
+                        value = float(row.get(variable_name))
+                    except Exception:
+                        pass
+
+                    if value:
+                        writer.writerow({
+                            'location_name': row.get('geoid'),
+                            'location_type': row.get('geoid_type'),
+                            'variable_name': variable_name,
+                            'variable_desc': '',
+                            'collected_on': collected_on,
+                            'medium': row.get('type'),
+                            'value': value
+                        })
 
 
 # --------------------------------------------------

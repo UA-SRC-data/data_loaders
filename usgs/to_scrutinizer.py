@@ -6,6 +6,7 @@ Purpose: Load USGS data
 """
 
 import argparse
+import csv
 import os
 import re
 import shapefile
@@ -24,7 +25,7 @@ def get_args():
     parser.add_argument('-f',
                         '--file',
                         metavar='FILE',
-                        type=argparse.FileType('r'),
+                        type=argparse.FileType('rt'),
                         default='az_data_bg.csv',
                         help='Input file')
 
@@ -57,10 +58,20 @@ def main():
         top5_as top5_ba top5_fe top5_hg top5_pb
     """.split()
 
-    args.outfile.write(','.join([
+    symbol_to_name = {
+        'as': 'arsenic',
+        'ba': 'barium',
+        'fe': 'iron',
+        'hg': 'mercury',
+        'pb': 'lead'
+    }
+
+    flds = [
         'location_name', 'location_type', 'variable_name', 'variable_desc',
         'collected_on', 'medium', 'value'
-    ]) + '\n')
+    ]
+    writer = csv.DictWriter(args.outfile, fieldnames=flds)
+    writer.writeheader()
 
     num_exported = 0
     for row in data:
@@ -73,20 +84,27 @@ def main():
             try:
                 val = float(rec[fld])
             except Exception:
-                continue
+                pass
 
             if val is None:
                 continue
 
-            num_exported += 1
-            args.outfile.write(','.join([
-                str(rec['geoid']), rec['geoid_type'],
-                fld.replace('top5_', ''), fld, args.medium,
-                '2013-09-18',
-                str(val)
-            ]) + '\n')
+            point = ','.join([rec['latitude'], rec['longitude']])
+            symbol = fld.replace('top5_', '')
+            element = symbol_to_name.get(symbol)
+            if element:
+                num_exported += 1
+                writer.writerow({
+                    'location_name': point,
+                    'location_type': 'point',
+                    'variable_name': element,
+                    'variable_desc': '',
+                    'medium': args.medium,
+                    'collected_on': '2013-09-18',
+                    'value': str(val)
+                })
 
-    print(f'Done, exported {num_exported} to "{args.outfile.name}"')
+    print(f'Done, exported {num_exported:,} to "{args.outfile.name}"')
 
 
 # --------------------------------------------------

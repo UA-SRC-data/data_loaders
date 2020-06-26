@@ -1,8 +1,8 @@
-RAWFILE = data.csv
-OUTFILE = az_data.csv
+scrutinizer.csv: clean 
+	./to_scrutinizer.py -f data.csv -o scrutinizer.csv
 
-scrutinizer.csv: az_data_bg.csv
-	./to_scrutinizer.py -f az_data_bg.csv -o scrutinizer.csv
+clean:
+	rm -f scrutinizer.csv
 
 az_data.csv:
 	head -1 $(RAWFILE) > $(OUTFILE)

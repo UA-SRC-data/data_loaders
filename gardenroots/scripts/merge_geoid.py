@@ -31,7 +31,26 @@ def get_args():
                         type=argparse.FileType('rt'),
                         required=True)
 
-    return parser.parse_args()
+    parser.add_argument('-t',
+                        '--type',
+                        help='GEOID type',
+                        metavar='type',
+                        type=str,
+                        choices=['bg', 'centroid'],
+                        default='')
+
+    args = parser.parse_args()
+
+    if not args.type:
+        root, _ = os.path.splitext(os.path.basename(args.geoid.name))
+        if root.endswith('_bg'):
+            args.type = 'bg'
+        elif root.endswith('_centroid'):
+            args.type = 'centroid'
+        else:
+            parser.error('Cannot guess --type from "{root}"')
+
+    return args
 
 
 # --------------------------------------------------
@@ -50,7 +69,7 @@ def main():
         basename = os.path.basename(fh.name)
         out_dir = os.path.dirname(fh.name)
         root, ext = os.path.splitext(basename)
-        out_file = os.path.join(out_dir, root + '_bg' + ext)
+        out_file = os.path.join(out_dir, f'{root}_{args.type}{ext}')
         out_fh = open(out_file, 'wt')
         flds = list(filter(lambda f: f,
                            reader.fieldnames)) + ['geoid', 'geoid_type']

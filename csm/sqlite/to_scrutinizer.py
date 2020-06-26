@@ -10,7 +10,9 @@ import csv
 import os
 import dateparser
 import datetime
+from collections import defaultdict
 from typing import Dict, List, NamedTuple, Optional, TextIO
+from numpy import mean
 
 STATION_LOCATION = {
     'ABOVE_RUSSEL': (39.764606, -105.446683),
@@ -21,11 +23,6 @@ STATION_LOCATION = {
     'RIVIERA': (39.798722, -105.483097),
     'UPPER_REFERENCE': (39.815519, -105.500403),
     'USGS_GAUGE_STATION': (39.749308, -105.399631),
-}
-
-STATION_ALIAS = {
-    'RIVIERA': ['RIVERA'],
-    'USGS_GAUGE_STATION': ['GUAGE'],
 }
 
 
@@ -73,18 +70,22 @@ def main() -> None:
     """Make a jazz noise here"""
 
     args = get_args()
-    num_inserted = 0
+
+    # Create writer for outfile
+    out_flds = [
+        'location_name', 'location_type', 'variable_name', 'variable_desc',
+        'collected_on', 'value'
+    ]
+    writer = csv.DictWriter(args.outfile, out_flds)
+    writer.writeheader()
+
+    num_written = 0
     headers = get_headers(args.headers)
-
-    out_flds = ('location_name location_type variable_name '
-                'variable_desc collected_on value'.split())
-    args.outfile.write(','.join(map(quote, out_flds)) + '\n')
-
     for i, fh in enumerate(args.file, start=1):
         print(f'{i:3}: {os.path.basename(fh.name)}')
-        num_inserted += process(fh, headers, args.outfile)
+        num_written += process(fh, headers, writer)
 
-    print(f'Done, inserted {num_inserted}.')
+    print(f'Done, wrote {num_written:,}.')
 
 
 # --------------------------------------------------
@@ -96,8 +97,7 @@ def get_headers(fh: Optional[TextIO]) -> Dict[str, str]:
     if fh:
         reader = csv.DictReader(fh, delimiter=',')
         flds = reader.fieldnames
-
-        expected = 'header order family genus'.split()
+        expected = ['header', 'order', 'family', 'genus']
         missing = list(filter(lambda f: f not in flds, expected))
 
         if missing:
@@ -121,61 +121,125 @@ def get_headers(fh: Optional[TextIO]) -> Dict[str, str]:
 
 # --------------------------------------------------
 def process(fh: TextIO, headers: Optional[Dict[str, str]],
-            outfile: TextIO) -> int:
-    """Process the file into Mongo (client)"""
+            writer: csv.DictWriter) -> int:
+    """
+    Process the file into Mongo (client)
+
+    First 5 columns are: STREAM, DATE, STATION, REP, #GRIDS
+    Columns after that are the measurements
+    """
 
     reader = csv.DictReader(fh, delimiter=',')
     flds = reader.fieldnames
-    num_inserted = 0
+    values = defaultdict(list)  # to average replicates
 
+    # Parse file into values for each variable, station, and date
     for i, row in enumerate(reader, start=1):
-        if not row.get('STREAM'):
+        # Base record has station/date
+        station = get_station(row.get('STATION', ''))
+        date = get_date(row.get('DATE', ''))
+
+        if not all([date, station]):
             continue
 
-        for fld in flds[5:-8]:
-            if fld.strip() == '':
+        for fld in filter(lambda f: f != '', flds[5:]):
+            raw_val = row[fld].strip()
+            if raw_val == '':
                 continue
-
-            date = dateparser.parse(row['DATE'])
-            if not date:
-                continue
-
-            variable = headers.get(fld.upper(), fld) if headers else fld
-
-            # Handle aliases, misspelling
-            # Covert spaces and dashes to underscores
-            station = row['STATION'].strip().upper().replace(' ', '_')
-            for name, aliases in STATION_ALIAS.items():
-                if any(map(lambda s: station == s, [name] + aliases)):
-                    station = name
-
-            # Base record has station/date
-            date = datetime.datetime.utcfromtimestamp(date.timestamp())
 
             # Remove leading "="?
-            val = row[fld].strip()
-            if val.startswith('='):
-                val = val[1:]
+            if raw_val.startswith('='):
+                raw_val = raw_val[1:]
 
             # Try to convert value to float
+            val = None
             try:
-                val = float(val)
+                val = float(raw_val)
             except Exception:
                 continue
 
-            print(f'{i:4}: {fld} => {val}')
-            outfile.write(','.join(
-                map(quote, [station, 'station', fld, variable, date, val])) +
-                         '\n')
+            if val is not None:
+                values[(fld, station, date)].append(val)
 
-    return num_inserted
+    # Write the averages for each variable, station, and date
+    num_written = 0
+    for key, replicates in values.items():
+        fld, station, date = key
+
+        # Maybe convert "ACENTR" -> "Ephemeroptera Baetidae Acentrella spp."
+        variable = headers.get(fld.upper(), fld) if headers else fld
+
+        # Take the average of the values
+        val = mean(replicates)
+        print(f'{fld} {station} {date} => {val}')
+
+        writer.writerow({
+            'location_name': station,
+            'location_type': 'station',
+            'variable_name': fld,
+            'variable_desc': variable,
+            'collected_on': date,
+            'value': val
+        })
+        num_written += 1
+
+    return num_written
 
 
 # --------------------------------------------------
-def quote(s):
-    """ Quote a string """
+def get_station(station):
+    """Normalize station name, find aliases"""
 
-    return f'"{s}"'
+    station = normalize(station)
+    alias = {
+        'RIVIERA': ['RIVERA'],
+        'USGS_GAUGE_STATION': ['GUAGE'],
+    }
+
+    for name, aliases in alias.items():
+        if any(map(lambda s: station == s, [name] + aliases)):
+            station = name
+
+    return station
+
+
+# --------------------------------------------------
+def test_get_station() -> None:
+    """Test get_station"""
+
+    assert get_station('') == ''
+    assert get_station('Above Russel') == 'ABOVE_RUSSEL'
+    assert get_station('RIVERA') == 'RIVIERA'
+    assert get_station('guage') == 'USGS_GAUGE_STATION'
+
+
+# --------------------------------------------------
+def normalize(text: str) -> str:
+    """Remove whitespace, uppercase, convert spaces to underscores"""
+
+    return text.strip().upper().replace(' ', '_')
+
+
+# --------------------------------------------------
+def test_normalize() -> None:
+    """Test normalize"""
+
+    assert normalize('') == ''
+    assert normalize('foo') == 'FOO'
+    assert normalize('foo BAR ') == 'FOO_BAR'
+    assert normalize('foo Bar BAZ') == 'FOO_BAR_BAZ'
+
+
+# --------------------------------------------------
+def get_date(raw_date: str) -> Optional[str]:
+    """Convert date"""
+
+    date = None
+    if raw_date:
+        dp = dateparser.parse(raw_date)
+        date = str(datetime.datetime.utcfromtimestamp(dp.timestamp()))
+
+    return date
 
 
 # --------------------------------------------------
