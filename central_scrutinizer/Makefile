@@ -30,3 +30,6 @@ mongodump:
 
 mysqldump:
 	mysqldump scrutinizer > scrutinizer.sql
+
+install:
+	python3 -m pip install -r requirements.txt

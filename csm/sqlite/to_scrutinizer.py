@@ -30,6 +30,7 @@ class Args(NamedTuple):
     file: List[TextIO]
     headers: Optional[TextIO]
     outfile: TextIO
+    medium: str
 
 
 # --------------------------------------------------
@@ -60,9 +61,16 @@ def get_args() -> Args:
                         default='scrutinizer.csv',
                         help='Output file')
 
+    parser.add_argument('-m',
+                        '--medium',
+                        metavar='medium',
+                        type=str,
+                        default='water',
+                        help='Collection medium')
+
     args = parser.parse_args()
 
-    return Args(args.file, args.headers, args.outfile)
+    return Args(args.file, args.headers, args.outfile, args.medium)
 
 
 # --------------------------------------------------
@@ -74,7 +82,7 @@ def main() -> None:
     # Create writer for outfile
     out_flds = [
         'location_name', 'location_type', 'variable_name', 'variable_desc',
-        'collected_on', 'value'
+        'collected_on', 'value', 'medium'
     ]
     writer = csv.DictWriter(args.outfile, out_flds)
     writer.writeheader()
@@ -83,7 +91,7 @@ def main() -> None:
     headers = get_headers(args.headers)
     for i, fh in enumerate(args.file, start=1):
         print(f'{i:3}: {os.path.basename(fh.name)}')
-        num_written += process(fh, headers, writer)
+        num_written += process(fh, headers, writer, args.medium)
 
     print(f'Done, wrote {num_written:,}.')
 
@@ -121,7 +129,7 @@ def get_headers(fh: Optional[TextIO]) -> Dict[str, str]:
 
 # --------------------------------------------------
 def process(fh: TextIO, headers: Optional[Dict[str, str]],
-            writer: csv.DictWriter) -> int:
+            writer: csv.DictWriter, medium: str) -> int:
     """
     Process the file into Mongo (client)
 
@@ -179,7 +187,8 @@ def process(fh: TextIO, headers: Optional[Dict[str, str]],
             'variable_name': fld,
             'variable_desc': variable,
             'collected_on': date,
-            'value': val
+            'value': val,
+            'medium': medium
         })
         num_written += 1
 
