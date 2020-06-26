@@ -1,5 +1,8 @@
-scrutinizer.csv: clean 
-	./to_scrutinizer.py -f data.csv -o scrutinizer.csv
+scrutinizer: az_data_bg.csv clean 
+	./to_scrutinizer.py -f az_data_bg.csv -o scrutinizer.csv
+
+install:
+	python3 -m pip install -r requirements.txt
 
 clean:
 	rm -f scrutinizer.csv

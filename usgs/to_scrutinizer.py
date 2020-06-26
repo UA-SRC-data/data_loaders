@@ -7,11 +7,7 @@ Purpose: Load USGS data
 
 import argparse
 import csv
-import os
 import re
-import shapefile
-import sys
-from pprint import pprint
 
 
 # --------------------------------------------------
@@ -58,14 +54,6 @@ def main():
         top5_as top5_ba top5_fe top5_hg top5_pb
     """.split()
 
-    symbol_to_name = {
-        'as': 'arsenic',
-        'ba': 'barium',
-        'fe': 'iron',
-        'hg': 'mercury',
-        'pb': 'lead'
-    }
-
     flds = [
         'location_name', 'location_type', 'variable_name', 'variable_desc',
         'collected_on', 'medium', 'value'
@@ -91,18 +79,16 @@ def main():
 
             point = ','.join([rec['latitude'], rec['longitude']])
             symbol = fld.replace('top5_', '')
-            element = symbol_to_name.get(symbol)
-            if element:
-                num_exported += 1
-                writer.writerow({
-                    'location_name': point,
-                    'location_type': 'point',
-                    'variable_name': element,
-                    'variable_desc': '',
-                    'medium': args.medium,
-                    'collected_on': '2013-09-18',
-                    'value': str(val)
-                })
+            num_exported += 1
+            writer.writerow({
+                'location_name': point,
+                'location_type': 'point',
+                'variable_name': symbol,
+                'variable_desc': '',
+                'medium': args.medium,
+                'collected_on': '2013-09-18',
+                'value': str(val)
+            })
 
     print(f'Done, exported {num_exported:,} to "{args.outfile.name}"')
 
