@@ -202,7 +202,8 @@ def get_station(station):
     station = normalize(station)
     alias = {
         'RIVIERA': ['RIVERA'],
-        'USGS_GAUGE_STATION': ['GUAGE'],
+        'GAUGE': ['USGS_GAUGE_STATION', 'GUAGE'],
+        'RAIL_LESS': ['RAIL-LESS']
     }
 
     for name, aliases in alias.items():

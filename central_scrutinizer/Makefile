@@ -25,6 +25,9 @@ ejscreen:
 usgs:
 	./scripts/loader.py ../usgs/scrutinizer.csv
 
+csm:
+	./scripts/loader.py ../csm/sqlite/scrutinizer.csv
+
 mongodump:
 	mongoexport -d uasrc -c scrutinizer -o scrutinizer.json
 

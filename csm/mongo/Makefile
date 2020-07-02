@@ -3,3 +3,9 @@ csm:
 
 install:
 	python3 -m pip install -r requirements.txt
+
+start:
+	brew services start mongodb-community@4.2
+
+stop:
+	brew services stop mongodb-community@4.2

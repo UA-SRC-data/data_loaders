@@ -51,7 +51,7 @@ def get_args() -> Args:
     parser.add_argument('file',
                         nargs='+',
                         metavar='FILE',
-                        type=argparse.FileType('r'),
+                        type=argparse.FileType('rt'),
                         help='Input file(s)')
 
     parser.add_argument('-H',
