@@ -112,6 +112,9 @@ def process(fh: TextIO, db: pymongo.database.Database, collection_name: str) -> 
         try:
             val = float(row.get('value'))
         except Exception:
+            pass
+
+        if val is None:
             continue
 
         # Base record has station/date
@@ -124,7 +127,7 @@ def process(fh: TextIO, db: pymongo.database.Database, collection_name: str) -> 
         rec = {
             'location_name': row.get('location_name'),
             'variable_name': row.get('variable_name'),
-            'collection_date': date,
+            'collected_on': date,
         }
 
         print(f"{i:4}: {rec['variable_name']} => {val}")
@@ -137,14 +140,14 @@ def process(fh: TextIO, db: pymongo.database.Database, collection_name: str) -> 
             collection.update_one(
                 rec, {
                     "$set": {
-                        'val': val,
+                        'value': val,
                         'medium': row.get('medium'),
                         'variable_desc': row.get('variable_desc'),
                         'location_type': row.get('location_type'),
                     }
                 })
         else:
-            rec['val'] = val
+            rec['value'] = val
             rec['medium'] = row.get('medium')
             rec['variable_desc'] = row.get('variable_desc')
             rec['location_type'] = row.get('location_type')

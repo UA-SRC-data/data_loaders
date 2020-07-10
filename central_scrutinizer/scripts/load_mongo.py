@@ -70,6 +70,7 @@ def main() -> None:
     client = MongoClient(args.mongo_uri)
     db = client[args.mongo_db]
     coll = db[args.mongo_collection]
+    variables = set()
 
     for i, m in enumerate(Measurement, start=1):
         if args.location_type:
@@ -77,7 +78,7 @@ def main() -> None:
                 continue
 
         print(f'{i:6}: {m.variable.variable} {m.value}')
-        qry = {'variable': m.variable.variable,
+        qry = {'variable_name': m.variable.variable,
                'location_name': m.location.location_name,
                'location_type': m.location.location_type.location_type}
 
@@ -96,14 +97,25 @@ def main() -> None:
                     "$set": {
                         'value': value,
                         'collected_on': m.collected_on,
-                        'medium': m.medium.medium
+                        'medium': m.medium.medium,
+                        'variable_desc': m.variable.description
                     }
                 })
         else:
             qry['value'] = value
             qry['collected_on'] = m.collected_on
             qry['medium'] = m.medium.medium
+            qry['variable_desc'] = m.variable.description
             coll.insert_one(qry)
+
+        variables.add((m.variable.variable, m.variable.description))
+
+    var_collection = db['variables']
+    for name, desc in variables:
+        var = {'name': name, 'desc': desc}
+        exists = var_collection.find_one(var)
+        if not exists:
+            var_collection.insert_one(var)
 
     # cursor = database.cursor()
     # sql = """
