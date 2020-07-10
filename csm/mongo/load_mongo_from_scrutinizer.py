@@ -84,15 +84,14 @@ def main() -> None:
     args = get_args()
     client = pymongo.MongoClient(args.mongo_uri)
     db = client[args.mongo_db]
-    collection = db[args.mongo_collection]
 
     print(f'Importing {os.path.basename(args.file.name)}')
-    num_inserted = process(args.file, collection)
+    num_inserted = process(args.file, db, args.mongo_collection)
     print(f'Done, inserted {num_inserted}.')
 
 
 # --------------------------------------------------
-def process(fh: TextIO, collection: pymongo.collection.Collection) -> int:
+def process(fh: TextIO, db: pymongo.database.Database, collection_name: str) -> int:
     """Process the file into Mongo (client)"""
 
     _, ext = os.path.splitext(os.path.basename(fh.name))
@@ -101,7 +100,10 @@ def process(fh: TextIO, collection: pymongo.collection.Collection) -> int:
     flds = reader.fieldnames
     num_inserted = 0
 
+    collection = db[collection_name]
     collection.create_index([("location", pymongo.GEO2D)])
+
+    variables = set()
 
     for i, row in enumerate(reader, start=1):
         val = None
@@ -149,6 +151,14 @@ def process(fh: TextIO, collection: pymongo.collection.Collection) -> int:
             collection.insert_one(rec)
 
         num_inserted += 1
+        variables.add((row.get('variable_name'), row.get('variable_desc')))
+
+    var_collection = db['csm_variables']
+    for name, desc in variables:
+        var = {'name': name, 'desc': desc}
+        exists = var_collection.find_one(var)
+        if not exists:
+            var_collection.insert_one(var)
 
     return num_inserted
 

@@ -8,11 +8,8 @@ Purpose: Convert EJSCREEN data to Scrutinizer format
 import argparse
 import csv
 import os
-import dateparser
-import datetime
 import re
-from pprint import pprint
-from typing import Dict, List, Tuple, NamedTuple, Optional, TextIO
+from typing import Dict, List, NamedTuple, Optional, TextIO
 
 
 class Args(NamedTuple):
@@ -34,14 +31,14 @@ def get_args() -> Args:
     parser.add_argument('file',
                         nargs='+',
                         metavar='FILE',
-                        type=argparse.FileType('r'),
+                        type=argparse.FileType('rt'),
                         help='Input file(s)')
 
     parser.add_argument('-H',
                         '--headers',
                         help='Headers file',
                         metavar='FILE',
-                        type=argparse.FileType('r'),
+                        type=argparse.FileType('rt'),
                         required=True)
 
     parser.add_argument('-c',
@@ -60,9 +57,9 @@ def get_args() -> Args:
 
     parser.add_argument('-o',
                         '--outfile',
-                        help='Mongo URI',
+                        help='Output filename',
                         metavar='FILE',
-                        type=argparse.FileType('w'),
+                        type=argparse.FileType('wt'),
                         default='scrutinizer.csv')
 
     args = parser.parse_args()
@@ -78,15 +75,19 @@ def main() -> None:
     args = get_args()
     num_inserted = 0
     headers = get_headers(args.headers)
-
-    out_flds = ('location_name location_type variable_name '
-                'variable_desc collected_on medium value'.split())
-    args.outfile.write(','.join(map(quote, out_flds)) + '\n')
+    writer = csv.DictWriter(args.outfile,
+                            delimiter=',',
+                            fieldnames=[
+                                'location_name', 'location_type',
+                                'variable_name', 'variable_desc',
+                                'collected_on', 'medium', 'value'
+                            ])
+    writer.writeheader()
 
     for i, fh in enumerate(args.file, start=1):
         print(f'{i:3}: {os.path.basename(fh.name)}')
         num_inserted += process(fh, headers, args.collected_on, args.medium,
-                                args.outfile)
+                                writer)
 
     print(f'Done, inserted {num_inserted:,}.')
 
@@ -122,13 +123,12 @@ def quote(s):
 
 # --------------------------------------------------
 def process(in_fh: TextIO, headers: Dict[str, str], collected_on: str,
-            medium: str, out_fh: TextIO) -> int:
+            medium: str, writer: csv.DictWriter) -> int:
     """Process the file into Mongo (client)"""
 
     reader = csv.DictReader(in_fh, delimiter=',')
     flds = reader.fieldnames
     num = 0
-
     counties = {
         '001': 'Apache',
         '003': 'Cochise',
@@ -150,8 +150,6 @@ def process(in_fh: TextIO, headers: Dict[str, str], collected_on: str,
             continue
             print("Skipping")
 
-        print(f'state "{state_code}" county "{county_code}"')
-
         for fld in filter(lambda f: f != 'ID', flds):
             desc = headers.get(fld)
             if not desc:
@@ -172,11 +170,15 @@ def process(in_fh: TextIO, headers: Dict[str, str], collected_on: str,
                 pass
 
             print(f'{i:4}: {block_id} {fld} => {val}')
-            out_fh.write(','.join(
-                map(quote, [
-                    block_id, 'census_block', fld, desc, collected_on, medium,
-                    val
-                ])) + '\n')
+            writer.writerow({
+                'location_name': block_id,
+                'location_type': 'census_block',
+                'variable_name': fld,
+                'variable_desc': desc,
+                'collected_on': collected_on,
+                'medium': medium,
+                'value': val
+            })
             num += 1
 
     return num
