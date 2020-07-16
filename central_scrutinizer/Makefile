@@ -29,7 +29,7 @@ csm:
 	./scripts/loader.py ../csm/sqlite/scrutinizer.csv
 
 mongodump:
-	mongoexport -d uasrc -c scrutinizer -o scrutinizer.json
+	./scripts/mongoexport.sh
 
 mysqldump:
 	mysqldump scrutinizer > scrutinizer.sql
