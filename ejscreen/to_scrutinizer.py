@@ -18,6 +18,7 @@ class Args(NamedTuple):
     collected_on: str
     medium: str
     outfile: TextIO
+    source: str
 
 
 # --------------------------------------------------
@@ -55,6 +56,13 @@ def get_args() -> Args:
                         type=str,
                         default='Population')
 
+    parser.add_argument('-s',
+                        '--source',
+                        help='Value for data source',
+                        metavar='str',
+                        type=str,
+                        default='EJSCREEN')
+
     parser.add_argument('-o',
                         '--outfile',
                         help='Output filename',
@@ -64,8 +72,12 @@ def get_args() -> Args:
 
     args = parser.parse_args()
 
-    return Args(args.file, args.headers, args.collected_on, args.medium,
-                args.outfile)
+    return Args(file=args.file,
+                headers=args.headers,
+                collected_on=args.collected_on,
+                medium=args.medium,
+                outfile=args.outfile,
+                source=args.source)
 
 
 # --------------------------------------------------
@@ -73,23 +85,23 @@ def main() -> None:
     """Make a jazz noise here"""
 
     args = get_args()
-    num_inserted = 0
     headers = get_headers(args.headers)
     writer = csv.DictWriter(args.outfile,
                             delimiter=',',
                             fieldnames=[
-                                'location_name', 'location_type',
-                                'variable_name', 'variable_desc',
-                                'collected_on', 'medium', 'value'
+                                'source', 'unit', 'location_name',
+                                'location_type', 'variable_name',
+                                'variable_desc', 'collected_on', 'medium',
+                                'value'
                             ])
     writer.writeheader()
 
+    num_written = 0
     for i, fh in enumerate(args.file, start=1):
         print(f'{i:3}: {os.path.basename(fh.name)}')
-        num_inserted += process(fh, headers, args.collected_on, args.medium,
-                                writer)
+        num_written += process(fh, headers, args, writer)
 
-    print(f'Done, inserted {num_inserted:,}.')
+    print(f'Done, wrote {num_written:,} to "{args.outfile.name}".')
 
 
 # --------------------------------------------------
@@ -101,7 +113,7 @@ def get_headers(fh: Optional[TextIO]) -> Dict[str, str]:
     if fh:
         reader = csv.DictReader(fh, delimiter=',')
         flds = reader.fieldnames
-        expected = 'FIELD_NAME,DESCRIPTION,CATEGORY'.split(',')
+        expected = ['FIELD_NAME', 'DESCRIPTION', 'CATEGORY']
         missing = list(filter(lambda f: f not in flds, expected))
 
         if missing:
@@ -115,20 +127,12 @@ def get_headers(fh: Optional[TextIO]) -> Dict[str, str]:
 
 
 # --------------------------------------------------
-def quote(s):
-    """ Quote a string """
-
-    return f'"{s}"'
-
-
-# --------------------------------------------------
-def process(in_fh: TextIO, headers: Dict[str, str], collected_on: str,
-            medium: str, writer: csv.DictWriter) -> int:
+def process(in_fh: TextIO, headers: Dict[str, str], args: Args,
+            writer: csv.DictWriter) -> int:
     """Process the file into Mongo (client)"""
 
     reader = csv.DictReader(in_fh, delimiter=',')
     flds = reader.fieldnames
-    num = 0
     counties = {
         '001': 'Apache',
         '003': 'Cochise',
@@ -136,12 +140,13 @@ def process(in_fh: TextIO, headers: Dict[str, str], collected_on: str,
         '025': 'Yavapai'
     }
 
+    num_written = 0
     for i, row in enumerate(reader, start=1):
         block_id = row['ID']
         if not block_id:
             continue
 
-        match = re.search(r'^(\d{2})(\d{3})(\d+)$', block_id)
+        match = re.search(r'^(\d{2})(\d{3})\d+$', block_id)
         if not match:
             continue
 
@@ -155,33 +160,41 @@ def process(in_fh: TextIO, headers: Dict[str, str], collected_on: str,
             if not desc:
                 continue
 
-            val = row.get(fld)
-            if val == "":
+            raw_val = row.get(fld)
+            if raw_val is None or raw_val == "":
                 continue
 
-            val_match = re.search(r'(\d{1,3})%ile', val)
+            val_match = re.search(r'(\d{1,3})%ile', raw_val)
+            unit = ''
             if val_match:
-                val = val_match.group(1)
+                raw_val = val_match.group(1)
+                unit = 'percentile'
 
             # Try to convert value to float
+            val = None
             try:
-                val = float(val)
+                val = float(raw_val)
             except Exception:
                 pass
 
+            if val is None:
+                continue
+
             print(f'{i:4}: {block_id} {fld} => {val}')
             writer.writerow({
+                'source': args.source,
+                'unit': unit,
                 'location_name': block_id,
                 'location_type': 'census_block',
                 'variable_name': fld,
                 'variable_desc': desc,
-                'collected_on': collected_on,
-                'medium': medium,
+                'collected_on': args.collected_on,
+                'medium': args.medium,
                 'value': val
             })
-            num += 1
+            num_written += 1
 
-    return num
+    return num_written
 
 
 # --------------------------------------------------

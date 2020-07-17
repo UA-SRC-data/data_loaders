@@ -11,7 +11,8 @@ import os
 import sys
 import re
 import unicodedata
-from typing import Any, NamedTuple, TextIO, List, Dict, Callable, Iterable, Optional
+from typing import Any, NamedTuple, TextIO, List, Dict, Callable, \
+    Iterable, Optional
 from pprint import pprint
 
 
@@ -19,6 +20,7 @@ class Args(NamedTuple):
     file: List[str]  # Too many open files error!
     variables: TextIO
     outfile: TextIO
+    source: str
 
 
 # --------------------------------------------------
@@ -50,12 +52,19 @@ def get_args() -> Args:
                         type=argparse.FileType('wt'),
                         default='scrutinizer.csv')
 
+    parser.add_argument('-s',
+                        '--source',
+                        help='Data source',
+                        metavar='source',
+                        type=str,
+                        default='ACS5')
+
     args = parser.parse_args()
 
     if bad := list(filter(lambda f: not os.path.isfile(f), args.file)):
         parser.error('The following are not files:\n{}'.format("\n".join(bad)))
 
-    return Args(args.file, args.variables, args.outfile)
+    return Args(args.file, args.variables, args.outfile, args.source)
 
 
 # --------------------------------------------------
@@ -69,6 +78,7 @@ def main() -> None:
     writer = csv.DictWriter(args.outfile,
                             delimiter=',',
                             fieldnames=[
+                                'source', 'unit',
                                 'location_name', 'location_type',
                                 'variable_name', 'variable_desc',
                                 'collected_on', 'value', 'medium'
@@ -86,8 +96,10 @@ def main() -> None:
                     if var_desc := variables.get(var_name):
                         num_written += 1
                         writer.writerow({
+                            'source': args.source,
+                            'unit': '',
                             'location_name': row['block_group'],
-                            'location_type': 'block_group',
+                            'location_type': 'census_block',
                             'variable_name': var_name,
                             'variable_desc': f'{var_desc} ({var_name})',
                             'collected_on': '01-01-2018',
@@ -139,8 +151,8 @@ def read_variables(fh: TextIO) -> Dict[str, str]:
     reader = csv.reader(fh, delimiter=',')
     headers = filter_map(normalize, next(reader))
 
-    assert 'variable_id' in headers
-    assert 'label_in_vars_csv' in headers
+    assert all(f in headers
+               for f in ['variable_id', 'label_in_vars_csv', 'concept'])
 
     num_headers = len(headers)
 
@@ -151,7 +163,8 @@ def read_variables(fh: TextIO) -> Dict[str, str]:
 
     def mk_row(row):
         rec = dict(zip(headers, map(norm, row[:num_headers])))
-        return (rec['variable_id'], rec['label_in_vars_csv'])
+        label = '{} ({})'.format(rec['concept'], rec['label_in_vars_csv'])
+        return (rec['variable_id'], label)
 
     return dict(mk_row(row) for row in reader)
 

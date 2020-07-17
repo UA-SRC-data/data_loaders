@@ -2,6 +2,9 @@ MK_PKG = ../datapackage/mk_pkg.py
 P2S = ../point2shape/point2shape.py
 BG_SHAPE = ../point2shape/shapefiles/block_group/tl_2017_04_bg
 
+scrutinizer:
+	./scripts/to_scrutinizer.py -f ./datapackage.json
+
 ll:
 	./scripts/clean_latlon.py ~/Downloads/v3-Groots\ LatLong.csv -o gardenroot_latlon.csv
 
