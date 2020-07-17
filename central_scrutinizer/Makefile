@@ -1,35 +1,38 @@
-DB = scrutinizer.db
+MYSQL_LOADER = "./scripts/mysql_loader.py"
+MONGO_LOADER = "./scripts/mongo_loader.py"
 
 load:
-	./scripts/loader.py ../ejscreen/scrutinizer.csv ../usgs/scrutinizer.csv
+	$(MYSQL_LOADER) ../ejscreen/scrutinizer.csv ../usgs/scrutinizer.csv
+
+json:
+	./scripts/scrutinizer2json.py
 
 mongo:
-	./scripts/load_mongo.py
+	./scripts/mongoimport.sh scrutinizer
 
 pwiz:
-	pwiz.py -e sqlite $(DB) > scripts/scrutinizer.py
-
-sqlitedb:
-	sqlite3 $(DB) < sql/sqlite.schema
+	pwiz.py -e mysql -u kyclark -P scrutinizer > scripts/scrutinizer.py
 
 mysqldb:
 	mysql scrutinizer < sql/mysql.schema
 
 gardenroots:
-	./scripts/gardenroots.py -f ../gardenroots/datapackage.json -o data/gardenroots # --verbose
-	./scripts/loader.py data/gardenroots/*.csv
+	$(MYSQL_LOADER) ../gardenroots/scrutinizer/*.csv
 
 ejscreen:
-	./scripts/loader.py ../ejscreen/scrutinizer.csv
+	$(MYSQL_LOADER) ../ejscreen/scrutinizer.csv
 
 usgs:
-	./scripts/loader.py ../usgs/scrutinizer.csv
+	$(MYSQL_LOADER) ../usgs/scrutinizer.csv
+
+acs:
+	$(MYSQL_LOADER) ../acs5/scrutinizer.csv
 
 csm:
-	./scripts/loader.py ../csm/sqlite/scrutinizer.csv
+	$(MYSQL_LOADER) ../csm/sqlite/scrutinizer.csv
 
 mongodump:
-	./scripts/mongoexport.sh
+	zip -r uasrc_mongo.zip scrutinizer 
 
 mysqldump:
 	mysqldump scrutinizer > scrutinizer.sql

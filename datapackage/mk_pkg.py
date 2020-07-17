@@ -22,7 +22,7 @@ def get_args():
 
     parser.add_argument('file',
                         metavar='FILE',
-                        type=argparse.FileType('r'),
+                        type=argparse.FileType('rt'),
                         nargs='+',
                         help='Input file')
 

@@ -1,0 +1,995 @@
+source,unit,location_name,location_type,variable_name,variable_desc,collected_on,medium,value
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,aluminum,,2015-01-01,Water,2.84
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,arsenic,,2015-01-01,Water,2.3
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,barium,,2015-01-01,Water,246.28
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,beryllium,,2015-01-01,Water,0.02
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,cadmium,,2015-01-01,Water,0.35
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,chromium,,2015-01-01,Water,0.08
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,manganese,,2015-01-01,Water,0.63
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,nickel,,2015-01-01,Water,1.75
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,lead,,2015-01-01,Water,0.12
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,zinc,,2015-01-01,Water,98.03
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,copper,,2015-01-01,Water,24.16
+GardenRoots,&mu;g/L,"32.38,-109.90",centroid,aluminum,,2015-01-01,Water,0.62
+GardenRoots,&mu;g/L,"32.38,-109.90",centroid,arsenic,,2015-01-01,Water,3.22
+GardenRoots,&mu;g/L,"32.38,-109.90",centroid,barium,,2015-01-01,Water,49.46
+GardenRoots,&mu;g/L,"32.38,-109.90",centroid,beryllium,,2015-01-01,Water,0.04
+GardenRoots,&mu;g/L,"32.38,-109.90",centroid,chromium,,2015-01-01,Water,0.72
+GardenRoots,&mu;g/L,"32.38,-109.90",centroid,manganese,,2015-01-01,Water,0.38
+GardenRoots,&mu;g/L,"32.38,-109.90",centroid,nickel,,2015-01-01,Water,1.5
+GardenRoots,&mu;g/L,"32.38,-109.90",centroid,lead,,2015-01-01,Water,0.03
+GardenRoots,&mu;g/L,"32.38,-109.90",centroid,zinc,,2015-01-01,Water,4.24
+GardenRoots,&mu;g/L,"32.38,-109.90",centroid,copper,,2015-01-01,Water,0.43
+GardenRoots,&mu;g/L,"31.55,-109.93",centroid,aluminum,,2015-01-01,Water,0.72
+GardenRoots,&mu;g/L,"31.55,-109.93",centroid,arsenic,,2015-01-01,Water,2.87
+GardenRoots,&mu;g/L,"31.55,-109.93",centroid,barium,,2015-01-01,Water,286.86
+GardenRoots,&mu;g/L,"31.55,-109.93",centroid,beryllium,,2015-01-01,Water,0.02
+GardenRoots,&mu;g/L,"31.55,-109.93",centroid,chromium,,2015-01-01,Water,0.1
+GardenRoots,&mu;g/L,"31.55,-109.93",centroid,manganese,,2015-01-01,Water,2.54
+GardenRoots,&mu;g/L,"31.55,-109.93",centroid,nickel,,2015-01-01,Water,2.4
+GardenRoots,&mu;g/L,"31.55,-109.93",centroid,lead,,2015-01-01,Water,0.07
+GardenRoots,&mu;g/L,"31.55,-109.93",centroid,zinc,,2015-01-01,Water,89.67
+GardenRoots,&mu;g/L,"31.55,-109.93",centroid,copper,,2015-01-01,Water,3.22
+GardenRoots,&mu;g/L,"31.41,-109.89",centroid,aluminum,,2015-01-01,Water,0.84
+GardenRoots,&mu;g/L,"31.41,-109.89",centroid,arsenic,,2015-01-01,Water,3.38
+GardenRoots,&mu;g/L,"31.41,-109.89",centroid,barium,,2015-01-01,Water,352.52
+GardenRoots,&mu;g/L,"31.41,-109.89",centroid,beryllium,,2015-01-01,Water,0.02
+GardenRoots,&mu;g/L,"31.41,-109.89",centroid,chromium,,2015-01-01,Water,0.11
+GardenRoots,&mu;g/L,"31.41,-109.89",centroid,manganese,,2015-01-01,Water,0.22
+GardenRoots,&mu;g/L,"31.41,-109.89",centroid,nickel,,2015-01-01,Water,2.45
+GardenRoots,&mu;g/L,"31.41,-109.89",centroid,lead,,2015-01-01,Water,0.03
+GardenRoots,&mu;g/L,"31.41,-109.89",centroid,zinc,,2015-01-01,Water,7.24
+GardenRoots,&mu;g/L,"31.41,-109.89",centroid,copper,,2015-01-01,Water,6.46
+GardenRoots,&mu;g/L,"31.55,-109.93",centroid,aluminum,,2015-01-01,Water,0.6
+GardenRoots,&mu;g/L,"31.55,-109.93",centroid,arsenic,,2015-01-01,Water,3.21
+GardenRoots,&mu;g/L,"31.55,-109.93",centroid,barium,,2015-01-01,Water,349.19
+GardenRoots,&mu;g/L,"31.55,-109.93",centroid,beryllium,,2015-01-01,Water,0.02
+GardenRoots,&mu;g/L,"31.55,-109.93",centroid,cadmium,,2015-01-01,Water,0.02
+GardenRoots,&mu;g/L,"31.55,-109.93",centroid,chromium,,2015-01-01,Water,0.11
+GardenRoots,&mu;g/L,"31.55,-109.93",centroid,manganese,,2015-01-01,Water,0.09
+GardenRoots,&mu;g/L,"31.55,-109.93",centroid,nickel,,2015-01-01,Water,2.4
+GardenRoots,&mu;g/L,"31.55,-109.93",centroid,lead,,2015-01-01,Water,0.03
+GardenRoots,&mu;g/L,"31.55,-109.93",centroid,zinc,,2015-01-01,Water,18.23
+GardenRoots,&mu;g/L,"31.55,-109.93",centroid,copper,,2015-01-01,Water,10.75
+GardenRoots,&mu;g/L,"32.21,-109.84",centroid,aluminum,,2015-01-01,Water,0.24
+GardenRoots,&mu;g/L,"32.21,-109.84",centroid,arsenic,,2015-01-01,Water,3.96
+GardenRoots,&mu;g/L,"32.21,-109.84",centroid,barium,,2015-01-01,Water,21.56
+GardenRoots,&mu;g/L,"32.21,-109.84",centroid,beryllium,,2015-01-01,Water,0.03
+GardenRoots,&mu;g/L,"32.21,-109.84",centroid,chromium,,2015-01-01,Water,8.79
+GardenRoots,&mu;g/L,"32.21,-109.84",centroid,manganese,,2015-01-01,Water,0.92
+GardenRoots,&mu;g/L,"32.21,-109.84",centroid,nickel,,2015-01-01,Water,2.86
+GardenRoots,&mu;g/L,"32.21,-109.84",centroid,lead,,2015-01-01,Water,0.02
+GardenRoots,&mu;g/L,"32.21,-109.84",centroid,zinc,,2015-01-01,Water,4.49
+GardenRoots,&mu;g/L,"32.21,-109.84",centroid,copper,,2015-01-01,Water,1.25
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,aluminum,,2015-01-01,Water,4.87
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,arsenic,,2015-01-01,Water,2.52
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,barium,,2015-01-01,Water,241.59
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,beryllium,,2015-01-01,Water,0.02
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,cadmium,,2015-01-01,Water,0.08
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,chromium,,2015-01-01,Water,0.13
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,manganese,,2015-01-01,Water,18.84
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,nickel,,2015-01-01,Water,1.87
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,lead,,2015-01-01,Water,0.23
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,zinc,,2015-01-01,Water,50.07
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,copper,,2015-01-01,Water,7.12
+GardenRoots,&mu;g/L,"31.41,-109.89",centroid,aluminum,,2015-01-01,Water,0.77
+GardenRoots,&mu;g/L,"31.41,-109.89",centroid,arsenic,,2015-01-01,Water,3.29
+GardenRoots,&mu;g/L,"31.41,-109.89",centroid,barium,,2015-01-01,Water,340.52
+GardenRoots,&mu;g/L,"31.41,-109.89",centroid,beryllium,,2015-01-01,Water,0.03
+GardenRoots,&mu;g/L,"31.41,-109.89",centroid,chromium,,2015-01-01,Water,0.14
+GardenRoots,&mu;g/L,"31.41,-109.89",centroid,manganese,,2015-01-01,Water,0.04
+GardenRoots,&mu;g/L,"31.41,-109.89",centroid,nickel,,2015-01-01,Water,2.36
+GardenRoots,&mu;g/L,"31.41,-109.89",centroid,lead,,2015-01-01,Water,0.06
+GardenRoots,&mu;g/L,"31.41,-109.89",centroid,zinc,,2015-01-01,Water,20.43
+GardenRoots,&mu;g/L,"31.41,-109.89",centroid,copper,,2015-01-01,Water,1.26
+GardenRoots,&mu;g/L,"31.41,-110.36",centroid,aluminum,,2015-01-01,Water,0.63
+GardenRoots,&mu;g/L,"31.41,-110.36",centroid,arsenic,,2015-01-01,Water,0.27
+GardenRoots,&mu;g/L,"31.41,-110.36",centroid,barium,,2015-01-01,Water,18.46
+GardenRoots,&mu;g/L,"31.41,-110.36",centroid,beryllium,,2015-01-01,Water,0.03
+GardenRoots,&mu;g/L,"31.41,-110.36",centroid,cadmium,,2015-01-01,Water,0.01
+GardenRoots,&mu;g/L,"31.41,-110.36",centroid,chromium,,2015-01-01,Water,0.04
+GardenRoots,&mu;g/L,"31.41,-110.36",centroid,manganese,,2015-01-01,Water,0.16
+GardenRoots,&mu;g/L,"31.41,-110.36",centroid,nickel,,2015-01-01,Water,2.06
+GardenRoots,&mu;g/L,"31.41,-110.36",centroid,lead,,2015-01-01,Water,0.1
+GardenRoots,&mu;g/L,"31.41,-110.36",centroid,zinc,,2015-01-01,Water,188.93
+GardenRoots,&mu;g/L,"31.41,-110.36",centroid,copper,,2015-01-01,Water,158.83
+GardenRoots,&mu;g/L,"32.38,-109.90",centroid,aluminum,,2015-01-01,Water,0.74
+GardenRoots,&mu;g/L,"32.38,-109.90",centroid,arsenic,,2015-01-01,Water,10.16
+GardenRoots,&mu;g/L,"32.38,-109.90",centroid,barium,,2015-01-01,Water,3.88
+GardenRoots,&mu;g/L,"32.38,-109.90",centroid,beryllium,,2015-01-01,Water,0.03
+GardenRoots,&mu;g/L,"32.38,-109.90",centroid,cadmium,,2015-01-01,Water,0.01
+GardenRoots,&mu;g/L,"32.38,-109.90",centroid,chromium,,2015-01-01,Water,3.55
+GardenRoots,&mu;g/L,"32.38,-109.90",centroid,manganese,,2015-01-01,Water,0.01
+GardenRoots,&mu;g/L,"32.38,-109.90",centroid,nickel,,2015-01-01,Water,0.55
+GardenRoots,&mu;g/L,"32.38,-109.90",centroid,lead,,2015-01-01,Water,0.06
+GardenRoots,&mu;g/L,"32.38,-109.90",centroid,zinc,,2015-01-01,Water,3.28
+GardenRoots,&mu;g/L,"32.38,-109.90",centroid,copper,,2015-01-01,Water,0.44
+GardenRoots,&mu;g/L,"31.49,-110.27",centroid,aluminum,,2015-01-01,Water,0.57
+GardenRoots,&mu;g/L,"31.49,-110.27",centroid,arsenic,,2015-01-01,Water,0.34
+GardenRoots,&mu;g/L,"31.49,-110.27",centroid,barium,,2015-01-01,Water,39.39
+GardenRoots,&mu;g/L,"31.49,-110.27",centroid,beryllium,,2015-01-01,Water,0.03
+GardenRoots,&mu;g/L,"31.49,-110.27",centroid,chromium,,2015-01-01,Water,0.23
+GardenRoots,&mu;g/L,"31.49,-110.27",centroid,manganese,,2015-01-01,Water,0.03
+GardenRoots,&mu;g/L,"31.49,-110.27",centroid,nickel,,2015-01-01,Water,1.75
+GardenRoots,&mu;g/L,"31.49,-110.27",centroid,lead,,2015-01-01,Water,0.28
+GardenRoots,&mu;g/L,"31.49,-110.27",centroid,zinc,,2015-01-01,Water,48.2
+GardenRoots,&mu;g/L,"31.49,-110.27",centroid,copper,,2015-01-01,Water,23.07
+GardenRoots,&mu;g/L,"31.41,-110.36",centroid,aluminum,,2015-01-01,Water,0.45
+GardenRoots,&mu;g/L,"31.41,-110.36",centroid,arsenic,,2015-01-01,Water,4.92
+GardenRoots,&mu;g/L,"31.41,-110.36",centroid,barium,,2015-01-01,Water,28.59
+GardenRoots,&mu;g/L,"31.41,-110.36",centroid,beryllium,,2015-01-01,Water,0.03
+GardenRoots,&mu;g/L,"31.41,-110.36",centroid,chromium,,2015-01-01,Water,0.13
+GardenRoots,&mu;g/L,"31.41,-110.36",centroid,manganese,,2015-01-01,Water,0.01
+GardenRoots,&mu;g/L,"31.41,-110.36",centroid,nickel,,2015-01-01,Water,1.63
+GardenRoots,&mu;g/L,"31.41,-110.36",centroid,lead,,2015-01-01,Water,0.01
+GardenRoots,&mu;g/L,"31.41,-110.36",centroid,zinc,,2015-01-01,Water,7.09
+GardenRoots,&mu;g/L,"31.41,-110.36",centroid,copper,,2015-01-01,Water,7.69
+GardenRoots,&mu;g/L,"31.57,-110.30",centroid,aluminum,,2015-01-01,Water,0.58
+GardenRoots,&mu;g/L,"31.57,-110.30",centroid,arsenic,,2015-01-01,Water,0.82
+GardenRoots,&mu;g/L,"31.57,-110.30",centroid,barium,,2015-01-01,Water,115.86
+GardenRoots,&mu;g/L,"31.57,-110.30",centroid,beryllium,,2015-01-01,Water,0.04
+GardenRoots,&mu;g/L,"31.57,-110.30",centroid,chromium,,2015-01-01,Water,0.37
+GardenRoots,&mu;g/L,"31.57,-110.30",centroid,manganese,,2015-01-01,Water,0.02
+GardenRoots,&mu;g/L,"31.57,-110.30",centroid,nickel,,2015-01-01,Water,0.99
+GardenRoots,&mu;g/L,"31.57,-110.30",centroid,lead,,2015-01-01,Water,0.01
+GardenRoots,&mu;g/L,"31.57,-110.30",centroid,zinc,,2015-01-01,Water,0.23
+GardenRoots,&mu;g/L,"31.57,-110.30",centroid,copper,,2015-01-01,Water,0.21
+GardenRoots,&mu;g/L,"31.42,-110.19",centroid,aluminum,,2015-01-01,Water,0.58
+GardenRoots,&mu;g/L,"31.42,-110.19",centroid,arsenic,,2015-01-01,Water,0.82
+GardenRoots,&mu;g/L,"31.42,-110.19",centroid,barium,,2015-01-01,Water,115.86
+GardenRoots,&mu;g/L,"31.42,-110.19",centroid,beryllium,,2015-01-01,Water,0.04
+GardenRoots,&mu;g/L,"31.42,-110.19",centroid,chromium,,2015-01-01,Water,0.37
+GardenRoots,&mu;g/L,"31.42,-110.19",centroid,manganese,,2015-01-01,Water,0.02
+GardenRoots,&mu;g/L,"31.42,-110.19",centroid,nickel,,2015-01-01,Water,0.99
+GardenRoots,&mu;g/L,"31.42,-110.19",centroid,lead,,2015-01-01,Water,0.01
+GardenRoots,&mu;g/L,"31.42,-110.19",centroid,zinc,,2015-01-01,Water,0.23
+GardenRoots,&mu;g/L,"31.42,-110.19",centroid,copper,,2015-01-01,Water,0.21
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,aluminum,,2015-01-01,Water,0.36
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,arsenic,,2015-01-01,Water,0.57
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,barium,,2015-01-01,Water,31.52
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,beryllium,,2015-01-01,Water,0.03
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,chromium,,2015-01-01,Water,0.16
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,manganese,,2015-01-01,Water,0.02
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,nickel,,2015-01-01,Water,1.56
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,lead,,2015-01-01,Water,0.19
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,zinc,,2015-01-01,Water,18.26
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,copper,,2015-01-01,Water,8.16
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,aluminum,,2015-01-01,Water,0.24
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,arsenic,,2015-01-01,Water,2.61
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,barium,,2015-01-01,Water,145.52
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,beryllium,,2015-01-01,Water,0.03
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,cadmium,,2015-01-01,Water,0.01
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,chromium,,2015-01-01,Water,0.08
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,manganese,,2015-01-01,Water,0.04
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,nickel,,2015-01-01,Water,1.46
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,lead,,2015-01-01,Water,0.02
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,zinc,,2015-01-01,Water,18.48
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,copper,,2015-01-01,Water,0.27
+GardenRoots,&mu;g/L,"32.21,-109.84",centroid,aluminum,,2015-01-01,Water,0.81
+GardenRoots,&mu;g/L,"32.21,-109.84",centroid,arsenic,,2015-01-01,Water,10.46
+GardenRoots,&mu;g/L,"32.21,-109.84",centroid,barium,,2015-01-01,Water,4.05
+GardenRoots,&mu;g/L,"32.21,-109.84",centroid,beryllium,,2015-01-01,Water,0.02
+GardenRoots,&mu;g/L,"32.21,-109.84",centroid,cadmium,,2015-01-01,Water,0.01
+GardenRoots,&mu;g/L,"32.21,-109.84",centroid,chromium,,2015-01-01,Water,3.44
+GardenRoots,&mu;g/L,"32.21,-109.84",centroid,manganese,,2015-01-01,Water,0.01
+GardenRoots,&mu;g/L,"32.21,-109.84",centroid,nickel,,2015-01-01,Water,0.55
+GardenRoots,&mu;g/L,"32.21,-109.84",centroid,lead,,2015-01-01,Water,0.02
+GardenRoots,&mu;g/L,"32.21,-109.84",centroid,zinc,,2015-01-01,Water,1.89
+GardenRoots,&mu;g/L,"32.21,-109.84",centroid,copper,,2015-01-01,Water,1.45
+GardenRoots,&mu;g/L,"32.21,-110.27",centroid,aluminum,,2015-01-01,Water,0.28
+GardenRoots,&mu;g/L,"32.21,-110.27",centroid,arsenic,,2015-01-01,Water,2.63
+GardenRoots,&mu;g/L,"32.21,-110.27",centroid,barium,,2015-01-01,Water,92.39
+GardenRoots,&mu;g/L,"32.21,-110.27",centroid,beryllium,,2015-01-01,Water,0.01
+GardenRoots,&mu;g/L,"32.21,-110.27",centroid,cadmium,,2015-01-01,Water,0.02
+GardenRoots,&mu;g/L,"32.21,-110.27",centroid,chromium,,2015-01-01,Water,0.38
+GardenRoots,&mu;g/L,"32.21,-110.27",centroid,manganese,,2015-01-01,Water,15.67
+GardenRoots,&mu;g/L,"32.21,-110.27",centroid,nickel,,2015-01-01,Water,1.6
+GardenRoots,&mu;g/L,"32.21,-110.27",centroid,lead,,2015-01-01,Water,0.12
+GardenRoots,&mu;g/L,"32.21,-110.27",centroid,zinc,,2015-01-01,Water,1045.9
+GardenRoots,&mu;g/L,"32.21,-110.27",centroid,copper,,2015-01-01,Water,1.58
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,aluminum,,2015-01-01,Water,0.4
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,arsenic,,2015-01-01,Water,3.18
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,barium,,2015-01-01,Water,348.86
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,beryllium,,2015-01-01,Water,0.02
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,cadmium,,2015-01-01,Water,0.03
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,chromium,,2015-01-01,Water,0.13
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,manganese,,2015-01-01,Water,0.13
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,nickel,,2015-01-01,Water,2.38
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,lead,,2015-01-01,Water,0.08
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,zinc,,2015-01-01,Water,24.2
+GardenRoots,&mu;g/L,"31.38,-109.83",centroid,copper,,2015-01-01,Water,7.15
+GardenRoots,&mu;g/L,"31.97,-109.90",centroid,aluminum,,2015-01-01,Water,0.12
+GardenRoots,&mu;g/L,"31.97,-109.90",centroid,arsenic,,2015-01-01,Water,1.86
+GardenRoots,&mu;g/L,"31.97,-109.90",centroid,barium,,2015-01-01,Water,80.76
+GardenRoots,&mu;g/L,"31.97,-109.90",centroid,beryllium,,2015-01-01,Water,0.02
+GardenRoots,&mu;g/L,"31.97,-109.90",centroid,cadmium,,2015-01-01,Water,0.02
+GardenRoots,&mu;g/L,"31.97,-109.90",centroid,chromium,,2015-01-01,Water,0.67
+GardenRoots,&mu;g/L,"31.97,-109.90",centroid,manganese,,2015-01-01,Water,1.47
+GardenRoots,&mu;g/L,"31.97,-109.90",centroid,nickel,,2015-01-01,Water,2.05
+GardenRoots,&mu;g/L,"31.97,-109.90",centroid,lead,,2015-01-01,Water,0.03
+GardenRoots,&mu;g/L,"31.97,-109.90",centroid,zinc,,2015-01-01,Water,291.0
+GardenRoots,&mu;g/L,"31.97,-109.90",centroid,copper,,2015-01-01,Water,0.23
+GardenRoots,&mu;g/L,"32.21,-109.84",centroid,aluminum,,2015-01-01,Water,0.14
+GardenRoots,&mu;g/L,"32.21,-109.84",centroid,arsenic,,2015-01-01,Water,3.92
+GardenRoots,&mu;g/L,"32.21,-109.84",centroid,barium,,2015-01-01,Water,20.69
+GardenRoots,&mu;g/L,"32.21,-109.84",centroid,beryllium,,2015-01-01,Water,0.01
+GardenRoots,&mu;g/L,"32.21,-109.84",centroid,chromium,,2015-01-01,Water,9.34
+GardenRoots,&mu;g/L,"32.21,-109.84",centroid,manganese,,2015-01-01,Water,0.72
+GardenRoots,&mu;g/L,"32.21,-109.84",centroid,nickel,,2015-01-01,Water,2.74
+GardenRoots,&mu;g/L,"32.21,-109.84",centroid,lead,,2015-01-01,Water,0.02
+GardenRoots,&mu;g/L,"32.21,-109.84",centroid,zinc,,2015-01-01,Water,12.13
+GardenRoots,&mu;g/L,"32.21,-109.84",centroid,copper,,2015-01-01,Water,1.14
+GardenRoots,&mu;g/L,"31.41,-110.36",centroid,aluminum,,2015-01-01,Water,0.29
+GardenRoots,&mu;g/L,"31.41,-110.36",centroid,arsenic,,2015-01-01,Water,0.55
+GardenRoots,&mu;g/L,"31.41,-110.36",centroid,barium,,2015-01-01,Water,30.22
+GardenRoots,&mu;g/L,"31.41,-110.36",centroid,beryllium,,2015-01-01,Water,0.01
+GardenRoots,&mu;g/L,"31.41,-110.36",centroid,cadmium,,2015-01-01,Water,0.01
+GardenRoots,&mu;g/L,"31.41,-110.36",centroid,chromium,,2015-01-01,Water,0.23
+GardenRoots,&mu;g/L,"31.41,-110.36",centroid,manganese,,2015-01-01,Water,0.08
+GardenRoots,&mu;g/L,"31.41,-110.36",centroid,nickel,,2015-01-01,Water,1.36
+GardenRoots,&mu;g/L,"31.41,-110.36",centroid,lead,,2015-01-01,Water,0.04
+GardenRoots,&mu;g/L,"31.41,-110.36",centroid,zinc,,2015-01-01,Water,17.46
+GardenRoots,&mu;g/L,"31.41,-110.36",centroid,copper,,2015-01-01,Water,0.89
+GardenRoots,&mu;g/L,"31.41,-110.36",centroid,aluminum,,2015-01-01,Water,0.25
+GardenRoots,&mu;g/L,"31.41,-110.36",centroid,arsenic,,2015-01-01,Water,0.51
+GardenRoots,&mu;g/L,"31.41,-110.36",centroid,barium,,2015-01-01,Water,29.12
+GardenRoots,&mu;g/L,"31.41,-110.36",centroid,beryllium,,2015-01-01,Water,0.02
+GardenRoots,&mu;g/L,"31.41,-110.36",centroid,chromium,,2015-01-01,Water,0.22
+GardenRoots,&mu;g/L,"31.41,-110.36",centroid,manganese,,2015-01-01,Water,0.01
+GardenRoots,&mu;g/L,"31.41,-110.36",centroid,nickel,,2015-01-01,Water,1.24
+GardenRoots,&mu;g/L,"31.41,-110.36",centroid,lead,,2015-01-01,Water,0.02
+GardenRoots,&mu;g/L,"31.41,-110.36",centroid,zinc,,2015-01-01,Water,2.11
+GardenRoots,&mu;g/L,"31.41,-110.36",centroid,copper,,2015-01-01,Water,0.26
+GardenRoots,&mu;g/L,"31.55,-109.93",centroid,aluminum,,2015-01-01,Water,18.53
+GardenRoots,&mu;g/L,"31.55,-109.93",centroid,arsenic,,2015-01-01,Water,0.07
+GardenRoots,&mu;g/L,"31.55,-109.93",centroid,barium,,2015-01-01,Water,3.67
+GardenRoots,&mu;g/L,"31.55,-109.93",centroid,beryllium,,2015-01-01,Water,0.05
+GardenRoots,&mu;g/L,"31.55,-109.93",centroid,cadmium,,2015-01-01,Water,0.07
+GardenRoots,&mu;g/L,"31.55,-109.93",centroid,chromium,,2015-01-01,Water,0.21
+GardenRoots,&mu;g/L,"31.55,-109.93",centroid,manganese,,2015-01-01,Water,0.41
+GardenRoots,&mu;g/L,"31.55,-109.93",centroid,nickel,,2015-01-01,Water,0.51
+GardenRoots,&mu;g/L,"31.55,-109.93",centroid,lead,,2015-01-01,Water,0.32
+GardenRoots,&mu;g/L,"31.55,-109.93",centroid,zinc,,2015-01-01,Water,1180.0
+GardenRoots,&mu;g/L,"31.55,-109.93",centroid,copper,,2015-01-01,Water,3.53
+GardenRoots,&mu;g/L,"31.42,-110.19",centroid,aluminum,,2015-01-01,Water,1.8
+GardenRoots,&mu;g/L,"31.42,-110.19",centroid,arsenic,,2015-01-01,Water,0.54
+GardenRoots,&mu;g/L,"31.42,-110.19",centroid,cadmium,,2015-01-01,Water,0.01
+GardenRoots,&mu;g/L,"31.42,-110.19",centroid,chromium,,2015-01-01,Water,0.47
+GardenRoots,&mu;g/L,"31.42,-110.19",centroid,lead,,2015-01-01,Water,0.37
+GardenRoots,&mu;g/L,"31.42,-110.19",centroid,zinc,,2015-01-01,Water,19.31
+GardenRoots,&mu;g/L,"31.58,-110.19",centroid,aluminum,,2015-01-01,Water,0.28
+GardenRoots,&mu;g/L,"31.58,-110.19",centroid,arsenic,,2015-01-01,Water,0.64
+GardenRoots,&mu;g/L,"31.58,-110.19",centroid,chromium,,2015-01-01,Water,0.27
+GardenRoots,&mu;g/L,"31.58,-110.19",centroid,lead,,2015-01-01,Water,0.04
+GardenRoots,&mu;g/L,"31.58,-110.19",centroid,zinc,,2015-01-01,Water,2.56
+GardenRoots,&mu;g/L,"31.48,-110.04",centroid,aluminum,,2015-01-01,Water,0.75
+GardenRoots,&mu;g/L,"31.48,-110.04",centroid,arsenic,,2015-01-01,Water,5.61
+GardenRoots,&mu;g/L,"31.48,-110.04",centroid,chromium,,2015-01-01,Water,0.72
+GardenRoots,&mu;g/L,"31.48,-110.04",centroid,lead,,2015-01-01,Water,0.57
+GardenRoots,&mu;g/L,"31.48,-110.04",centroid,zinc,,2015-01-01,Water,46.31
+GardenRoots,&mu;g/L,"31.48,-110.04",centroid,aluminum,,2015-01-01,Water,0.43
+GardenRoots,&mu;g/L,"31.48,-110.04",centroid,arsenic,,2015-01-01,Water,5.64
+GardenRoots,&mu;g/L,"31.48,-110.04",centroid,chromium,,2015-01-01,Water,0.71
+GardenRoots,&mu;g/L,"31.48,-110.04",centroid,lead,,2015-01-01,Water,0.2
+GardenRoots,&mu;g/L,"31.48,-110.04",centroid,zinc,,2015-01-01,Water,95.65
+GardenRoots,&mu;g/L,"31.41,-109.89",centroid,aluminum,,2015-01-01,Water,0.84
+GardenRoots,&mu;g/L,"31.41,-109.89",centroid,arsenic,,2015-01-01,Water,3.38
+GardenRoots,&mu;g/L,"31.41,-109.89",centroid,barium,,2015-01-01,Water,352.52
+GardenRoots,&mu;g/L,"31.41,-109.89",centroid,beryllium,,2015-01-01,Water,0.02
+GardenRoots,&mu;g/L,"31.41,-109.89",centroid,chromium,,2015-01-01,Water,0.11
+GardenRoots,&mu;g/L,"31.41,-109.89",centroid,manganese,,2015-01-01,Water,0.22
+GardenRoots,&mu;g/L,"31.41,-109.89",centroid,nickel,,2015-01-01,Water,2.45
+GardenRoots,&mu;g/L,"31.41,-109.89",centroid,lead,,2015-01-01,Water,0.03
+GardenRoots,&mu;g/L,"31.41,-109.89",centroid,zinc,,2015-01-01,Water,7.24
+GardenRoots,&mu;g/L,"31.41,-109.89",centroid,copper,,2015-01-01,Water,6.46
+GardenRoots,&mu;g/L,"32.38,-109.90",centroid,aluminum,,2015-01-01,Water,31.3
+GardenRoots,&mu;g/L,"32.38,-109.90",centroid,arsenic,,2015-01-01,Water,38.99
+GardenRoots,&mu;g/L,"32.38,-109.90",centroid,chromium,,2015-01-01,Water,5.05
+GardenRoots,&mu;g/L,"32.38,-109.90",centroid,lead,,2015-01-01,Water,0.02
+GardenRoots,&mu;g/L,"32.38,-109.90",centroid,zinc,,2015-01-01,Water,2.29
+GardenRoots,&mu;g/L,"32.21,-109.84",centroid,aluminum,,2015-01-01,Water,0.24
+GardenRoots,&mu;g/L,"32.21,-109.84",centroid,arsenic,,2015-01-01,Water,3.96
+GardenRoots,&mu;g/L,"32.21,-109.84",centroid,barium,,2015-01-01,Water,21.56
+GardenRoots,&mu;g/L,"32.21,-109.84",centroid,beryllium,,2015-01-01,Water,0.03
+GardenRoots,&mu;g/L,"32.21,-109.84",centroid,chromium,,2015-01-01,Water,8.79
+GardenRoots,&mu;g/L,"32.21,-109.84",centroid,manganese,,2015-01-01,Water,0.92
+GardenRoots,&mu;g/L,"32.21,-109.84",centroid,nickel,,2015-01-01,Water,2.86
+GardenRoots,&mu;g/L,"32.21,-109.84",centroid,lead,,2015-01-01,Water,0.02
+GardenRoots,&mu;g/L,"32.21,-109.84",centroid,zinc,,2015-01-01,Water,4.49
+GardenRoots,&mu;g/L,"32.21,-109.84",centroid,copper,,2015-01-01,Water,1.25
+GardenRoots,&mu;g/L,"32.60,-109.13",centroid,aluminum,,2015-01-01,Water,1.14
+GardenRoots,&mu;g/L,"32.60,-109.13",centroid,arsenic,,2015-01-01,Water,21.62
+GardenRoots,&mu;g/L,"32.60,-109.13",centroid,barium,,2015-01-01,Water,0.12
+GardenRoots,&mu;g/L,"32.60,-109.13",centroid,beryllium,,2015-01-01,Water,0.02
+GardenRoots,&mu;g/L,"32.60,-109.13",centroid,chromium,,2015-01-01,Water,23.16
+GardenRoots,&mu;g/L,"32.60,-109.13",centroid,manganese,,2015-01-01,Water,0.11
+GardenRoots,&mu;g/L,"32.60,-109.13",centroid,nickel,,2015-01-01,Water,0.05
+GardenRoots,&mu;g/L,"32.60,-109.13",centroid,lead,,2015-01-01,Water,0.11
+GardenRoots,&mu;g/L,"32.60,-109.13",centroid,zinc,,2015-01-01,Water,1.3
+GardenRoots,&mu;g/L,"32.60,-109.13",centroid,copper,,2015-01-01,Water,3.08
+GardenRoots,&mu;g/L,"32.60,-109.13",centroid,aluminum,,2015-01-01,Water,1.4
+GardenRoots,&mu;g/L,"32.60,-109.13",centroid,arsenic,,2015-01-01,Water,21.32
+GardenRoots,&mu;g/L,"32.60,-109.13",centroid,barium,,2015-01-01,Water,1.47
+GardenRoots,&mu;g/L,"32.60,-109.13",centroid,beryllium,,2015-01-01,Water,0.02
+GardenRoots,&mu;g/L,"32.60,-109.13",centroid,chromium,,2015-01-01,Water,23.06
+GardenRoots,&mu;g/L,"32.60,-109.13",centroid,manganese,,2015-01-01,Water,0.22
+GardenRoots,&mu;g/L,"32.60,-109.13",centroid,nickel,,2015-01-01,Water,0.32
+GardenRoots,&mu;g/L,"32.60,-109.13",centroid,lead,,2015-01-01,Water,0.02
+GardenRoots,&mu;g/L,"32.60,-109.13",centroid,zinc,,2015-01-01,Water,1.78
+GardenRoots,&mu;g/L,"32.60,-109.13",centroid,copper,,2015-01-01,Water,0.66
+GardenRoots,&mu;g/L,"32.60,-109.13",centroid,aluminum,,2015-01-01,Water,8.4
+GardenRoots,&mu;g/L,"32.60,-109.13",centroid,arsenic,,2015-01-01,Water,14.18
+GardenRoots,&mu;g/L,"32.60,-109.13",centroid,barium,,2015-01-01,Water,17.22
+GardenRoots,&mu;g/L,"32.60,-109.13",centroid,beryllium,,2015-01-01,Water,0.03
+GardenRoots,&mu;g/L,"32.60,-109.13",centroid,cadmium,,2015-01-01,Water,0.01
+GardenRoots,&mu;g/L,"32.60,-109.13",centroid,chromium,,2015-01-01,Water,4.11
+GardenRoots,&mu;g/L,"32.60,-109.13",centroid,manganese,,2015-01-01,Water,0.87
+GardenRoots,&mu;g/L,"32.60,-109.13",centroid,nickel,,2015-01-01,Water,1.85
+GardenRoots,&mu;g/L,"32.60,-109.13",centroid,lead,,2015-01-01,Water,0.03
+GardenRoots,&mu;g/L,"32.60,-109.13",centroid,zinc,,2015-01-01,Water,9.13
+GardenRoots,&mu;g/L,"32.60,-109.13",centroid,copper,,2015-01-01,Water,1.53
+GardenRoots,&mu;g/L,"33.40,-109.26",centroid,aluminum,,2015-01-01,Water,0.21
+GardenRoots,&mu;g/L,"33.40,-109.26",centroid,arsenic,,2015-01-01,Water,2.21
+GardenRoots,&mu;g/L,"33.40,-109.26",centroid,barium,,2015-01-01,Water,0.47
+GardenRoots,&mu;g/L,"33.40,-109.26",centroid,beryllium,,2015-01-01,Water,0.02
+GardenRoots,&mu;g/L,"33.40,-109.26",centroid,chromium,,2015-01-01,Water,8.48
+GardenRoots,&mu;g/L,"33.40,-109.26",centroid,nickel,,2015-01-01,Water,0.45
+GardenRoots,&mu;g/L,"33.40,-109.26",centroid,lead,,2015-01-01,Water,0.02
+GardenRoots,&mu;g/L,"33.40,-109.26",centroid,zinc,,2015-01-01,Water,1.53
+GardenRoots,&mu;g/L,"33.40,-109.26",centroid,copper,,2015-01-01,Water,0.36
+GardenRoots,&mu;g/L,"33.40,-109.26",centroid,aluminum,,2015-01-01,Water,0.17
+GardenRoots,&mu;g/L,"33.40,-109.26",centroid,arsenic,,2015-01-01,Water,2.14
+GardenRoots,&mu;g/L,"33.40,-109.26",centroid,barium,,2015-01-01,Water,10.22
+GardenRoots,&mu;g/L,"33.40,-109.26",centroid,beryllium,,2015-01-01,Water,0.04
+GardenRoots,&mu;g/L,"33.40,-109.26",centroid,chromium,,2015-01-01,Water,0.56
+GardenRoots,&mu;g/L,"33.40,-109.26",centroid,manganese,,2015-01-01,Water,0.03
+GardenRoots,&mu;g/L,"33.40,-109.26",centroid,nickel,,2015-01-01,Water,1.41
+GardenRoots,&mu;g/L,"33.40,-109.26",centroid,lead,,2015-01-01,Water,0.01
+GardenRoots,&mu;g/L,"33.40,-109.26",centroid,zinc,,2015-01-01,Water,1.49
+GardenRoots,&mu;g/L,"33.40,-109.26",centroid,copper,,2015-01-01,Water,0.47
+GardenRoots,&mu;g/L,"33.40,-109.26",centroid,aluminum,,2015-01-01,Water,0.2
+GardenRoots,&mu;g/L,"33.40,-109.26",centroid,arsenic,,2015-01-01,Water,2.34
+GardenRoots,&mu;g/L,"33.40,-109.26",centroid,barium,,2015-01-01,Water,10.66
+GardenRoots,&mu;g/L,"33.40,-109.26",centroid,beryllium,,2015-01-01,Water,0.03
+GardenRoots,&mu;g/L,"33.40,-109.26",centroid,chromium,,2015-01-01,Water,0.57
+GardenRoots,&mu;g/L,"33.40,-109.26",centroid,manganese,,2015-01-01,Water,0.05
+GardenRoots,&mu;g/L,"33.40,-109.26",centroid,nickel,,2015-01-01,Water,1.4
+GardenRoots,&mu;g/L,"33.40,-109.26",centroid,lead,,2015-01-01,Water,0.02
+GardenRoots,&mu;g/L,"33.40,-109.26",centroid,zinc,,2015-01-01,Water,2.38
+GardenRoots,&mu;g/L,"33.40,-109.26",centroid,copper,,2015-01-01,Water,0.82
+GardenRoots,&mu;g/L,"33.40,-109.26",centroid,aluminum,,2015-01-01,Water,1.33
+GardenRoots,&mu;g/L,"33.40,-109.26",centroid,arsenic,,2015-01-01,Water,3.35
+GardenRoots,&mu;g/L,"33.40,-109.26",centroid,barium,,2015-01-01,Water,17.02
+GardenRoots,&mu;g/L,"33.40,-109.26",centroid,beryllium,,2015-01-01,Water,0.01
+GardenRoots,&mu;g/L,"33.40,-109.26",centroid,chromium,,2015-01-01,Water,0.07
+GardenRoots,&mu;g/L,"33.40,-109.26",centroid,manganese,,2015-01-01,Water,0.03
+GardenRoots,&mu;g/L,"33.40,-109.26",centroid,nickel,,2015-01-01,Water,1.23
+GardenRoots,&mu;g/L,"33.40,-109.26",centroid,lead,,2015-01-01,Water,0.01
+GardenRoots,&mu;g/L,"33.40,-109.26",centroid,zinc,,2015-01-01,Water,40.63
+GardenRoots,&mu;g/L,"33.40,-109.26",centroid,copper,,2015-01-01,Water,2.33
+GardenRoots,&mu;g/L,"33.06,-109.30",centroid,aluminum,,2015-01-01,Water,0.65
+GardenRoots,&mu;g/L,"33.06,-109.30",centroid,arsenic,,2015-01-01,Water,2.93
+GardenRoots,&mu;g/L,"33.06,-109.30",centroid,barium,,2015-01-01,Water,8.26
+GardenRoots,&mu;g/L,"33.06,-109.30",centroid,beryllium,,2015-01-01,Water,0.01
+GardenRoots,&mu;g/L,"33.06,-109.30",centroid,chromium,,2015-01-01,Water,0.03
+GardenRoots,&mu;g/L,"33.06,-109.30",centroid,manganese,,2015-01-01,Water,7.18
+GardenRoots,&mu;g/L,"33.06,-109.30",centroid,nickel,,2015-01-01,Water,1.4
+GardenRoots,&mu;g/L,"33.06,-109.30",centroid,lead,,2015-01-01,Water,0.02
+GardenRoots,&mu;g/L,"33.06,-109.30",centroid,zinc,,2015-01-01,Water,0.92
+GardenRoots,&mu;g/L,"33.06,-109.30",centroid,copper,,2015-01-01,Water,3.19
+GardenRoots,&mu;g/L,"32.70,-109.12",centroid,aluminum,,2015-01-01,Water,0.23
+GardenRoots,&mu;g/L,"32.70,-109.12",centroid,arsenic,,2015-01-01,Water,2.31
+GardenRoots,&mu;g/L,"32.70,-109.12",centroid,barium,,2015-01-01,Water,21.69
+GardenRoots,&mu;g/L,"32.70,-109.12",centroid,beryllium,,2015-01-01,Water,0.02
+GardenRoots,&mu;g/L,"32.70,-109.12",centroid,cadmium,,2015-01-01,Water,0.02
+GardenRoots,&mu;g/L,"32.70,-109.12",centroid,chromium,,2015-01-01,Water,0.04
+GardenRoots,&mu;g/L,"32.70,-109.12",centroid,manganese,,2015-01-01,Water,5.09
+GardenRoots,&mu;g/L,"32.70,-109.12",centroid,nickel,,2015-01-01,Water,1.83
+GardenRoots,&mu;g/L,"32.70,-109.12",centroid,lead,,2015-01-01,Water,0.04
+GardenRoots,&mu;g/L,"32.70,-109.12",centroid,zinc,,2015-01-01,Water,14.0
+GardenRoots,&mu;g/L,"32.70,-109.12",centroid,copper,,2015-01-01,Water,347.62
+GardenRoots,&mu;g/L,"32.60,-109.13",centroid,aluminum,,2015-01-01,Water,2.75
+GardenRoots,&mu;g/L,"32.60,-109.13",centroid,arsenic,,2015-01-01,Water,10.46
+GardenRoots,&mu;g/L,"32.60,-109.13",centroid,chromium,,2015-01-01,Water,18.42
+GardenRoots,&mu;g/L,"32.60,-109.13",centroid,lead,,2015-01-01,Water,0.05
+GardenRoots,&mu;g/L,"32.60,-109.13",centroid,zinc,,2015-01-01,Water,3.04
+GardenRoots,&mu;g/L,"32.60,-109.13",centroid,aluminum,,2015-01-01,Water,3.74
+GardenRoots,&mu;g/L,"32.60,-109.13",centroid,arsenic,,2015-01-01,Water,10.48
+GardenRoots,&mu;g/L,"32.60,-109.13",centroid,chromium,,2015-01-01,Water,19.06
+GardenRoots,&mu;g/L,"32.60,-109.13",centroid,lead,,2015-01-01,Water,0.02
+GardenRoots,&mu;g/L,"32.60,-109.13",centroid,zinc,,2015-01-01,Water,2.85
+GardenRoots,&mu;g/L,"32.98,-109.35",centroid,aluminum,,2015-01-01,Water,0.69
+GardenRoots,&mu;g/L,"32.98,-109.35",centroid,arsenic,,2015-01-01,Water,3.14
+GardenRoots,&mu;g/L,"32.98,-109.35",centroid,chromium,,2015-01-01,Water,0.18
+GardenRoots,&mu;g/L,"32.98,-109.35",centroid,zinc,,2015-01-01,Water,116.59
+GardenRoots,&mu;g/L,"32.98,-109.35",centroid,aluminum,,2015-01-01,Water,0.3
+GardenRoots,&mu;g/L,"32.98,-109.35",centroid,arsenic,,2015-01-01,Water,3.46
+GardenRoots,&mu;g/L,"32.98,-109.35",centroid,cadmium,,2015-01-01,Water,0.01
+GardenRoots,&mu;g/L,"32.98,-109.35",centroid,chromium,,2015-01-01,Water,0.28
+GardenRoots,&mu;g/L,"32.98,-109.35",centroid,lead,,2015-01-01,Water,0.04
+GardenRoots,&mu;g/L,"32.98,-109.35",centroid,zinc,,2015-01-01,Water,4.88
+GardenRoots,&mu;g/L,"32.89,-109.15",centroid,aluminum,,2015-01-01,Water,0.71
+GardenRoots,&mu;g/L,"32.89,-109.15",centroid,arsenic,,2015-01-01,Water,42.3
+GardenRoots,&mu;g/L,"32.89,-109.15",centroid,cadmium,,2015-01-01,Water,0.05
+GardenRoots,&mu;g/L,"32.89,-109.15",centroid,chromium,,2015-01-01,Water,8.36
+GardenRoots,&mu;g/L,"32.89,-109.15",centroid,lead,,2015-01-01,Water,0.92
+GardenRoots,&mu;g/L,"32.89,-109.15",centroid,zinc,,2015-01-01,Water,38.71
+GardenRoots,&mu;g/L,"32.89,-109.15",centroid,aluminum,,2015-01-01,Water,0.23
+GardenRoots,&mu;g/L,"32.89,-109.15",centroid,arsenic,,2015-01-01,Water,1.97
+GardenRoots,&mu;g/L,"32.89,-109.15",centroid,cadmium,,2015-01-01,Water,0.02
+GardenRoots,&mu;g/L,"32.89,-109.15",centroid,chromium,,2015-01-01,Water,8.24
+GardenRoots,&mu;g/L,"32.89,-109.15",centroid,lead,,2015-01-01,Water,0.19
+GardenRoots,&mu;g/L,"32.89,-109.15",centroid,zinc,,2015-01-01,Water,33.17
+GardenRoots,&mu;g/L,"33.05,-109.32",centroid,aluminum,,2015-01-01,Water,47.34
+GardenRoots,&mu;g/L,"33.05,-109.32",centroid,arsenic,,2015-01-01,Water,1.11
+GardenRoots,&mu;g/L,"33.05,-109.32",centroid,cadmium,,2015-01-01,Water,0.03
+GardenRoots,&mu;g/L,"33.05,-109.32",centroid,chromium,,2015-01-01,Water,0.16
+GardenRoots,&mu;g/L,"33.05,-109.32",centroid,lead,,2015-01-01,Water,0.01
+GardenRoots,&mu;g/L,"33.05,-109.32",centroid,zinc,,2015-01-01,Water,2.61
+GardenRoots,&mu;g/L,"33.05,-109.32",centroid,aluminum,,2015-01-01,Water,52.99
+GardenRoots,&mu;g/L,"33.05,-109.32",centroid,arsenic,,2015-01-01,Water,0.96
+GardenRoots,&mu;g/L,"33.05,-109.32",centroid,cadmium,,2015-01-01,Water,0.02
+GardenRoots,&mu;g/L,"33.05,-109.32",centroid,chromium,,2015-01-01,Water,0.16
+GardenRoots,&mu;g/L,"33.05,-109.32",centroid,lead,,2015-01-01,Water,0.02
+GardenRoots,&mu;g/L,"33.05,-109.32",centroid,zinc,,2015-01-01,Water,0.79
+GardenRoots,&mu;g/L,"34.77,-109.60",centroid,aluminum,,2015-01-01,Water,73.4
+GardenRoots,&mu;g/L,"34.77,-109.60",centroid,arsenic,,2015-01-01,Water,0.67
+GardenRoots,&mu;g/L,"34.77,-109.60",centroid,chromium,,2015-01-01,Water,1.03
+GardenRoots,&mu;g/L,"34.77,-109.60",centroid,lead,,2015-01-01,Water,0.02
+GardenRoots,&mu;g/L,"34.77,-109.60",centroid,zinc,,2015-01-01,Water,5.2
+GardenRoots,&mu;g/L,"34.54,-109.33",centroid,aluminum,,2015-01-01,Water,0.23
+GardenRoots,&mu;g/L,"34.54,-109.33",centroid,arsenic,,2015-01-01,Water,3.93
+GardenRoots,&mu;g/L,"34.54,-109.33",centroid,chromium,,2015-01-01,Water,0.01
+GardenRoots,&mu;g/L,"34.54,-109.33",centroid,lead,,2015-01-01,Water,0.15
+GardenRoots,&mu;g/L,"34.54,-109.33",centroid,zinc,,2015-01-01,Water,10.71
+GardenRoots,&mu;g/L,"34.32,-109.27",centroid,aluminum,,2015-01-01,Water,20.94
+GardenRoots,&mu;g/L,"34.32,-109.27",centroid,arsenic,,2015-01-01,Water,0.98
+GardenRoots,&mu;g/L,"34.32,-109.27",centroid,cadmium,,2015-01-01,Water,0.02
+GardenRoots,&mu;g/L,"34.32,-109.27",centroid,chromium,,2015-01-01,Water,0.13
+GardenRoots,&mu;g/L,"34.32,-109.27",centroid,lead,,2015-01-01,Water,0.33
+GardenRoots,&mu;g/L,"34.32,-109.27",centroid,zinc,,2015-01-01,Water,162.09
+GardenRoots,&mu;g/L,"34.77,-109.60",centroid,aluminum,,2015-01-01,Water,3.04
+GardenRoots,&mu;g/L,"34.77,-109.60",centroid,arsenic,,2015-01-01,Water,2.66
+GardenRoots,&mu;g/L,"34.77,-109.60",centroid,lead,,2015-01-01,Water,0.08
+GardenRoots,&mu;g/L,"34.77,-109.60",centroid,zinc,,2015-01-01,Water,7.83
+GardenRoots,&mu;g/L,"34.12,-109.27",centroid,aluminum,,2015-01-01,Water,1.44
+GardenRoots,&mu;g/L,"34.12,-109.27",centroid,arsenic,,2015-01-01,Water,4.05
+GardenRoots,&mu;g/L,"34.12,-109.27",centroid,cadmium,,2015-01-01,Water,0.01
+GardenRoots,&mu;g/L,"34.12,-109.27",centroid,chromium,,2015-01-01,Water,0.09
+GardenRoots,&mu;g/L,"34.12,-109.27",centroid,zinc,,2015-01-01,Water,10.16
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,arsenic,,2011-01-01,Water,12.887
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,barium,,2011-01-01,Water,57.272
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,chromium,,2011-01-01,Water,1.149
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,manganese,,2011-01-01,Water,0.22
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,zinc,,2011-01-01,Water,9.4585
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,copper,,2011-01-01,Water,4.5415
+GardenRoots,&mu;g/L,"34.41,-112.26",centroid,arsenic,,2011-01-01,Water,6.5475
+GardenRoots,&mu;g/L,"34.41,-112.26",centroid,barium,,2011-01-01,Water,17.412
+GardenRoots,&mu;g/L,"34.41,-112.26",centroid,cadmium,,2011-01-01,Water,7.975
+GardenRoots,&mu;g/L,"34.41,-112.26",centroid,manganese,,2011-01-01,Water,0.377
+GardenRoots,&mu;g/L,"34.41,-112.26",centroid,nickel,,2011-01-01,Water,2.942
+GardenRoots,&mu;g/L,"34.41,-112.26",centroid,lead,,2011-01-01,Water,0.575
+GardenRoots,&mu;g/L,"34.41,-112.26",centroid,zinc,,2011-01-01,Water,542.182
+GardenRoots,&mu;g/L,"34.41,-112.26",centroid,copper,,2011-01-01,Water,20.597
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,arsenic,,2011-01-01,Water,9.648
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,barium,,2011-01-01,Water,74.2145
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,chromium,,2011-01-01,Water,1.123
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,nickel,,2011-01-01,Water,0.1165
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,lead,,2011-01-01,Water,0.291
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,zinc,,2011-01-01,Water,9.364
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,copper,,2011-01-01,Water,23.183
+GardenRoots,&mu;g/L,"34.63,-112.09",centroid,arsenic,,2011-01-01,Water,30.3695
+GardenRoots,&mu;g/L,"34.63,-112.09",centroid,barium,,2011-01-01,Water,48.406
+GardenRoots,&mu;g/L,"34.63,-112.09",centroid,manganese,,2011-01-01,Water,3.2175
+GardenRoots,&mu;g/L,"34.63,-112.09",centroid,zinc,,2011-01-01,Water,119.089
+GardenRoots,&mu;g/L,"34.63,-112.09",centroid,copper,,2011-01-01,Water,1.754
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,arsenic,,2011-01-01,Water,11.2062
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,barium,,2011-01-01,Water,35.996
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,chromium,,2011-01-01,Water,0.7514
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,manganese,,2011-01-01,Water,2.513
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,nickel,,2011-01-01,Water,0.17366667
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,zinc,,2011-01-01,Water,65.3948
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,copper,,2011-01-01,Water,12.3758
+GardenRoots,&mu;g/L,"34.63,-112.09",centroid,arsenic,,2011-01-01,Water,2.526
+GardenRoots,&mu;g/L,"34.63,-112.09",centroid,barium,,2011-01-01,Water,78.6008
+GardenRoots,&mu;g/L,"34.63,-112.09",centroid,beryllium,,2011-01-01,Water,0.209
+GardenRoots,&mu;g/L,"34.63,-112.09",centroid,cadmium,,2011-01-01,Water,0.166
+GardenRoots,&mu;g/L,"34.63,-112.09",centroid,manganese,,2011-01-01,Water,0.1664
+GardenRoots,&mu;g/L,"34.63,-112.09",centroid,nickel,,2011-01-01,Water,0.36
+GardenRoots,&mu;g/L,"34.63,-112.09",centroid,lead,,2011-01-01,Water,0.4284
+GardenRoots,&mu;g/L,"34.63,-112.09",centroid,zinc,,2011-01-01,Water,18.0256
+GardenRoots,&mu;g/L,"34.63,-112.09",centroid,copper,,2011-01-01,Water,16.1144
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,arsenic,,2011-01-01,Water,12.439
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,barium,,2011-01-01,Water,37.208
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,cadmium,,2011-01-01,Water,0.069
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,chromium,,2011-01-01,Water,0.8735
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,manganese,,2011-01-01,Water,0.323
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,nickel,,2011-01-01,Water,0.169
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,zinc,,2011-01-01,Water,17.708
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,copper,,2011-01-01,Water,21.573
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,arsenic,,2011-01-01,Water,19.7475
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,barium,,2011-01-01,Water,31.5545
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,cadmium,,2011-01-01,Water,0.075
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,chromium,,2011-01-01,Water,1.696
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,manganese,,2011-01-01,Water,0.097
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,nickel,,2011-01-01,Water,0.1305
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,lead,,2011-01-01,Water,0.325
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,zinc,,2011-01-01,Water,6.7975
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,copper,,2011-01-01,Water,8.9155
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,arsenic,,2011-01-01,Water,4.1115
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,barium,,2011-01-01,Water,9.9775
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,manganese,,2011-01-01,Water,0.8415
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,nickel,,2011-01-01,Water,15.3325
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,zinc,,2011-01-01,Water,3.9835
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,copper,,2011-01-01,Water,0.586
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,arsenic,,2011-01-01,Water,2.8575
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,barium,,2011-01-01,Water,35.712
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,chromium,,2011-01-01,Water,2.1885
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,manganese,,2011-01-01,Water,0.27
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,nickel,,2011-01-01,Water,0.108
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,zinc,,2011-01-01,Water,19.851
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,copper,,2011-01-01,Water,3.0175
+GardenRoots,&mu;g/L,"34.56,-112.32",centroid,arsenic,,2011-01-01,Water,3.507
+GardenRoots,&mu;g/L,"34.56,-112.32",centroid,barium,,2011-01-01,Water,53.705
+GardenRoots,&mu;g/L,"34.56,-112.32",centroid,chromium,,2011-01-01,Water,0.716
+GardenRoots,&mu;g/L,"34.56,-112.32",centroid,zinc,,2011-01-01,Water,0.98
+GardenRoots,&mu;g/L,"34.56,-112.32",centroid,copper,,2011-01-01,Water,12.084
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,arsenic,,2011-01-01,Water,11.836
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,barium,,2011-01-01,Water,37.861
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,chromium,,2011-01-01,Water,2.23
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,manganese,,2011-01-01,Water,0.179
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,nickel,,2011-01-01,Water,0.1865
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,lead,,2011-01-01,Water,0.7
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,zinc,,2011-01-01,Water,36.959
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,copper,,2011-01-01,Water,50.3165
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,arsenic,,2011-01-01,Water,1.404
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,barium,,2011-01-01,Water,104.909
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,manganese,,2011-01-01,Water,0.769
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,nickel,,2011-01-01,Water,1.5555
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,lead,,2011-01-01,Water,0.552
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,zinc,,2011-01-01,Water,44.4
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,copper,,2011-01-01,Water,19.747
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,arsenic,,2011-01-01,Water,3.0212
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,barium,,2011-01-01,Water,93.3154
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,chromium,,2011-01-01,Water,0.7182
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,manganese,,2011-01-01,Water,0.6468
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,nickel,,2011-01-01,Water,4.5814
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,lead,,2011-01-01,Water,0.48566667
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,zinc,,2011-01-01,Water,176.2022
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,copper,,2011-01-01,Water,21.5914
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,arsenic,,2011-01-01,Water,19.465
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,barium,,2011-01-01,Water,22.38
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,cadmium,,2011-01-01,Water,0.1535
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,chromium,,2011-01-01,Water,1.8085
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,manganese,,2011-01-01,Water,0.9595
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,nickel,,2011-01-01,Water,1.2325
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,lead,,2011-01-01,Water,0.54
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,zinc,,2011-01-01,Water,440.0735
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,copper,,2011-01-01,Water,27.474
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,arsenic,,2011-01-01,Water,18.8675
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,barium,,2011-01-01,Water,35.2505
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,cadmium,,2011-01-01,Water,0.064
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,chromium,,2011-01-01,Water,1.282
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,manganese,,2011-01-01,Water,0.152
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,nickel,,2011-01-01,Water,0.8635
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,lead,,2011-01-01,Water,4.855
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,zinc,,2011-01-01,Water,102.354
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,copper,,2011-01-01,Water,146.324
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,arsenic,,2011-01-01,Water,14.6925
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,barium,,2011-01-01,Water,36.9725
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,chromium,,2011-01-01,Water,1.105
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,manganese,,2011-01-01,Water,0.817
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,nickel,,2011-01-01,Water,0.473
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,zinc,,2011-01-01,Water,60.4525
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,copper,,2011-01-01,Water,71.028
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,arsenic,,2011-01-01,Water,20.1795
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,barium,,2011-01-01,Water,67.3625
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,chromium,,2011-01-01,Water,3.0685
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,nickel,,2011-01-01,Water,0.1725
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,lead,,2011-01-01,Water,0.413
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,zinc,,2011-01-01,Water,27.7215
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,copper,,2011-01-01,Water,53.1885
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,arsenic,,2011-01-01,Water,16.2942
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,barium,,2011-01-01,Water,34.9818
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,chromium,,2011-01-01,Water,1.2042
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,manganese,,2011-01-01,Water,0.188
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,zinc,,2011-01-01,Water,7.7648
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,copper,,2011-01-01,Water,1.645
+GardenRoots,&mu;g/L,"34.65,-112.28",centroid,arsenic,,2011-01-01,Water,33.022
+GardenRoots,&mu;g/L,"34.65,-112.28",centroid,barium,,2011-01-01,Water,37.416
+GardenRoots,&mu;g/L,"34.65,-112.28",centroid,chromium,,2011-01-01,Water,23.9195
+GardenRoots,&mu;g/L,"34.65,-112.28",centroid,zinc,,2011-01-01,Water,26.957
+GardenRoots,&mu;g/L,"34.65,-112.28",centroid,copper,,2011-01-01,Water,2.4105
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,arsenic,,2011-01-01,Water,17.7115
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,barium,,2011-01-01,Water,8.0725
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,manganese,,2011-01-01,Water,1.01
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,nickel,,2011-01-01,Water,4.8265
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,lead,,2011-01-01,Water,9.2715
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,zinc,,2011-01-01,Water,130.403
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,copper,,2011-01-01,Water,223.4535
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,arsenic,,2011-01-01,Water,9.1455
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,barium,,2011-01-01,Water,9.616
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,manganese,,2011-01-01,Water,0.9795
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,nickel,,2011-01-01,Water,0.355
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,zinc,,2011-01-01,Water,29.6345
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,copper,,2011-01-01,Water,4.476
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,arsenic,,2011-01-01,Water,137.3718
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,barium,,2011-01-01,Water,65.1168
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,manganese,,2011-01-01,Water,0.6004
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,nickel,,2011-01-01,Water,0.2522
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,lead,,2011-01-01,Water,0.265
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,zinc,,2011-01-01,Water,893.9018
+GardenRoots,&mu;g/L,"34.45,-111.98",centroid,copper,,2011-01-01,Water,42.6478
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,arsenic,,2011-01-01,Water,2029.7544
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,barium,,2011-01-01,Water,47.4428
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,manganese,,2011-01-01,Water,14.3268
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,nickel,,2011-01-01,Water,0.4875
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,lead,,2011-01-01,Water,0.8724
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,zinc,,2011-01-01,Water,94.9358
+GardenRoots,&mu;g/L,"34.50,-112.28",centroid,copper,,2011-01-01,Water,8.5458
+GardenRoots,&mu;g/L,"33.21,-111.66",centroid,aluminum,,2019-01-01,Water,2.799142891
+GardenRoots,&mu;g/L,"33.21,-111.66",centroid,arsenic,,2019-01-01,Water,7.046207332
+GardenRoots,&mu;g/L,"33.21,-111.66",centroid,barium,,2019-01-01,Water,16.87607397
+GardenRoots,&mu;g/L,"33.21,-111.66",centroid,beryllium,,2019-01-01,Water,0.009982036
+GardenRoots,&mu;g/L,"33.21,-111.66",centroid,cadmium,,2019-01-01,Water,0.208722198
+GardenRoots,&mu;g/L,"33.21,-111.66",centroid,chromium,,2019-01-01,Water,3.826711667
+GardenRoots,&mu;g/L,"33.21,-111.66",centroid,manganese,,2019-01-01,Water,6.311356695
+GardenRoots,&mu;g/L,"33.21,-111.66",centroid,nickel,,2019-01-01,Water,2.243824991
+GardenRoots,&mu;g/L,"33.21,-111.66",centroid,lead,,2019-01-01,Water,0.253586089
+GardenRoots,&mu;g/L,"33.21,-111.66",centroid,zinc,,2019-01-01,Water,61.78572758
+GardenRoots,&mu;g/L,"33.21,-111.66",centroid,copper,,2019-01-01,Water,5.744982988
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,aluminum,,2019-01-01,Water,2.866045337
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,arsenic,,2019-01-01,Water,7.657182058
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,barium,,2019-01-01,Water,15.79090752
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,beryllium,,2019-01-01,Water,0.012841721
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,cadmium,,2019-01-01,Water,0.024055693
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,chromium,,2019-01-01,Water,3.880230601
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,manganese,,2019-01-01,Water,0.863295499
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,nickel,,2019-01-01,Water,1.963465641
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,lead,,2019-01-01,Water,0.049888436
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,zinc,,2019-01-01,Water,3.390739452
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,copper,,2019-01-01,Water,9.634063288
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,aluminum,,2019-01-01,Water,2.740664698
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,arsenic,,2019-01-01,Water,7.866389761
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,barium,,2019-01-01,Water,15.89188865
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,beryllium,,2019-01-01,Water,0.015745875
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,cadmium,,2019-01-01,Water,0.02242136
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,chromium,,2019-01-01,Water,3.711585122
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,manganese,,2019-01-01,Water,1.961387206
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,nickel,,2019-01-01,Water,2.03693014
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,lead,,2019-01-01,Water,0.069444503
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,zinc,,2019-01-01,Water,3.916314014
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,copper,,2019-01-01,Water,12.38478623
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,aluminum,,2019-01-01,Water,4.110573621
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,arsenic,,2019-01-01,Water,7.254611406
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,barium,,2019-01-01,Water,15.47750066
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,beryllium,,2019-01-01,Water,0.014473481
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,cadmium,,2019-01-01,Water,0.01
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,chromium,,2019-01-01,Water,2.959128614
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,manganese,,2019-01-01,Water,1.560108654
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,nickel,,2019-01-01,Water,1.905292899
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,lead,,2019-01-01,Water,0.068709748
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,zinc,,2019-01-01,Water,2.796044384
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,copper,,2019-01-01,Water,4.006897767
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,aluminum,,2019-01-01,Water,4.873601003
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,arsenic,,2019-01-01,Water,7.32707008
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,barium,,2019-01-01,Water,16.16495661
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,beryllium,,2019-01-01,Water,0.018618494
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,cadmium,,2019-01-01,Water,0.017730138
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,chromium,,2019-01-01,Water,2.507597484
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,manganese,,2019-01-01,Water,3.798363631
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,nickel,,2019-01-01,Water,2.0145822
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,lead,,2019-01-01,Water,0.066642271
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,zinc,,2019-01-01,Water,7.426712051
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,copper,,2019-01-01,Water,18.52675894
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,aluminum,,2019-01-01,Water,2.838065706
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,arsenic,,2019-01-01,Water,7.384076761
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,barium,,2019-01-01,Water,16.46612039
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,beryllium,,2019-01-01,Water,0.01001673
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,cadmium,,2019-01-01,Water,0.035285617
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,chromium,,2019-01-01,Water,2.731896501
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,manganese,,2019-01-01,Water,1.149206999
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,nickel,,2019-01-01,Water,6.680275671
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,lead,,2019-01-01,Water,0.387628439
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,zinc,,2019-01-01,Water,8.804677457
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,copper,,2019-01-01,Water,19.12210495
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,aluminum,,2019-01-01,Water,4.815194962
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,arsenic,,2019-01-01,Water,45.29029159
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,barium,,2019-01-01,Water,108.9035906
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,beryllium,,2019-01-01,Water,0.017246951
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,cadmium,,2019-01-01,Water,0.059245879
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,chromium,,2019-01-01,Water,0.25
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,manganese,,2019-01-01,Water,624.0509367
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,nickel,,2019-01-01,Water,2.275226725
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,lead,,2019-01-01,Water,0.100576144
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,zinc,,2019-01-01,Water,3.00886631
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,copper,,2019-01-01,Water,2.045927463
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,aluminum,,2019-01-01,Water,2.497127584
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,arsenic,,2019-01-01,Water,5.524940453
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,barium,,2019-01-01,Water,12.43215298
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,beryllium,,2019-01-01,Water,0.005
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,cadmium,,2019-01-01,Water,0.025215656
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,chromium,,2019-01-01,Water,1.703711339
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,manganese,,2019-01-01,Water,1.531847899
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,nickel,,2019-01-01,Water,1.259460193
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,lead,,2019-01-01,Water,0.044605292
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,zinc,,2019-01-01,Water,4.62994176
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,copper,,2019-01-01,Water,2.536219606
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,aluminum,,2019-01-01,Water,2.527916743
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,arsenic,,2019-01-01,Water,7.739232225
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,barium,,2019-01-01,Water,16.11541781
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,beryllium,,2019-01-01,Water,0.009780913
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,cadmium,,2019-01-01,Water,0.016721748
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,chromium,,2019-01-01,Water,2.963998332
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,manganese,,2019-01-01,Water,0.799654822
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,nickel,,2019-01-01,Water,1.911400803
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,lead,,2019-01-01,Water,0.069369708
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,zinc,,2019-01-01,Water,13.86496559
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,copper,,2019-01-01,Water,20.84551905
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,aluminum,,2019-01-01,Water,13.61763452
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,arsenic,,2019-01-01,Water,7.590613826
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,barium,,2019-01-01,Water,15.78694106
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,beryllium,,2019-01-01,Water,0.00972813
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,cadmium,,2019-01-01,Water,0.019991132
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,chromium,,2019-01-01,Water,2.870699353
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,manganese,,2019-01-01,Water,4.140812349
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,nickel,,2019-01-01,Water,2.190163394
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,lead,,2019-01-01,Water,0.237694256
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,zinc,,2019-01-01,Water,18.02654639
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,copper,,2019-01-01,Water,7.769926914
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,aluminum,,2019-01-01,Water,3.003636794
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,arsenic,,2019-01-01,Water,7.981659361
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,barium,,2019-01-01,Water,16.17266158
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,beryllium,,2019-01-01,Water,0.009811195
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,cadmium,,2019-01-01,Water,0.035977018
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,chromium,,2019-01-01,Water,3.389603675
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,manganese,,2019-01-01,Water,2.915365647
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,nickel,,2019-01-01,Water,1.943967669
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,lead,,2019-01-01,Water,0.234573738
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,zinc,,2019-01-01,Water,19.30773376
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,copper,,2019-01-01,Water,5.053412151
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,aluminum,,2019-01-01,Water,1.992522202
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,arsenic,,2019-01-01,Water,8.219508974
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,barium,,2019-01-01,Water,15.36888112
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,beryllium,,2019-01-01,Water,0.009888466
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,cadmium,,2019-01-01,Water,0.021205223
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,chromium,,2019-01-01,Water,3.623220736
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,manganese,,2019-01-01,Water,0.477803133
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,nickel,,2019-01-01,Water,2.127260796
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,lead,,2019-01-01,Water,0.01
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,zinc,,2019-01-01,Water,5.198509984
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,copper,,2019-01-01,Water,125.5350457
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,aluminum,,2019-01-01,Water,1.868469558
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,arsenic,,2019-01-01,Water,8.101152565
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,barium,,2019-01-01,Water,16.39572707
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,beryllium,,2019-01-01,Water,0.005
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,cadmium,,2019-01-01,Water,0.085147377
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,chromium,,2019-01-01,Water,3.430608355
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,manganese,,2019-01-01,Water,0.846191951
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,nickel,,2019-01-01,Water,1.883314682
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,lead,,2019-01-01,Water,0.231602833
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,zinc,,2019-01-01,Water,27.60532126
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,copper,,2019-01-01,Water,11.79032935
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,aluminum,,2019-01-01,Water,4.423395886
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,arsenic,,2019-01-01,Water,8.338105571
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,barium,,2019-01-01,Water,16.67389216
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,beryllium,,2019-01-01,Water,0.00985019
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,cadmium,,2019-01-01,Water,0.018929538
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,chromium,,2019-01-01,Water,3.617169453
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,manganese,,2019-01-01,Water,0.941985213
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,nickel,,2019-01-01,Water,2.025943771
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,lead,,2019-01-01,Water,0.368257057
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,zinc,,2019-01-01,Water,5.953195594
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,copper,,2019-01-01,Water,16.37205327
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,aluminum,,2019-01-01,Water,3.042546692
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,arsenic,,2019-01-01,Water,8.249902979
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,barium,,2019-01-01,Water,15.86006868
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,beryllium,,2019-01-01,Water,0.012884947
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,cadmium,,2019-01-01,Water,0.025996766
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,chromium,,2019-01-01,Water,3.69203756
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,manganese,,2019-01-01,Water,1.297128539
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,nickel,,2019-01-01,Water,2.464511667
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,lead,,2019-01-01,Water,0.077486461
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,zinc,,2019-01-01,Water,4.482673789
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,copper,,2019-01-01,Water,47.7354082
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,aluminum,,2019-01-01,Water,3.576369512
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,arsenic,,2019-01-01,Water,8.067471943
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,barium,,2019-01-01,Water,16.30372878
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,beryllium,,2019-01-01,Water,0.012803799
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,cadmium,,2019-01-01,Water,0.023419336
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,chromium,,2019-01-01,Water,3.611767709
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,manganese,,2019-01-01,Water,0.890691433
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,nickel,,2019-01-01,Water,1.813685503
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,lead,,2019-01-01,Water,0.036097275
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,zinc,,2019-01-01,Water,5.718664114
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,copper,,2019-01-01,Water,3.324488841
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,aluminum,,2019-01-01,Field Blank,3.862109093
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,arsenic,,2019-01-01,Field Blank,1.407538475
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,beryllium,,2019-01-01,Field Blank,0.005
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,cadmium,,2019-01-01,Field Blank,0.01
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,chromium,,2019-01-01,Field Blank,1.460274563
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,manganese,,2019-01-01,Field Blank,0.043916069
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,nickel,,2019-01-01,Field Blank,0.10384481
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,lead,,2019-01-01,Field Blank,0.01
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,zinc,,2019-01-01,Field Blank,0.314203052
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,copper,,2019-01-01,Field Blank,0.135279976
+GardenRoots,&mu;g/L,"33.21,-111.66",centroid,aluminum,,2019-01-01,Field Blank,10.55518814
+GardenRoots,&mu;g/L,"33.21,-111.66",centroid,arsenic,,2019-01-01,Field Blank,1.383968851
+GardenRoots,&mu;g/L,"33.21,-111.66",centroid,beryllium,,2019-01-01,Field Blank,0.012752089
+GardenRoots,&mu;g/L,"33.21,-111.66",centroid,cadmium,,2019-01-01,Field Blank,0.01
+GardenRoots,&mu;g/L,"33.21,-111.66",centroid,chromium,,2019-01-01,Field Blank,1.440899682
+GardenRoots,&mu;g/L,"33.21,-111.66",centroid,manganese,,2019-01-01,Field Blank,0.005
+GardenRoots,&mu;g/L,"33.21,-111.66",centroid,nickel,,2019-01-01,Field Blank,0.061554178
+GardenRoots,&mu;g/L,"33.21,-111.66",centroid,lead,,2019-01-01,Field Blank,0.01
+GardenRoots,&mu;g/L,"33.21,-111.66",centroid,zinc,,2019-01-01,Field Blank,0.655989853
+GardenRoots,&mu;g/L,"33.21,-111.66",centroid,copper,,2019-01-01,Field Blank,0.530557946
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,aluminum,,2019-01-01,Field Blank,1.364192799
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,arsenic,,2019-01-01,Field Blank,1.493959789
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,beryllium,,2019-01-01,Field Blank,0.005
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,cadmium,,2019-01-01,Field Blank,0.01
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,chromium,,2019-01-01,Field Blank,1.581924469
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,manganese,,2019-01-01,Field Blank,0.021072865
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,nickel,,2019-01-01,Field Blank,0.462472732
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,lead,,2019-01-01,Field Blank,0.01
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,zinc,,2019-01-01,Field Blank,1.556061243
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,copper,,2019-01-01,Field Blank,0.119844805
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,aluminum,,2019-01-01,Field Blank,4.526555019
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,arsenic,,2019-01-01,Field Blank,1.46040899
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,barium,,2019-01-01,Field Blank,0.056161364
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,beryllium,,2019-01-01,Field Blank,0.005
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,cadmium,,2019-01-01,Field Blank,0.01
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,chromium,,2019-01-01,Field Blank,1.884418408
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,manganese,,2019-01-01,Field Blank,0.038603571
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,nickel,,2019-01-01,Field Blank,10.01395537
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,lead,,2019-01-01,Field Blank,0.01
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,zinc,,2019-01-01,Field Blank,1.339295853
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,copper,,2019-01-01,Field Blank,0.271986298
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,aluminum,,2019-01-01,Field Blank,1.804867074
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,arsenic,,2019-01-01,Field Blank,1.549030561
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,beryllium,,2019-01-01,Field Blank,0.015661915
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,cadmium,,2019-01-01,Field Blank,0.01
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,chromium,,2019-01-01,Field Blank,1.664049129
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,manganese,,2019-01-01,Field Blank,0.02927076
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,nickel,,2019-01-01,Field Blank,0.350974997
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,lead,,2019-01-01,Field Blank,0.559315984
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,zinc,,2019-01-01,Field Blank,0.620538629
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,copper,,2019-01-01,Field Blank,0.111050819
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,aluminum,,2019-01-01,Field Blank,1.151528913
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,arsenic,,2019-01-01,Field Blank,1.229581639
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,beryllium,,2019-01-01,Field Blank,0.005
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,cadmium,,2019-01-01,Field Blank,0.01
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,chromium,,2019-01-01,Field Blank,1.404657463
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,manganese,,2019-01-01,Field Blank,0.012302372
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,nickel,,2019-01-01,Field Blank,0.643346839
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,lead,,2019-01-01,Field Blank,0.01
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,zinc,,2019-01-01,Field Blank,1.082718926
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,copper,,2019-01-01,Field Blank,0.089742606
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,aluminum,,2019-01-01,Field Blank,1.807868092
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,arsenic,,2019-01-01,Field Blank,1.203282354
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,beryllium,,2019-01-01,Field Blank,0.005
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,cadmium,,2019-01-01,Field Blank,0.016875008
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,chromium,,2019-01-01,Field Blank,1.685481225
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,manganese,,2019-01-01,Field Blank,0.005
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,nickel,,2019-01-01,Field Blank,0.130476469
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,lead,,2019-01-01,Field Blank,0.01
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,zinc,,2019-01-01,Field Blank,0.182935745
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,copper,,2019-01-01,Field Blank,0.199133866
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,aluminum,,2019-01-01,Field Blank,1.672355158
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,arsenic,,2019-01-01,Field Blank,1.274914551
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,beryllium,,2019-01-01,Field Blank,0.009844799
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,cadmium,,2019-01-01,Field Blank,0.01
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,chromium,,2019-01-01,Field Blank,2.030617066
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,manganese,,2019-01-01,Field Blank,0.019826401
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,nickel,,2019-01-01,Field Blank,0.054889589
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,lead,,2019-01-01,Field Blank,0.01
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,zinc,,2019-01-01,Field Blank,1.163809641
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,copper,,2019-01-01,Field Blank,0.142122247
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,aluminum,,2019-01-01,Field Blank,1.109819525
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,arsenic,,2019-01-01,Field Blank,1.077667104
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,beryllium,,2019-01-01,Field Blank,0.005
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,cadmium,,2019-01-01,Field Blank,0.01
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,chromium,,2019-01-01,Field Blank,1.186857414
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,manganese,,2019-01-01,Field Blank,0.0238504
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,nickel,,2019-01-01,Field Blank,0.072134084
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,lead,,2019-01-01,Field Blank,0.01
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,zinc,,2019-01-01,Field Blank,0.272362909
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,copper,,2019-01-01,Field Blank,0.125359014
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,aluminum,,2019-01-01,Field Blank,4.323836847
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,arsenic,,2019-01-01,Field Blank,1.020074376
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,beryllium,,2019-01-01,Field Blank,0.009887304
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,cadmium,,2019-01-01,Field Blank,0.01
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,chromium,,2019-01-01,Field Blank,1.330513176
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,manganese,,2019-01-01,Field Blank,0.014318757
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,nickel,,2019-01-01,Field Blank,0.041393301
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,lead,,2019-01-01,Field Blank,0.01
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,zinc,,2019-01-01,Field Blank,0.179106578
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,copper,,2019-01-01,Field Blank,0.1811139
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,aluminum,,2019-01-01,Field Blank,99.40923279
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,arsenic,,2019-01-01,Field Blank,1.295302193
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,beryllium,,2019-01-01,Field Blank,0.005
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,cadmium,,2019-01-01,Field Blank,0.01
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,chromium,,2019-01-01,Field Blank,1.666697671
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,manganese,,2019-01-01,Field Blank,0.024585961
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,nickel,,2019-01-01,Field Blank,0.138737335
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,lead,,2019-01-01,Field Blank,0.01
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,zinc,,2019-01-01,Field Blank,0.953336357
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,copper,,2019-01-01,Field Blank,0.186976719
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,aluminum,,2019-01-01,Field Blank,3.63842268
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,arsenic,,2019-01-01,Field Blank,0.954268855
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,barium,,2019-01-01,Field Blank,0.61952943
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,beryllium,,2019-01-01,Field Blank,0.005
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,cadmium,,2019-01-01,Field Blank,0.01
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,chromium,,2019-01-01,Field Blank,1.11771378
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,manganese,,2019-01-01,Field Blank,0.251555846
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,nickel,,2019-01-01,Field Blank,0.106450529
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,lead,,2019-01-01,Field Blank,0.01
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,zinc,,2019-01-01,Field Blank,0.999273294
+GardenRoots,&mu;g/L,"33.28,-111.11",centroid,copper,,2019-01-01,Field Blank,0.214294848
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,aluminum,,2019-01-01,Field Blank,2.287226436
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,arsenic,,2019-01-01,Field Blank,1.226084279
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,beryllium,,2019-01-01,Field Blank,0.005
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,cadmium,,2019-01-01,Field Blank,0.01
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,chromium,,2019-01-01,Field Blank,1.308870832
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,manganese,,2019-01-01,Field Blank,0.005
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,nickel,,2019-01-01,Field Blank,0.055543529
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,lead,,2019-01-01,Field Blank,0.01
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,zinc,,2019-01-01,Field Blank,0.279458072
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,copper,,2019-01-01,Field Blank,0.071156248
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,aluminum,,2019-01-01,Field Blank,0.775096504
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,arsenic,,2019-01-01,Field Blank,1.096936665
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,beryllium,,2019-01-01,Field Blank,0.012950567
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,cadmium,,2019-01-01,Field Blank,0.01
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,chromium,,2019-01-01,Field Blank,1.24672365
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,manganese,,2019-01-01,Field Blank,0.026802316
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,nickel,,2019-01-01,Field Blank,0.036221458
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,lead,,2019-01-01,Field Blank,0.01
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,zinc,,2019-01-01,Field Blank,0.811661572
+GardenRoots,&mu;g/L,"33.29,-111.10",centroid,copper,,2019-01-01,Field Blank,0.5712746
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,aluminum,,2019-01-01,Field Blank,1.550938365
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,arsenic,,2019-01-01,Field Blank,1.279756182
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,beryllium,,2019-01-01,Field Blank,0.005
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,cadmium,,2019-01-01,Field Blank,0.01
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,chromium,,2019-01-01,Field Blank,1.710271421
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,manganese,,2019-01-01,Field Blank,0.03044736
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,nickel,,2019-01-01,Field Blank,0.202016991
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,lead,,2019-01-01,Field Blank,0.01
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,zinc,,2019-01-01,Field Blank,0.06
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,copper,,2019-01-01,Field Blank,0.069511907
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,aluminum,,2019-01-01,Field Blank,0.424207002
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,arsenic,,2019-01-01,Field Blank,1.038277496
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,beryllium,,2019-01-01,Field Blank,0.018858829
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,cadmium,,2019-01-01,Field Blank,0.01
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,chromium,,2019-01-01,Field Blank,1.154549182
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,manganese,,2019-01-01,Field Blank,0.021340008
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,nickel,,2019-01-01,Field Blank,0.047174911
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,lead,,2019-01-01,Field Blank,0.01
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,zinc,,2019-01-01,Field Blank,0.06
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,copper,,2019-01-01,Field Blank,0.036555982
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,aluminum,,2019-01-01,Field Blank,1.473467971
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,arsenic,,2019-01-01,Field Blank,1.380813682
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,beryllium,,2019-01-01,Field Blank,0.009940944
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,cadmium,,2019-01-01,Field Blank,0.01
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,chromium,,2019-01-01,Field Blank,1.64532026
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,manganese,,2019-01-01,Field Blank,0.10987928
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,nickel,,2019-01-01,Field Blank,0.114661466
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,lead,,2019-01-01,Field Blank,0.01
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,zinc,,2019-01-01,Field Blank,0.30973322
+GardenRoots,&mu;g/L,"33.29,-111.11",centroid,copper,,2019-01-01,Field Blank,0.072174237
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,aluminum,,2019-01-01,Field Blank,1.613133403
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,arsenic,,2019-01-01,Field Blank,1.20191725
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,beryllium,,2019-01-01,Field Blank,0.009829705
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,cadmium,,2019-01-01,Field Blank,0.01
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,chromium,,2019-01-01,Field Blank,1.249283329
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,manganese,,2019-01-01,Field Blank,0.005
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,nickel,,2019-01-01,Field Blank,0.117497503
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,lead,,2019-01-01,Field Blank,0.031553015
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,zinc,,2019-01-01,Field Blank,0.777271632
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,copper,,2019-01-01,Field Blank,0.131915868
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,beryllium,,2019-01-01,Field Blank,0.005
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,cadmium,,2019-01-01,Field Blank,0.01
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,chromium,,2019-01-01,Field Blank,0.25
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,manganese,,2019-01-01,Field Blank,0.005
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,nickel,,2019-01-01,Field Blank,0.01
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,lead,,2019-01-01,Field Blank,0.01
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,zinc,,2019-01-01,Field Blank,0.06
+GardenRoots,&mu;g/L,"33.28,-111.08",centroid,copper,,2019-01-01,Field Blank,0.01
