@@ -11,6 +11,7 @@ To retrieve data:
 
 https://www.waterqualitydata.us/portal/#countrycode=US&statecode=US%3A04&countycode=US%3A04%3A001&countycode=US%3A04%3A003&countycode=US%3A04%3A011&countycode=US%3A04%3A025&sampleMedia=water&sampleMedia=Water&characteristicType=Inorganics%2C%20Major%2C%20Metals&characteristicType=Inorganics%2C%20Minor%2C%20Metals&mimeType=csv
 
+
 ## Data
 
 Data looks like this:
@@ -95,6 +96,49 @@ TaxonomistAccreditationIndicator               :
 TaxonomistAccreditationAuthorityName           : 
 LabSamplePreparationUrl                        : 
 ProviderName                                   : NWIS
+```
+
+To get stations.csv, change "data to download" to "Site data only":
+
+```
+$ csvchk station.csv
+// ****** Record 1 ****** //
+OrganizationIdentifier                          : USGS-AZ
+OrganizationFormalName                          : USGS Arizona Water Science Center
+MonitoringLocationIdentifier                    : AZ014-312040109153501
+MonitoringLocationName                          : D-24-30 14BDA2 UNSURV
+MonitoringLocationTypeName                      : Well
+MonitoringLocationDescriptionText               :
+HUCEightDigitCode                               : 15080302
+DrainageAreaMeasure/MeasureValue                :
+DrainageAreaMeasure/MeasureUnitCode             :
+ContributingDrainageAreaMeasure/MeasureValue    :
+ContributingDrainageAreaMeasure/MeasureUnitCode :
+LatitudeMeasure                                 : 31.34454829000000
+LongitudeMeasure                                : -109.2603377000000
+SourceMapScaleNumeric                           : 24000
+HorizontalAccuracyMeasure/MeasureValue          : 5
+HorizontalAccuracyMeasure/MeasureUnitCode       : seconds
+HorizontalCollectionMethodName                  : Interpolated from MAP.
+HorizontalCoordinateReferenceSystemDatumName    : NAD83
+VerticalMeasure/MeasureValue                    : 3742.
+VerticalMeasure/MeasureUnitCode                 : feet
+VerticalAccuracyMeasure/MeasureValue            : 5
+VerticalAccuracyMeasure/MeasureUnitCode         : feet
+VerticalCollectionMethodName                    : Interpolated from topographic map.
+VerticalCoordinateReferenceSystemDatumName      : NGVD29
+CountryCode                                     : US
+StateCode                                       : 04
+CountyCode                                      : 003
+AquiferName                                     :
+FormationTypeText                               :
+AquiferTypeName                                 :
+ConstructionDateText                            : 19910620
+WellDepthMeasure/MeasureValue                   : 580
+WellDepthMeasure/MeasureUnitCode                : ft
+WellHoleDepthMeasure/MeasureValue               : 580
+WellHoleDepthMeasure/MeasureUnitCode            : ft
+ProviderName                                    : NWIS
 ```
 
 ## Measurements
