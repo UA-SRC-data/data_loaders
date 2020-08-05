@@ -2,4 +2,4 @@
 
 Just working out some ideas.
 
-/iplant/home/rwalls/ua-src-data
+Cyverse path: `/iplant/home/rwalls/ua-src-data`
