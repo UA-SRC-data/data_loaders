@@ -11,6 +11,7 @@ import datetime
 import csv
 import re
 import sys
+import recordparser
 from pprint import pprint
 from typing import TextIO, NamedTuple, Dict, Tuple
 
@@ -21,6 +22,14 @@ class Args(NamedTuple):
     outfile: TextIO
     medium: str
     source: str
+
+
+class Record(NamedTuple):
+    variable: str
+    location_name: str
+    collected_on: str
+    value: float
+    unit: str
 
 
 # --------------------------------------------------
@@ -91,42 +100,45 @@ def main() -> None:
                             ])
     writer.writeheader()
 
+    mapping = {
+        'CharacteristicName': 'variable',
+        'MonitoringLocationIdentifier': 'location_name',
+        'ActivityStartDate': 'collected_on',
+        'ResultMeasureValue': 'value',
+        'ResultMeasure/MeasureUnitCode': 'unit',
+    }
+
+    parser = recordparser.parse(fh=args.file,
+                                cls=Record,
+                                delimiter=',',
+                                mapping=mapping)
+
     num_exported = 0
-    for i, rec in enumerate(reader, start=1):
-        val = None
-        try:
-            val = float(rec['ResultMeasureValue'])
-        except Exception:
-            pass
-
-        if val is None:
-            continue
-
-        dt = dateparser.parse(rec['ActivityStartDate'])
+    for i, rec in enumerate(parser, start=1):
+        dt = dateparser.parse(rec.collected_on)
         if dt.year != 2018:
             continue
 
-        loc_id = rec.get('MonitoringLocationIdentifier')
-        if not loc_id:
+        if not rec.location_name:
             continue
 
-        if loc_id not in stations:
-            print('Missing location "{loc_id}"', file=sys.stderr)
+        if rec.location_name not in stations:
+            print('Missing location "{rec.location_name}"', file=sys.stderr)
             continue
 
-        variable = rec.get('CharacteristicName')
+        collected_on = '{:02d}-{:02d}-{:02d}'.format(dt.year, dt.month, dt.day)
 
         num_exported += 1
         writer.writerow({
             'source': args.source,
-            'unit': rec.get('ResultMeasure/MeasureUnitCode', 'NA'),
-            'location_name': ','.join(stations.get(loc_id)),
+            'unit': rec.unit or 'NA',
+            'location_name': ','.join(stations.get(rec.location_name)),
             'location_type': 'point',
-            'variable_name': variable,
-            'variable_desc': f'Concentration of {variable} in water',
+            'variable_name': rec.variable,
+            'variable_desc': f'Concentration of {rec.variable} in water',
             'medium': args.medium,
-            'collected_on': '{}-{}-{}'.format(dt.year, dt.month, dt.day),
-            'value': str(val)
+            'collected_on': collected_on,
+            'value': str(rec.value)
         })
 
     print(f'Done, exported {num_exported:,} to "{args.outfile.name}"')
