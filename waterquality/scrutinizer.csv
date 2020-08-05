@@ -1,242 +1,915 @@
 source,unit,location_name,location_type,variable_name,variable_desc,collected_on,medium,value
-USGS Arizona Water Science Center,mg/l,"35.13658330000000,-112.5417222000000",point,Calcium,Concentration of Calcium in water,2018-6-25,water,151.0
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Calcium,Concentration of Calcium in water,2018-7-19,water,39.3
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Calcium,Concentration of Calcium in water,2018-9-27,water,41.2
+USGS Arizona Water Science Center,mg/l,"35.13658330000000,-112.5417222000000",point,Calcium,Concentration of Calcium in water,2018-06-25,water,151.0
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Calcium,Concentration of Calcium in water,2018-07-19,water,39.3
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Calcium,Concentration of Calcium in water,2018-09-27,water,41.2
 USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Calcium,Concentration of Calcium in water,2018-10-31,water,43.0
 USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Calcium,Concentration of Calcium in water,2018-10-15,water,43.0
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Calcium,Concentration of Calcium in water,2018-4-13,water,43.7
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Calcium,Concentration of Calcium in water,2018-04-13,water,43.7
 USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Calcium,Concentration of Calcium in water,2018-11-27,water,44.0
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Calcium,Concentration of Calcium in water,2018-3-8,water,44.3
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Calcium,Concentration of Calcium in water,2018-03-08,water,44.3
 USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Calcium,Concentration of Calcium in water,2018-12-11,water,44.4
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Calcium,Concentration of Calcium in water,2018-2-22,water,44.6
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Calcium,Concentration of Calcium in water,2018-1-25,water,45.3
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Calcium,Concentration of Calcium in water,2018-2-8,water,45.4
-USGS Arizona Water Science Center,mg/l,"34.97926110000000,-112.6350306000000",point,Calcium,Concentration of Calcium in water,2018-6-13,water,51.0
-USGS Arizona Water Science Center,mg/l,"34.92841667000000,-112.3982222000000",point,Calcium,Concentration of Calcium in water,2018-4-29,water,52.1
-USGS Arizona Water Science Center,mg/l,"34.86694444000000,-112.4240278000000",point,Calcium,Concentration of Calcium in water,2018-6-11,water,58.1
-USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Calcium,Concentration of Calcium in water,2018-8-14,water,58.4
-USGS Arizona Water Science Center,mg/l,"34.89183330000000,-112.4102222000000",point,Calcium,Concentration of Calcium in water,2018-2-21,water,58.4
-USGS Arizona Water Science Center,mg/l,"34.86530556000000,-112.4296667000000",point,Calcium,Concentration of Calcium in water,2018-6-26,water,65.1
-USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Calcium,Concentration of Calcium in water,2018-8-14,water,65.1
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Magnesium,Concentration of Magnesium in water,2018-7-19,water,22.6
-USGS Arizona Water Science Center,mg/l,"34.86530556000000,-112.4296667000000",point,Magnesium,Concentration of Magnesium in water,2018-6-26,water,22.9
-USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Magnesium,Concentration of Magnesium in water,2018-8-14,water,23.3
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Magnesium,Concentration of Magnesium in water,2018-2-22,water,24.1
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Magnesium,Concentration of Magnesium in water,2018-3-8,water,24.2
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Magnesium,Concentration of Magnesium in water,2018-1-25,water,24.3
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Calcium,Concentration of Calcium in water,2018-02-22,water,44.6
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Calcium,Concentration of Calcium in water,2018-01-25,water,45.3
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Calcium,Concentration of Calcium in water,2018-02-08,water,45.4
+USGS Arizona Water Science Center,mg/l,"34.97926110000000,-112.6350306000000",point,Calcium,Concentration of Calcium in water,2018-06-13,water,51.0
+USGS Arizona Water Science Center,mg/l,"34.92841667000000,-112.3982222000000",point,Calcium,Concentration of Calcium in water,2018-04-29,water,52.1
+USGS Arizona Water Science Center,mg/l,"34.86694444000000,-112.4240278000000",point,Calcium,Concentration of Calcium in water,2018-06-11,water,58.1
+USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Calcium,Concentration of Calcium in water,2018-08-14,water,58.4
+USGS Arizona Water Science Center,mg/l,"34.89183330000000,-112.4102222000000",point,Calcium,Concentration of Calcium in water,2018-02-21,water,58.4
+USGS Arizona Water Science Center,mg/l,"34.86530556000000,-112.4296667000000",point,Calcium,Concentration of Calcium in water,2018-06-26,water,65.1
+USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Calcium,Concentration of Calcium in water,2018-08-14,water,65.1
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Magnesium,Concentration of Magnesium in water,2018-07-19,water,22.6
+USGS Arizona Water Science Center,mg/l,"34.86530556000000,-112.4296667000000",point,Magnesium,Concentration of Magnesium in water,2018-06-26,water,22.9
+USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Magnesium,Concentration of Magnesium in water,2018-08-14,water,23.3
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Magnesium,Concentration of Magnesium in water,2018-02-22,water,24.1
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Magnesium,Concentration of Magnesium in water,2018-03-08,water,24.2
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Magnesium,Concentration of Magnesium in water,2018-01-25,water,24.3
 USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Magnesium,Concentration of Magnesium in water,2018-10-15,water,24.3
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Magnesium,Concentration of Magnesium in water,2018-9-27,water,24.5
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Magnesium,Concentration of Magnesium in water,2018-2-8,water,24.5
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Magnesium,Concentration of Magnesium in water,2018-09-27,water,24.5
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Magnesium,Concentration of Magnesium in water,2018-02-08,water,24.5
 USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Magnesium,Concentration of Magnesium in water,2018-10-31,water,24.7
 USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Magnesium,Concentration of Magnesium in water,2018-11-27,water,25.1
 USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Magnesium,Concentration of Magnesium in water,2018-12-11,water,25.2
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Magnesium,Concentration of Magnesium in water,2018-4-13,water,26.7
-USGS Arizona Water Science Center,mg/l,"34.92841667000000,-112.3982222000000",point,Magnesium,Concentration of Magnesium in water,2018-4-29,water,27.0
-USGS Arizona Water Science Center,mg/l,"34.97926110000000,-112.6350306000000",point,Magnesium,Concentration of Magnesium in water,2018-6-13,water,28.4
-USGS Arizona Water Science Center,mg/l,"34.86694444000000,-112.4240278000000",point,Magnesium,Concentration of Magnesium in water,2018-6-11,water,28.6
-USGS Arizona Water Science Center,mg/l,"34.89183330000000,-112.4102222000000",point,Magnesium,Concentration of Magnesium in water,2018-2-21,water,29.6
-USGS Arizona Water Science Center,mg/l,"35.13658330000000,-112.5417222000000",point,Magnesium,Concentration of Magnesium in water,2018-6-25,water,79.4
-USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Magnesium,Concentration of Magnesium in water,2018-8-14,water,24.8
-USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Sodium,Concentration of Sodium in water,2018-8-14,water,24.1
-USGS Arizona Water Science Center,mg/l,"34.97926110000000,-112.6350306000000",point,Sodium,Concentration of Sodium in water,2018-6-13,water,335.0
-USGS Arizona Water Science Center,mg/l,"34.86530556000000,-112.4296667000000",point,Sodium,Concentration of Sodium in water,2018-6-26,water,37.8
-USGS Arizona Water Science Center,mg/l,"35.13658330000000,-112.5417222000000",point,Sodium,Concentration of Sodium in water,2018-6-25,water,518.0
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Sodium,Concentration of Sodium in water,2018-7-19,water,6.04
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Magnesium,Concentration of Magnesium in water,2018-04-13,water,26.7
+USGS Arizona Water Science Center,mg/l,"34.92841667000000,-112.3982222000000",point,Magnesium,Concentration of Magnesium in water,2018-04-29,water,27.0
+USGS Arizona Water Science Center,mg/l,"34.97926110000000,-112.6350306000000",point,Magnesium,Concentration of Magnesium in water,2018-06-13,water,28.4
+USGS Arizona Water Science Center,mg/l,"34.86694444000000,-112.4240278000000",point,Magnesium,Concentration of Magnesium in water,2018-06-11,water,28.6
+USGS Arizona Water Science Center,mg/l,"34.89183330000000,-112.4102222000000",point,Magnesium,Concentration of Magnesium in water,2018-02-21,water,29.6
+USGS Arizona Water Science Center,mg/l,"35.13658330000000,-112.5417222000000",point,Magnesium,Concentration of Magnesium in water,2018-06-25,water,79.4
+USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Magnesium,Concentration of Magnesium in water,2018-08-14,water,24.8
+USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Sodium,Concentration of Sodium in water,2018-08-14,water,24.1
+USGS Arizona Water Science Center,mg/l,"34.97926110000000,-112.6350306000000",point,Sodium,Concentration of Sodium in water,2018-06-13,water,335.0
+USGS Arizona Water Science Center,mg/l,"34.86530556000000,-112.4296667000000",point,Sodium,Concentration of Sodium in water,2018-06-26,water,37.8
+USGS Arizona Water Science Center,mg/l,"35.13658330000000,-112.5417222000000",point,Sodium,Concentration of Sodium in water,2018-06-25,water,518.0
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Sodium,Concentration of Sodium in water,2018-07-19,water,6.04
 USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Sodium,Concentration of Sodium in water,2018-11-27,water,6.05
 USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Sodium,Concentration of Sodium in water,2018-12-11,water,6.07
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Sodium,Concentration of Sodium in water,2018-2-8,water,6.22
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Sodium,Concentration of Sodium in water,2018-9-27,water,6.25
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Sodium,Concentration of Sodium in water,2018-2-22,water,6.26
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Sodium,Concentration of Sodium in water,2018-02-08,water,6.22
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Sodium,Concentration of Sodium in water,2018-09-27,water,6.25
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Sodium,Concentration of Sodium in water,2018-02-22,water,6.26
 USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Sodium,Concentration of Sodium in water,2018-10-31,water,6.26
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Sodium,Concentration of Sodium in water,2018-3-8,water,6.41
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Sodium,Concentration of Sodium in water,2018-4-13,water,6.46
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Sodium,Concentration of Sodium in water,2018-03-08,water,6.41
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Sodium,Concentration of Sodium in water,2018-04-13,water,6.46
 USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Sodium,Concentration of Sodium in water,2018-10-15,water,6.46
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Sodium,Concentration of Sodium in water,2018-1-25,water,6.48
-USGS Arizona Water Science Center,mg/l,"34.92841667000000,-112.3982222000000",point,Sodium,Concentration of Sodium in water,2018-4-29,water,71.1
-USGS Arizona Water Science Center,mg/l,"34.86694444000000,-112.4240278000000",point,Sodium,Concentration of Sodium in water,2018-6-11,water,81.1
-USGS Arizona Water Science Center,mg/l,"34.89183330000000,-112.4102222000000",point,Sodium,Concentration of Sodium in water,2018-2-21,water,89.2
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Sodium,Concentration of Sodium in water,2018-01-25,water,6.48
+USGS Arizona Water Science Center,mg/l,"34.92841667000000,-112.3982222000000",point,Sodium,Concentration of Sodium in water,2018-04-29,water,71.1
+USGS Arizona Water Science Center,mg/l,"34.86694444000000,-112.4240278000000",point,Sodium,Concentration of Sodium in water,2018-06-11,water,81.1
+USGS Arizona Water Science Center,mg/l,"34.89183330000000,-112.4102222000000",point,Sodium,Concentration of Sodium in water,2018-02-21,water,89.2
 USGS Arizona Water Science Center,None,"34.53863606000000,-111.6940356000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-11-27,water,0.18
-USGS Arizona Water Science Center,None,"34.53863606000000,-111.6940356000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-2-8,water,0.18
+USGS Arizona Water Science Center,None,"34.53863606000000,-111.6940356000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-02-08,water,0.18
 USGS Arizona Water Science Center,None,"34.53863606000000,-111.6940356000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-12-11,water,0.18
 USGS Arizona Water Science Center,None,"34.53863606000000,-111.6940356000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-10-31,water,0.19
-USGS Arizona Water Science Center,None,"34.53863606000000,-111.6940356000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-1-25,water,0.19
-USGS Arizona Water Science Center,None,"34.53863606000000,-111.6940356000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-3-8,water,0.19
-USGS Arizona Water Science Center,None,"34.53863606000000,-111.6940356000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-7-19,water,0.19
-USGS Arizona Water Science Center,None,"34.53863606000000,-111.6940356000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-9-27,water,0.19
-USGS Arizona Water Science Center,None,"34.53863606000000,-111.6940356000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-4-13,water,0.19
-USGS Arizona Water Science Center,None,"34.53863606000000,-111.6940356000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-2-22,water,0.19
+USGS Arizona Water Science Center,None,"34.53863606000000,-111.6940356000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-01-25,water,0.19
+USGS Arizona Water Science Center,None,"34.53863606000000,-111.6940356000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-03-08,water,0.19
+USGS Arizona Water Science Center,None,"34.53863606000000,-111.6940356000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-07-19,water,0.19
+USGS Arizona Water Science Center,None,"34.53863606000000,-111.6940356000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-09-27,water,0.19
+USGS Arizona Water Science Center,None,"34.53863606000000,-111.6940356000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-04-13,water,0.19
+USGS Arizona Water Science Center,None,"34.53863606000000,-111.6940356000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-02-22,water,0.19
 USGS Arizona Water Science Center,None,"34.53863606000000,-111.6940356000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-10-15,water,0.2
-USGS Arizona Water Science Center,None,"34.85224160000000,-112.0659940000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-8-14,water,0.68
-USGS Arizona Water Science Center,None,"34.86530556000000,-112.4296667000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-6-26,water,1.03
-USGS Arizona Water Science Center,None,"34.92841667000000,-112.3982222000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-4-29,water,1.99
-USGS Arizona Water Science Center,None,"34.86694444000000,-112.4240278000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-6-11,water,2.18
-USGS Arizona Water Science Center,None,"34.89183330000000,-112.4102222000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-2-21,water,2.37
-USGS Arizona Water Science Center,None,"35.13658330000000,-112.5417222000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-6-25,water,8.5
-USGS Arizona Water Science Center,None,"34.97926110000000,-112.6350306000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-6-13,water,9.34
-USGS Arizona Water Science Center,%,"34.85224160000000,-112.0659940000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-8-14,water,18.0
-USGS Arizona Water Science Center,%,"34.86530556000000,-112.4296667000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-6-26,water,24.0
-USGS Arizona Water Science Center,%,"34.92841667000000,-112.3982222000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-4-29,water,39.0
-USGS Arizona Water Science Center,%,"34.86694444000000,-112.4240278000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-6-11,water,40.0
-USGS Arizona Water Science Center,%,"34.89183330000000,-112.4102222000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-2-21,water,42.0
-USGS Arizona Water Science Center,%,"34.53863606000000,-111.6940356000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-7-19,water,6.0
+USGS Arizona Water Science Center,None,"34.85224160000000,-112.0659940000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-08-14,water,0.68
+USGS Arizona Water Science Center,None,"34.86530556000000,-112.4296667000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-06-26,water,1.03
+USGS Arizona Water Science Center,None,"34.92841667000000,-112.3982222000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-04-29,water,1.99
+USGS Arizona Water Science Center,None,"34.86694444000000,-112.4240278000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-06-11,water,2.18
+USGS Arizona Water Science Center,None,"34.89183330000000,-112.4102222000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-02-21,water,2.37
+USGS Arizona Water Science Center,None,"35.13658330000000,-112.5417222000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-06-25,water,8.5
+USGS Arizona Water Science Center,None,"34.97926110000000,-112.6350306000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-06-13,water,9.34
+USGS Arizona Water Science Center,%,"34.85224160000000,-112.0659940000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-08-14,water,18.0
+USGS Arizona Water Science Center,%,"34.86530556000000,-112.4296667000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-06-26,water,24.0
+USGS Arizona Water Science Center,%,"34.92841667000000,-112.3982222000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-04-29,water,39.0
+USGS Arizona Water Science Center,%,"34.86694444000000,-112.4240278000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-06-11,water,40.0
+USGS Arizona Water Science Center,%,"34.89183330000000,-112.4102222000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-02-21,water,42.0
+USGS Arizona Water Science Center,%,"34.53863606000000,-111.6940356000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-07-19,water,6.0
 USGS Arizona Water Science Center,%,"34.53863606000000,-111.6940356000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-10-15,water,6.0
-USGS Arizona Water Science Center,%,"34.53863606000000,-111.6940356000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-4-13,water,6.0
-USGS Arizona Water Science Center,%,"34.53863606000000,-111.6940356000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-2-22,water,6.0
+USGS Arizona Water Science Center,%,"34.53863606000000,-111.6940356000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-04-13,water,6.0
+USGS Arizona Water Science Center,%,"34.53863606000000,-111.6940356000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-02-22,water,6.0
 USGS Arizona Water Science Center,%,"34.53863606000000,-111.6940356000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-12-11,water,6.0
-USGS Arizona Water Science Center,%,"34.53863606000000,-111.6940356000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-9-27,water,6.0
+USGS Arizona Water Science Center,%,"34.53863606000000,-111.6940356000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-09-27,water,6.0
 USGS Arizona Water Science Center,%,"34.53863606000000,-111.6940356000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-11-27,water,6.0
 USGS Arizona Water Science Center,%,"34.53863606000000,-111.6940356000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-10-31,water,6.0
-USGS Arizona Water Science Center,%,"34.53863606000000,-111.6940356000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-3-8,water,6.0
-USGS Arizona Water Science Center,%,"34.53863606000000,-111.6940356000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-1-25,water,6.0
-USGS Arizona Water Science Center,%,"34.53863606000000,-111.6940356000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-2-8,water,6.0
-USGS Arizona Water Science Center,%,"35.13658330000000,-112.5417222000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-6-25,water,61.0
-USGS Arizona Water Science Center,%,"34.97926110000000,-112.6350306000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-6-13,water,74.0
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Potassium,Concentration of Potassium in water,2018-3-8,water,1.17
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Potassium,Concentration of Potassium in water,2018-1-25,water,1.2
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Potassium,Concentration of Potassium in water,2018-2-22,water,1.27
+USGS Arizona Water Science Center,%,"34.53863606000000,-111.6940356000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-03-08,water,6.0
+USGS Arizona Water Science Center,%,"34.53863606000000,-111.6940356000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-01-25,water,6.0
+USGS Arizona Water Science Center,%,"34.53863606000000,-111.6940356000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-02-08,water,6.0
+USGS Arizona Water Science Center,%,"35.13658330000000,-112.5417222000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-06-25,water,61.0
+USGS Arizona Water Science Center,%,"34.97926110000000,-112.6350306000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-06-13,water,74.0
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Potassium,Concentration of Potassium in water,2018-03-08,water,1.17
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Potassium,Concentration of Potassium in water,2018-01-25,water,1.2
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Potassium,Concentration of Potassium in water,2018-02-22,water,1.27
 USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Potassium,Concentration of Potassium in water,2018-10-31,water,1.28
 USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Potassium,Concentration of Potassium in water,2018-12-11,water,1.28
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Potassium,Concentration of Potassium in water,2018-2-8,water,1.28
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Potassium,Concentration of Potassium in water,2018-02-08,water,1.28
 USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Potassium,Concentration of Potassium in water,2018-11-27,water,1.3
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Potassium,Concentration of Potassium in water,2018-9-27,water,1.33
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Potassium,Concentration of Potassium in water,2018-09-27,water,1.33
 USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Potassium,Concentration of Potassium in water,2018-10-15,water,1.38
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Potassium,Concentration of Potassium in water,2018-7-19,water,1.54
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Potassium,Concentration of Potassium in water,2018-4-13,water,1.55
-USGS Arizona Water Science Center,mg/l,"34.92841667000000,-112.3982222000000",point,Potassium,Concentration of Potassium in water,2018-4-29,water,2.31
-USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Potassium,Concentration of Potassium in water,2018-8-14,water,2.41
-USGS Arizona Water Science Center,mg/l,"34.86530556000000,-112.4296667000000",point,Potassium,Concentration of Potassium in water,2018-6-26,water,2.72
-USGS Arizona Water Science Center,mg/l,"34.89183330000000,-112.4102222000000",point,Potassium,Concentration of Potassium in water,2018-2-21,water,3.56
-USGS Arizona Water Science Center,mg/l,"34.86694444000000,-112.4240278000000",point,Potassium,Concentration of Potassium in water,2018-6-11,water,3.64
-USGS Arizona Water Science Center,mg/l,"35.13658330000000,-112.5417222000000",point,Potassium,Concentration of Potassium in water,2018-6-25,water,5.67
-USGS Arizona Water Science Center,mg/l,"34.97926110000000,-112.6350306000000",point,Potassium,Concentration of Potassium in water,2018-6-13,water,6.75
-USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Barium,Concentration of Barium in water,2018-8-14,water,197.0
-USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Beryllium,Concentration of Beryllium in water,2018-8-14,water,0.12
-USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Cadmium,Concentration of Cadmium in water,2018-8-14,water,0.16
-USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Chromium,Concentration of Chromium in water,2018-8-14,water,3.2
-USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Copper,Concentration of Copper in water,2018-8-14,water,5.4
-USGS Arizona Water Science Center,ug/l,"34.92841667000000,-112.3982222000000",point,Iron,Concentration of Iron in water,2018-4-29,water,11.7
-USGS Arizona Water Science Center,ug/l,"34.97926110000000,-112.6350306000000",point,Iron,Concentration of Iron in water,2018-6-13,water,132.0
-USGS Arizona Water Science Center,ug/l,"35.13658330000000,-112.5417222000000",point,Iron,Concentration of Iron in water,2018-6-25,water,20.5
-USGS Arizona Water Science Center,ug/l,"34.86530556000000,-112.4296667000000",point,Iron,Concentration of Iron in water,2018-6-26,water,7370.0
-USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Lead,Concentration of Lead in water,2018-8-14,water,3.33
-USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Manganese,Concentration of Manganese in water,2018-8-14,water,84.0
-USGS Arizona Water Science Center,ug/l,"34.89183330000000,-112.4102222000000",point,Manganese,Concentration of Manganese in water,2018-2-21,water,10.3
-USGS Arizona Water Science Center,ug/l,"34.97926110000000,-112.6350306000000",point,Manganese,Concentration of Manganese in water,2018-6-13,water,20.2
-USGS Arizona Water Science Center,ug/l,"34.92841667000000,-112.3982222000000",point,Manganese,Concentration of Manganese in water,2018-4-29,water,6.97
-USGS Arizona Water Science Center,ug/l,"34.86694444000000,-112.4240278000000",point,Manganese,Concentration of Manganese in water,2018-6-11,water,8.32
-USGS Arizona Water Science Center,ug/l,"34.86530556000000,-112.4296667000000",point,Manganese,Concentration of Manganese in water,2018-6-26,water,861.0
-USGS Arizona Water Science Center,ug/l,"35.13658330000000,-112.5417222000000",point,Manganese,Concentration of Manganese in water,2018-6-25,water,8.62
-USGS Arizona Water Science Center,ug/l,"34.92841667000000,-112.3982222000000",point,Strontium,Concentration of Strontium in water,2018-4-29,water,160.0
-USGS Arizona Water Science Center,ug/l,"34.97926110000000,-112.6350306000000",point,Strontium,Concentration of Strontium in water,2018-6-13,water,270.0
-USGS Arizona Water Science Center,ug/l,"34.89183330000000,-112.4102222000000",point,Strontium,Concentration of Strontium in water,2018-2-21,water,280.0
-USGS Arizona Water Science Center,ug/l,"34.86694444000000,-112.4240278000000",point,Strontium,Concentration of Strontium in water,2018-6-11,water,300.0
-USGS Arizona Water Science Center,ug/l,"34.86530556000000,-112.4296667000000",point,Strontium,Concentration of Strontium in water,2018-6-26,water,360.0
-USGS Arizona Water Science Center,ug/l,"35.13658330000000,-112.5417222000000",point,Strontium,Concentration of Strontium in water,2018-6-25,water,600.0
-USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Zinc,Concentration of Zinc in water,2018-8-14,water,9.0
-USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Mercury,Concentration of Mercury in water,2018-8-14,water,0.007
-USGS Arizona Water Science Center,mg/l,"36.78222380000000,-109.7156669000000",point,Calcium,Concentration of Calcium in water,2018-7-3,water,24.0
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Calcium,Concentration of Calcium in water,2018-6-27,water,40.1
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Calcium,Concentration of Calcium in water,2018-4-30,water,40.3
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Calcium,Concentration of Calcium in water,2018-8-30,water,41.8
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Calcium,Concentration of Calcium in water,2018-3-30,water,41.8
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Calcium,Concentration of Calcium in water,2018-9-10,water,42.1
-USGS Arizona Water Science Center,mg/l,"34.91722220000000,-112.5494722000000",point,Calcium,Concentration of Calcium in water,2018-4-29,water,42.3
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Calcium,Concentration of Calcium in water,2018-5-8,water,42.8
-USGS Arizona Water Science Center,mg/l,"34.07309220000000,-111.7162569000000",point,Calcium,Concentration of Calcium in water,2018-6-26,water,48.2
-USGS Arizona Water Science Center,mg/l,"34.07309220000000,-111.7162569000000",point,Calcium,Concentration of Calcium in water,2018-4-19,water,49.5
-USGS Arizona Water Science Center,mg/l,"34.86750000000000,-112.4283333000000",point,Calcium,Concentration of Calcium in water,2018-2-20,water,49.7
-USGS Arizona Water Science Center,mg/l,"34.89502016000000,-112.3429468000000",point,Calcium,Concentration of Calcium in water,2018-6-12,water,51.2
-USGS Arizona Water Science Center,mg/l,"34.86538889000000,-112.4263056000000",point,Calcium,Concentration of Calcium in water,2018-6-11,water,52.0
-USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Calcium,Concentration of Calcium in water,2018-6-12,water,53.8
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Potassium,Concentration of Potassium in water,2018-07-19,water,1.54
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Potassium,Concentration of Potassium in water,2018-04-13,water,1.55
+USGS Arizona Water Science Center,mg/l,"34.92841667000000,-112.3982222000000",point,Potassium,Concentration of Potassium in water,2018-04-29,water,2.31
+USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Potassium,Concentration of Potassium in water,2018-08-14,water,2.41
+USGS Arizona Water Science Center,mg/l,"34.86530556000000,-112.4296667000000",point,Potassium,Concentration of Potassium in water,2018-06-26,water,2.72
+USGS Arizona Water Science Center,mg/l,"34.89183330000000,-112.4102222000000",point,Potassium,Concentration of Potassium in water,2018-02-21,water,3.56
+USGS Arizona Water Science Center,mg/l,"34.86694444000000,-112.4240278000000",point,Potassium,Concentration of Potassium in water,2018-06-11,water,3.64
+USGS Arizona Water Science Center,mg/l,"35.13658330000000,-112.5417222000000",point,Potassium,Concentration of Potassium in water,2018-06-25,water,5.67
+USGS Arizona Water Science Center,mg/l,"34.97926110000000,-112.6350306000000",point,Potassium,Concentration of Potassium in water,2018-06-13,water,6.75
+USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Barium,Concentration of Barium in water,2018-08-14,water,197.0
+USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Beryllium,Concentration of Beryllium in water,2018-08-14,water,0.12
+USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Cadmium,Concentration of Cadmium in water,2018-08-14,water,0.16
+USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Chromium,Concentration of Chromium in water,2018-08-14,water,3.2
+USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Copper,Concentration of Copper in water,2018-08-14,water,5.4
+USGS Arizona Water Science Center,ug/l,"34.92841667000000,-112.3982222000000",point,Iron,Concentration of Iron in water,2018-04-29,water,11.7
+USGS Arizona Water Science Center,ug/l,"34.97926110000000,-112.6350306000000",point,Iron,Concentration of Iron in water,2018-06-13,water,132.0
+USGS Arizona Water Science Center,ug/l,"35.13658330000000,-112.5417222000000",point,Iron,Concentration of Iron in water,2018-06-25,water,20.5
+USGS Arizona Water Science Center,ug/l,"34.86530556000000,-112.4296667000000",point,Iron,Concentration of Iron in water,2018-06-26,water,7370.0
+USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Lead,Concentration of Lead in water,2018-08-14,water,3.33
+USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Manganese,Concentration of Manganese in water,2018-08-14,water,84.0
+USGS Arizona Water Science Center,ug/l,"34.89183330000000,-112.4102222000000",point,Manganese,Concentration of Manganese in water,2018-02-21,water,10.3
+USGS Arizona Water Science Center,ug/l,"34.97926110000000,-112.6350306000000",point,Manganese,Concentration of Manganese in water,2018-06-13,water,20.2
+USGS Arizona Water Science Center,ug/l,"34.92841667000000,-112.3982222000000",point,Manganese,Concentration of Manganese in water,2018-04-29,water,6.97
+USGS Arizona Water Science Center,ug/l,"34.86694444000000,-112.4240278000000",point,Manganese,Concentration of Manganese in water,2018-06-11,water,8.32
+USGS Arizona Water Science Center,ug/l,"34.86530556000000,-112.4296667000000",point,Manganese,Concentration of Manganese in water,2018-06-26,water,861.0
+USGS Arizona Water Science Center,ug/l,"35.13658330000000,-112.5417222000000",point,Manganese,Concentration of Manganese in water,2018-06-25,water,8.62
+USGS Arizona Water Science Center,ug/l,"34.92841667000000,-112.3982222000000",point,Strontium,Concentration of Strontium in water,2018-04-29,water,160.0
+USGS Arizona Water Science Center,ug/l,"34.97926110000000,-112.6350306000000",point,Strontium,Concentration of Strontium in water,2018-06-13,water,270.0
+USGS Arizona Water Science Center,ug/l,"34.89183330000000,-112.4102222000000",point,Strontium,Concentration of Strontium in water,2018-02-21,water,280.0
+USGS Arizona Water Science Center,ug/l,"34.86694444000000,-112.4240278000000",point,Strontium,Concentration of Strontium in water,2018-06-11,water,300.0
+USGS Arizona Water Science Center,ug/l,"34.86530556000000,-112.4296667000000",point,Strontium,Concentration of Strontium in water,2018-06-26,water,360.0
+USGS Arizona Water Science Center,ug/l,"35.13658330000000,-112.5417222000000",point,Strontium,Concentration of Strontium in water,2018-06-25,water,600.0
+USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Zinc,Concentration of Zinc in water,2018-08-14,water,9.0
+USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Mercury,Concentration of Mercury in water,2018-08-14,water,0.007
+USGS Arizona Water Science Center,mg/l,"36.78222380000000,-109.7156669000000",point,Calcium,Concentration of Calcium in water,2018-07-03,water,24.0
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Calcium,Concentration of Calcium in water,2018-06-27,water,40.1
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Calcium,Concentration of Calcium in water,2018-04-30,water,40.3
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Calcium,Concentration of Calcium in water,2018-08-30,water,41.8
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Calcium,Concentration of Calcium in water,2018-03-30,water,41.8
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Calcium,Concentration of Calcium in water,2018-09-10,water,42.1
+USGS Arizona Water Science Center,mg/l,"34.91722220000000,-112.5494722000000",point,Calcium,Concentration of Calcium in water,2018-04-29,water,42.3
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Calcium,Concentration of Calcium in water,2018-05-08,water,42.8
+USGS Arizona Water Science Center,mg/l,"34.07309220000000,-111.7162569000000",point,Calcium,Concentration of Calcium in water,2018-06-26,water,48.2
+USGS Arizona Water Science Center,mg/l,"34.07309220000000,-111.7162569000000",point,Calcium,Concentration of Calcium in water,2018-04-19,water,49.5
+USGS Arizona Water Science Center,mg/l,"34.86750000000000,-112.4283333000000",point,Calcium,Concentration of Calcium in water,2018-02-20,water,49.7
+USGS Arizona Water Science Center,mg/l,"34.89502016000000,-112.3429468000000",point,Calcium,Concentration of Calcium in water,2018-06-12,water,51.2
+USGS Arizona Water Science Center,mg/l,"34.86538889000000,-112.4263056000000",point,Calcium,Concentration of Calcium in water,2018-06-11,water,52.0
+USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Calcium,Concentration of Calcium in water,2018-06-12,water,53.8
 USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Calcium,Concentration of Calcium in water,2018-10-30,water,55.9
-USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Calcium,Concentration of Calcium in water,2018-2-12,water,56.0
-USGS Arizona Water Science Center,mg/l,"34.07309220000000,-111.7162569000000",point,Calcium,Concentration of Calcium in water,2018-6-26,water,50.8
-USGS Arizona Water Science Center,mg/l,"34.07309220000000,-111.7162569000000",point,Calcium,Concentration of Calcium in water,2018-4-19,water,51.5
-USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Calcium,Concentration of Calcium in water,2018-2-12,water,56.3
+USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Calcium,Concentration of Calcium in water,2018-02-12,water,56.0
+USGS Arizona Water Science Center,mg/l,"34.07309220000000,-111.7162569000000",point,Calcium,Concentration of Calcium in water,2018-06-26,water,50.8
+USGS Arizona Water Science Center,mg/l,"34.07309220000000,-111.7162569000000",point,Calcium,Concentration of Calcium in water,2018-04-19,water,51.5
+USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Calcium,Concentration of Calcium in water,2018-02-12,water,56.3
 USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Calcium,Concentration of Calcium in water,2018-10-30,water,57.1
-USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Calcium,Concentration of Calcium in water,2018-6-12,water,57.2
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Magnesium,Concentration of Magnesium in water,2018-8-30,water,23.2
-USGS Arizona Water Science Center,mg/l,"34.91722220000000,-112.5494722000000",point,Magnesium,Concentration of Magnesium in water,2018-4-29,water,23.4
-USGS Arizona Water Science Center,mg/l,"34.86750000000000,-112.4283333000000",point,Magnesium,Concentration of Magnesium in water,2018-2-20,water,23.6
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Magnesium,Concentration of Magnesium in water,2018-6-27,water,24.2
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Magnesium,Concentration of Magnesium in water,2018-9-10,water,24.7
-USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Magnesium,Concentration of Magnesium in water,2018-6-12,water,24.8
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Magnesium,Concentration of Magnesium in water,2018-5-8,water,25.1
-USGS Arizona Water Science Center,mg/l,"34.86538889000000,-112.4263056000000",point,Magnesium,Concentration of Magnesium in water,2018-6-11,water,25.3
+USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Calcium,Concentration of Calcium in water,2018-06-12,water,57.2
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Magnesium,Concentration of Magnesium in water,2018-08-30,water,23.2
+USGS Arizona Water Science Center,mg/l,"34.91722220000000,-112.5494722000000",point,Magnesium,Concentration of Magnesium in water,2018-04-29,water,23.4
+USGS Arizona Water Science Center,mg/l,"34.86750000000000,-112.4283333000000",point,Magnesium,Concentration of Magnesium in water,2018-02-20,water,23.6
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Magnesium,Concentration of Magnesium in water,2018-06-27,water,24.2
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Magnesium,Concentration of Magnesium in water,2018-09-10,water,24.7
+USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Magnesium,Concentration of Magnesium in water,2018-06-12,water,24.8
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Magnesium,Concentration of Magnesium in water,2018-05-08,water,25.1
+USGS Arizona Water Science Center,mg/l,"34.86538889000000,-112.4263056000000",point,Magnesium,Concentration of Magnesium in water,2018-06-11,water,25.3
 USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Magnesium,Concentration of Magnesium in water,2018-10-30,water,25.5
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Magnesium,Concentration of Magnesium in water,2018-3-30,water,25.5
-USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Magnesium,Concentration of Magnesium in water,2018-2-12,water,25.5
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Magnesium,Concentration of Magnesium in water,2018-4-30,water,25.6
-USGS Arizona Water Science Center,mg/l,"34.89502016000000,-112.3429468000000",point,Magnesium,Concentration of Magnesium in water,2018-6-12,water,26.8
-USGS Arizona Water Science Center,mg/l,"36.78222380000000,-109.7156669000000",point,Magnesium,Concentration of Magnesium in water,2018-7-3,water,3.86
-USGS Arizona Water Science Center,mg/l,"34.07309220000000,-111.7162569000000",point,Magnesium,Concentration of Magnesium in water,2018-4-19,water,39.6
-USGS Arizona Water Science Center,mg/l,"34.07309220000000,-111.7162569000000",point,Magnesium,Concentration of Magnesium in water,2018-6-26,water,42.3
-USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Magnesium,Concentration of Magnesium in water,2018-2-12,water,25.1
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Magnesium,Concentration of Magnesium in water,2018-03-30,water,25.5
+USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Magnesium,Concentration of Magnesium in water,2018-02-12,water,25.5
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Magnesium,Concentration of Magnesium in water,2018-04-30,water,25.6
+USGS Arizona Water Science Center,mg/l,"34.89502016000000,-112.3429468000000",point,Magnesium,Concentration of Magnesium in water,2018-06-12,water,26.8
+USGS Arizona Water Science Center,mg/l,"36.78222380000000,-109.7156669000000",point,Magnesium,Concentration of Magnesium in water,2018-07-03,water,3.86
+USGS Arizona Water Science Center,mg/l,"34.07309220000000,-111.7162569000000",point,Magnesium,Concentration of Magnesium in water,2018-04-19,water,39.6
+USGS Arizona Water Science Center,mg/l,"34.07309220000000,-111.7162569000000",point,Magnesium,Concentration of Magnesium in water,2018-06-26,water,42.3
+USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Magnesium,Concentration of Magnesium in water,2018-02-12,water,25.1
 USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Magnesium,Concentration of Magnesium in water,2018-10-30,water,25.6
-USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Magnesium,Concentration of Magnesium in water,2018-6-12,water,25.8
-USGS Arizona Water Science Center,mg/l,"34.07309220000000,-111.7162569000000",point,Magnesium,Concentration of Magnesium in water,2018-4-19,water,40.5
-USGS Arizona Water Science Center,mg/l,"34.07309220000000,-111.7162569000000",point,Magnesium,Concentration of Magnesium in water,2018-6-26,water,43.4
-USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Sodium,Concentration of Sodium in water,2018-6-12,water,23.1
+USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Magnesium,Concentration of Magnesium in water,2018-06-12,water,25.8
+USGS Arizona Water Science Center,mg/l,"34.07309220000000,-111.7162569000000",point,Magnesium,Concentration of Magnesium in water,2018-04-19,water,40.5
+USGS Arizona Water Science Center,mg/l,"34.07309220000000,-111.7162569000000",point,Magnesium,Concentration of Magnesium in water,2018-06-26,water,43.4
+USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Sodium,Concentration of Sodium in water,2018-06-12,water,23.1
 USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Sodium,Concentration of Sodium in water,2018-10-30,water,24.9
-USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Sodium,Concentration of Sodium in water,2018-2-12,water,26.1
-USGS Arizona Water Science Center,mg/l,"34.07309220000000,-111.7162569000000",point,Sodium,Concentration of Sodium in water,2018-4-19,water,44.7
-USGS Arizona Water Science Center,mg/l,"36.78222380000000,-109.7156669000000",point,Sodium,Concentration of Sodium in water,2018-7-3,water,5.16
-USGS Arizona Water Science Center,mg/l,"34.86750000000000,-112.4283333000000",point,Sodium,Concentration of Sodium in water,2018-2-20,water,52.6
-USGS Arizona Water Science Center,mg/l,"34.07309220000000,-111.7162569000000",point,Sodium,Concentration of Sodium in water,2018-6-26,water,54.7
-USGS Arizona Water Science Center,mg/l,"34.86538889000000,-112.4263056000000",point,Sodium,Concentration of Sodium in water,2018-6-11,water,55.2
-USGS Arizona Water Science Center,mg/l,"34.91722220000000,-112.5494722000000",point,Sodium,Concentration of Sodium in water,2018-4-29,water,56.4
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Sodium,Concentration of Sodium in water,2018-3-30,water,6.01
-USGS Arizona Water Science Center,mg/l,"34.89502016000000,-112.3429468000000",point,Sodium,Concentration of Sodium in water,2018-6-12,water,60.1
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Sodium,Concentration of Sodium in water,2018-5-8,water,6.04
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Sodium,Concentration of Sodium in water,2018-8-30,water,6.06
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Sodium,Concentration of Sodium in water,2018-9-10,water,6.18
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Sodium,Concentration of Sodium in water,2018-4-30,water,6.21
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Sodium,Concentration of Sodium in water,2018-6-27,water,6.4
-USGS Arizona Water Science Center,None,"34.53863606000000,-111.6940356000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-3-30,water,0.18
-USGS Arizona Water Science Center,None,"34.53863606000000,-111.6940356000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-5-8,water,0.18
-USGS Arizona Water Science Center,None,"34.53863606000000,-111.6940356000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-4-30,water,0.19
-USGS Arizona Water Science Center,None,"34.53863606000000,-111.6940356000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-9-10,water,0.19
-USGS Arizona Water Science Center,None,"34.53863606000000,-111.6940356000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-8-30,water,0.19
-USGS Arizona Water Science Center,None,"34.53863606000000,-111.6940356000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-6-27,water,0.2
-USGS Arizona Water Science Center,None,"36.78222380000000,-109.7156669000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-7-3,water,0.26
-USGS Arizona Water Science Center,None,"34.85224160000000,-112.0659940000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-6-12,water,0.65
+USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Sodium,Concentration of Sodium in water,2018-02-12,water,26.1
+USGS Arizona Water Science Center,mg/l,"34.07309220000000,-111.7162569000000",point,Sodium,Concentration of Sodium in water,2018-04-19,water,44.7
+USGS Arizona Water Science Center,mg/l,"36.78222380000000,-109.7156669000000",point,Sodium,Concentration of Sodium in water,2018-07-03,water,5.16
+USGS Arizona Water Science Center,mg/l,"34.86750000000000,-112.4283333000000",point,Sodium,Concentration of Sodium in water,2018-02-20,water,52.6
+USGS Arizona Water Science Center,mg/l,"34.07309220000000,-111.7162569000000",point,Sodium,Concentration of Sodium in water,2018-06-26,water,54.7
+USGS Arizona Water Science Center,mg/l,"34.86538889000000,-112.4263056000000",point,Sodium,Concentration of Sodium in water,2018-06-11,water,55.2
+USGS Arizona Water Science Center,mg/l,"34.91722220000000,-112.5494722000000",point,Sodium,Concentration of Sodium in water,2018-04-29,water,56.4
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Sodium,Concentration of Sodium in water,2018-03-30,water,6.01
+USGS Arizona Water Science Center,mg/l,"34.89502016000000,-112.3429468000000",point,Sodium,Concentration of Sodium in water,2018-06-12,water,60.1
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Sodium,Concentration of Sodium in water,2018-05-08,water,6.04
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Sodium,Concentration of Sodium in water,2018-08-30,water,6.06
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Sodium,Concentration of Sodium in water,2018-09-10,water,6.18
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Sodium,Concentration of Sodium in water,2018-04-30,water,6.21
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Sodium,Concentration of Sodium in water,2018-06-27,water,6.4
+USGS Arizona Water Science Center,None,"34.53863606000000,-111.6940356000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-03-30,water,0.18
+USGS Arizona Water Science Center,None,"34.53863606000000,-111.6940356000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-05-08,water,0.18
+USGS Arizona Water Science Center,None,"34.53863606000000,-111.6940356000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-04-30,water,0.19
+USGS Arizona Water Science Center,None,"34.53863606000000,-111.6940356000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-09-10,water,0.19
+USGS Arizona Water Science Center,None,"34.53863606000000,-111.6940356000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-08-30,water,0.19
+USGS Arizona Water Science Center,None,"34.53863606000000,-111.6940356000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-06-27,water,0.2
+USGS Arizona Water Science Center,None,"36.78222380000000,-109.7156669000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-07-03,water,0.26
+USGS Arizona Water Science Center,None,"34.85224160000000,-112.0659940000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-06-12,water,0.65
 USGS Arizona Water Science Center,None,"34.85224160000000,-112.0659940000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-10-30,water,0.69
-USGS Arizona Water Science Center,None,"34.85224160000000,-112.0659940000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-2-12,water,0.73
-USGS Arizona Water Science Center,None,"34.07309220000000,-111.7162569000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-4-19,water,1.15
-USGS Arizona Water Science Center,None,"34.07309220000000,-111.7162569000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-6-26,water,1.39
-USGS Arizona Water Science Center,None,"34.86750000000000,-112.4283333000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-2-20,water,1.54
-USGS Arizona Water Science Center,None,"34.86538889000000,-112.4263056000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-6-11,water,1.57
-USGS Arizona Water Science Center,None,"34.89502016000000,-112.3429468000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-6-12,water,1.7
-USGS Arizona Water Science Center,None,"34.91722220000000,-112.5494722000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-4-29,water,1.73
-USGS Arizona Water Science Center,%,"36.78222380000000,-109.7156669000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-7-3,water,13.0
-USGS Arizona Water Science Center,%,"34.85224160000000,-112.0659940000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-6-12,water,17.0
+USGS Arizona Water Science Center,None,"34.85224160000000,-112.0659940000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-02-12,water,0.73
+USGS Arizona Water Science Center,None,"34.07309220000000,-111.7162569000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-04-19,water,1.15
+USGS Arizona Water Science Center,None,"34.07309220000000,-111.7162569000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-06-26,water,1.39
+USGS Arizona Water Science Center,None,"34.86750000000000,-112.4283333000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-02-20,water,1.54
+USGS Arizona Water Science Center,None,"34.86538889000000,-112.4263056000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-06-11,water,1.57
+USGS Arizona Water Science Center,None,"34.89502016000000,-112.3429468000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-06-12,water,1.7
+USGS Arizona Water Science Center,None,"34.91722220000000,-112.5494722000000",point,Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,2018-04-29,water,1.73
+USGS Arizona Water Science Center,%,"36.78222380000000,-109.7156669000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-07-03,water,13.0
+USGS Arizona Water Science Center,%,"34.85224160000000,-112.0659940000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-06-12,water,17.0
 USGS Arizona Water Science Center,%,"34.85224160000000,-112.0659940000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-10-30,water,18.0
-USGS Arizona Water Science Center,%,"34.85224160000000,-112.0659940000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-2-12,water,19.0
-USGS Arizona Water Science Center,%,"34.07309220000000,-111.7162569000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-4-19,water,25.0
-USGS Arizona Water Science Center,%,"34.07309220000000,-111.7162569000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-6-26,water,28.0
-USGS Arizona Water Science Center,%,"34.86750000000000,-112.4283333000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-2-20,water,34.0
-USGS Arizona Water Science Center,%,"34.86538889000000,-112.4263056000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-6-11,water,34.0
-USGS Arizona Water Science Center,%,"34.89502016000000,-112.3429468000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-6-12,water,35.0
-USGS Arizona Water Science Center,%,"34.91722220000000,-112.5494722000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-4-29,water,37.0
-USGS Arizona Water Science Center,%,"34.53863606000000,-111.6940356000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-5-8,water,6.0
-USGS Arizona Water Science Center,%,"34.53863606000000,-111.6940356000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-9-10,water,6.0
-USGS Arizona Water Science Center,%,"34.53863606000000,-111.6940356000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-4-30,water,6.0
-USGS Arizona Water Science Center,%,"34.53863606000000,-111.6940356000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-6-27,water,6.0
-USGS Arizona Water Science Center,%,"34.53863606000000,-111.6940356000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-3-30,water,6.0
-USGS Arizona Water Science Center,%,"34.53863606000000,-111.6940356000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-8-30,water,6.0
-USGS Arizona Water Science Center,mg/l,"36.78222380000000,-109.7156669000000",point,Potassium,Concentration of Potassium in water,2018-7-3,water,1.15
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Potassium,Concentration of Potassium in water,2018-5-8,water,1.18
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Potassium,Concentration of Potassium in water,2018-6-27,water,1.29
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Potassium,Concentration of Potassium in water,2018-4-30,water,1.34
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Potassium,Concentration of Potassium in water,2018-3-30,water,1.34
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Potassium,Concentration of Potassium in water,2018-9-10,water,1.39
-USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Potassium,Concentration of Potassium in water,2018-8-30,water,1.53
+USGS Arizona Water Science Center,%,"34.85224160000000,-112.0659940000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-02-12,water,19.0
+USGS Arizona Water Science Center,%,"34.07309220000000,-111.7162569000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-04-19,water,25.0
+USGS Arizona Water Science Center,%,"34.07309220000000,-111.7162569000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-06-26,water,28.0
+USGS Arizona Water Science Center,%,"34.86750000000000,-112.4283333000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-02-20,water,34.0
+USGS Arizona Water Science Center,%,"34.86538889000000,-112.4263056000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-06-11,water,34.0
+USGS Arizona Water Science Center,%,"34.89502016000000,-112.3429468000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-06-12,water,35.0
+USGS Arizona Water Science Center,%,"34.91722220000000,-112.5494722000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-04-29,water,37.0
+USGS Arizona Water Science Center,%,"34.53863606000000,-111.6940356000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-05-08,water,6.0
+USGS Arizona Water Science Center,%,"34.53863606000000,-111.6940356000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-09-10,water,6.0
+USGS Arizona Water Science Center,%,"34.53863606000000,-111.6940356000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-04-30,water,6.0
+USGS Arizona Water Science Center,%,"34.53863606000000,-111.6940356000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-06-27,water,6.0
+USGS Arizona Water Science Center,%,"34.53863606000000,-111.6940356000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-03-30,water,6.0
+USGS Arizona Water Science Center,%,"34.53863606000000,-111.6940356000000",point,"Sodium, percent total cations","Concentration of Sodium, percent total cations in water",2018-08-30,water,6.0
+USGS Arizona Water Science Center,mg/l,"36.78222380000000,-109.7156669000000",point,Potassium,Concentration of Potassium in water,2018-07-03,water,1.15
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Potassium,Concentration of Potassium in water,2018-05-08,water,1.18
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Potassium,Concentration of Potassium in water,2018-06-27,water,1.29
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Potassium,Concentration of Potassium in water,2018-04-30,water,1.34
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Potassium,Concentration of Potassium in water,2018-03-30,water,1.34
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Potassium,Concentration of Potassium in water,2018-09-10,water,1.39
+USGS Arizona Water Science Center,mg/l,"34.53863606000000,-111.6940356000000",point,Potassium,Concentration of Potassium in water,2018-08-30,water,1.53
 USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Potassium,Concentration of Potassium in water,2018-10-30,water,1.98
-USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Potassium,Concentration of Potassium in water,2018-2-12,water,2.0
-USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Potassium,Concentration of Potassium in water,2018-6-12,water,2.07
-USGS Arizona Water Science Center,mg/l,"34.07309220000000,-111.7162569000000",point,Potassium,Concentration of Potassium in water,2018-4-19,water,3.02
-USGS Arizona Water Science Center,mg/l,"34.91722220000000,-112.5494722000000",point,Potassium,Concentration of Potassium in water,2018-4-29,water,3.12
-USGS Arizona Water Science Center,mg/l,"34.89502016000000,-112.3429468000000",point,Potassium,Concentration of Potassium in water,2018-6-12,water,3.25
-USGS Arizona Water Science Center,mg/l,"34.86538889000000,-112.4263056000000",point,Potassium,Concentration of Potassium in water,2018-6-11,water,3.31
-USGS Arizona Water Science Center,mg/l,"34.07309220000000,-111.7162569000000",point,Potassium,Concentration of Potassium in water,2018-6-26,water,3.37
-USGS Arizona Water Science Center,mg/l,"34.86750000000000,-112.4283333000000",point,Potassium,Concentration of Potassium in water,2018-2-20,water,3.37
+USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Potassium,Concentration of Potassium in water,2018-02-12,water,2.0
+USGS Arizona Water Science Center,mg/l,"34.85224160000000,-112.0659940000000",point,Potassium,Concentration of Potassium in water,2018-06-12,water,2.07
+USGS Arizona Water Science Center,mg/l,"34.07309220000000,-111.7162569000000",point,Potassium,Concentration of Potassium in water,2018-04-19,water,3.02
+USGS Arizona Water Science Center,mg/l,"34.91722220000000,-112.5494722000000",point,Potassium,Concentration of Potassium in water,2018-04-29,water,3.12
+USGS Arizona Water Science Center,mg/l,"34.89502016000000,-112.3429468000000",point,Potassium,Concentration of Potassium in water,2018-06-12,water,3.25
+USGS Arizona Water Science Center,mg/l,"34.86538889000000,-112.4263056000000",point,Potassium,Concentration of Potassium in water,2018-06-11,water,3.31
+USGS Arizona Water Science Center,mg/l,"34.07309220000000,-111.7162569000000",point,Potassium,Concentration of Potassium in water,2018-06-26,water,3.37
+USGS Arizona Water Science Center,mg/l,"34.86750000000000,-112.4283333000000",point,Potassium,Concentration of Potassium in water,2018-02-20,water,3.37
+USGS Arizona Water Science Center,ug/l,"34.07309220000000,-111.7162569000000",point,Barium,Concentration of Barium in water,2018-04-19,water,106.0
+USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Barium,Concentration of Barium in water,2018-02-12,water,182.0
+USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Barium,Concentration of Barium in water,2018-10-30,water,191.0
+USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Barium,Concentration of Barium in water,2018-06-12,water,214.0
+USGS Arizona Water Science Center,ug/l,"34.07309220000000,-111.7162569000000",point,Barium,Concentration of Barium in water,2018-06-26,water,89.1
+USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Beryllium,Concentration of Beryllium in water,2018-10-30,water,0.01
+USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Beryllium,Concentration of Beryllium in water,2018-06-12,water,0.02
+USGS Arizona Water Science Center,ug/l,"34.07309220000000,-111.7162569000000",point,Beryllium,Concentration of Beryllium in water,2018-04-19,water,0.03
+USGS Arizona Water Science Center,ug/l,"34.07309220000000,-111.7162569000000",point,Beryllium,Concentration of Beryllium in water,2018-06-26,water,0.04
+USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Cadmium,Concentration of Cadmium in water,2018-06-12,water,0.03
+USGS Arizona Water Science Center,ug/l,"34.07309220000000,-111.7162569000000",point,Chromium,Concentration of Chromium in water,2018-04-19,water,0.9
+USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Chromium,Concentration of Chromium in water,2018-06-12,water,1.0
+USGS Arizona Water Science Center,ug/l,"34.07309220000000,-111.7162569000000",point,Chromium,Concentration of Chromium in water,2018-06-26,water,1.0
+USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Chromium,Concentration of Chromium in water,2018-02-12,water,1.3
+USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Chromium,Concentration of Chromium in water,2018-10-30,water,1.4
+USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Copper,Concentration of Copper in water,2018-10-30,water,0.4
+USGS Arizona Water Science Center,ug/l,"34.07309220000000,-111.7162569000000",point,Copper,Concentration of Copper in water,2018-04-19,water,0.48
+USGS Arizona Water Science Center,ug/l,"34.07309220000000,-111.7162569000000",point,Copper,Concentration of Copper in water,2018-06-26,water,0.59
+USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Copper,Concentration of Copper in water,2018-02-12,water,0.3
+USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Copper,Concentration of Copper in water,2018-10-30,water,0.9
+USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Copper,Concentration of Copper in water,2018-06-12,water,1.0
+USGS Arizona Water Science Center,ug/l,"34.07309220000000,-111.7162569000000",point,Copper,Concentration of Copper in water,2018-04-19,water,1.3
+USGS Arizona Water Science Center,ug/l,"34.07309220000000,-111.7162569000000",point,Copper,Concentration of Copper in water,2018-06-26,water,1.4
+USGS Arizona Water Science Center,ug/l,"34.86538889000000,-112.4263056000000",point,Iron,Concentration of Iron in water,2018-06-11,water,20.4
+USGS Arizona Water Science Center,ug/l,"34.91722220000000,-112.5494722000000",point,Iron,Concentration of Iron in water,2018-04-29,water,287.0
+USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Lead,Concentration of Lead in water,2018-10-30,water,0.026
+USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Lead,Concentration of Lead in water,2018-06-12,water,0.028
+USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Lead,Concentration of Lead in water,2018-02-12,water,0.06
+USGS Arizona Water Science Center,ug/l,"34.07309220000000,-111.7162569000000",point,Lead,Concentration of Lead in water,2018-04-19,water,0.33
+USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Lead,Concentration of Lead in water,2018-10-30,water,0.36
+USGS Arizona Water Science Center,ug/l,"34.07309220000000,-111.7162569000000",point,Lead,Concentration of Lead in water,2018-06-26,water,0.4
+USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Lead,Concentration of Lead in water,2018-06-12,water,0.5
+USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Manganese,Concentration of Manganese in water,2018-10-30,water,15.2
+USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Manganese,Concentration of Manganese in water,2018-06-12,water,16.0
+USGS Arizona Water Science Center,ug/l,"34.07309220000000,-111.7162569000000",point,Manganese,Concentration of Manganese in water,2018-04-19,water,25.9
+USGS Arizona Water Science Center,ug/l,"34.07309220000000,-111.7162569000000",point,Manganese,Concentration of Manganese in water,2018-06-26,water,29.5
+USGS Arizona Water Science Center,ug/l,"34.85224160000000,-112.0659940000000",point,Manganese,Concentration of Manganese in water,2018-02-12,water,5.6
+USGS Arizona Water Science Center,ug/l,"34.86750000000000,-112.4283333000000",point,Manganese,Concentration of Manganese in water,2018-02-20,water,0.47
+USGS Arizona Water Science Center,ug/l,"34.89502016000000,-112.3429468000000",point,Manganese,Concentration of Manganese in water,2018-06-12,water,11.2
+USGS Arizona Water Science Center,ug/l,"34.86538889000000,-112.4263056000000",point,Manganese,Concentration of Manganese in water,2018-06-11,water,64.1
+USGS Arizona Water Science Center,ug/l,"34.91722220000000,-112.5494722000000",point,Manganese,Concentration of Manganese in water,2018-04-29,water,9.73
+USGS Arizona Water Science Center,ug/l,"34.89502016000000,-112.3429468000000",point,Strontium,Concentration of Strontium in water,2018-06-12,water,290.0
+USGS Arizona Water Science Center,ug/l,"34.91722220000000,-112.5494722000000",point,Strontium,Concentration of Strontium in water,2018-04-29,water,300.0
+USGS Arizona Water Science Center,ug/l,"34.86538889000000,-112.4263056000000",point,Strontium,Concentration of Strontium in water,2018-06-11,water,340.0
+USGS Arizona Water Science Center,ug/l,"34.86750000000000,-112.4283333000000",point,Strontium,Concentration of Strontium in water,2018-02-20,water,370.0
+USGS Arizona Water Science Center,ug/l,"34.07309220000000,-111.7162569000000",point,Zinc,Concentration of Zinc in water,2018-06-26,water,2.0
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Nickel,Concentration of Nickel in water,2018-05-09,water,0.00073
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Calcium,Concentration of Calcium in water,2018-05-09,water,72.0
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Magnesium,Concentration of Magnesium in water,2018-05-09,water,28.0
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Molybdenum,Concentration of Molybdenum in water,2018-05-09,water,0.0048
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Molybdenum,Concentration of Molybdenum in water,2018-05-09,water,0.005
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Sodium,Concentration of Sodium in water,2018-05-09,water,97.0
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Sodium,Concentration of Sodium in water,2018-05-09,water,98.0
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Manganese,Concentration of Manganese in water,2018-05-09,water,0.001
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Potassium,Concentration of Potassium in water,2018-05-09,water,5.3
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Potassium,Concentration of Potassium in water,2018-05-09,water,5.2
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Molybdenum,Concentration of Molybdenum in water,2018-12-13,water,0.00064
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Calcium,Concentration of Calcium in water,2018-12-13,water,72.0
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Magnesium,Concentration of Magnesium in water,2018-12-13,water,37.0
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Nickel,Concentration of Nickel in water,2018-12-13,water,0.0013
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Chromium,Concentration of Chromium in water,2018-12-13,water,0.0014
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Barium,Concentration of Barium in water,2018-12-13,water,0.014
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Barium,Concentration of Barium in water,2018-12-13,water,0.015
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Sodium,Concentration of Sodium in water,2018-12-13,water,19.0
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Manganese,Concentration of Manganese in water,2018-12-13,water,0.0038
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Vanadium,Concentration of Vanadium in water,2018-12-13,water,0.011
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Potassium,Concentration of Potassium in water,2018-12-13,water,1.6
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Strontium,Concentration of Strontium in water,2018-12-13,water,0.5
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Copper,Concentration of Copper in water,2018-05-09,water,0.00063
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Barium,Concentration of Barium in water,2018-05-09,water,0.12
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Strontium,Concentration of Strontium in water,2018-05-09,water,1.1
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Sodium,Concentration of Sodium in water,2018-05-09,water,98.0
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Zinc,Concentration of Zinc in water,2018-05-09,water,0.013
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Nickel,Concentration of Nickel in water,2018-05-09,water,0.00073
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Manganese,Concentration of Manganese in water,2018-05-09,water,0.0022
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Barium,Concentration of Barium in water,2018-05-09,water,0.11
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Sodium,Concentration of Sodium in water,2018-05-09,water,97.0
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Potassium,Concentration of Potassium in water,2018-05-09,water,5.3
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Magnesium,Concentration of Magnesium in water,2018-05-09,water,28.0
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Calcium,Concentration of Calcium in water,2018-05-09,water,72.0
+USGS Arizona Water Science Center,mg/l,"34.4291111000,-112.3881389000",point,Copper,Concentration of Copper in water,2018-08-22,water,0.021
+USGS Arizona Water Science Center,mg/l,"34.4291111000,-112.3881389000",point,Copper,Concentration of Copper in water,2018-08-22,water,0.13
+USGS Arizona Water Science Center,mg/l,"34.4291111000,-112.3881389000",point,Calcium,Concentration of Calcium in water,2018-08-22,water,23.0
+USGS Arizona Water Science Center,mg/l,"34.4291111000,-112.3881389000",point,Nickel,Concentration of Nickel in water,2018-08-22,water,0.00085
+USGS Arizona Water Science Center,mg/l,"34.4291111000,-112.3881389000",point,Manganese,Concentration of Manganese in water,2018-08-22,water,0.036
+USGS Arizona Water Science Center,mg/l,"34.4291111000,-112.3881389000",point,Manganese,Concentration of Manganese in water,2018-08-22,water,0.32
+USGS Arizona Water Science Center,mg/l,"34.4291111000,-112.3881389000",point,Potassium,Concentration of Potassium in water,2018-08-22,water,1.8
+USGS Arizona Water Science Center,mg/l,"34.4291111000,-112.3881389000",point,Aluminum,Concentration of Aluminum in water,2018-08-22,water,3.8
+USGS Arizona Water Science Center,mg/l,"34.4291111000,-112.3881389000",point,Barium,Concentration of Barium in water,2018-08-22,water,0.031
+USGS Arizona Water Science Center,mg/l,"34.6051889000,-112.4377778000",point,Molybdenum,Concentration of Molybdenum in water,2018-06-27,water,0.0012
+USGS Arizona Water Science Center,mg/l,"34.6051889000,-112.4377778000",point,Molybdenum,Concentration of Molybdenum in water,2018-06-27,water,0.0012
+USGS Arizona Water Science Center,mg/l,"34.6051889000,-112.4377778000",point,Barium,Concentration of Barium in water,2018-06-27,water,0.026
+USGS Arizona Water Science Center,mg/l,"34.6051889000,-112.4377778000",point,Sodium,Concentration of Sodium in water,2018-06-27,water,40.0
+USGS Arizona Water Science Center,mg/l,"34.6051889000,-112.4377778000",point,Cobalt,Concentration of Cobalt in water,2018-06-27,water,0.00076
+USGS Arizona Water Science Center,mg/l,"34.6051889000,-112.4377778000",point,Manganese,Concentration of Manganese in water,2018-06-27,water,0.034
+USGS Arizona Water Science Center,mg/l,"34.7557222000,-112.1066667000",point,Copper,Concentration of Copper in water,2018-10-26,water,0.03
+USGS Arizona Water Science Center,mg/l,"33.9298347000,-109.4892997000",point,Molybdenum,Concentration of Molybdenum in water,2018-05-25,water,0.00063
+USGS Arizona Water Science Center,mg/l,"33.9298347000,-109.4892997000",point,Iron,Concentration of Iron in water,2018-05-25,water,0.37
+USGS Arizona Water Science Center,mg/l,"33.9298347000,-109.4892997000",point,Calcium,Concentration of Calcium in water,2018-05-25,water,3.6
+USGS Arizona Water Science Center,mg/l,"33.9298347000,-109.4892997000",point,Calcium,Concentration of Calcium in water,2018-05-25,water,3.5
+USGS Arizona Water Science Center,mg/l,"33.9298347000,-109.4892997000",point,Aluminum,Concentration of Aluminum in water,2018-05-25,water,0.19
+USGS Arizona Water Science Center,mg/l,"33.9298347000,-109.4892997000",point,Barium,Concentration of Barium in water,2018-05-25,water,0.0083
+USGS Arizona Water Science Center,mg/l,"33.9298347000,-109.4892997000",point,Barium,Concentration of Barium in water,2018-05-25,water,0.0069
+USGS Arizona Water Science Center,mg/l,"33.9298347000,-109.4892997000",point,Manganese,Concentration of Manganese in water,2018-05-25,water,0.015
+USGS Arizona Water Science Center,mg/l,"33.9298347000,-109.4892997000",point,Potassium,Concentration of Potassium in water,2018-05-25,water,2.4
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Nickel,Concentration of Nickel in water,2018-08-31,water,0.0018
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Copper,Concentration of Copper in water,2018-08-31,water,0.00076
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Magnesium,Concentration of Magnesium in water,2018-08-31,water,34.0
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Magnesium,Concentration of Magnesium in water,2018-08-31,water,30.0
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Chromium,Concentration of Chromium in water,2018-08-31,water,0.0013
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Barium,Concentration of Barium in water,2018-08-31,water,0.041
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Sodium,Concentration of Sodium in water,2018-08-31,water,18.0
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Sodium,Concentration of Sodium in water,2018-08-31,water,17.0
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Potassium,Concentration of Potassium in water,2018-08-31,water,2.7
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Strontium,Concentration of Strontium in water,2018-08-31,water,0.47
+USGS Arizona Water Science Center,mg/l,"34.6141431000,-113.2206147000",point,Copper,Concentration of Copper in water,2018-11-07,water,0.0017
+USGS Arizona Water Science Center,mg/l,"34.6141431000,-113.2206147000",point,Magnesium,Concentration of Magnesium in water,2018-11-07,water,33.0
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Manganese,Concentration of Manganese in water,2018-01-24,water,0.017
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Nickel,Concentration of Nickel in water,2018-01-24,water,0.00091
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Manganese,Concentration of Manganese in water,2018-01-24,water,0.0063
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Copper,Concentration of Copper in water,2018-01-24,water,0.00051
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Sodium,Concentration of Sodium in water,2018-01-24,water,92.0
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Copper,Concentration of Copper in water,2018-01-24,water,0.00054
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Nickel,Concentration of Nickel in water,2018-01-24,water,0.00084
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Strontium,Concentration of Strontium in water,2018-01-24,water,1.0
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Potassium,Concentration of Potassium in water,2018-01-24,water,5.2
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Strontium,Concentration of Strontium in water,2018-06-21,water,0.49
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Vanadium,Concentration of Vanadium in water,2018-06-21,water,0.017
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Manganese,Concentration of Manganese in water,2018-06-21,water,0.03
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Barium,Concentration of Barium in water,2018-06-21,water,0.17
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Nickel,Concentration of Nickel in water,2018-06-21,water,0.0021
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Cobalt,Concentration of Cobalt in water,2018-06-21,water,0.00071
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Zinc,Concentration of Zinc in water,2018-06-21,water,0.03
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Vanadium,Concentration of Vanadium in water,2018-06-21,water,0.013
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Chromium,Concentration of Chromium in water,2018-06-21,water,0.0013
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Magnesium,Concentration of Magnesium in water,2018-06-21,water,19.0
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Molybdenum,Concentration of Molybdenum in water,2018-06-21,water,0.0016
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Sodium,Concentration of Sodium in water,2018-06-21,water,30.0
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Lead,Concentration of Lead in water,2018-06-21,water,0.00064
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Aluminum,Concentration of Aluminum in water,2018-06-21,water,3.0
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Sodium,Concentration of Sodium in water,2018-06-21,water,29.0
+USGS Arizona Water Science Center,mg/l,"31.4244444000,-110.4500000000",point,Zinc,Concentration of Zinc in water,2018-05-31,water,0.013
+USGS Arizona Water Science Center,mg/l,"31.4244444000,-110.4500000000",point,Potassium,Concentration of Potassium in water,2018-05-31,water,3.9
+USGS Arizona Water Science Center,mg/l,"31.4244444000,-110.4500000000",point,Potassium,Concentration of Potassium in water,2018-05-31,water,3.9
+USGS Arizona Water Science Center,mg/l,"31.4244444000,-110.4500000000",point,Magnesium,Concentration of Magnesium in water,2018-05-31,water,3.8
+USGS Arizona Water Science Center,mg/l,"31.4244444000,-110.4500000000",point,Barium,Concentration of Barium in water,2018-05-31,water,0.078
+USGS Arizona Water Science Center,mg/l,"31.4244444000,-110.4500000000",point,Sodium,Concentration of Sodium in water,2018-05-31,water,7.8
+USGS Arizona Water Science Center,mg/l,"31.4244444000,-110.4500000000",point,Strontium,Concentration of Strontium in water,2018-05-31,water,0.13
+USGS Arizona Water Science Center,mg/l,"31.4244444000,-110.4500000000",point,Manganese,Concentration of Manganese in water,2018-05-31,water,0.027
+USGS Arizona Water Science Center,mg/l,"31.4244444000,-110.4500000000",point,Barium,Concentration of Barium in water,2018-05-31,water,0.077
+USGS Arizona Water Science Center,mg/l,"31.4319190000,-109.8937850000",point,Molybdenum,Concentration of Molybdenum in water,2018-02-15,water,0.0044
+USGS Arizona Water Science Center,mg/l,"31.4319190000,-109.8937850000",point,Lead,Concentration of Lead in water,2018-02-15,water,0.0096
+USGS Arizona Water Science Center,mg/l,"31.4319190000,-109.8937850000",point,Nickel,Concentration of Nickel in water,2018-02-15,water,0.0027
+USGS Arizona Water Science Center,mg/l,"31.4319190000,-109.8937850000",point,Nickel,Concentration of Nickel in water,2018-02-15,water,0.0018
+USGS Arizona Water Science Center,mg/l,"31.4319190000,-109.8937850000",point,Molybdenum,Concentration of Molybdenum in water,2018-02-15,water,0.0073
+USGS Arizona Water Science Center,mg/l,"31.4319190000,-109.8937850000",point,Barium,Concentration of Barium in water,2018-02-15,water,0.038
+USGS Arizona Water Science Center,mg/l,"31.4319190000,-109.8937850000",point,Silver,Concentration of Silver in water,2018-02-15,water,1.6e-05
+USGS Arizona Water Science Center,mg/l,"31.4319190000,-109.8937850000",point,Sodium,Concentration of Sodium in water,2018-02-15,water,15.0
+USGS Arizona Water Science Center,mg/l,"31.4319190000,-109.8937850000",point,Sodium,Concentration of Sodium in water,2018-02-15,water,14.0
+USGS Arizona Water Science Center,mg/l,"31.4319190000,-109.8937850000",point,Manganese,Concentration of Manganese in water,2018-02-15,water,0.047
+USGS Arizona Water Science Center,mg/l,"31.4319190000,-109.8937850000",point,Vanadium,Concentration of Vanadium in water,2018-02-15,water,0.0023
+USGS Arizona Water Science Center,mg/l,"31.4319190000,-109.8937850000",point,Strontium,Concentration of Strontium in water,2018-02-15,water,0.14
+USGS Arizona Water Science Center,mg/l,"31.4319190000,-109.8937850000",point,Cadmium,Concentration of Cadmium in water,2018-02-15,water,0.00024
+USGS Arizona Water Science Center,mg/l,"31.4319190000,-109.8937850000",point,Cobalt,Concentration of Cobalt in water,2018-02-15,water,0.0035
+USGS Arizona Water Science Center,mg/l,"31.4319190000,-109.8937850000",point,Thallium,Concentration of Thallium in water,2018-02-15,water,2.9e-05
+USGS Arizona Water Science Center,mg/l,"34.6051889000,-112.4377778000",point,Molybdenum,Concentration of Molybdenum in water,2018-05-16,water,0.0012
+USGS Arizona Water Science Center,mg/l,"34.6051889000,-112.4377778000",point,Potassium,Concentration of Potassium in water,2018-05-16,water,4.4
+USGS Arizona Water Science Center,mg/l,"34.6051889000,-112.4377778000",point,Strontium,Concentration of Strontium in water,2018-05-16,water,0.37
+USGS Arizona Water Science Center,mg/l,"34.6051889000,-112.4377778000",point,Sodium,Concentration of Sodium in water,2018-05-16,water,35.0
+USGS Arizona Water Science Center,mg/l,"34.6051889000,-112.4377778000",point,Magnesium,Concentration of Magnesium in water,2018-05-16,water,25.0
+USGS Arizona Water Science Center,mg/l,"34.6051889000,-112.4377778000",point,Magnesium,Concentration of Magnesium in water,2018-05-16,water,25.0
+USGS Arizona Water Science Center,mg/l,"31.4277778000,-110.4563889000",point,Copper,Concentration of Copper in water,2018-03-29,water,0.00054
+USGS Arizona Water Science Center,mg/l,"31.4277778000,-110.4563889000",point,Manganese,Concentration of Manganese in water,2018-03-29,water,0.15
+USGS Arizona Water Science Center,mg/l,"31.4277778000,-110.4563889000",point,Barium,Concentration of Barium in water,2018-03-29,water,0.078
+USGS Arizona Water Science Center,mg/l,"31.4277778000,-110.4563889000",point,Barium,Concentration of Barium in water,2018-03-29,water,0.075
+USGS Arizona Water Science Center,mg/l,"31.4277778000,-110.4563889000",point,Molybdenum,Concentration of Molybdenum in water,2018-03-29,water,0.00095
+USGS Arizona Water Science Center,mg/l,"31.4277778000,-110.4563889000",point,Calcium,Concentration of Calcium in water,2018-03-29,water,31.0
+USGS Arizona Water Science Center,mg/l,"31.4277778000,-110.4563889000",point,Sodium,Concentration of Sodium in water,2018-03-29,water,7.3
+USGS Arizona Water Science Center,mg/l,"31.4277778000,-110.4563889000",point,Calcium,Concentration of Calcium in water,2018-05-31,water,30.0
+USGS Arizona Water Science Center,mg/l,"31.4277778000,-110.4563889000",point,Magnesium,Concentration of Magnesium in water,2018-05-31,water,3.6
+USGS Arizona Water Science Center,mg/l,"31.4277778000,-110.4563889000",point,Iron,Concentration of Iron in water,2018-05-31,water,0.28
+USGS Arizona Water Science Center,mg/l,"31.4277778000,-110.4563889000",point,Potassium,Concentration of Potassium in water,2018-05-31,water,3.7
+USGS Arizona Water Science Center,mg/l,"31.4277778000,-110.4563889000",point,Potassium,Concentration of Potassium in water,2018-05-31,water,3.7
+USGS Arizona Water Science Center,mg/l,"31.4277778000,-110.4563889000",point,Magnesium,Concentration of Magnesium in water,2018-05-31,water,3.5
+USGS Arizona Water Science Center,mg/l,"31.4277778000,-110.4563889000",point,Sodium,Concentration of Sodium in water,2018-05-31,water,7.0
+USGS Arizona Water Science Center,mg/l,"31.4277778000,-110.4563889000",point,Manganese,Concentration of Manganese in water,2018-05-31,water,0.74
+USGS Arizona Water Science Center,mg/l,"31.4277778000,-110.4563889000",point,Copper,Concentration of Copper in water,2018-05-31,water,0.00051
+USGS Arizona Water Science Center,mg/l,"31.4244444000,-110.4500000000",point,Sodium,Concentration of Sodium in water,2018-03-29,water,7.2
+USGS Arizona Water Science Center,mg/l,"31.4244444000,-110.4500000000",point,Strontium,Concentration of Strontium in water,2018-03-29,water,0.13
+USGS Arizona Water Science Center,mg/l,"31.4244444000,-110.4500000000",point,Copper,Concentration of Copper in water,2018-03-29,water,0.00051
+USGS Arizona Water Science Center,mg/l,"31.4244444000,-110.4500000000",point,Calcium,Concentration of Calcium in water,2018-03-29,water,30.0
+USGS Arizona Water Science Center,mg/l,"31.4244444000,-110.4500000000",point,Potassium,Concentration of Potassium in water,2018-03-29,water,3.8
+USGS Arizona Water Science Center,mg/l,"31.4244444000,-110.4500000000",point,Potassium,Concentration of Potassium in water,2018-03-29,water,3.7
+USGS Arizona Water Science Center,mg/l,"31.4244444000,-110.4500000000",point,Manganese,Concentration of Manganese in water,2018-03-29,water,0.038
+USGS Arizona Water Science Center,mg/l,"31.4244444000,-110.4500000000",point,Sodium,Concentration of Sodium in water,2018-03-29,water,7.0
+USGS Arizona Water Science Center,mg/l,"31.4244444000,-110.4500000000",point,Magnesium,Concentration of Magnesium in water,2018-03-29,water,3.7
+USGS Arizona Water Science Center,mg/l,"31.4244444000,-110.4500000000",point,Barium,Concentration of Barium in water,2018-03-29,water,0.074
+USGS Arizona Water Science Center,mg/l,"31.4319190000,-109.8937850000",point,Zinc,Concentration of Zinc in water,2018-02-22,water,0.0055
+USGS Arizona Water Science Center,mg/l,"31.4319190000,-109.8937850000",point,Zinc,Concentration of Zinc in water,2018-02-22,water,0.004
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Strontium,Concentration of Strontium in water,2018-05-24,water,0.47
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Cobalt,Concentration of Cobalt in water,2018-05-24,water,0.00053
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Manganese,Concentration of Manganese in water,2018-05-24,water,0.017
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Cobalt,Concentration of Cobalt in water,2018-05-24,water,0.00052
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Barium,Concentration of Barium in water,2018-05-24,water,0.16
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Nickel,Concentration of Nickel in water,2018-05-24,water,0.0018
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Potassium,Concentration of Potassium in water,2018-05-24,water,4.1
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Potassium,Concentration of Potassium in water,2018-05-24,water,4.4
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Molybdenum,Concentration of Molybdenum in water,2018-05-24,water,0.0015
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Sodium,Concentration of Sodium in water,2018-05-24,water,27.0
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Copper,Concentration of Copper in water,2018-05-24,water,0.0018
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Nickel,Concentration of Nickel in water,2018-05-24,water,0.00061
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Aluminum,Concentration of Aluminum in water,2018-05-24,water,2.0
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Copper,Concentration of Copper in water,2018-05-08,water,0.0029
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Magnesium,Concentration of Magnesium in water,2018-05-08,water,35.0
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Molybdenum,Concentration of Molybdenum in water,2018-05-08,water,0.00066
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Aluminum,Concentration of Aluminum in water,2018-05-08,water,2.6
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Sodium,Concentration of Sodium in water,2018-05-08,water,18.0
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Sodium,Concentration of Sodium in water,2018-05-08,water,17.0
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Manganese,Concentration of Manganese in water,2018-05-08,water,0.099
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Manganese,Concentration of Manganese in water,2018-05-08,water,0.03
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Vanadium,Concentration of Vanadium in water,2018-05-08,water,0.022
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Potassium,Concentration of Potassium in water,2018-05-08,water,1.9
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Strontium,Concentration of Strontium in water,2018-05-08,water,0.47
+USGS Arizona Water Science Center,mg/l,"34.6016472000,-112.4321111000",point,Nickel,Concentration of Nickel in water,2018-05-16,water,0.0033
+USGS Arizona Water Science Center,mg/l,"34.6016472000,-112.4321111000",point,Calcium,Concentration of Calcium in water,2018-05-16,water,41.0
+USGS Arizona Water Science Center,mg/l,"34.6016472000,-112.4321111000",point,Calcium,Concentration of Calcium in water,2018-05-16,water,40.0
+USGS Arizona Water Science Center,mg/l,"34.6016472000,-112.4321111000",point,Barium,Concentration of Barium in water,2018-05-16,water,0.041
+USGS Arizona Water Science Center,mg/l,"34.6016472000,-112.4321111000",point,Sodium,Concentration of Sodium in water,2018-05-16,water,34.0
+USGS Arizona Water Science Center,mg/l,"34.6016472000,-112.4321111000",point,Sodium,Concentration of Sodium in water,2018-05-16,water,35.0
+USGS Arizona Water Science Center,mg/l,"34.6016472000,-112.4321111000",point,Cobalt,Concentration of Cobalt in water,2018-05-16,water,0.00078
+USGS Arizona Water Science Center,mg/l,"34.6016472000,-112.4321111000",point,Manganese,Concentration of Manganese in water,2018-05-16,water,0.2
+USGS Arizona Water Science Center,mg/l,"34.6016472000,-112.4321111000",point,Strontium,Concentration of Strontium in water,2018-05-16,water,0.38
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Nickel,Concentration of Nickel in water,2018-05-09,water,0.00086
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Molybdenum,Concentration of Molybdenum in water,2018-05-09,water,0.0051
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Nickel,Concentration of Nickel in water,2018-05-09,water,0.00076
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Copper,Concentration of Copper in water,2018-05-09,water,0.00087
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Calcium,Concentration of Calcium in water,2018-05-09,water,72.0
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Cobalt,Concentration of Cobalt in water,2018-05-09,water,0.00056
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Molybdenum,Concentration of Molybdenum in water,2018-05-24,water,0.0015
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Manganese,Concentration of Manganese in water,2018-05-24,water,0.0015
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Potassium,Concentration of Potassium in water,2018-05-24,water,4.2
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Copper,Concentration of Copper in water,2018-05-24,water,0.0035
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Vanadium,Concentration of Vanadium in water,2018-05-24,water,0.015
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Manganese,Concentration of Manganese in water,2018-05-24,water,0.033
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Nickel,Concentration of Nickel in water,2018-05-24,water,0.0023
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Magnesium,Concentration of Magnesium in water,2018-05-24,water,19.0
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Zinc,Concentration of Zinc in water,2018-05-24,water,0.014
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Nickel,Concentration of Nickel in water,2018-05-24,water,0.00064
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Aluminum,Concentration of Aluminum in water,2018-05-24,water,3.1
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Mercury,Concentration of Mercury in water,2018-05-09,water,0.00047
+USGS Arizona Water Science Center,mg/l,"33.9701847000,-109.0556403000",point,Sodium,Concentration of Sodium in water,2018-06-22,water,18.0
+USGS Arizona Water Science Center,mg/l,"33.9701847000,-109.0556403000",point,Potassium,Concentration of Potassium in water,2018-06-22,water,0.6
+USGS Arizona Water Science Center,mg/l,"33.9701847000,-109.0556403000",point,Calcium,Concentration of Calcium in water,2018-06-22,water,48.0
+USGS Arizona Water Science Center,mg/l,"33.9701847000,-109.0556403000",point,Magnesium,Concentration of Magnesium in water,2018-06-22,water,10.0
+USGS Arizona Water Science Center,mg/l,"34.4899000000,-112.2309444000",point,Iron,Concentration of Iron in water,2018-05-29,water,0.13
+USGS Arizona Water Science Center,mg/l,"34.4899000000,-112.2309444000",point,Calcium,Concentration of Calcium in water,2018-05-29,water,97.0
+USGS Arizona Water Science Center,mg/l,"34.4899000000,-112.2309444000",point,Calcium,Concentration of Calcium in water,2018-05-29,water,98.0
+USGS Arizona Water Science Center,mg/l,"34.4899000000,-112.2309444000",point,Magnesium,Concentration of Magnesium in water,2018-05-29,water,24.0
+USGS Arizona Water Science Center,mg/l,"34.4899000000,-112.2309444000",point,Magnesium,Concentration of Magnesium in water,2018-05-29,water,24.0
+USGS Arizona Water Science Center,mg/l,"34.4899000000,-112.2309444000",point,Nickel,Concentration of Nickel in water,2018-05-29,water,0.0015
+USGS Arizona Water Science Center,mg/l,"34.4899000000,-112.2309444000",point,Molybdenum,Concentration of Molybdenum in water,2018-05-29,water,0.00099
+USGS Arizona Water Science Center,mg/l,"34.4899000000,-112.2309444000",point,Molybdenum,Concentration of Molybdenum in water,2018-05-29,water,0.00096
+USGS Arizona Water Science Center,mg/l,"34.4899000000,-112.2309444000",point,Zinc,Concentration of Zinc in water,2018-05-29,water,0.014
+USGS Arizona Water Science Center,mg/l,"34.4899000000,-112.2309444000",point,Sodium,Concentration of Sodium in water,2018-05-29,water,62.0
+USGS Arizona Water Science Center,mg/l,"34.4899000000,-112.2309444000",point,Sodium,Concentration of Sodium in water,2018-05-29,water,62.0
+USGS Arizona Water Science Center,mg/l,"34.4899000000,-112.2309444000",point,Cobalt,Concentration of Cobalt in water,2018-05-29,water,0.00057
+USGS Arizona Water Science Center,mg/l,"34.4899000000,-112.2309444000",point,Manganese,Concentration of Manganese in water,2018-05-29,water,0.0054
+USGS Arizona Water Science Center,mg/l,"34.4899000000,-112.2309444000",point,Potassium,Concentration of Potassium in water,2018-05-29,water,2.2
+USGS Arizona Water Science Center,mg/l,"34.4899000000,-112.2309444000",point,Nickel,Concentration of Nickel in water,2018-05-29,water,0.0014
+USGS Arizona Water Science Center,mg/l,"34.4899000000,-112.2309444000",point,Iron,Concentration of Iron in water,2018-05-29,water,0.24
+USGS Arizona Water Science Center,mg/l,"34.4899000000,-112.2309444000",point,Copper,Concentration of Copper in water,2018-05-29,water,0.0018
+USGS Arizona Water Science Center,mg/l,"34.4899000000,-112.2309444000",point,Calcium,Concentration of Calcium in water,2018-05-29,water,100.0
+USGS Arizona Water Science Center,mg/l,"34.4899000000,-112.2309444000",point,Barium,Concentration of Barium in water,2018-05-29,water,0.095
+USGS Arizona Water Science Center,mg/l,"34.4899000000,-112.2309444000",point,Sodium,Concentration of Sodium in water,2018-05-29,water,63.0
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Magnesium,Concentration of Magnesium in water,2018-01-24,water,29.0
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Sodium,Concentration of Sodium in water,2018-01-24,water,97.0
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Barium,Concentration of Barium in water,2018-01-24,water,0.11
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Nickel,Concentration of Nickel in water,2018-01-24,water,0.00087
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Manganese,Concentration of Manganese in water,2018-01-24,water,0.0021
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Calcium,Concentration of Calcium in water,2018-01-24,water,66.0
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Molybdenum,Concentration of Molybdenum in water,2018-01-24,water,0.0048
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Nickel,Concentration of Nickel in water,2018-01-24,water,0.00088
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Magnesium,Concentration of Magnesium in water,2018-06-21,water,18.0
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Barium,Concentration of Barium in water,2018-06-21,water,0.16
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Manganese,Concentration of Manganese in water,2018-06-21,water,0.0022
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Molybdenum,Concentration of Molybdenum in water,2018-06-21,water,0.0015
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Zinc,Concentration of Zinc in water,2018-06-21,water,0.02
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Potassium,Concentration of Potassium in water,2018-06-21,water,4.9
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Nickel,Concentration of Nickel in water,2018-06-21,water,0.0016
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Copper,Concentration of Copper in water,2018-06-21,water,0.0016
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Strontium,Concentration of Strontium in water,2018-06-21,water,0.48
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Copper,Concentration of Copper in water,2018-06-21,water,0.002
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Vanadium,Concentration of Vanadium in water,2018-06-21,water,0.015
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Manganese,Concentration of Manganese in water,2018-06-21,water,0.015
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Cobalt,Concentration of Cobalt in water,2018-06-21,water,0.001
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Barium,Concentration of Barium in water,2018-06-21,water,0.16
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Magnesium,Concentration of Magnesium in water,2018-06-21,water,20.0
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Nickel,Concentration of Nickel in water,2018-06-21,water,0.001
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Sodium,Concentration of Sodium in water,2018-06-21,water,29.0
+USGS Arizona Water Science Center,mg/l,"33.9671392000,-109.0826272000",point,Sodium,Concentration of Sodium in water,2018-06-07,water,9.5
+USGS Arizona Water Science Center,mg/l,"33.9671392000,-109.0826272000",point,Barium,Concentration of Barium in water,2018-06-07,water,0.0088
+USGS Arizona Water Science Center,mg/l,"33.9671392000,-109.0826272000",point,Barium,Concentration of Barium in water,2018-06-07,water,0.0042
+USGS Arizona Water Science Center,mg/l,"33.9671392000,-109.0826272000",point,Sodium,Concentration of Sodium in water,2018-06-07,water,9.5
+USGS Arizona Water Science Center,mg/l,"33.9671392000,-109.0826272000",point,Manganese,Concentration of Manganese in water,2018-06-07,water,0.0048
+USGS Arizona Water Science Center,mg/l,"33.9671392000,-109.0826272000",point,Manganese,Concentration of Manganese in water,2018-06-07,water,0.021
+USGS Arizona Water Science Center,mg/l,"33.9671392000,-109.0826272000",point,Potassium,Concentration of Potassium in water,2018-06-07,water,1.1
+USGS Arizona Water Science Center,mg/l,"33.9671392000,-109.0826272000",point,Potassium,Concentration of Potassium in water,2018-06-07,water,0.93
+USGS Arizona Water Science Center,mg/l,"33.9671392000,-109.0826272000",point,Nickel,Concentration of Nickel in water,2018-06-07,water,0.00055
+USGS Arizona Water Science Center,mg/l,"33.9671392000,-109.0826272000",point,Copper,Concentration of Copper in water,2018-06-07,water,0.00076
+USGS Arizona Water Science Center,mg/l,"33.9671392000,-109.0826272000",point,Copper,Concentration of Copper in water,2018-06-07,water,0.00053
+USGS Arizona Water Science Center,mg/l,"33.9671392000,-109.0826272000",point,Calcium,Concentration of Calcium in water,2018-06-07,water,20.0
+USGS Arizona Water Science Center,mg/l,"33.9671392000,-109.0826272000",point,Magnesium,Concentration of Magnesium in water,2018-06-07,water,5.6
+USGS Arizona Water Science Center,mg/l,"33.9671392000,-109.0826272000",point,Aluminum,Concentration of Aluminum in water,2018-06-07,water,0.42
+USGS Arizona Water Science Center,mg/l,"33.9671392000,-109.0826272000",point,Magnesium,Concentration of Magnesium in water,2018-03-13,water,5.6
+USGS Arizona Water Science Center,mg/l,"33.9671392000,-109.0826272000",point,Sodium,Concentration of Sodium in water,2018-03-13,water,8.1
+USGS Arizona Water Science Center,mg/l,"33.9671392000,-109.0826272000",point,Potassium,Concentration of Potassium in water,2018-03-13,water,0.82
+USGS Arizona Water Science Center,mg/l,"34.6387122000,-113.2072044000",point,Zinc,Concentration of Zinc in water,2018-03-07,water,0.014
+USGS Arizona Water Science Center,mg/l,"34.6387122000,-113.2072044000",point,Nickel,Concentration of Nickel in water,2018-03-07,water,0.00057
+USGS Arizona Water Science Center,mg/l,"34.6387122000,-113.2072044000",point,Nickel,Concentration of Nickel in water,2018-03-07,water,0.00051
+USGS Arizona Water Science Center,mg/l,"34.6387122000,-113.2072044000",point,Molybdenum,Concentration of Molybdenum in water,2018-03-07,water,0.0024
+USGS Arizona Water Science Center,mg/l,"34.6387122000,-113.2072044000",point,Copper,Concentration of Copper in water,2018-03-07,water,0.0012
+USGS Arizona Water Science Center,mg/l,"34.6387122000,-113.2072044000",point,Magnesium,Concentration of Magnesium in water,2018-03-07,water,24.0
+USGS Arizona Water Science Center,mg/l,"34.6387122000,-113.2072044000",point,Manganese,Concentration of Manganese in water,2018-03-07,water,0.0063
+USGS Arizona Water Science Center,mg/l,"34.6387122000,-113.2072044000",point,Manganese,Concentration of Manganese in water,2018-03-07,water,0.0061
+USGS Arizona Water Science Center,mg/l,"34.6387122000,-113.2072044000",point,Potassium,Concentration of Potassium in water,2018-03-07,water,4.3
+USGS Arizona Water Science Center,mg/l,"34.6387122000,-113.2072044000",point,Potassium,Concentration of Potassium in water,2018-03-07,water,4.3
+USGS Arizona Water Science Center,mg/l,"34.6387122000,-113.2072044000",point,Strontium,Concentration of Strontium in water,2018-03-07,water,0.35
+USGS Arizona Water Science Center,mg/l,"31.4337222000,-110.4572500000",point,Strontium,Concentration of Strontium in water,2018-05-31,water,0.13
+USGS Arizona Water Science Center,mg/l,"31.4337222000,-110.4572500000",point,Manganese,Concentration of Manganese in water,2018-05-31,water,0.032
+USGS Arizona Water Science Center,mg/l,"31.4337222000,-110.4572500000",point,Barium,Concentration of Barium in water,2018-05-31,water,0.076
+USGS Arizona Water Science Center,mg/l,"31.4337222000,-110.4572500000",point,Sodium,Concentration of Sodium in water,2018-05-31,water,7.3
+USGS Arizona Water Science Center,mg/l,"31.4337222000,-110.4572500000",point,Manganese,Concentration of Manganese in water,2018-03-29,water,0.054
+USGS Arizona Water Science Center,mg/l,"31.4337222000,-110.4572500000",point,Cobalt,Concentration of Cobalt in water,2018-03-29,water,0.00057
+USGS Arizona Water Science Center,mg/l,"31.4337222000,-110.4572500000",point,Silver,Concentration of Silver in water,2018-03-29,water,0.00012
+USGS Arizona Water Science Center,mg/l,"31.4337222000,-110.4572500000",point,Manganese,Concentration of Manganese in water,2018-03-29,water,0.0065
+USGS Arizona Water Science Center,mg/l,"31.4337222000,-110.4572500000",point,Lead,Concentration of Lead in water,2018-03-29,water,0.00053
+USGS Arizona Water Science Center,mg/l,"31.4337222000,-110.4572500000",point,Calcium,Concentration of Calcium in water,2018-03-29,water,31.0
+USGS Arizona Water Science Center,mg/l,"31.4337222000,-110.4572500000",point,Lead,Concentration of Lead in water,2018-03-29,water,0.00082
+USGS Arizona Water Science Center,mg/l,"31.4337222000,-110.4572500000",point,Copper,Concentration of Copper in water,2018-03-29,water,0.00055
+USGS Arizona Water Science Center,mg/l,"31.4337222000,-110.4572500000",point,Calcium,Concentration of Calcium in water,2018-03-29,water,30.0
+USGS Arizona Water Science Center,mg/l,"31.4337222000,-110.4572500000",point,Zinc,Concentration of Zinc in water,2018-03-29,water,0.014
+USGS Arizona Water Science Center,mg/l,"31.4337222000,-110.4572500000",point,Potassium,Concentration of Potassium in water,2018-03-29,water,3.8
+USGS Arizona Water Science Center,mg/l,"31.4337222000,-110.4572500000",point,Potassium,Concentration of Potassium in water,2018-03-29,water,3.7
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Sodium,Concentration of Sodium in water,2018-05-09,water,98.0
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Nickel,Concentration of Nickel in water,2018-05-09,water,0.00086
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Nickel,Concentration of Nickel in water,2018-05-09,water,0.00076
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Molybdenum,Concentration of Molybdenum in water,2018-05-09,water,0.0048
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Manganese,Concentration of Manganese in water,2018-05-09,water,0.002
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Manganese,Concentration of Manganese in water,2018-05-09,water,0.0012
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Barium,Concentration of Barium in water,2018-05-09,water,0.12
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Sodium,Concentration of Sodium in water,2018-05-09,water,97.0
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Potassium,Concentration of Potassium in water,2018-05-09,water,5.1
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Calcium,Concentration of Calcium in water,2018-05-09,water,72.0
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Barium,Concentration of Barium in water,2018-05-09,water,0.11
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Nickel,Concentration of Nickel in water,2018-05-09,water,0.00084
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Copper,Concentration of Copper in water,2018-05-09,water,0.0009
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Copper,Concentration of Copper in water,2018-05-09,water,0.00063
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Calcium,Concentration of Calcium in water,2018-05-09,water,72.0
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Magnesium,Concentration of Magnesium in water,2018-05-09,water,28.0
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Zinc,Concentration of Zinc in water,2018-05-09,water,0.013
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Manganese,Concentration of Manganese in water,2018-05-09,water,0.0022
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Strontium,Concentration of Strontium in water,2018-05-09,water,1.1
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Molybdenum,Concentration of Molybdenum in water,2018-12-13,water,0.00068
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Calcium,Concentration of Calcium in water,2018-12-13,water,69.0
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Magnesium,Concentration of Magnesium in water,2018-12-13,water,36.0
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Nickel,Concentration of Nickel in water,2018-12-13,water,0.0014
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Chromium,Concentration of Chromium in water,2018-12-13,water,0.0011
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Sodium,Concentration of Sodium in water,2018-12-13,water,19.0
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Manganese,Concentration of Manganese in water,2018-12-13,water,0.0032
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Vanadium,Concentration of Vanadium in water,2018-12-13,water,0.011
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Potassium,Concentration of Potassium in water,2018-12-13,water,1.6
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Molybdenum,Concentration of Molybdenum in water,2018-05-09,water,0.005
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Manganese,Concentration of Manganese in water,2018-05-09,water,0.001
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Potassium,Concentration of Potassium in water,2018-05-09,water,5.2
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Magnesium,Concentration of Magnesium in water,2018-05-09,water,28.0
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Calcium,Concentration of Calcium in water,2018-05-09,water,72.0
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Nickel,Concentration of Nickel in water,2018-05-09,water,0.00084
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Molybdenum,Concentration of Molybdenum in water,2018-05-09,water,0.0048
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Copper,Concentration of Copper in water,2018-05-09,water,0.0009
+USGS Arizona Water Science Center,mg/l,"34.4291111000,-112.3881389000",point,Iron,Concentration of Iron in water,2018-08-22,water,3.1
+USGS Arizona Water Science Center,mg/l,"34.4291111000,-112.3881389000",point,Iron,Concentration of Iron in water,2018-08-22,water,0.27
+USGS Arizona Water Science Center,mg/l,"34.4291111000,-112.3881389000",point,Calcium,Concentration of Calcium in water,2018-08-22,water,23.0
+USGS Arizona Water Science Center,mg/l,"34.4291111000,-112.3881389000",point,Lead,Concentration of Lead in water,2018-08-22,water,0.0062
+USGS Arizona Water Science Center,mg/l,"34.4291111000,-112.3881389000",point,Lead,Concentration of Lead in water,2018-08-22,water,0.012
+USGS Arizona Water Science Center,mg/l,"34.4291111000,-112.3881389000",point,Nickel,Concentration of Nickel in water,2018-08-22,water,0.0053
+USGS Arizona Water Science Center,mg/l,"34.4291111000,-112.3881389000",point,Zinc,Concentration of Zinc in water,2018-08-22,water,0.32
+USGS Arizona Water Science Center,mg/l,"34.4291111000,-112.3881389000",point,Zinc,Concentration of Zinc in water,2018-08-22,water,2.8
+USGS Arizona Water Science Center,mg/l,"34.4291111000,-112.3881389000",point,Sodium,Concentration of Sodium in water,2018-08-22,water,2.8
+USGS Arizona Water Science Center,mg/l,"34.4291111000,-112.3881389000",point,Sodium,Concentration of Sodium in water,2018-08-22,water,2.7
+USGS Arizona Water Science Center,mg/l,"34.4291111000,-112.3881389000",point,Cobalt,Concentration of Cobalt in water,2018-08-22,water,0.0027
+USGS Arizona Water Science Center,mg/l,"34.4291111000,-112.3881389000",point,Potassium,Concentration of Potassium in water,2018-08-22,water,1.4
+USGS Arizona Water Science Center,mg/l,"34.4291111000,-112.3881389000",point,Magnesium,Concentration of Magnesium in water,2018-08-22,water,5.9
+USGS Arizona Water Science Center,mg/l,"34.4291111000,-112.3881389000",point,Magnesium,Concentration of Magnesium in water,2018-08-22,water,5.2
+USGS Arizona Water Science Center,mg/l,"34.4291111000,-112.3881389000",point,Cadmium,Concentration of Cadmium in water,2018-08-22,water,0.003
+USGS Arizona Water Science Center,mg/l,"34.4291111000,-112.3881389000",point,Cadmium,Concentration of Cadmium in water,2018-08-22,water,0.028
+USGS Arizona Water Science Center,mg/l,"34.4291111000,-112.3881389000",point,Aluminum,Concentration of Aluminum in water,2018-08-22,water,0.44
+USGS Arizona Water Science Center,mg/l,"34.4291111000,-112.3881389000",point,Barium,Concentration of Barium in water,2018-08-22,water,0.004
+USGS Arizona Water Science Center,mg/l,"34.6051889000,-112.4377778000",point,Nickel,Concentration of Nickel in water,2018-06-27,water,0.0026
+USGS Arizona Water Science Center,mg/l,"34.6051889000,-112.4377778000",point,Nickel,Concentration of Nickel in water,2018-06-27,water,0.0026
+USGS Arizona Water Science Center,mg/l,"34.6051889000,-112.4377778000",point,Calcium,Concentration of Calcium in water,2018-06-27,water,25.0
+USGS Arizona Water Science Center,mg/l,"34.6051889000,-112.4377778000",point,Calcium,Concentration of Calcium in water,2018-06-27,water,25.0
+USGS Arizona Water Science Center,mg/l,"34.6051889000,-112.4377778000",point,Magnesium,Concentration of Magnesium in water,2018-06-27,water,24.0
+USGS Arizona Water Science Center,mg/l,"34.6051889000,-112.4377778000",point,Magnesium,Concentration of Magnesium in water,2018-06-27,water,24.0
+USGS Arizona Water Science Center,mg/l,"34.6051889000,-112.4377778000",point,Potassium,Concentration of Potassium in water,2018-06-27,water,3.3
+USGS Arizona Water Science Center,mg/l,"34.6051889000,-112.4377778000",point,Strontium,Concentration of Strontium in water,2018-06-27,water,0.3
+USGS Arizona Water Science Center,mg/l,"34.6051889000,-112.4377778000",point,Barium,Concentration of Barium in water,2018-06-27,water,0.027
+USGS Arizona Water Science Center,mg/l,"34.6051889000,-112.4377778000",point,Sodium,Concentration of Sodium in water,2018-06-27,water,39.0
+USGS Arizona Water Science Center,mg/l,"34.6051889000,-112.4377778000",point,Manganese,Concentration of Manganese in water,2018-06-27,water,0.053
+USGS Arizona Water Science Center,mg/l,"34.6051889000,-112.4377778000",point,Potassium,Concentration of Potassium in water,2018-06-27,water,3.3
+USGS Arizona Water Science Center,mg/l,"34.7557222000,-112.1066667000",point,Copper,Concentration of Copper in water,2018-10-26,water,0.07
+USGS Arizona Water Science Center,mg/l,"33.9298347000,-109.4892997000",point,Molybdenum,Concentration of Molybdenum in water,2018-05-25,water,0.00061
+USGS Arizona Water Science Center,mg/l,"33.9298347000,-109.4892997000",point,Iron,Concentration of Iron in water,2018-05-25,water,0.62
+USGS Arizona Water Science Center,mg/l,"33.9298347000,-109.4892997000",point,Sodium,Concentration of Sodium in water,2018-05-25,water,3.3
+USGS Arizona Water Science Center,mg/l,"33.9298347000,-109.4892997000",point,Sodium,Concentration of Sodium in water,2018-05-25,water,3.4
+USGS Arizona Water Science Center,mg/l,"33.9298347000,-109.4892997000",point,Manganese,Concentration of Manganese in water,2018-05-25,water,0.024
+USGS Arizona Water Science Center,mg/l,"33.9298347000,-109.4892997000",point,Potassium,Concentration of Potassium in water,2018-05-25,water,2.5
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Nickel,Concentration of Nickel in water,2018-08-31,water,0.0048
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Molybdenum,Concentration of Molybdenum in water,2018-08-31,water,0.00064
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Molybdenum,Concentration of Molybdenum in water,2018-08-31,water,0.00071
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Iron,Concentration of Iron in water,2018-08-31,water,1.7
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Copper,Concentration of Copper in water,2018-08-31,water,0.0014
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Calcium,Concentration of Calcium in water,2018-08-31,water,72.0
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Calcium,Concentration of Calcium in water,2018-08-31,water,63.0
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Chromium,Concentration of Chromium in water,2018-08-31,water,0.0037
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Aluminum,Concentration of Aluminum in water,2018-08-31,water,2.6
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Barium,Concentration of Barium in water,2018-08-31,water,0.032
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Cobalt,Concentration of Cobalt in water,2018-08-31,water,0.0011
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Cobalt,Concentration of Cobalt in water,2018-08-31,water,0.00074
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Manganese,Concentration of Manganese in water,2018-08-31,water,0.083
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Manganese,Concentration of Manganese in water,2018-08-31,water,0.048
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Vanadium,Concentration of Vanadium in water,2018-08-31,water,0.014
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Vanadium,Concentration of Vanadium in water,2018-08-31,water,0.011
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Potassium,Concentration of Potassium in water,2018-08-31,water,2.4
+USGS Arizona Water Science Center,mg/l,"34.6141431000,-113.2206147000",point,Manganese,Concentration of Manganese in water,2018-11-07,water,0.18
+USGS Arizona Water Science Center,mg/l,"34.6141431000,-113.2206147000",point,Calcium,Concentration of Calcium in water,2018-11-07,water,47.0
+USGS Arizona Water Science Center,mg/l,"34.6141431000,-113.2206147000",point,Calcium,Concentration of Calcium in water,2018-11-07,water,41.0
+USGS Arizona Water Science Center,mg/l,"34.6141431000,-113.2206147000",point,Magnesium,Concentration of Magnesium in water,2018-11-07,water,37.0
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Iron,Concentration of Iron in water,2018-01-24,water,0.11
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Magnesium,Concentration of Magnesium in water,2018-01-24,water,28.0
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Calcium,Concentration of Calcium in water,2018-01-24,water,69.0
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Sodium,Concentration of Sodium in water,2018-01-24,water,96.0
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Barium,Concentration of Barium in water,2018-01-24,water,0.11
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Barium,Concentration of Barium in water,2018-01-24,water,0.12
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Molybdenum,Concentration of Molybdenum in water,2018-01-24,water,0.0048
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Potassium,Concentration of Potassium in water,2018-01-24,water,5.2
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Calcium,Concentration of Calcium in water,2018-01-24,water,67.0
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Molybdenum,Concentration of Molybdenum in water,2018-01-24,water,0.0049
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Magnesium,Concentration of Magnesium in water,2018-01-24,water,27.0
+USGS Arizona Water Science Center,mg/l,"33.9061111000,-112.2427778000",point,Aluminum,Concentration of Aluminum in water,2018-01-24,water,0.14
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Copper,Concentration of Copper in water,2018-06-21,water,0.0016
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Calcium,Concentration of Calcium in water,2018-06-21,water,51.0
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Copper,Concentration of Copper in water,2018-06-21,water,0.0023
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Cobalt,Concentration of Cobalt in water,2018-06-21,water,0.00071
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Calcium,Concentration of Calcium in water,2018-06-21,water,48.0
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Magnesium,Concentration of Magnesium in water,2018-06-21,water,20.0
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Potassium,Concentration of Potassium in water,2018-06-21,water,4.4
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Potassium,Concentration of Potassium in water,2018-06-21,water,5.1
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Barium,Concentration of Barium in water,2018-06-21,water,0.16
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Manganese,Concentration of Manganese in water,2018-06-21,water,0.0015
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Molybdenum,Concentration of Molybdenum in water,2018-06-21,water,0.0016
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Iron,Concentration of Iron in water,2018-06-21,water,1.7
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Nickel,Concentration of Nickel in water,2018-06-21,water,0.0011
+USGS Arizona Water Science Center,mg/l,"31.4244444000,-110.4500000000",point,Manganese,Concentration of Manganese in water,2018-05-31,water,0.0024
+USGS Arizona Water Science Center,mg/l,"31.4244444000,-110.4500000000",point,Copper,Concentration of Copper in water,2018-05-31,water,0.0006
+USGS Arizona Water Science Center,mg/l,"31.4244444000,-110.4500000000",point,Calcium,Concentration of Calcium in water,2018-05-31,water,29.0
+USGS Arizona Water Science Center,mg/l,"31.4244444000,-110.4500000000",point,Calcium,Concentration of Calcium in water,2018-05-31,water,28.0
+USGS Arizona Water Science Center,mg/l,"31.4244444000,-110.4500000000",point,Magnesium,Concentration of Magnesium in water,2018-05-31,water,3.9
+USGS Arizona Water Science Center,mg/l,"31.4244444000,-110.4500000000",point,Sodium,Concentration of Sodium in water,2018-05-31,water,7.6
+USGS Arizona Water Science Center,mg/l,"31.4319190000,-109.8937850000",point,Barium,Concentration of Barium in water,2018-02-15,water,0.054
+USGS Arizona Water Science Center,mg/l,"31.4319190000,-109.8937850000",point,Silver,Concentration of Silver in water,2018-02-15,water,8.4e-05
+USGS Arizona Water Science Center,mg/l,"31.4319190000,-109.8937850000",point,Zinc,Concentration of Zinc in water,2018-02-15,water,0.069
+USGS Arizona Water Science Center,mg/l,"31.4319190000,-109.8937850000",point,Zinc,Concentration of Zinc in water,2018-02-15,water,0.011
+USGS Arizona Water Science Center,mg/l,"31.4319190000,-109.8937850000",point,Manganese,Concentration of Manganese in water,2018-02-15,water,0.08
+USGS Arizona Water Science Center,mg/l,"31.4319190000,-109.8937850000",point,Potassium,Concentration of Potassium in water,2018-02-15,water,5.0
+USGS Arizona Water Science Center,mg/l,"31.4319190000,-109.8937850000",point,Potassium,Concentration of Potassium in water,2018-02-15,water,4.6
+USGS Arizona Water Science Center,mg/l,"31.4319190000,-109.8937850000",point,Thallium,Concentration of Thallium in water,2018-02-15,water,1.7e-05
+USGS Arizona Water Science Center,mg/l,"31.4319190000,-109.8937850000",point,Cadmium,Concentration of Cadmium in water,2018-02-15,water,6.9e-05
+USGS Arizona Water Science Center,mg/l,"31.4319190000,-109.8937850000",point,Chromium,Concentration of Chromium in water,2018-02-15,water,0.0021
+USGS Arizona Water Science Center,mg/l,"31.4319190000,-109.8937850000",point,Aluminum,Concentration of Aluminum in water,2018-02-15,water,0.16
+USGS Arizona Water Science Center,mg/l,"31.4319190000,-109.8937850000",point,Aluminum,Concentration of Aluminum in water,2018-02-15,water,2.0
+USGS Arizona Water Science Center,mg/l,"31.4319190000,-109.8937850000",point,Cobalt,Concentration of Cobalt in water,2018-02-15,water,0.0027
+USGS Arizona Water Science Center,mg/l,"31.4319190000,-109.8937850000",point,Iron,Concentration of Iron in water,2018-02-15,water,5.9
+USGS Arizona Water Science Center,mg/l,"31.4319190000,-109.8937850000",point,Iron,Concentration of Iron in water,2018-02-15,water,0.068
+USGS Arizona Water Science Center,mg/l,"31.4319190000,-109.8937850000",point,Copper,Concentration of Copper in water,2018-02-15,water,0.61
+USGS Arizona Water Science Center,mg/l,"31.4319190000,-109.8937850000",point,Copper,Concentration of Copper in water,2018-02-15,water,0.094
+USGS Arizona Water Science Center,mg/l,"31.4319190000,-109.8937850000",point,Calcium,Concentration of Calcium in water,2018-02-15,water,40.0
+USGS Arizona Water Science Center,mg/l,"31.4319190000,-109.8937850000",point,Calcium,Concentration of Calcium in water,2018-02-15,water,43.0
+USGS Arizona Water Science Center,mg/l,"31.4319190000,-109.8937850000",point,Magnesium,Concentration of Magnesium in water,2018-02-15,water,8.1
+USGS Arizona Water Science Center,mg/l,"31.4319190000,-109.8937850000",point,Magnesium,Concentration of Magnesium in water,2018-02-15,water,7.6
+USGS Arizona Water Science Center,mg/l,"34.6051889000,-112.4377778000",point,Iron,Concentration of Iron in water,2018-05-16,water,0.23
+USGS Arizona Water Science Center,mg/l,"34.6051889000,-112.4377778000",point,Potassium,Concentration of Potassium in water,2018-05-16,water,4.5
+USGS Arizona Water Science Center,mg/l,"34.6051889000,-112.4377778000",point,Aluminum,Concentration of Aluminum in water,2018-05-16,water,0.17
+USGS Arizona Water Science Center,mg/l,"34.6051889000,-112.4377778000",point,Barium,Concentration of Barium in water,2018-05-16,water,0.037
+USGS Arizona Water Science Center,mg/l,"34.6051889000,-112.4377778000",point,Barium,Concentration of Barium in water,2018-05-16,water,0.031
+USGS Arizona Water Science Center,mg/l,"34.6051889000,-112.4377778000",point,Zinc,Concentration of Zinc in water,2018-05-16,water,0.015
+USGS Arizona Water Science Center,mg/l,"34.6051889000,-112.4377778000",point,Sodium,Concentration of Sodium in water,2018-05-16,water,35.0
+USGS Arizona Water Science Center,mg/l,"34.6051889000,-112.4377778000",point,Copper,Concentration of Copper in water,2018-05-16,water,0.001
+USGS Arizona Water Science Center,mg/l,"34.6051889000,-112.4377778000",point,Copper,Concentration of Copper in water,2018-05-16,water,0.00073
+USGS Arizona Water Science Center,mg/l,"34.6051889000,-112.4377778000",point,Calcium,Concentration of Calcium in water,2018-05-16,water,40.0
+USGS Arizona Water Science Center,mg/l,"34.6051889000,-112.4377778000",point,Calcium,Concentration of Calcium in water,2018-05-16,water,41.0
+USGS Arizona Water Science Center,mg/l,"34.6051889000,-112.4377778000",point,Nickel,Concentration of Nickel in water,2018-05-16,water,0.0031
+USGS Arizona Water Science Center,mg/l,"34.6051889000,-112.4377778000",point,Nickel,Concentration of Nickel in water,2018-05-16,water,0.0029
+USGS Arizona Water Science Center,mg/l,"34.6051889000,-112.4377778000",point,Molybdenum,Concentration of Molybdenum in water,2018-05-16,water,0.0012
+USGS Arizona Water Science Center,mg/l,"34.6051889000,-112.4377778000",point,Cobalt,Concentration of Cobalt in water,2018-05-16,water,0.00074
+USGS Arizona Water Science Center,mg/l,"34.6051889000,-112.4377778000",point,Manganese,Concentration of Manganese in water,2018-05-16,water,0.098
+USGS Arizona Water Science Center,mg/l,"34.6051889000,-112.4377778000",point,Manganese,Concentration of Manganese in water,2018-05-16,water,0.25
+USGS Arizona Water Science Center,mg/l,"31.4277778000,-110.4563889000",point,Sodium,Concentration of Sodium in water,2018-03-29,water,7.0
+USGS Arizona Water Science Center,mg/l,"31.4277778000,-110.4563889000",point,Magnesium,Concentration of Magnesium in water,2018-03-29,water,3.6
+USGS Arizona Water Science Center,mg/l,"31.4277778000,-110.4563889000",point,Magnesium,Concentration of Magnesium in water,2018-03-29,water,3.7
+USGS Arizona Water Science Center,mg/l,"31.4277778000,-110.4563889000",point,Manganese,Concentration of Manganese in water,2018-03-29,water,0.049
+USGS Arizona Water Science Center,mg/l,"31.4277778000,-110.4563889000",point,Strontium,Concentration of Strontium in water,2018-03-29,water,0.13
+USGS Arizona Water Science Center,mg/l,"31.4277778000,-110.4563889000",point,Copper,Concentration of Copper in water,2018-03-29,water,0.00053
+USGS Arizona Water Science Center,mg/l,"31.4277778000,-110.4563889000",point,Calcium,Concentration of Calcium in water,2018-03-29,water,30.0
+USGS Arizona Water Science Center,mg/l,"31.4277778000,-110.4563889000",point,Potassium,Concentration of Potassium in water,2018-03-29,water,3.8
+USGS Arizona Water Science Center,mg/l,"31.4277778000,-110.4563889000",point,Potassium,Concentration of Potassium in water,2018-03-29,water,3.7
+USGS Arizona Water Science Center,mg/l,"31.4277778000,-110.4563889000",point,Iron,Concentration of Iron in water,2018-05-31,water,0.25
+USGS Arizona Water Science Center,mg/l,"31.4277778000,-110.4563889000",point,Manganese,Concentration of Manganese in water,2018-05-31,water,0.72
+USGS Arizona Water Science Center,mg/l,"31.4277778000,-110.4563889000",point,Barium,Concentration of Barium in water,2018-05-31,water,0.099
+USGS Arizona Water Science Center,mg/l,"31.4277778000,-110.4563889000",point,Zinc,Concentration of Zinc in water,2018-05-31,water,0.014
+USGS Arizona Water Science Center,mg/l,"31.4277778000,-110.4563889000",point,Sodium,Concentration of Sodium in water,2018-05-31,water,6.9
+USGS Arizona Water Science Center,mg/l,"31.4277778000,-110.4563889000",point,Barium,Concentration of Barium in water,2018-05-31,water,0.1
+USGS Arizona Water Science Center,mg/l,"31.4277778000,-110.4563889000",point,Strontium,Concentration of Strontium in water,2018-05-31,water,0.13
+USGS Arizona Water Science Center,mg/l,"31.4277778000,-110.4563889000",point,Calcium,Concentration of Calcium in water,2018-05-31,water,30.0
+USGS Arizona Water Science Center,mg/l,"31.4244444000,-110.4500000000",point,Calcium,Concentration of Calcium in water,2018-03-29,water,30.0
+USGS Arizona Water Science Center,mg/l,"31.4244444000,-110.4500000000",point,Magnesium,Concentration of Magnesium in water,2018-03-29,water,3.6
+USGS Arizona Water Science Center,mg/l,"31.4244444000,-110.4500000000",point,Barium,Concentration of Barium in water,2018-03-29,water,0.073
+USGS Arizona Water Science Center,mg/l,"31.4244444000,-110.4500000000",point,Copper,Concentration of Copper in water,2018-03-29,water,0.0012
+USGS Arizona Water Science Center,mg/l,"31.4244444000,-110.4500000000",point,Manganese,Concentration of Manganese in water,2018-03-29,water,0.0025
+USGS Arizona Water Science Center,mg/l,"31.4319190000,-109.8937850000",point,Vanadium,Concentration of Vanadium in water,2018-02-22,water,0.00045
+USGS Arizona Water Science Center,mg/l,"31.4319190000,-109.8937850000",point,Cobalt,Concentration of Cobalt in water,2018-02-22,water,7.7e-05
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Calcium,Concentration of Calcium in water,2018-05-24,water,45.0
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Copper,Concentration of Copper in water,2018-05-24,water,0.0022
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Vanadium,Concentration of Vanadium in water,2018-05-24,water,0.013
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Calcium,Concentration of Calcium in water,2018-05-24,water,44.0
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Magnesium,Concentration of Magnesium in water,2018-05-24,water,18.0
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Iron,Concentration of Iron in water,2018-05-24,water,1.1
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Vanadium,Concentration of Vanadium in water,2018-05-24,water,0.011
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Magnesium,Concentration of Magnesium in water,2018-05-24,water,17.0
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Manganese,Concentration of Manganese in water,2018-05-24,water,0.002
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Molybdenum,Concentration of Molybdenum in water,2018-05-24,water,0.0014
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Sodium,Concentration of Sodium in water,2018-05-24,water,28.0
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Magnesium,Concentration of Magnesium in water,2018-05-08,water,34.0
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Iron,Concentration of Iron in water,2018-05-08,water,2.5
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Calcium,Concentration of Calcium in water,2018-05-08,water,67.0
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Calcium,Concentration of Calcium in water,2018-05-08,water,65.0
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Nickel,Concentration of Nickel in water,2018-05-08,water,0.0062
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Nickel,Concentration of Nickel in water,2018-05-08,water,0.00068
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Chromium,Concentration of Chromium in water,2018-05-08,water,0.0083
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Barium,Concentration of Barium in water,2018-05-08,water,0.029
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Barium,Concentration of Barium in water,2018-05-08,water,0.01
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Cobalt,Concentration of Cobalt in water,2018-05-08,water,0.0016
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Vanadium,Concentration of Vanadium in water,2018-05-08,water,0.016
+USGS Arizona Water Science Center,mg/l,"34.3634444000,-111.9743611000",point,Potassium,Concentration of Potassium in water,2018-05-08,water,1.7
+USGS Arizona Water Science Center,mg/l,"34.6016472000,-112.4321111000",point,Nickel,Concentration of Nickel in water,2018-05-16,water,0.0031
+USGS Arizona Water Science Center,mg/l,"34.6016472000,-112.4321111000",point,Molybdenum,Concentration of Molybdenum in water,2018-05-16,water,0.0013
+USGS Arizona Water Science Center,mg/l,"34.6016472000,-112.4321111000",point,Molybdenum,Concentration of Molybdenum in water,2018-05-16,water,0.0014
+USGS Arizona Water Science Center,mg/l,"34.6016472000,-112.4321111000",point,Magnesium,Concentration of Magnesium in water,2018-05-16,water,25.0
+USGS Arizona Water Science Center,mg/l,"34.6016472000,-112.4321111000",point,Magnesium,Concentration of Magnesium in water,2018-05-16,water,25.0
+USGS Arizona Water Science Center,mg/l,"34.6016472000,-112.4321111000",point,Cadmium,Concentration of Cadmium in water,2018-05-16,water,0.00015
+USGS Arizona Water Science Center,mg/l,"34.6016472000,-112.4321111000",point,Copper,Concentration of Copper in water,2018-05-16,water,0.00091
+USGS Arizona Water Science Center,mg/l,"34.6016472000,-112.4321111000",point,Copper,Concentration of Copper in water,2018-05-16,water,0.00082
+USGS Arizona Water Science Center,mg/l,"34.6016472000,-112.4321111000",point,Barium,Concentration of Barium in water,2018-05-16,water,0.04
+USGS Arizona Water Science Center,mg/l,"34.6016472000,-112.4321111000",point,Manganese,Concentration of Manganese in water,2018-05-16,water,0.18
+USGS Arizona Water Science Center,mg/l,"34.6016472000,-112.4321111000",point,Potassium,Concentration of Potassium in water,2018-05-16,water,4.2
+USGS Arizona Water Science Center,mg/l,"34.6016472000,-112.4321111000",point,Potassium,Concentration of Potassium in water,2018-05-16,water,4.4
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Molybdenum,Concentration of Molybdenum in water,2018-05-09,water,0.0048
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Copper,Concentration of Copper in water,2018-05-09,water,0.00063
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Potassium,Concentration of Potassium in water,2018-05-09,water,5.1
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Potassium,Concentration of Potassium in water,2018-05-09,water,5.1
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Strontium,Concentration of Strontium in water,2018-05-09,water,1.1
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Calcium,Concentration of Calcium in water,2018-05-09,water,71.0
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Magnesium,Concentration of Magnesium in water,2018-05-09,water,28.0
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Magnesium,Concentration of Magnesium in water,2018-05-09,water,28.0
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Barium,Concentration of Barium in water,2018-05-09,water,0.11
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Sodium,Concentration of Sodium in water,2018-05-09,water,98.0
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Sodium,Concentration of Sodium in water,2018-05-09,water,97.0
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Manganese,Concentration of Manganese in water,2018-05-09,water,0.0012
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Manganese,Concentration of Manganese in water,2018-05-09,water,0.002
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Magnesium,Concentration of Magnesium in water,2018-05-24,water,18.0
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Sodium,Concentration of Sodium in water,2018-05-24,water,28.0
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Molybdenum,Concentration of Molybdenum in water,2018-05-24,water,0.0014
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Lead,Concentration of Lead in water,2018-05-24,water,0.00079
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Vanadium,Concentration of Vanadium in water,2018-05-24,water,0.012
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Chromium,Concentration of Chromium in water,2018-05-24,water,0.0015
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Potassium,Concentration of Potassium in water,2018-05-24,water,4.7
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Copper,Concentration of Copper in water,2018-05-24,water,0.0016
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Strontium,Concentration of Strontium in water,2018-05-24,water,0.48
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Calcium,Concentration of Calcium in water,2018-05-24,water,47.0
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Cobalt,Concentration of Cobalt in water,2018-05-24,water,0.00081
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Barium,Concentration of Barium in water,2018-05-24,water,0.16
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Calcium,Concentration of Calcium in water,2018-05-24,water,45.0
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Iron,Concentration of Iron in water,2018-05-24,water,1.7
+USGS Arizona Water Science Center,mg/l,"34.2057222000,-109.3550278000",point,Sodium,Concentration of Sodium in water,2018-05-24,water,28.0
+USGS Arizona Water Science Center,mg/l,"34.4899000000,-112.2309444000",point,Copper,Concentration of Copper in water,2018-05-29,water,0.0018
+USGS Arizona Water Science Center,mg/l,"34.4899000000,-112.2309444000",point,Copper,Concentration of Copper in water,2018-05-29,water,0.0037
+USGS Arizona Water Science Center,mg/l,"34.4899000000,-112.2309444000",point,Nickel,Concentration of Nickel in water,2018-05-29,water,0.0014
+USGS Arizona Water Science Center,mg/l,"34.4899000000,-112.2309444000",point,Barium,Concentration of Barium in water,2018-05-29,water,0.097
+USGS Arizona Water Science Center,mg/l,"34.4899000000,-112.2309444000",point,Barium,Concentration of Barium in water,2018-05-29,water,0.094
+USGS Arizona Water Science Center,mg/l,"34.4899000000,-112.2309444000",point,Potassium,Concentration of Potassium in water,2018-05-29,water,2.2
+USGS Arizona Water Science Center,mg/l,"34.4899000000,-112.2309444000",point,Strontium,Concentration of Strontium in water,2018-05-29,water,0.54
+USGS Arizona Water Science Center,mg/l,"34.4899000000,-112.2309444000",point,Molybdenum,Concentration of Molybdenum in water,2018-05-29,water,0.00096
+USGS Arizona Water Science Center,mg/l,"34.4899000000,-112.2309444000",point,Magnesium,Concentration of Magnesium in water,2018-05-29,water,24.0
+USGS Arizona Water Science Center,mg/l,"34.4899000000,-112.2309444000",point,Aluminum,Concentration of Aluminum in water,2018-05-29,water,0.17
+USGS Arizona Water Science Center,mg/l,"34.4899000000,-112.2309444000",point,Zinc,Concentration of Zinc in water,2018-05-29,water,0.014
+USGS Arizona Water Science Center,mg/l,"34.4899000000,-112.2309444000",point,Potassium,Concentration of Potassium in water,2018-05-29,water,2.3
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Manganese,Concentration of Manganese in water,2018-01-24,water,0.0086
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Calcium,Concentration of Calcium in water,2018-01-24,water,67.0
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Barium,Concentration of Barium in water,2018-01-24,water,0.11
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Molybdenum,Concentration of Molybdenum in water,2018-01-24,water,0.0049
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Potassium,Concentration of Potassium in water,2018-01-24,water,4.9
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Magnesium,Concentration of Magnesium in water,2018-01-24,water,26.0
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Sodium,Concentration of Sodium in water,2018-01-24,water,89.0
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Strontium,Concentration of Strontium in water,2018-01-24,water,1.0
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Aluminum,Concentration of Aluminum in water,2018-01-24,water,0.11
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Potassium,Concentration of Potassium in water,2018-01-24,water,5.3
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Molybdenum,Concentration of Molybdenum in water,2018-06-21,water,0.0016
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Sodium,Concentration of Sodium in water,2018-06-21,water,31.0
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Vanadium,Concentration of Vanadium in water,2018-06-21,water,0.013
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Potassium,Concentration of Potassium in water,2018-06-21,water,4.4
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Calcium,Concentration of Calcium in water,2018-06-21,water,51.0
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Calcium,Concentration of Calcium in water,2018-06-21,water,47.0
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Iron,Concentration of Iron in water,2018-06-21,water,0.8
+USGS Arizona Water Science Center,mg/l,"34.3700833000,-109.3818611000",point,Aluminum,Concentration of Aluminum in water,2018-06-21,water,1.4
+USGS Arizona Water Science Center,mg/l,"33.9671392000,-109.0826272000",point,Iron,Concentration of Iron in water,2018-06-07,water,0.28
+USGS Arizona Water Science Center,mg/l,"33.9671392000,-109.0826272000",point,Calcium,Concentration of Calcium in water,2018-06-07,water,20.0
+USGS Arizona Water Science Center,mg/l,"33.9671392000,-109.0826272000",point,Magnesium,Concentration of Magnesium in water,2018-06-07,water,5.8
+USGS Arizona Water Science Center,mg/l,"33.9671392000,-109.0826272000",point,Calcium,Concentration of Calcium in water,2018-03-13,water,19.0
+USGS Arizona Water Science Center,mg/l,"33.9671392000,-109.0826272000",point,Calcium,Concentration of Calcium in water,2018-03-13,water,19.0
+USGS Arizona Water Science Center,mg/l,"33.9671392000,-109.0826272000",point,Magnesium,Concentration of Magnesium in water,2018-03-13,water,5.9
+USGS Arizona Water Science Center,mg/l,"33.9671392000,-109.0826272000",point,Aluminum,Concentration of Aluminum in water,2018-03-13,water,0.1
+USGS Arizona Water Science Center,mg/l,"33.9671392000,-109.0826272000",point,Barium,Concentration of Barium in water,2018-03-13,water,0.0044
+USGS Arizona Water Science Center,mg/l,"33.9671392000,-109.0826272000",point,Barium,Concentration of Barium in water,2018-03-13,water,0.0036
+USGS Arizona Water Science Center,mg/l,"33.9671392000,-109.0826272000",point,Sodium,Concentration of Sodium in water,2018-03-13,water,7.6
+USGS Arizona Water Science Center,mg/l,"33.9671392000,-109.0826272000",point,Potassium,Concentration of Potassium in water,2018-03-13,water,0.9
+USGS Arizona Water Science Center,mg/l,"34.6387122000,-113.2072044000",point,Barium,Concentration of Barium in water,2018-03-07,water,0.015
+USGS Arizona Water Science Center,mg/l,"34.6387122000,-113.2072044000",point,Molybdenum,Concentration of Molybdenum in water,2018-03-07,water,0.0024
+USGS Arizona Water Science Center,mg/l,"34.6387122000,-113.2072044000",point,Copper,Concentration of Copper in water,2018-03-07,water,0.0011
+USGS Arizona Water Science Center,mg/l,"34.6387122000,-113.2072044000",point,Calcium,Concentration of Calcium in water,2018-03-07,water,42.0
+USGS Arizona Water Science Center,mg/l,"34.6387122000,-113.2072044000",point,Calcium,Concentration of Calcium in water,2018-03-07,water,41.0
+USGS Arizona Water Science Center,mg/l,"34.6387122000,-113.2072044000",point,Magnesium,Concentration of Magnesium in water,2018-03-07,water,23.0
+USGS Arizona Water Science Center,mg/l,"34.6387122000,-113.2072044000",point,Barium,Concentration of Barium in water,2018-03-07,water,0.015
+USGS Arizona Water Science Center,mg/l,"34.6387122000,-113.2072044000",point,Sodium,Concentration of Sodium in water,2018-03-07,water,62.0
+USGS Arizona Water Science Center,mg/l,"34.6387122000,-113.2072044000",point,Sodium,Concentration of Sodium in water,2018-03-07,water,61.0
+USGS Arizona Water Science Center,mg/l,"34.6387122000,-113.2072044000",point,Manganese,Concentration of Manganese in water,2018-03-07,water,0.0074
+USGS Arizona Water Science Center,mg/l,"31.4337222000,-110.4572500000",point,Potassium,Concentration of Potassium in water,2018-05-31,water,3.8
+USGS Arizona Water Science Center,mg/l,"31.4337222000,-110.4572500000",point,Potassium,Concentration of Potassium in water,2018-05-31,water,3.9
+USGS Arizona Water Science Center,mg/l,"31.4337222000,-110.4572500000",point,Magnesium,Concentration of Magnesium in water,2018-05-31,water,3.7
+USGS Arizona Water Science Center,mg/l,"31.4337222000,-110.4572500000",point,Barium,Concentration of Barium in water,2018-05-31,water,0.075
+USGS Arizona Water Science Center,mg/l,"31.4337222000,-110.4572500000",point,Sodium,Concentration of Sodium in water,2018-05-31,water,7.6
+USGS Arizona Water Science Center,mg/l,"31.4337222000,-110.4572500000",point,Manganese,Concentration of Manganese in water,2018-05-31,water,0.0016
+USGS Arizona Water Science Center,mg/l,"31.4337222000,-110.4572500000",point,Copper,Concentration of Copper in water,2018-05-31,water,0.00073
+USGS Arizona Water Science Center,mg/l,"31.4337222000,-110.4572500000",point,Calcium,Concentration of Calcium in water,2018-05-31,water,28.0
+USGS Arizona Water Science Center,mg/l,"31.4337222000,-110.4572500000",point,Calcium,Concentration of Calcium in water,2018-05-31,water,27.0
+USGS Arizona Water Science Center,mg/l,"31.4337222000,-110.4572500000",point,Magnesium,Concentration of Magnesium in water,2018-05-31,water,3.9
+USGS Arizona Water Science Center,mg/l,"31.4337222000,-110.4572500000",point,Barium,Concentration of Barium in water,2018-03-29,water,0.079
+USGS Arizona Water Science Center,mg/l,"31.4337222000,-110.4572500000",point,Copper,Concentration of Copper in water,2018-03-29,water,0.0049
+USGS Arizona Water Science Center,mg/l,"31.4337222000,-110.4572500000",point,Sodium,Concentration of Sodium in water,2018-03-29,water,7.0
+USGS Arizona Water Science Center,mg/l,"31.4337222000,-110.4572500000",point,Magnesium,Concentration of Magnesium in water,2018-03-29,water,3.6
+USGS Arizona Water Science Center,mg/l,"31.4337222000,-110.4572500000",point,Magnesium,Concentration of Magnesium in water,2018-03-29,water,3.7
+USGS Arizona Water Science Center,mg/l,"31.4337222000,-110.4572500000",point,Barium,Concentration of Barium in water,2018-03-29,water,0.075
+USGS Arizona Water Science Center,mg/l,"31.4337222000,-110.4572500000",point,Sodium,Concentration of Sodium in water,2018-03-29,water,7.3
+USGS Arizona Water Science Center,mg/l,"31.4337222000,-110.4572500000",point,Strontium,Concentration of Strontium in water,2018-03-29,water,0.13
+USGS Arizona Water Science Center,mg/l,"31.4337222000,-110.4572500000",point,Zinc,Concentration of Zinc in water,2018-03-29,water,0.016
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Barium,Concentration of Barium in water,2018-05-09,water,0.11
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Potassium,Concentration of Potassium in water,2018-05-09,water,5.1
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Magnesium,Concentration of Magnesium in water,2018-05-09,water,28.0
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Calcium,Concentration of Calcium in water,2018-05-09,water,71.0
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Copper,Concentration of Copper in water,2018-05-09,water,0.00087
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Molybdenum,Concentration of Molybdenum in water,2018-05-09,water,0.0051
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Copper,Concentration of Copper in water,2018-05-09,water,0.00063
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Cobalt,Concentration of Cobalt in water,2018-05-09,water,0.00056
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Strontium,Concentration of Strontium in water,2018-05-09,water,1.1
+USGS Arizona Water Science Center,mg/l,"33.9050000000,-112.3030556000",point,Magnesium,Concentration of Magnesium in water,2018-05-09,water,28.0
