@@ -64,12 +64,14 @@ def main():
         for row in csv.DictReader(args.geoid, delimiter=',')
     }
 
+    num_written = 0
     for fh in args.file:
         reader = csv.DictReader(fh, delimiter=',')
         basename = os.path.basename(fh.name)
         out_dir = os.path.dirname(fh.name)
         root, ext = os.path.splitext(basename)
         out_file = os.path.join(out_dir, f'{root}_{args.type}{ext}')
+        print(f'Writing {out_file}')
         out_fh = open(out_file, 'wt')
         flds = list(filter(lambda f: f,
                            reader.fieldnames)) + ['geoid', 'geoid_type']
@@ -83,13 +85,16 @@ def main():
 
             geo = geoid.get(sample)
             if not geo:
-                #print(f'No GEOID for sample "{sample}"', file=sys.stderr)
-                print(sample, file=sys.stderr)
+                print(f'No GEOID for sample "{sample}"', file=sys.stderr)
+                # print(sample, file=sys.stderr)
                 continue
 
             row['geoid'] = geo.get('geoid') or 'NA'
             row['geoid_type'] = geo.get('geoid_type') or 'NA'
+            num_written += 1
             writer.writerow(row)
+
+    print(f'Done, wrote {num_written}.')
 
 
 # --------------------------------------------------

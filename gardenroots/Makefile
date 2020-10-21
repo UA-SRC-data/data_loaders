@@ -6,7 +6,7 @@ scrutinizer:
 	./scripts/to_scrutinizer.py -f ./datapackage.json
 
 ll:
-	./scripts/clean_latlon.py ~/Downloads/v3-Groots\ LatLong.csv -o gardenroot_latlon.csv
+	./scripts/clean_latlon.py v3groots_lat_lon.csv -o gardenroot_latlon.csv
 
 bg:
 	$(P2S) -s $(BG_SHAPE) -f gardenroot_latlon.csv -o data/gardenroot_bg.csv -r -t block_group --bom --skipna
@@ -24,3 +24,6 @@ pkg:
 	$(MK_PKG) data/plants_*.csv data/water_*.csv data/soil_*.csv \
 		-o datapackage.json -f -m '#VALUE!' '≤LOD' '<LOD'
 
+
+install:
+	python3 -m pip install -r requirements.txt
