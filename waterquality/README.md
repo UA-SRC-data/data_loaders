@@ -1,5 +1,6 @@
-# Water Quality
+# National Water Quality Monitoring Council
 
+## Download data
 To retrieve data:
 
 - Go to https://www.waterqualitydata.us/
@@ -12,7 +13,7 @@ To retrieve data:
 https://www.waterqualitydata.us/portal/#countrycode=US&statecode=US%3A04&countycode=US%3A04%3A001&countycode=US%3A04%3A003&countycode=US%3A04%3A011&countycode=US%3A04%3A025&sampleMedia=water&sampleMedia=Water&characteristicType=Inorganics%2C%20Major%2C%20Metals&characteristicType=Inorganics%2C%20Minor%2C%20Metals&mimeType=csv
 
 
-## Data
+### Data
 
 Data looks like this:
 
@@ -148,3 +149,6 @@ Run get_measurements.py to extract the 179 measurments:
 * Field 12: CharacteristicName
 * Field 15: ResultMeasure/MeasureUnitCode
 
+## Preprocess data
+
+Preprocessed data are available in `scrutinizer.csv`
