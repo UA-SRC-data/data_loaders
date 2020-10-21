@@ -1,6 +1,6 @@
 # Datapackages
 
-Assistance creating data packages.
+Assistance creating data packages using [Frictionless Data](https://frictionlessdata.io/).
 
     $ ./mk_pkg.py -h
     usage: mk_pkg.py [-h] [-o FILE] [-f] FILE [FILE ...]
