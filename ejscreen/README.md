@@ -78,7 +78,7 @@ state county tract    block group
 
 Note: I had to change "Ñ" to spaces in variables.csv to parse.
 
-## Digest
+## Preprocess data
 
 Use the "to_scrutinizer.py" program to create a file suitable for loading into the "scrutinizer" database.
 Run the `make scrutinizer` target for an example.
