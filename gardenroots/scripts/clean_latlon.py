@@ -44,13 +44,13 @@ def main():
                             fieldnames=['sample', 'latitude', 'longitude'])
     writer.writeheader()
     regex = re.compile(r'^([A-Z]+)[-\s]?(\d+)')
-    reqd = ['Kit Number', 'Lat', 'Long']
+    reqd = ['kit_number', 'lat', 'long']
     seen, exported = 0, 0
 
     for i, rec in enumerate(reader, start=1):
-        sample = rec.get('Kit Number')
-        lat = rec.get('Lat')
-        lon = rec.get('Long')
+        sample = rec.get('kit_number')
+        lat = rec.get('lat')
+        lon = rec.get('long')
 
         # skip blank lines
         if not any([sample, lat, lon]):
