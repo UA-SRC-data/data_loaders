@@ -1,5 +1,7 @@
 # EJSCREEN
 
+## Download data
+
 The EJSCREEN data is available at this FTP site:
 
 ```bash
