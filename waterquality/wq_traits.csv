@@ -1,4 +1,3 @@
-"Sodium, percent total cations","Concentration of Sodium, percent total cations in water"
 Aluminum,Concentration of Aluminum in water
 Barium,Concentration of Barium in water
 Beryllium,Concentration of Beryllium in water
@@ -18,6 +17,7 @@ Potassium,Concentration of Potassium in water
 Silver,Concentration of Silver in water
 Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water
 Sodium,Concentration of Sodium in water
+"Sodium, percent total cations","Concentration of Sodium, percent total cations in water"
 Strontium,Concentration of Strontium in water
 Thallium,Concentration of Thallium in water
 Vanadium,Concentration of Vanadium in water
