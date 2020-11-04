@@ -1,0 +1,95 @@
+variable_name,variable_desc
+ACENTR,Ephemeroptera Baetidae Acentrella
+ALLOPE,Plecoptera Chloroperlidae Alloperla
+ALLOYM,Trichoptera Apataniidae Allomyia
+AMELT,Ephemeroptera Ameletidae Ameletus
+AMPHIN,Plecoptera Nemouridae Amphinermura
+ANTOCH,Diptera Tipulidae Antocha
+ARCGRA,Trichoptera Hydropsychidae Arctopsyche
+ATHERIX,Diptera Athericidae Atherix
+Avg EPT Rich,Avg Number of Ephemeroptera+Plecoptera+Trichoptera taxa per site
+Avg EPT Total,Avg Total Ephemeroptera+Plecoptera+Trichoptera per site
+Avg Taxa Rich,Avg Number of taxa per site
+Avg Total ,Avg Total number of individuals per site
+BAETIS,Ephemeroptera Baetidae Baetis
+BEZZIA,Diptera Ceratopogonidae Bezzia
+BIBIOC,Diptera Blephariceridae Bibiocephala
+BRACHY,Trichoptera Brachycentridae Brachycentrus
+CAPNIA,Plecoptera Capniidae Capnia
+CERATO,Diptera
+CHELIF,Diptera Empididae Chelifera
+CHIROD,Diptera
+CHIRON,Diptera Chironomidae Chironomini (tribe)
+CHLORO,Plecoptera
+CINYGM,Ephemeroptera Heptageniidae Cinygmula
+CLAASS,Plecoptera Perlidae Claassenia
+CLINOC,Diptera Empididae Clinocera
+COLLUM,Collembola (subclass)
+DEUTERO,Diptera Deuterophlebiidae Deuterophlebia
+DIAMES,Diptera Chironomidae Diamesinae (subfamily)
+DICRAN,Diptera Tipulidae Dicranota
+DIPHAG,Ephemeroptera Baetidae Diphetor
+DIUKNO,Plecoptera Perlodidae Diura
+DODSII,Plecoptera Taeniopterygidae Doddsia
+DRUDOD,Ephemeroptera Ephemerellidae Drunella
+DRUGRACOL,Ephemeroptera Ephemerellidae Drunella
+DYTISC,Coleoptera
+EMPIDID,Diptera
+EPEORUS,Ephemeroptera Heptageniidae Epeorus
+EPHEM,Ephemeroptera Ephemerellidae Ephemerella
+EPT Rich,Total Number of Ephemeroptera+Plecoptera+Trichoptera taxa per replicate
+EPT Total,Total Ephemeroptera+Plecoptera+Trichoptera per replicate
+EUCAPN,Plecoptera Capniidae Eucapnopsis
+GLOSSO,Trichoptera
+HEMERO,Diptera Empididae Hemerodromia
+HEPTAG,Ephemeroptera
+HESPER,Diptera Tipulidae Hesperoconopa
+HESPERO,Plecoptera Perlidae Hesperoperla
+HETCOR,Coleoptera Elmidae Heterlimnius
+HEXATO,Diptera Tipulidae Hexatoma
+HYDRAC,Trombidiformes
+HYDROPS,Trichoptera Hydropsychidae Hydropsyche
+HYDROPT,Trichoptera Hydroptilidae Hydroptila
+ISOPERLA,Plecoptera Perlodidae Isoperla
+ISOPOD,Isopoda
+LEPIDO,Trichoptera Lepidostomatidae Lepidostoma
+LEUCSP,Plecoptera
+LIMNEPH,Trichoptera
+LIMNOP,Diptera Tipulidae Limnophila
+MEGSIG,Plecoptera Perlodidae Megarcys
+MICRAS,Trichoptera Brachycentridae Micrasema
+MUSCID,Diptera
+NARPUS,Coleoptera Elmidae Narpus
+NEMATO,Nematoda (phylum)
+NEOPLA,Diptera Empididae Neoplasta
+NEOTRH,Trichoptera Uenoidae Neothremma
+OLIGOC,Oligochaeta (subclass)
+ORMOSIA,Diptera Tipulidae Ormosia
+ORTHOC,Diptera Chironomidae Orthocladiinae (subfamily)
+PARALE,Ephemeroptera Leptophlebiidae Paraleptophlebia
+PARALEU,Plecoptera Leuctridae Paraleuctra
+PERICO,Diptera Psychodidae Pericoma
+PERLOD,Plecoptera
+PETROPH,Lepidoptera Crambidae Petrophila
+POLYCE,Tricladida Planariidae Polycelis
+PRO/POD,Plecoptera Nemouridae Prostoia/Podmosta
+PROTAN,Diptera Tanyderidae Protanyderus
+RHABDO,Diptera Tipulidae Rhabdomastix
+RHITHR,Ephemeroptera Heptageniidae Rhithrogena
+RHYACOP,Trichoptera Rhyacophilidae Rhyacophila
+SERRAT,Ephemeroptera Ephemerellidae Serratella
+SIMULD,Diptera Simuliidae Simulium
+SKWALA,Plecoptera Perlodidae Skwala
+SUWALL,Plecoptera Chloroperlidae Suwallia
+SWELTSA,Plecoptera Chloroperlidae Sweltsa
+TAENIO,Plecoptera Taeniopterygidae Taenionema
+TANYPO,Diptera Chironomidae Tanypodinae (subfamily)
+TANYTA,Diptera Chironomidae Tanytarsini (tribe)
+TIPULA,Diptera Tipulidae Tipula
+TRISIG,Plecoptera Chloroperlidae Triznaka
+Taxa,Number of taxa per replicate
+Total,Total number of individuals per replicate
+UTACAP,Plecoptera Capniidae Utacapnia
+WIEDEM,Diptera Empididae Wiedemannia
+ZAITZE,Coleoptera Elmidae Zaitzevia
+ZAPADA,Plecoptera Nemouridae Zapada
