@@ -1,0 +1,142 @@
+variable_name,variable_desc
+ACSEDUCBAS,Population age 25 and above
+ACSIPOVBAS,Persons for whom income status has been determined
+ACSTOTHH,Households
+ACSTOTHU,Housing Units
+ACSTOTPOP,Total Population
+AREALAND,Land Area in square meters
+AREAWATER,Water Area in square meters
+B_CANCR,Bin NATA Cancer Risk
+B_CANCR_D2,Bin Air Toxics Cancer Risk--Primary EJ Index based on Primary 2-factor Demographics
+B_DSLPM,Bin NATA Diesel Particulate Matter
+B_DSLPM_D2,Bin Diesel Particulate Matter Level in Ai--Primary EJ Index based on Primary 2-factor Demographics
+B_LDPNT,Bin Pct. Housing Units Built Prior to 1960 (lead paint indicator)
+B_LDPNT_D2,Bin Lead Paint Indicator (Pct. Pre-1960)--Primary EJ Index based on Primary 2-factor Demographics
+B_LESHSPCT,Bin Pct. Less than High School Education
+B_LNGISPCT,Bin Pct. Linguistically Isolated
+B_LWINCPCT,Bin Pct. Low Income (<2x poverty level)
+B_MINORPCT,Bin Pct. Minority Population
+B_OVR64PCT,Bin Pct. Over Age 64
+B_OZONE,Bin Ozone Concentration Score
+B_OZONE_D2,Bin Ozone Level in Air--Primary EJ Index based on Primary 2-factor Demographics
+B_PM25,Bin PM 2.5 Concentration Score
+B_PM25_D2,Bin PM 2.5 Level in Air--Primary EJ Index based on Primary 2-factor Demographics
+B_PNPL,Bin Superfund Proximity
+B_PNPL_D2,Bin NPL Facility Proximity--Primary EJ Index based on Primary 2-factor Demographics
+B_PRMP,Bin RMP Proximity
+B_PRMP_D2,Bin RMP Facility Proximity--Primary EJ Index based on Primary 2-factor Demographics
+B_PTRAF,Bin Traffic Proximity
+B_PTRAF_D2,Bin Traffic Proximity and Volume--Primary EJ Index based on Primary 2-factor Demographics
+B_PTSDF,Bin TSDF Proximity
+B_PTSDF_D2,Bin TSDF Proximity--Primary EJ Index based on Primary 2-factor Demographics
+B_PWDIS,Bin Wastewater Discharge Indicator
+B_PWDIS_D2,Bin Cumulative Direct Discharge Pollution Primary EJ Index based on Primary 2-factor Demographics
+B_RESP,Bin NATA Respiratory Hazard Index
+B_RESP_D2,Bin Air Toxics Respiratory HI--Primary EJ Index based on Primary 2-factor Demographics
+B_UNDR5PCT,Bin Pct. Under Age 5
+B_VSVI6PCT,Bin Alternative Demographic Index
+B_VULEOPCT,Bin Primary Demographic Index
+CANCER,NATA Cancer Risk
+DISPEO,Excess Demographic Index (primary)
+DISPSVI6,Excess Demographic Index (secondary)
+DSLPM,NATA Diesel Particulate Matter
+D_CANCR_2,Air Toxics Cancer Risk--Primary EJ Index based on Primary 2-factor Demographics
+D_DSLPM_2,Diesel Particulate Matter Level in Air--Primary EJ Index based on Primary 2-factor Demographics
+D_LDPNT_2,Lead Paint Indicator (Pct. Pre-1960)--Primary EJ Index based on Primary 2-factor Demographics
+D_OZONE_2,Ozone Level in Air--Primary EJ Index based on Primary 2-factor Demographics
+D_PM25_2,PM 2.5 Level in Air--Primary EJ Index based on Primary 2-factor Demographics
+D_PNPL_2,NPL Facility Proximity--Primary EJ Index based on Primary 2-factor Demographics
+D_PRMP_2,RMP Facility Proximity--Primary EJ Index based on Primary 2-factor Demographics
+D_PTRAF_2,Traffic Proximity and Volume--Primary EJ Index based on Primary 2-factor Demographics
+D_PTSDF_2,TSDF Proximity--Primary EJ Index based on Primary 2-factor Demographics
+D_PWDIS_2,Cumulative Direct Discharge Pollution Primary EJ Index based on Primary 2-factor Demographics
+D_RESP_2,Air Toxics Respiratory HI--Primary EJ Index based on Primary 2-factor Demographics
+LESSHS,Less than High School Education
+LESSHSPCT,Pct. Less than High School Education
+LINGISO,Linguistically Isolated
+LINGISOPCT,Pct. Linguistically Isolated
+LOWINCOME,Low Income (<2x poverty level)
+LOWINCPCT,Pct. Low Income (<2x poverty level)
+MINORPCT,Pct. Minority Population
+MINORPOP,Minority Population
+NPL_CNT,NPL Facility Count
+OVER64,Over Age 64
+OVER64PCT,Pct. Over Age 64
+OZONE,Ozone Concentration Score
+PM25,PM 2.5 Concentration Score
+PNPL,Superfund Proximity
+PRE1960,Housing Units Built Prior to 1960 (lead paint indicator)
+PRE1960PCT,Pct. Housing Units Built Prior to 1960 (lead paint indicator)
+PRMP,RMP Proximity
+PTRAF,Traffic Proximity
+PTSDF,TSDF Proximity
+PWDIS,Wastewater Discharge Indicator
+P_CANCR,Percentile NATA Cancer Risk
+P_CANCR_D2,Percentile Air Toxics Cancer Risk--Primary EJ Index based on Primary 2-factor Demographics
+P_DSLPM,Percentile NATA Diesel Particulate Matter
+P_DSLPM_D2,Percentile Diesel Particulate Matter Level in Air--Primary EJ Index based on Primary 2-factor Demographics
+P_LDPNT,Percentile Pct. Housing Units Built Prior to 1960 (lead paint indicator)
+P_LDPNT_D2,Percentile Lead Paint Indicator (Pct. Pre-1960)--Primary EJ Index based on Primary 2-factor Demographics
+P_LESHSPCT,Percentile Pct. Less than High School Education
+P_LNGISPCT,Percentile Pct. Linguistically Isolated
+P_LWINCPCT,Percentile Pct. Low Income (<2x poverty level)
+P_MINORPCT,Percentile Pct. Minority Population
+P_OVR64PCT,Percentile Pct. Over Age 64
+P_OZONE,Percentile Ozone Concentration Score
+P_OZONE_D2,Percentile Ozone Level in Air--Primary EJ Index based on Primary 2-factor Demographics
+P_PM25,Percentile PM 2.5 Concentration Score
+P_PM25_D2,Percentile PM 2.5 Level in Air--Primary EJ Index based on Primary 2-factor Demographics
+P_PNPL,Percentile Superfund Proximity
+P_PNPL_D2,Percentile NPL Facility Proximity--Primary EJ Index based on Primary 2-factor Demographics
+P_PRMP,Percentile RMP Proximity
+P_PRMP_D2,Percentile RMP Facility Proximity--Primary EJ Index based on Primary 2-factor Demographics
+P_PTRAF,Percentile Traffic Proximity
+P_PTRAF_D2,Percentile Traffic Proximity and Volume--Primary EJ Index based on Primary 2-factor Demographics
+P_PTSDF,Percentile TSDF Proximity
+P_PTSDF_D2,Percentile TSDF Proximity--Primary EJ Index based on Primary 2-factor Demographics
+P_PWDIS,Percentile Wastewater Discharge Indicator
+P_PWDIS_D2,Percentile Cumulative Direct Discharge Pollution Primary EJ Index based on Primary 2-factor Demographics
+P_RESP,Percentile NATA Respiratory Hazard Index
+P_RESP_D2,Percentile Air Toxics Respiratory HI--Primary EJ Index based on Primary 2-factor Demographics
+P_UNDR5PCT,Percentile Pct. Under Age 5
+P_VSVI6PCT,Percentile Alternative Demographic Index
+P_VULEOPCT,Percentile Primary Demographic Index
+REGION,EPA Region
+RESP,NATA Respiratory Hazard Index
+TSDF_CNT,TSDF Facility Count
+T_CANCR,Descriptive Text for NATA Cancer Risk
+T_CANCR_D2,Descriptive Text for Air Toxics Cancer Risk--Primary EJ Index based on Primary 2-factor Demographics
+T_DSLPM,Descriptive Text for NATA Diesel Particulate Matter
+T_DSLPM_D2,Descriptive Text for Diesel Particulate Matter Level in Air--Primary EJ Index based on Primary 2-factor Demographics
+T_LDPNT,Descriptive Text for Pct. Housing Units Built Prior to 1960 (lead paint indicator)
+T_LDPNT_D2,Descriptive Text for Lead Paint Indicator (Pct. Pre-1960)--Primary EJ Index based on Primary 2-factor Demographics
+T_LESHSPCT,Descriptive Text for Pct. Less than High School Education
+T_LNGISPCT,Descriptive Text for Pct. Linguistically Isolated
+T_LWINCPCT,Descriptive Text for Pct. Low Income (<2x poverty level)
+T_MINORPCT,Descriptive Text for Pct. Minority Population
+T_OVR64PCT,Descriptive Text for Pct. Over Age 64
+T_OZONE,Descriptive Text for Ozone Concentration Score
+T_OZONE_D2,Descriptive Text for Ozone Level in Air--Primary EJ Index based on Primary 2-factor Demographics
+T_PM25,Descriptive Text for PM 2.5 Concentration Score
+T_PM25_D2,Descriptive Text for PM 2.5 Level in Air--Primary EJ Index based on Primary 2-factor Demographics
+T_PNPL,Descriptive Text for Superfund Proximity
+T_PNPL_D2,Descriptive Text for NPL Facility Proximity--Primary EJ Index based on Primary 2-factor Demographics
+T_PRMP,Descriptive Text for RMP Proximity
+T_PRMP_D2,Descriptive Text for RMP Facility Proximity--Primary EJ Index based on Primary 2-factor Demographics
+T_PTRAF,Descriptive Text for Traffic Proximity
+T_PTRAF_D2,Descriptive Text for Traffic Proximity and Volume--Primary EJ Index based on Primary 2-factor Demographics
+T_PTSDF,Descriptive Text for TSDF Proximity
+T_PTSDF_D2,Descriptive Text for TSDF Proximity--Primary EJ Index based on Primary 2-factor Demographics
+T_PWDIS,Descriptive Text for Wastewater Discharge Indicator
+T_PWDIS_D2,Descriptive Text for Cumulative Direct Discharge Pollution Primary EJ Index based on Primary 2-factor Demographics
+T_RESP,Descriptive Text for NATA Respiratory Hazard Index
+T_RESP_D2,Descriptive Text for Air Toxics Respiratory HI--Primary EJ Index based on Primary 2-factor Demographics
+T_UNDR5PCT,Descriptive Text for Pct. Under Age 5
+T_VSVI6PCT,Descriptive Text for Alternative Demographic Index
+T_VULEOPCT,Descriptive Text for Primary Demographic Index
+UNDER5,Under Age 5
+UNDER5PCT,Pct. Under Age 5
+VULEO,Primary Demographic Index (count)
+VULEOPCT,Primary Demographic Index
+VULSVI6,Alternative Demographic Index (count)
+VULSVI6PCT,Alternative Demographic Index
