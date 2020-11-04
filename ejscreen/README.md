@@ -118,3 +118,8 @@ collected_on  : 2019-01-01
 medium        : Population
 value         : 781.0
 ```
+### Create mapping file
+
+Create a list of unique variables using `cut -d',' -f5,6 scrutinizer.csv | tail +2 | sort | uniq > ejs_traits.csv`. Note that this is shifted by 1 column to allow for the comma in the location column (seperating lat and long). The header row therefore needs to be corrected manually.
+
+Manually edit `usgs_traits.csv` to fix header row and to add mappings to SRPDIO. Save as `usgs-srpdio-mapping.csv`.
