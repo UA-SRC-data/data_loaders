@@ -152,3 +152,11 @@ Run get_measurements.py to extract the 179 measurments:
 ## Preprocess data
 
 Preprocessed data are available in `scrutinizer.csv`
+
+### Create mapping file
+
+Create a list of unique variables using `cut -d',' -f6,7 scrutinizer.csv | tail +2 | sort | uniq  > wq_traits.csv`. Note that this is shifted by 1 column to allow for the common in the location column (seperating lat and long). The header row therefore needs to be added manually.
+
+There is still an error because of the value "Sodium, percent total cations". Add "Concentration of Sodium, percent total cations in water" to the second columnnin the sorted, unique file.
+
+Manually edit `wq_traits.csv` to add header row and to add mappings to SRPDIO. Save as `wq-srpdio-mapping.csv`.
