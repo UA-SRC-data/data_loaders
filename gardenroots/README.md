@@ -11,7 +11,7 @@ Scrutinized data are in three separate sets, in the folder `scrutinizer`. To cre
 
 **Plants:** Create a list of unique variables using `cut -d',' -f5,8 plants_bg.csv | tail +2 | sort | uniq > grplant_traits.csv`. Note that for this dataset, we must pull the "medium" column to see what material the metal concentrations were measured in. The `variable_desc` column is currently empty.
 
-**Soil:** Create a list of unique variables using `cut -d',' -f5,8 soil.csv | tail +2 | sort | uniq > grsoil_traits.csv`. Note that for this dataset, we must pull the "medium" column to see what material the metal concentrations were measured in. The `variable_desc` column is currently empty.
+**Soil:** Create a list of unique variables using `cut -d',' -f5,8 soil_bg.csv | tail +2 | sort | uniq > grsoil_traits.csv`. Note that for this dataset, we must pull the "medium" column to see what material the metal concentrations were measured in. The `variable_desc` column is currently empty.
 
 **Water:** Create a list of unique variables using `cut -d',' -f5,8 water_bg.csv | tail +2 | sort | uniq > grwater_traits.csv`. Note that for this dataset, we must pull the "medium" column to see what material the metal concentrations were measured in. The `variable_desc` column is currently empty.
 
