@@ -30,3 +30,11 @@ optional arguments:
   -s source, --source source
                         Source for data (default: USGS)
  ```
+
+### Create mapping file
+
+Create a list of unique variables using `cut -d',' -f6,7 scrutinizer.csv | tail +2 | sort | uniq > usgs_traits.csv`. Note that this is shifted by 1 column to allow for the comma in the location column (seperating lat and long). The header row therefore needs to be corrected manually.
+
+**NOTE:** Need to check these variables. Some of them don't look like elements.
+
+Manually edit `usgs_traits.csv` to fix header row and to add mappings to SRPDIO. Save as `usgs-srpdio-mapping.csv`.
