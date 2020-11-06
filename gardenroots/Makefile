@@ -24,6 +24,5 @@ pkg:
 	$(MK_PKG) data/plants_*.csv data/water_*.csv data/soil_*.csv \
 		-o datapackage.json -f -m '#VALUE!' '≤LOD' '<LOD'
 
-
 install:
 	python3 -m pip install -r requirements.txt
