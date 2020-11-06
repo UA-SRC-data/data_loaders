@@ -51,12 +51,12 @@
                         "format": "default"
                     },
                     {
-                        "name": "aluminumRaw",
+                        "name": "aluminum",
                         "type": "number",
                         "format": "default"
                     },
                     {
-                        "name": "aluminum",
+                        "name": "aluminumRaw",
                         "type": "number",
                         "format": "default"
                     },
@@ -66,12 +66,12 @@
                         "format": "default"
                     },
                     {
-                        "name": "arsenicRaw",
+                        "name": "arsenic",
                         "type": "number",
                         "format": "default"
                     },
                     {
-                        "name": "arsenic",
+                        "name": "arsenicRaw",
                         "type": "number",
                         "format": "default"
                     },
@@ -81,12 +81,12 @@
                         "format": "default"
                     },
                     {
-                        "name": "bariumRaw",
+                        "name": "barium",
                         "type": "number",
                         "format": "default"
                     },
                     {
-                        "name": "barium",
+                        "name": "bariumRaw",
                         "type": "number",
                         "format": "default"
                     },
@@ -97,7 +97,7 @@
                     },
                     {
                         "name": "berylliumRaw",
-                        "type": "string",
+                        "type": "number",
                         "format": "default"
                     },
                     {
@@ -284,12 +284,12 @@
                         "format": "default"
                     },
                     {
-                        "name": "aluminumRaw",
+                        "name": "aluminum",
                         "type": "number",
                         "format": "default"
                     },
                     {
-                        "name": "aluminum",
+                        "name": "aluminumRaw",
                         "type": "number",
                         "format": "default"
                     },
@@ -299,12 +299,12 @@
                         "format": "default"
                     },
                     {
-                        "name": "arsenicRaw",
+                        "name": "arsenic",
                         "type": "number",
                         "format": "default"
                     },
                     {
-                        "name": "arsenic",
+                        "name": "arsenicRaw",
                         "type": "number",
                         "format": "default"
                     },
@@ -314,12 +314,12 @@
                         "format": "default"
                     },
                     {
-                        "name": "bariumRaw",
+                        "name": "barium",
                         "type": "number",
                         "format": "default"
                     },
                     {
-                        "name": "barium",
+                        "name": "bariumRaw",
                         "type": "number",
                         "format": "default"
                     },
@@ -330,7 +330,7 @@
                     },
                     {
                         "name": "berylliumRaw",
-                        "type": "string",
+                        "type": "number",
                         "format": "default"
                     },
                     {
@@ -983,27 +983,12 @@
                         "format": "default"
                     },
                     {
-                        "name": "arsenicRaw",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "arsenic",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "arsenicIdentifier",
-                        "type": "string",
+                        "name": "aluminum",
+                        "type": "integer",
                         "format": "default"
                     },
                     {
                         "name": "aluminumRaw",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "aluminum",
                         "type": "number",
                         "format": "default"
                     },
@@ -1013,12 +998,27 @@
                         "format": "default"
                     },
                     {
-                        "name": "bariumRaw",
+                        "name": "arsenic",
                         "type": "number",
                         "format": "default"
                     },
                     {
+                        "name": "arsenicRaw",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "arsenicIdentifier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
                         "name": "barium",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "bariumRaw",
                         "type": "number",
                         "format": "default"
                     },
@@ -1216,27 +1216,12 @@
                         "format": "default"
                     },
                     {
-                        "name": "arsenicRaw",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "arsenic",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "arsenicIdentifier",
-                        "type": "string",
+                        "name": "aluminum",
+                        "type": "integer",
                         "format": "default"
                     },
                     {
                         "name": "aluminumRaw",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "aluminum",
                         "type": "number",
                         "format": "default"
                     },
@@ -1246,12 +1231,27 @@
                         "format": "default"
                     },
                     {
-                        "name": "bariumRaw",
+                        "name": "arsenic",
                         "type": "number",
                         "format": "default"
                     },
                     {
+                        "name": "arsenicRaw",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "arsenicIdentifier",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
                         "name": "barium",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "bariumRaw",
                         "type": "number",
                         "format": "default"
                     },

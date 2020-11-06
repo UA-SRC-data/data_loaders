@@ -1,5 +1,15 @@
 # GardenRoots 
 
+## Installation
+
+You must install the GEOS libraries to use shapefiles:
+
+    https://trac.osgeo.org/geos/
+
+E.g., `brew install geos`
+
+Then run `make install` for Python requirements.
+
 ## Raw data
 Raw data are available to project personnel at /iplant/home/rwalls/ua-src-data/gardenroots/. We are not publishing the raw data at this time due to privacy concerns for the participants. Preprocessed data at the census block level (in the scrutinizer subfolder) are available with the same level of detail for metal(oid) concentrations but with sufficient privacy.
 

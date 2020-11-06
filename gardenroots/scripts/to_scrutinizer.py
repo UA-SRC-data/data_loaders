@@ -9,8 +9,9 @@ import argparse
 import csv
 import os
 import re
+import sys
 from datapackage import Package
-from pprint import pprint
+from pprint import pprint, pformat
 from typing import List, NamedTuple, TextIO
 
 
@@ -106,6 +107,10 @@ def process(pkg_name: str, args: Args):
     """.split()
 
     package = Package(pkg_name)
+    errors = []
+
+    def exc_handler(exc, row_number=None, row_data=None, error_data=None):
+        errors.append((exc, row_number, row_data, error_data))
 
     for resource in package.resources:
         flds = set(
@@ -128,7 +133,7 @@ def process(pkg_name: str, args: Args):
                                     delimiter=args.delimiter)
             writer.writeheader()
 
-            for row in resource.iter(keyed=True):
+            for row in resource.iter(keyed=True, cast=False):
                 if args.verbose:
                     pprint(row)
 
@@ -159,6 +164,11 @@ def process(pkg_name: str, args: Args):
                             'medium': row.get('type'),
                             'value': value
                         })
+
+                if errors:
+                    print(f'{resource.name} had {len(errors)} errors',
+                          file=sys.stderr)
+                    print(pformat(errors), file=sys.stderr)
 
 
 # --------------------------------------------------
