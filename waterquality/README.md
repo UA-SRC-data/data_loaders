@@ -1,6 +1,21 @@
 # National Water Quality Monitoring Council
 
+## Python modules
+
+You will likely need to install the modules noted in "requirements.txt". Either run:
+
+```
+$ make install
+```
+
+or
+
+```
+$ python3 -m pip install -r requirements.txt
+```
+
 ## Download data
+
 To retrieve data:
 
 - Go to https://www.waterqualitydata.us/
