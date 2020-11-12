@@ -16,8 +16,10 @@ pwiz:
 mysqldb:
 	mysql scrutinizer < sql/mysql.schema
 
+mysqlload: gardenroots ejscreen usgs csm acs
+
 gardenroots:
-	$(MYSQL_LOADER) ../gardenroots/scrutinizer/*.csv
+	$(MYSQL_LOADER) ../gardenroots/scrutinizer/[psw]*.csv
 
 ejscreen:
 	$(MYSQL_LOADER) ../ejscreen/scrutinizer.csv
@@ -29,7 +31,7 @@ acs:
 	$(MYSQL_LOADER) ../acs5/scrutinizer.csv
 
 csm:
-	$(MYSQL_LOADER) ../csm/sqlite/scrutinizer.csv
+	$(MYSQL_LOADER) ../csm/benthic/scrutinizer.csv
 
 mongodump:
 	zip -r uasrc_mongo.zip scrutinizer 

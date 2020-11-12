@@ -112,7 +112,7 @@ def main() -> None:
 
     var_collection = db['variables']
     for name, desc in variables:
-        var = {'name': name, 'desc': desc}
+        var = {'name': name, 'desc': desc or ""}
         exists = var_collection.find_one(var)
         if not exists:
             var_collection.insert_one(var)

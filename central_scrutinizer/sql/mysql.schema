@@ -13,7 +13,7 @@ create table location (
   location_type_id int not null,
   location_name varchar(255) not null,
   lat_lon varchar(255) default '',
-  unique (location_name),
+  unique (location_name, location_type_id),
   foreign key (location_type_id) references location_type (location_type_id)
 );
 
@@ -29,7 +29,7 @@ create table variable (
   variable_id int auto_increment primary key,
   source_id int not null,
   variable varchar(255) not null,
-  description text default '',
+  description text,
   unit varchar(255) default '',
   unique (variable),
   foreign key (source_id) references source (source_id)
