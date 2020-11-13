@@ -16,6 +16,8 @@ Raw data are available to project personnel at /iplant/home/rwalls/ua-src-data/g
 ## Preprocess data
 This dataset uses the code in `../datapackage/mk_pkg.py`, `../point2shape/point2shape.py`, and `../point2shape/shapefiles/block_group/tl_2017_04_bg` to create a set of preprocessed files. For more details see `Makefile`.
 
+To run locally, run `make install` to install requirements. To run the scrutinizer, run `make scrutinizer`.
+
 ### Create mapping file
 Scrutinized data are in three separate sets, in the folder `scrutinizer`. To create mappings, first pull lists of traits from the three files that use block group for location (contain "_bg") in the file name.
 
