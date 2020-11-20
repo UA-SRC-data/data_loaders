@@ -1,6 +1,6 @@
-measurement,sowm,ref1_7_25,ref2_7_44,ant_7_73,rap_7_63,tp_7_5
-,Kathy,7.36,7.47,7.79,7.79,7.47
-Conductivity,uS/cm,92.04,133.7,150.6,255.9,2182.0
+measurement,uom,ref1,ref2,ant,rap,tp
+pH,sowm,7.25,7.44,7.73,7.63,7.5
+Conductivity,uS/cm,92.04,133.7,150.6,255.9,2182
 Ferrous,mg/L,,,,,
-Alkalinity,mg/L as CaCO3,9.8,15.0,14.7,11.9,8.2
+Alkalinity,mg/L as CaCO3,9.8,15,14.7,11.9,8.2
 Stream Temperature,Celsius,9.7,9.8,11.9,12.1,12.9
