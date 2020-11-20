@@ -166,6 +166,8 @@ Run get_measurements.py to extract the 179 measurments:
 
 ## Preprocess data
 
+Run `$ make scrutinizer`, after installing dependencies (see Install, above).
+
 Preprocessed data are available in `scrutinizer.csv`
 
 ### Create mapping file
