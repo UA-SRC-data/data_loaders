@@ -1,4 +1,4 @@
-measurement,uom,ref_1,ref_2,ant,rap,tp,rbp,arg,usgs
+measurement,uom,ref1,ref2,ant,rap,tp,rbp,arg,usgs
 pH,Kathy,6.57,6.58,6.76,6.99,5.33,6.83,6.75,7.16
 Conductivity,uS/cm,99.8,114.2,145.6,244,1969,383,448,614
 Ferrous,mg/L,0,,0.07,0.07,53.6,2.43,0.45,0
