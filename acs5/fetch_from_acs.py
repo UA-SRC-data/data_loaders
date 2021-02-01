@@ -26,7 +26,19 @@ COUNTIES = {
     'Apache': '001',
     'Cochise': '003',
     'Greenlee': '011',
-    'Yavapai': '025'
+    'Yavapai': '025',
+    # Added all counties 1/28/21 KYC
+    'Coconino': '005',
+    'Gila': '007',
+    'Graham': '009',
+    'La Paz': '012',
+    'Maricopa': '013',
+    'Mohave': '015',
+    'Navajo': '017',
+    'Pima': '019',
+    'Pinal': '021',
+    'Santa Cruz': '023',
+    'Yuma': '027',
 }
 
 

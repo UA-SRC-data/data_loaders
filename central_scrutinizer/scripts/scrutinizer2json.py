@@ -66,9 +66,9 @@ def main() -> None:
     with open(variables_file, 'wt') as variables_fh:
         variables = [{
             'name': v.variable,
-            'desc': v.description,
-            'unit': v.unit,
-            'source': v.source.source,
+            'desc': v.description or "",
+            'unit': v.unit or "",
+            'source': v.source.source or "",
         } for v in Variable]
 
         json.dump(variables, variables_fh)
