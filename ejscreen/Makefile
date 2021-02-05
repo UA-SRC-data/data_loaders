@@ -11,4 +11,5 @@ mongo:
 	./load_mongo.py --headers variables.csv $(INPUT)
 
 data:
-	wget ftp://newftp.epa.gov/EJSCREEN/2019/EJSCREEN_2019_USPR.csv.zip
+	# wget ftp://newftp.epa.gov/EJSCREEN/2019/EJSCREEN_2019_USPR.csv.zip
+	wget ftp://newftp.epa.gov/EJSCREEN/2020/EJSCREEN_2020ZZ_USPR.csv.zip
