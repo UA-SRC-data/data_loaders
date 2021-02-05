@@ -8,11 +8,27 @@ fi
 DIR=$1
 DB="uasrc"
 
-for FILE in $DIR/*.json; do
-    BASE=$(basename "$FILE")
-    COLL="${BASE%.*}"
-    echo "Loading $COLL"
-    mongoimport --jsonArray --drop --db "$DB" --collection "$COLL" "$FILE"
+# Variables
+VARS="$DIR/variables.json"
+if [[ -f "$VARS" ]]; then
+    mongoimport --jsonArray --drop --db "$DB" --collection variables "$VARS"
+fi
+
+# Measurements
+JOBS=$(mktemp)
+for FILE in $DIR/m-*.json; do
+    echo "mongoimport --db $DB --collection scrutinizer $FILE" >> "$JOBS"
 done
+
+NUM=$(wc -l "$JOBS" | awk '{print $1}')
+
+if [[ $NUM -gt 0 ]]; then
+    echo "Importing $NUM measurements"
+    parallel -j 8 --halt soon,fail=1 < "$JOBS"
+else
+    echo "No measurements?"
+fi
+
+rm "$JOBS"
 
 echo "Done."

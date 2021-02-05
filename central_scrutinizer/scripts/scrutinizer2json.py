@@ -59,8 +59,8 @@ def main() -> None:
 
     print('Exporting measurements...')
     for i, m in enumerate(Measurement, start=1):
-        print(f'{i:010d}\r')
-        out_fh = open(os.path.join(args.outdir, 'm-{i:010d}.json'), 'wt')
+        print(f'{i:10d}\r')
+        out_fh = open(os.path.join(args.outdir, f'm-{i:010d}.json'), 'wt')
         json.dump(
             {
                 'source': m.variable.source.source,
@@ -73,6 +73,9 @@ def main() -> None:
                 'collected_on': m.collected_on,
                 'medium': m.medium.medium
             }, out_fh)
+
+        if i > 5:
+            break
 
     print(f'\nDone, see outdir "{args.outdir}".')
 
