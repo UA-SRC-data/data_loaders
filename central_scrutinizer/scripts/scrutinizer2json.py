@@ -46,7 +46,6 @@ def main() -> None:
         os.makedirs(args.outdir)
 
     print('Exporting variables...')
-
     variables_file = os.path.join(args.outdir, 'variables.json')
     with open(variables_file, 'wt') as variables_fh:
         variables = [{
