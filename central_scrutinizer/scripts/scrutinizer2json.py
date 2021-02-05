@@ -45,27 +45,7 @@ def main() -> None:
     if not os.path.isdir(args.outdir):
         os.makedirs(args.outdir)
 
-<<<<<<< HEAD
     print('Exporting variables...')
-=======
-    print('Starting export...')
-    measurements_file = os.path.join(args.outdir, 'scrutinizer.json')
-    with open(measurements_file, 'wt') as measurements_fh:
-        measurements = [{
-            'source': m.variable.source.source,
-            'unit': m.variable.unit,
-            'variable_name': m.variable.variable,
-            'variable_desc': m.variable.description,
-            'location_name': m.location.location_name,
-            'location_type': m.location.location_type.location_type,
-            'value': m.value,
-            'collected_on': m.collected_on,
-            'medium': m.medium.medium,
-        } for m in Measurement]
-
-        json.dump(measurements, measurements_fh)
-
->>>>>>> 3578618e9165a7d86d2c21f8b9609ecdcb8dbefe
     variables_file = os.path.join(args.outdir, 'variables.json')
     with open(variables_file, 'wt') as variables_fh:
         variables = [{
@@ -77,7 +57,6 @@ def main() -> None:
 
         json.dump(variables, variables_fh)
 
-<<<<<<< HEAD
     print('Exporting measurements...')
     for i, m in enumerate(Measurement, start=1):
         print(f'{i:010d}\r')
@@ -96,9 +75,6 @@ def main() -> None:
             }, out_fh)
 
     print(f'\nDone, see outdir "{args.outdir}".')
-=======
-    print(f'Done, see outdir "{args.outdir}".')
->>>>>>> 3578618e9165a7d86d2c21f8b9609ecdcb8dbefe
 
 
 # --------------------------------------------------
