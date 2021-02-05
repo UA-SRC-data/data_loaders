@@ -21,10 +21,7 @@ class Args(NamedTuple):
     outdir: str
     verbose: bool
 
-<<<<<<< HEAD
 KEY = '9f04099fa56bdfe585c32715618dce959e1afd0f'
-=======
->>>>>>> 3578618e9165a7d86d2c21f8b9609ecdcb8dbefe
 
 COUNTIES = {
     'Apache': '001',
@@ -116,12 +113,8 @@ def main() -> None:
 
     tmpl = ('https://api.census.gov/data/2018/acs/acs5?'
             'get=NAME,{}&for=block%20group:*&in=state:04'
-<<<<<<< HEAD
             '&in=county:{}&in=tract:*'
             f'&key={KEY}')
-=======
-            '&in=county:{}&in=tract:*')
->>>>>>> 3578618e9165a7d86d2c21f8b9609ecdcb8dbefe
 
     num_vars = len(variables)
     for var_num, var in enumerate(variables, start=1):
