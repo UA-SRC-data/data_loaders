@@ -1,0 +1,27 @@
+﻿Content Area,Indicator,Geography,Measure,Year,Code
+Cancer,Incidence of Bladder Cancer,Counties,"Age-adjusted rate per 100,000 population over a five year period",2012-2016,cbladder
+Cancer,Incidence of Brain and other nervous system cancer,Counties,"Age-adjusted rate per 100,000 population over a five year period",2012-2016,cbrainnerv
+Cancer,Incidence of Breast Cancer (Females only),Counties,"Age-adjusted rate per 100,000 population over a five year period",2012-2016,cbreast
+Cancer,Incidence of Esophogeal Cancer,Counties,"Age-adjusted rate per 100,000 population over a five year period",2012-2016,cesoph
+Cancer,Incidence of Kidney Cancer,Counties,"Age-adjusted rate per 100,000 population over a five year period",2012-2016,ckidney
+Cancer,Incidence of Larynx Cancer,Counties,"Age-adjusted rate per 100,000 population over a five year period",2012-2016,clarynx
+Cancer,Incidence of Leukemia,Counties,"Age-adjusted rate per 100,000 population over a five year period",2012-2016,cleuk
+Cancer,Incidence of Liver Cancer,Counties,"Age-adjusted rate per 100,000 population over a five year period",2012-2016,cliver
+Cancer,Incidence of Lung and Brochus Cancer,Counties,"Age-adjusted rate per 100,000 population over a five year period",2012-2016,clung
+Cancer,Incidence of non Hodgekin's lymphoma,Counties,"Age-adjusted rate per 100,000 population over a five year period",2012-2016,clymph
+Cancer,Incidence of Oral Cancer,Counties,"Age-adjusted rate per 100,000 population over a five year period",2012-2016,coral
+Cancer,Incidence of Pancreatic Cancer,Counties,"Age-adjusted rate per 100,000 population over a five year period",2012-2016,cpanc
+Cancer,Incidence of Testicular Cancers,Counties,"Age-adjusted rate per 100,000 population over a five year period",2012-2016,ctest
+Cancer,Incidence of Thyroid Cancers,Counties,"Age-adjusted rate per 100,000 population over a five year period",2012-2016,cthyroid
+Drinking Water Quality,Arsenic in Community Water Systems,Counties,Yearly distribution of number of CWS by max arsenic concentrations,2019,dwarcws
+Community Design,Access to Parks and Public Elementary Schools,PCAs (Subcounty),Percentage of population living within a half a mile of a park,2019,cdpark
+Community Design,Land use,Counties,Percent of land used for agriculture,2013,cdag
+Community Design,Land use,Counties,Percent of land used for development,2013,cddev
+Community Design,Proximity of Population and Schools to Highways,PCAs (Subcounty),Percent of population proximity to highway,2019,cdhighway
+Drinking Water Quality,Private Well Sampling,Groundwater,Arsenic Well tests,1993-2017,dwartest
+Asthma,Emergency department visits for asthma,Counties,"Age-adjusted rate per 10,000 population",2019,aemageadj
+Asthma,Emergency department visits for asthma,Counties,"Crude rate per 10,000 population",2019,aemcrude
+Asthma,Emergency department visits for asthma,Counties,Number of emergency department visits,2019,aemvisit
+Asthma,Hospitalizations for Asthma,Counties,"Age-adjusted rate per 10,000 population",2019,ahospageadj
+Asthma,Hospitalizations for Asthma,Counties,"Crude rate per 10,000 population",2019,ahospcrude
+Asthma,Hospitalizations for Asthma,Counties,Number of hospitalizations,2019,ahosp

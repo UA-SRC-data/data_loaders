@@ -1,0 +1,16 @@
+﻿Name,Domain,Indicator,Year,GeogID,AgeGroup,Gender,Month,Measure,Value,ts,measureName,indicatorName,contentAreaName,AgeGroup Text,GenderText
+APACHE,AS,35,2019,4001,20,ALL,ALL,103,1.81,2020-10-09T19:05:09.780,"Age-adjusted rate of hospitalization for asthma per 10,000 population",Hospitalizations for Asthma,Asthma,All Ages,Any Gender
+MARICOPA,AS,35,2019,4013,20,ALL,ALL,103,4.13,2020-10-09T19:05:09.780,"Age-adjusted rate of hospitalization for asthma per 10,000 population",Hospitalizations for Asthma,Asthma,All Ages,Any Gender
+PINAL,AS,35,2019,4021,20,ALL,ALL,103,3.5,2020-10-09T19:05:09.780,"Age-adjusted rate of hospitalization for asthma per 10,000 population",Hospitalizations for Asthma,Asthma,All Ages,Any Gender
+YUMA,AS,35,2019,4027,20,ALL,ALL,103,2.06,2020-10-09T19:05:09.780,"Age-adjusted rate of hospitalization for asthma per 10,000 population",Hospitalizations for Asthma,Asthma,All Ages,Any Gender
+ARIZONA,AS,35,2019,ALL,20,ALL,ALL,103,4.17,2020-10-09T19:05:09.780,"Age-adjusted rate of hospitalization for asthma per 10,000 population",Hospitalizations for Asthma,Asthma,All Ages,Any Gender
+GRAHAM,AS,35,2019,4009,20,ALL,ALL,103,2.14,2020-10-09T19:05:09.780,"Age-adjusted rate of hospitalization for asthma per 10,000 population",Hospitalizations for Asthma,Asthma,All Ages,Any Gender
+GREENLEE,AS,35,2019,4011,20,ALL,ALL,103,0,2020-10-09T19:05:09.780,"Age-adjusted rate of hospitalization for asthma per 10,000 population",Hospitalizations for Asthma,Asthma,All Ages,Any Gender
+MOHAVE,AS,35,2019,4015,20,ALL,ALL,103,4.35,2020-10-09T19:05:09.780,"Age-adjusted rate of hospitalization for asthma per 10,000 population",Hospitalizations for Asthma,Asthma,All Ages,Any Gender
+NAVAJO,AS,35,2019,4017,20,ALL,ALL,103,3.22,2020-10-09T19:05:09.780,"Age-adjusted rate of hospitalization for asthma per 10,000 population",Hospitalizations for Asthma,Asthma,All Ages,Any Gender
+PIMA,AS,35,2019,4019,20,ALL,ALL,103,5.97,2020-10-09T19:05:09.780,"Age-adjusted rate of hospitalization for asthma per 10,000 population",Hospitalizations for Asthma,Asthma,All Ages,Any Gender
+SANTA CRUZ,AS,35,2019,4023,20,ALL,ALL,103,4.74,2020-10-09T19:05:09.780,"Age-adjusted rate of hospitalization for asthma per 10,000 population",Hospitalizations for Asthma,Asthma,All Ages,Any Gender
+YAVAPAI,AS,35,2019,4025,20,ALL,ALL,103,4.24,2020-10-09T19:05:09.780,"Age-adjusted rate of hospitalization for asthma per 10,000 population",Hospitalizations for Asthma,Asthma,All Ages,Any Gender
+GILA,AS,35,2019,4007,20,ALL,ALL,103,4.22,2020-10-09T19:05:09.780,"Age-adjusted rate of hospitalization for asthma per 10,000 population",Hospitalizations for Asthma,Asthma,All Ages,Any Gender
+COCHISE,AS,35,2019,4003,20,ALL,ALL,103,4.56,2020-10-09T19:05:09.780,"Age-adjusted rate of hospitalization for asthma per 10,000 population",Hospitalizations for Asthma,Asthma,All Ages,Any Gender
+COCONINO,AS,35,2019,4005,20,ALL,ALL,103,2.01,2020-10-09T19:05:09.780,"Age-adjusted rate of hospitalization for asthma per 10,000 population",Hospitalizations for Asthma,Asthma,All Ages,Any Gender

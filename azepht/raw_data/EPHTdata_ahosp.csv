@@ -1,0 +1,16 @@
+﻿Name,Domain,Indicator,Year,GeogID,AgeGroup,Gender,Month,Measure,Value,ts,measureName,indicatorName,contentAreaName,AgeGroup Text,GenderText
+MOHAVE,AS,35,2019,4015,20,ALL,ALL,99,77,2020-10-09T19:05:09.780,Number of hospitalizations for asthma,Hospitalizations for Asthma,Asthma,All Ages,Any Gender
+NAVAJO,AS,35,2019,4017,20,ALL,ALL,99,38,2020-10-09T19:05:09.780,Number of hospitalizations for asthma,Hospitalizations for Asthma,Asthma,All Ages,Any Gender
+PIMA,AS,35,2019,4019,20,ALL,ALL,99,583,2020-10-09T19:05:09.780,Number of hospitalizations for asthma,Hospitalizations for Asthma,Asthma,All Ages,Any Gender
+PINAL,AS,35,2019,4021,20,ALL,ALL,99,150,2020-10-09T19:05:09.780,Number of hospitalizations for asthma,Hospitalizations for Asthma,Asthma,All Ages,Any Gender
+COCHISE,AS,35,2019,4003,20,ALL,ALL,99,55,2020-10-09T19:05:09.780,Number of hospitalizations for asthma,Hospitalizations for Asthma,Asthma,All Ages,Any Gender
+COCONINO,AS,35,2019,4005,20,ALL,ALL,99,24,2020-10-09T19:05:09.780,Number of hospitalizations for asthma,Hospitalizations for Asthma,Asthma,All Ages,Any Gender
+GRAHAM,AS,35,2019,4009,20,ALL,ALL,99,8,2020-10-09T19:05:09.780,Number of hospitalizations for asthma,Hospitalizations for Asthma,Asthma,All Ages,Any Gender
+GREENLEE,AS,35,2019,4011,20,ALL,ALL,99,0,2020-10-09T19:05:09.780,Number of hospitalizations for asthma,Hospitalizations for Asthma,Asthma,All Ages,Any Gender
+SANTA CRUZ,AS,35,2019,4023,20,ALL,ALL,99,23,2020-10-09T19:05:09.780,Number of hospitalizations for asthma,Hospitalizations for Asthma,Asthma,All Ages,Any Gender
+YAVAPAI,AS,35,2019,4025,20,ALL,ALL,99,74,2020-10-09T19:05:09.780,Number of hospitalizations for asthma,Hospitalizations for Asthma,Asthma,All Ages,Any Gender
+MARICOPA,AS,35,2019,4013,20,ALL,ALL,99,1814,2020-10-09T19:05:09.780,Number of hospitalizations for asthma,Hospitalizations for Asthma,Asthma,All Ages,Any Gender
+YUMA,AS,35,2019,4027,20,ALL,ALL,99,46,2020-10-09T19:05:09.780,Number of hospitalizations for asthma,Hospitalizations for Asthma,Asthma,All Ages,Any Gender
+ARIZONA,AS,35,2019,ALL,20,ALL,ALL,99,195.2,2020-10-09T19:05:09.780,Number of hospitalizations for asthma,Hospitalizations for Asthma,Asthma,All Ages,Any Gender
+APACHE,AS,35,2019,4001,20,ALL,ALL,99,13,2020-10-09T19:05:09.780,Number of hospitalizations for asthma,Hospitalizations for Asthma,Asthma,All Ages,Any Gender
+GILA,AS,35,2019,4007,20,ALL,ALL,99,19,2020-10-09T19:05:09.780,Number of hospitalizations for asthma,Hospitalizations for Asthma,Asthma,All Ages,Any Gender

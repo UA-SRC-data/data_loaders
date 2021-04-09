@@ -1,0 +1,17 @@
+﻿Name,Domain,Indicator,Year,GeogID,AgeGroup,Gender,Month,Measure,Value,ts,measureName,indicatorName,contentAreaName,AgeGroup Text,GenderText
+ARIZONA,AS,90,2019,ALL,20,ALL,ALL,434,1680.07,2020-10-09T19:05:09.780,Number of emergency department visits for asthma,Emergency department visits for asthma,Asthma,All Ages,Any Gender
+MARICOPA,AS,90,2019,4013,20,ALL,ALL,434,17032,2020-10-09T19:05:09.780,Number of emergency department visits for asthma,Emergency department visits for asthma,Asthma,All Ages,Any Gender
+MOHAVE,AS,90,2019,4015,20,ALL,ALL,434,743,2020-10-09T19:05:09.780,Number of emergency department visits for asthma,Emergency department visits for asthma,Asthma,All Ages,Any Gender
+APACHE,AS,90,2019,4001,20,ALL,ALL,434,222,2020-10-09T19:05:09.780,Number of emergency department visits for asthma,Emergency department visits for asthma,Asthma,All Ages,Any Gender
+LA PAZ,AS,90,2019,4012,20,ALL,ALL,434,44,2020-10-09T19:05:09.780,Number of emergency department visits for asthma,Emergency department visits for asthma,Asthma,All Ages,Any Gender
+PINAL,AS,90,2019,4021,20,ALL,ALL,434,1343,2020-10-09T19:05:09.780,Number of emergency department visits for asthma,Emergency department visits for asthma,Asthma,All Ages,Any Gender
+COCONINO,AS,90,2019,4005,20,ALL,ALL,434,271,2020-10-09T19:05:09.780,Number of emergency department visits for asthma,Emergency department visits for asthma,Asthma,All Ages,Any Gender
+GILA,AS,90,2019,4007,20,ALL,ALL,434,191,2020-10-09T19:05:09.780,Number of emergency department visits for asthma,Emergency department visits for asthma,Asthma,All Ages,Any Gender
+GREENLEE,AS,90,2019,4011,20,ALL,ALL,434,13,2020-10-09T19:05:09.780,Number of emergency department visits for asthma,Emergency department visits for asthma,Asthma,All Ages,Any Gender
+YUMA,AS,90,2019,4027,20,ALL,ALL,434,700,2020-10-09T19:05:09.780,Number of emergency department visits for asthma,Emergency department visits for asthma,Asthma,All Ages,Any Gender
+NAVAJO,AS,90,2019,4017,20,ALL,ALL,434,237,2020-10-09T19:05:09.780,Number of emergency department visits for asthma,Emergency department visits for asthma,Asthma,All Ages,Any Gender
+PIMA,AS,90,2019,4019,20,ALL,ALL,434,3081,2020-10-09T19:05:09.780,Number of emergency department visits for asthma,Emergency department visits for asthma,Asthma,All Ages,Any Gender
+COCHISE,AS,90,2019,4003,20,ALL,ALL,434,457,2020-10-09T19:05:09.780,Number of emergency department visits for asthma,Emergency department visits for asthma,Asthma,All Ages,Any Gender
+GRAHAM,AS,90,2019,4009,20,ALL,ALL,434,128,2020-10-09T19:05:09.780,Number of emergency department visits for asthma,Emergency department visits for asthma,Asthma,All Ages,Any Gender
+YAVAPAI,AS,90,2019,4025,20,ALL,ALL,434,531,2020-10-09T19:05:09.780,Number of emergency department visits for asthma,Emergency department visits for asthma,Asthma,All Ages,Any Gender
+SANTA CRUZ,AS,90,2019,4023,20,ALL,ALL,434,202,2020-10-09T19:05:09.780,Number of emergency department visits for asthma,Emergency department visits for asthma,Asthma,All Ages,Any Gender
