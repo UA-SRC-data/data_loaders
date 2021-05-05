@@ -19,7 +19,6 @@ Community Design,Access to Parks and Public Elementary Schools,PCAs (Subcounty),
 Community Design,Land use,Counties,Percent of land used for agriculture,2013,cdag
 Community Design,Land use,Counties,Percent of land used for development,2013,cddev
 Community Design,Proximity of Population and Schools to Highways,PCAs (Subcounty),Percent of population proximity to highway,2019,cdhighway
-Drinking Water Quality,Private Well Sampling,Groundwater,Arsenic Well tests,1993-2017,dwartest
 Asthma,Emergency department visits for asthma,Counties,"Age-adjusted rate per 10,000 population",2019,aemageadj
 Asthma,Emergency department visits for asthma,Counties,"Crude rate per 10,000 population",2019,aemcrude
 Asthma,Emergency department visits for asthma,Counties,Number of emergency department visits,2019,aemvisit
