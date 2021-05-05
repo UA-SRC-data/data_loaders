@@ -1,0 +1,17 @@
+﻿Name,Domain,Indicator,Year,Quarter,GeogID,Month,Measure,Value,ts,measureName,indicatorName,contentAreaName
+APACHE,DWQ,41,2019,,4001,ALL,129,15819,2020-09-25T12:20:44.603,Number of people receiving water from community water systems,Public Water Use,Drinking Water Quality
+COCHISE,DWQ,41,2019,,4003,ALL,129,117698,2020-09-25T12:20:44.603,Number of people receiving water from community water systems,Public Water Use,Drinking Water Quality
+COCONINO,DWQ,41,2019,,4005,ALL,129,147400,2020-09-25T12:20:44.603,Number of people receiving water from community water systems,Public Water Use,Drinking Water Quality
+GILA,DWQ,41,2019,,4007,ALL,129,54789,2020-09-25T12:20:44.603,Number of people receiving water from community water systems,Public Water Use,Drinking Water Quality
+GRAHAM,DWQ,41,2019,,4009,ALL,129,24733,2020-09-25T12:20:44.603,Number of people receiving water from community water systems,Public Water Use,Drinking Water Quality
+GREENLEE,DWQ,41,2019,,4011,ALL,129,7131,2020-09-25T12:20:44.603,Number of people receiving water from community water systems,Public Water Use,Drinking Water Quality
+LA PAZ,DWQ,41,2019,,4012,ALL,129,16759,2020-09-25T12:20:44.603,Number of people receiving water from community water systems,Public Water Use,Drinking Water Quality
+MARICOPA,DWQ,41,2019,,4013,ALL,129,4039347,2020-09-25T12:20:44.603,Number of people receiving water from community water systems,Public Water Use,Drinking Water Quality
+MOHAVE,DWQ,41,2019,,4015,ALL,129,210464,2020-09-25T12:20:44.603,Number of people receiving water from community water systems,Public Water Use,Drinking Water Quality
+NAVAJO,DWQ,41,2019,,4017,ALL,129,87363,2020-09-25T12:20:44.603,Number of people receiving water from community water systems,Public Water Use,Drinking Water Quality
+PIMA,DWQ,41,2019,,4019,ALL,129,977484,2020-09-25T12:20:44.603,Number of people receiving water from community water systems,Public Water Use,Drinking Water Quality
+PINAL,DWQ,41,2019,,4021,ALL,129,380099,2020-09-25T12:20:44.603,Number of people receiving water from community water systems,Public Water Use,Drinking Water Quality
+SANTA CRUZ,DWQ,41,2019,,4023,ALL,129,44855,2020-09-25T12:20:44.603,Number of people receiving water from community water systems,Public Water Use,Drinking Water Quality
+YAVAPAI,DWQ,41,2019,,4025,ALL,129,183419,2020-09-25T12:20:44.603,Number of people receiving water from community water systems,Public Water Use,Drinking Water Quality
+YUMA,DWQ,41,2019,,4027,ALL,129,200754,2020-09-25T12:20:44.603,Number of people receiving water from community water systems,Public Water Use,Drinking Water Quality
+ARIZONA,DWQ,41,2019,,ALL,ALL,129,433874,2020-09-25T12:20:44.603,Number of people receiving water from community water systems,Public Water Use,Drinking Water Quality
