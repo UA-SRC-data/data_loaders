@@ -13,6 +13,7 @@ Cancer,Incidence of Oral Cancer,Counties,"Age-adjusted rate per 100,000 populati
 Cancer,Incidence of Pancreatic Cancer,Counties,"Age-adjusted rate per 100,000 population over a five year period",2012-2016,cpanc
 Cancer,Incidence of Testicular Cancers,Counties,"Age-adjusted rate per 100,000 population over a five year period",2012-2016,ctest
 Cancer,Incidence of Thyroid Cancers,Counties,"Age-adjusted rate per 100,000 population over a five year period",2012-2016,cthyroid
+Drinking Water Quality,Public Water Use,Counties,Number of people served by CWS,2019,dwcws
 Drinking Water Quality,Arsenic in Community Water Systems,Counties,Yearly distribution of number of CWS by max arsenic concentrations,2019,dwarcws
 Community Design,Access to Parks and Public Elementary Schools,PCAs (Subcounty),Percentage of population living within a half a mile of a park,2019,cdpark
 Community Design,Land use,Counties,Percent of land used for agriculture,2013,cdag
