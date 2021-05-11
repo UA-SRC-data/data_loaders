@@ -11,6 +11,7 @@ import os
 import re
 import sys
 from typing import TextIO, NamedTuple, Dict, List
+from collections import defaultdict
 
 
 class Args(NamedTuple):
@@ -18,6 +19,7 @@ class Args(NamedTuple):
     files: List[TextIO]
     outfile: TextIO
     variables: TextIO
+    location_type: str
     medium: str
     source: str
     units: str
@@ -52,6 +54,14 @@ def get_args() -> Args:
                         default='scrutinizer.csv',
                         help='Output file')
 
+    parser.add_argument('-l',
+                        '--location_type',
+                        metavar='location type',
+                        type=str,
+                        required=True,
+                        choices=['county', 'municipality'],
+                        help='Location type')
+
     parser.add_argument('-m',
                         '--medium',
                         metavar='medium',
@@ -78,6 +88,7 @@ def get_args() -> Args:
     return Args(files=args.files,
                 outfile=args.outfile,
                 variables=args.variables,
+                location_type=args.location_type,
                 medium=args.medium,
                 source=args.source,
                 units=args.units)
@@ -119,9 +130,9 @@ def main() -> None:
 
         basename = os.path.basename(fh.name)
         for rec in reader:
-            county_name = ' '.join(map(str.title, rec.get('Name', '').split()))
-            if county_name not in counties:
-                print(f'{basename}: unknown county "{county_name}"',
+            loc_name = ' '.join(map(str.title, rec.get('Name', '').split()))
+            if args.location_type == 'county' and loc_name not in counties:
+                print(f'{basename}: unknown county "{loc_name}"',
                       file=sys.stderr)
                 continue
 
@@ -130,11 +141,18 @@ def main() -> None:
                 print(f'{basename}: missing indicator name', file=sys.stderr)
                 continue
 
-            variable = variables.get(normalize(indicator_name))
-            if not variable:
+            vars_ = variables.get(normalize(indicator_name))
+            if not vars_:
                 print(f'{basename}: unknown indicator "{indicator_name}"',
                       file=sys.stderr)
                 continue
+
+            if len(vars_) > 1:
+                print(f'{basename}: multiple variables for "{indicator_name}"',
+                      file=sys.stderr)
+                continue
+
+            variable = vars_[0]
 
             value = rec.get('Value')
             if not value:
@@ -148,9 +166,9 @@ def main() -> None:
                 'unit':
                 args.units,
                 'location_name':
-                county_name,
+                loc_name,
                 'location_type':
-                'county',
+                args.location_type,
                 'variable_name':
                 variable['Code'],
                 'variable_desc':
@@ -178,7 +196,12 @@ def get_variables(fh: TextIO) -> Dict[str, Dict[str, str]]:
     """ Read variables file """
 
     reader = csv.DictReader(fh)
-    return {normalize(r['Indicator']): r for r in reader}
+    ret = defaultdict(list)
+    for rec in reader:
+        indicator = normalize(rec['Indicator'])
+        ret[indicator].append(rec)
+
+    return ret
 
 
 # --------------------------------------------------
