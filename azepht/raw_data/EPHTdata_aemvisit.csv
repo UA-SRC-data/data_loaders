@@ -1,4 +1,4 @@
-﻿Name,Domain,Indicator,Year,GeogID,AgeGroup,Gender,Month,Measure,Value,ts,measureName,indicatorName,contentAreaName,AgeGroup Text,GenderText
+Name,Domain,Indicator,Year,GeogID,AgeGroup,Gender,Month,Measure,Value,ts,measureName,indicatorName,contentAreaName,AgeGroup Text,GenderText
 ARIZONA,AS,90,2019,ALL,20,ALL,ALL,434,1680.07,2020-10-09T19:05:09.780,Number of emergency department visits for asthma,Emergency department visits for asthma,Asthma,All Ages,Any Gender
 MARICOPA,AS,90,2019,4013,20,ALL,ALL,434,17032,2020-10-09T19:05:09.780,Number of emergency department visits for asthma,Emergency department visits for asthma,Asthma,All Ages,Any Gender
 MOHAVE,AS,90,2019,4015,20,ALL,ALL,434,743,2020-10-09T19:05:09.780,Number of emergency department visits for asthma,Emergency department visits for asthma,Asthma,All Ages,Any Gender

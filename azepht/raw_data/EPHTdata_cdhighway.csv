@@ -1,4 +1,4 @@
-﻿Name,Domain,Indicator,Year,Month,NAME,GeogID,Measure,TType,Value,ts,measureName,indicatorName,contentAreaName
+Name,Domain,Indicator,Year,Month,NAME,GeogID,Measure,TType,Value,ts,measureName,indicatorName,contentAreaName
 ARIZONA,CD,99,2016,ALL,*AZ Benchmark,ALL,548,ALL,7.07,2020-01-29T14:04:16.267,Percent of population living within 150m of a highway,Proximity of Population and Schools to Highways,Community Design
 AHWATUKEE FOOTHILLS VILLAGE,CD,99,2016,ALL,AHWATUKEE FOOTHILLS VILLAGE,42,548,ALL,1.96,2020-01-29T14:04:16.267,Percent of population living within 150m of a highway,Proximity of Population and Schools to Highways,Community Design
 AJO,CD,99,2016,ALL,AJO,102,548,ALL,25,2020-01-29T14:04:16.267,Percent of population living within 150m of a highway,Proximity of Population and Schools to Highways,Community Design

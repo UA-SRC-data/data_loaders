@@ -1,4 +1,4 @@
-﻿Name,Domain,Indicator,Year,GeogID,AgeGroup,Gender,Month,Measure,Value,ts,measureName,indicatorName,contentAreaName,AgeGroup Text,GenderText
+Name,Domain,Indicator,Year,GeogID,AgeGroup,Gender,Month,Measure,Value,ts,measureName,indicatorName,contentAreaName,AgeGroup Text,GenderText
 APACHE,AS,35,2019,4001,20,ALL,ALL,101,1.8,2020-10-09T19:05:09.780,"Crude rate of hospitalization for asthma per 10,000 population",Hospitalizations for Asthma,Asthma,All Ages,Any Gender
 YUMA,AS,35,2019,4027,20,ALL,ALL,101,2.15,2020-10-09T19:05:09.780,"Crude rate of hospitalization for asthma per 10,000 population",Hospitalizations for Asthma,Asthma,All Ages,Any Gender
 ARIZONA,AS,35,2019,ALL,20,ALL,ALL,101,4.02,2020-10-09T19:05:09.780,"Crude rate of hospitalization for asthma per 10,000 population",Hospitalizations for Asthma,Asthma,All Ages,Any Gender

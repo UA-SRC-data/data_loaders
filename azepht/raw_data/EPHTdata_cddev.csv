@@ -1,4 +1,4 @@
-﻿Name,Domain,Indicator,Year,Month,GeogID,Measure,TType,Commute_Time,Value,ts,measureName,indicatorName,contentAreaName,TTypelabel
+Name,Domain,Indicator,Year,Month,GeogID,Measure,TType,Commute_Time,Value,ts,measureName,indicatorName,contentAreaName,TTypelabel
 APACHE,CD,111,2016,ALL,4001,368,ALL,ALL,0.8,2019-10-18T09:38:40.187,Percent of land used for development,Land Use,Community Design,All
 COCHISE,CD,111,2016,ALL,4003,368,ALL,ALL,1.7,2019-10-18T09:38:40.187,Percent of land used for development,Land Use,Community Design,All
 COCONINO,CD,111,2016,ALL,4005,368,ALL,ALL,0.8,2019-10-18T09:38:40.187,Percent of land used for development,Land Use,Community Design,All

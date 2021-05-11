@@ -1,4 +1,4 @@
-﻿Name,Domain,Indicator,Year,GeogID,AgeGroup,Gender,Month,Measure,Value,ts,measureName,indicatorName,contentAreaName,AgeGroup Text,GenderText
+Name,Domain,Indicator,Year,GeogID,AgeGroup,Gender,Month,Measure,Value,ts,measureName,indicatorName,contentAreaName,AgeGroup Text,GenderText
 YAVAPAI,AS,90,2019,4025,20,ALL,ALL,436,22.58,2020-10-09T19:05:09.780,"Crude rate of emergency department visits for asthma per 10,000 population",Emergency department visits for asthma,Asthma,All Ages,Any Gender
 LA PAZ,AS,90,2019,4012,20,ALL,ALL,436,20.84,2020-10-09T19:05:09.780,"Crude rate of emergency department visits for asthma per 10,000 population",Emergency department visits for asthma,Asthma,All Ages,Any Gender
 PINAL,AS,90,2019,4021,20,ALL,ALL,436,29.01,2020-10-09T19:05:09.780,"Crude rate of emergency department visits for asthma per 10,000 population",Emergency department visits for asthma,Asthma,All Ages,Any Gender

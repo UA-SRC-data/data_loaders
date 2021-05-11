@@ -1,4 +1,4 @@
-﻿Name,Domain,Indicator,Year,GeogID,Race_Ethnicity,Gender,Age_Group,Month,Measure,Value,ts,measureName,indicatorName,contentAreaName,Race_Ethnicitylabel,Age_Grouplabel
+Name,Domain,Indicator,Year,GeogID,Race_Ethnicity,Gender,Age_Group,Month,Measure,Value,ts,measureName,indicatorName,contentAreaName,Race_Ethnicitylabel,Age_Grouplabel
 APACHE,CR,19,2012-2016,4001,ALL,ALL,ALL,ALL,291,68.2,2020-09-25T12:31:12.137,"Age-adjusted incidence rate of Breast Cancer per 100,000 population over a five year period",Incidence of Breast Cancer (Females Only),Cancer,Any Race Ethnicity,All Ages
 COCHISE,CR,19,2012-2016,4003,ALL,ALL,ALL,ALL,291,93.8,2020-09-25T12:31:12.137,"Age-adjusted incidence rate of Breast Cancer per 100,000 population over a five year period",Incidence of Breast Cancer (Females Only),Cancer,Any Race Ethnicity,All Ages
 COCONINO,CR,19,2012-2016,4005,ALL,ALL,ALL,ALL,291,106.6,2020-09-25T12:31:12.137,"Age-adjusted incidence rate of Breast Cancer per 100,000 population over a five year period",Incidence of Breast Cancer (Females Only),Cancer,Any Race Ethnicity,All Ages

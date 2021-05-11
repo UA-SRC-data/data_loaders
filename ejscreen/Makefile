@@ -4,7 +4,7 @@ MEDIUM = "Population"
 SOURCE = "EJSCREEN"
 
 scrutinizer:
-	./to_scrutinizer.py --headers variables.csv \
+	./to_scrutinizer.py --headers variables.csv --quiet \
 		-c $(COLLECTED_ON) -m $(MEDIUM) -s $(SOURCE) $(INPUT)
 
 mongo:

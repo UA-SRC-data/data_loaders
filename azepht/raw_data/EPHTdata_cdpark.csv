@@ -1,4 +1,4 @@
-﻿Name,Domain,Indicator,Year,Month,NAME,GeogID,Measure,TType,Value,ts,measureName,indicatorName,contentAreaName
+Name,Domain,Indicator,Year,Month,NAME,GeogID,Measure,TType,Value,ts,measureName,indicatorName,contentAreaName
 ARIZONA,CD,80,2019,ALL,*AZ Benchmark,ALL,428,ALL,47.74,2020-01-29T14:04:16.267,Percent of population living within a half mile of a park,Access to Parks and Public Elementary Schools,Community Design
 AHWATUKEE FOOTHILLS VILLAGE,CD,80,2019,ALL,AHWATUKEE FOOTHILLS VILLAGE,42,428,ALL,59.93,2020-01-29T14:04:16.267,Percent of population living within a half mile of a park,Access to Parks and Public Elementary Schools,Community Design
 AJO,CD,80,2019,ALL,AJO,102,428,ALL,78.2,2020-01-29T14:04:16.267,Percent of population living within a half mile of a park,Access to Parks and Public Elementary Schools,Community Design

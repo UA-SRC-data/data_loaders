@@ -1,4 +1,4 @@
-﻿Name,Domain,Indicator,Year,GeogID,AgeGroup,Gender,Month,Measure,Value,ts,measureName,indicatorName,contentAreaName,AgeGroup Text,GenderText
+Name,Domain,Indicator,Year,GeogID,AgeGroup,Gender,Month,Measure,Value,ts,measureName,indicatorName,contentAreaName,AgeGroup Text,GenderText
 APACHE,AS,35,2019,4001,20,ALL,ALL,103,1.81,2020-10-09T19:05:09.780,"Age-adjusted rate of hospitalization for asthma per 10,000 population",Hospitalizations for Asthma,Asthma,All Ages,Any Gender
 MARICOPA,AS,35,2019,4013,20,ALL,ALL,103,4.13,2020-10-09T19:05:09.780,"Age-adjusted rate of hospitalization for asthma per 10,000 population",Hospitalizations for Asthma,Asthma,All Ages,Any Gender
 PINAL,AS,35,2019,4021,20,ALL,ALL,103,3.5,2020-10-09T19:05:09.780,"Age-adjusted rate of hospitalization for asthma per 10,000 population",Hospitalizations for Asthma,Asthma,All Ages,Any Gender

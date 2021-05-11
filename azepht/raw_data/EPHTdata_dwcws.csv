@@ -1,4 +1,4 @@
-﻿Name,Domain,Indicator,Year,Quarter,GeogID,Month,Measure,Value,ts,measureName,indicatorName,contentAreaName
+Name,Domain,Indicator,Year,Quarter,GeogID,Month,Measure,Value,ts,measureName,indicatorName,contentAreaName
 APACHE,DWQ,41,2019,,4001,ALL,129,15819,2020-09-25T12:20:44.603,Number of people receiving water from community water systems,Public Water Use,Drinking Water Quality
 COCHISE,DWQ,41,2019,,4003,ALL,129,117698,2020-09-25T12:20:44.603,Number of people receiving water from community water systems,Public Water Use,Drinking Water Quality
 COCONINO,DWQ,41,2019,,4005,ALL,129,147400,2020-09-25T12:20:44.603,Number of people receiving water from community water systems,Public Water Use,Drinking Water Quality

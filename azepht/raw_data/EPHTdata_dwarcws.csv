@@ -1,4 +1,4 @@
-﻿Name,Domain,Indicator,Year,Quarter,GeogID,CUTOFF,Month,Measure,Value,ts,measureName,indicatorName,contentAreaName,CUTOFFlabel
+Name,Domain,Indicator,Year,Quarter,GeogID,CUTOFF,Month,Measure,Value,ts,measureName,indicatorName,contentAreaName,CUTOFFlabel
 APACHE,DWQ,42,2019,,4001,Non-Detect,ALL,312,2,2020-09-25T12:20:44.603,"Distribution of number of community water systems (CWS) by maximum arsenic concentrations (micrograms per liter), by year",Arsenic in Community Water Systems,Drinking Water Quality,Non-Detect
 COCHISE,DWQ,42,2019,,4003,Non-Detect,ALL,312,2,2020-09-25T12:20:44.603,"Distribution of number of community water systems (CWS) by maximum arsenic concentrations (micrograms per liter), by year",Arsenic in Community Water Systems,Drinking Water Quality,Non-Detect
 COCONINO,DWQ,42,2019,,4005,Non-Detect,ALL,312,3,2020-09-25T12:20:44.603,"Distribution of number of community water systems (CWS) by maximum arsenic concentrations (micrograms per liter), by year",Arsenic in Community Water Systems,Drinking Water Quality,Non-Detect

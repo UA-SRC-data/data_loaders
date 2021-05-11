@@ -15,7 +15,10 @@ if [[ -f "$VARS" ]]; then
 fi
 
 # Measurements
-JOBS=$(mktemp)
+# JOBS=$(mktemp)
+JOBS="jobs.txt"
+cat /dev/null > "$JOBS"
+
 for FILE in $DIR/m-*.json; do
     echo "mongoimport --db $DB --collection scrutinizer $FILE" >> "$JOBS"
 done
@@ -24,7 +27,7 @@ NUM=$(wc -l "$JOBS" | awk '{print $1}')
 
 if [[ $NUM -gt 0 ]]; then
     echo "Importing $NUM measurements"
-    parallel -j 8 --halt soon,fail=1 < "$JOBS"
+    parallel --tmpdir /data/tmp -j 8 --halt soon,fail=1 < "$JOBS"
 else
     echo "No measurements?"
 fi

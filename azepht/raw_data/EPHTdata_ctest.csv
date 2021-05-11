@@ -1,4 +1,4 @@
-﻿Name,Domain,Indicator,Year,GeogID,Race_Ethnicity,Gender,Age_Group,Month,Measure,Value,ts,measureName,indicatorName,contentAreaName,Race_Ethnicitylabel
+Name,Domain,Indicator,Year,GeogID,Race_Ethnicity,Gender,Age_Group,Month,Measure,Value,ts,measureName,indicatorName,contentAreaName,Race_Ethnicitylabel
 COCHISE,CR,142,2012-2016,4003,ALL,ALL,ALL,ALL,754,3.35,2020-09-25T12:31:12.137,"Age-adjusted incidence rate of Testicular Cancer per 100,000 population over a five year period",Incidence of Testicular Cancer (Males only),Cancer,Any Race Ethnicity
 COCONINO,CR,142,2012-2016,4005,ALL,ALL,ALL,ALL,754,3.09,2020-09-25T12:31:12.137,"Age-adjusted incidence rate of Testicular Cancer per 100,000 population over a five year period",Incidence of Testicular Cancer (Males only),Cancer,Any Race Ethnicity
 MARICOPA,CR,142,2012-2016,4013,ALL,ALL,ALL,ALL,754,2.51,2020-09-25T12:31:12.137,"Age-adjusted incidence rate of Testicular Cancer per 100,000 population over a five year period",Incidence of Testicular Cancer (Males only),Cancer,Any Race Ethnicity

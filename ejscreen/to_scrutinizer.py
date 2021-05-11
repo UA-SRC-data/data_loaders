@@ -19,6 +19,7 @@ class Args(NamedTuple):
     medium: str
     outfile: TextIO
     source: str
+    quiet: bool
 
 
 # --------------------------------------------------
@@ -70,6 +71,11 @@ def get_args() -> Args:
                         type=argparse.FileType('wt'),
                         default='scrutinizer.csv')
 
+    parser.add_argument('-q',
+                        '--quiet',
+                        help='Be quiet',
+                        action='store_true')
+
     args = parser.parse_args()
 
     return Args(file=args.file,
@@ -77,7 +83,8 @@ def get_args() -> Args:
                 collected_on=args.collected_on,
                 medium=args.medium,
                 outfile=args.outfile,
-                source=args.source)
+                source=args.source,
+                quiet=args.quiet)
 
 
 # --------------------------------------------------
@@ -146,14 +153,19 @@ def process(in_fh: TextIO, headers: Dict[str, str], args: Args,
         if not block_id:
             continue
 
-        match = re.search(r'^(\d{2})(\d{3})\d+$', block_id)
-        if not match:
-            continue
+        # Dorsey wants all the counties
+        # match = re.search(r'^(\d{2})(\d{3})\d+$', block_id)
+        # if not match:
+        #     continue
 
-        state_code, county_code = match.group(1), match.group(2)
-        if state_code != '04' or county_code not in counties:
+        # state_code, county_code = match.group(1), match.group(2)
+        # if state_code != '04' or county_code not in counties:
+        #     continue
+        #     print("Skipping")
+
+        # Filter for only Arizona
+        if not block_id.startswith('04'):
             continue
-            print("Skipping")
 
         for fld in filter(lambda f: f != 'ID', flds):
             desc = headers.get(fld)
@@ -180,7 +192,9 @@ def process(in_fh: TextIO, headers: Dict[str, str], args: Args,
             if val is None:
                 continue
 
-            print(f'{i:4}: {block_id} {fld} => {val}')
+            if not args.quiet:
+                print(f'{i:4}: {block_id} {fld} => {val}')
+
             writer.writerow({
                 'source': args.source,
                 'unit': unit,

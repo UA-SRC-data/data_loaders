@@ -1,4 +1,4 @@
-﻿Name,Domain,Indicator,Year,GeogID,Race_Ethnicity,Gender,Age_Group,Month,Measure,Value,ts,measureName,indicatorName,contentAreaName,Race_Ethnicitylabel,Genderlabel
+Name,Domain,Indicator,Year,GeogID,Race_Ethnicity,Gender,Age_Group,Month,Measure,Value,ts,measureName,indicatorName,contentAreaName,Race_Ethnicitylabel,Genderlabel
 APACHE,CR,18,2012-2016,4001,ALL,ALL,ALL,ALL,221,6.2,2020-09-25T12:31:12.137,"Age-adjusted incidence rate of Bladder Cancer (including in situ) per 100,000 population over a five year period",Incidence of Bladder Cancer,Cancer,Any Race Ethnicity,Any Gender
 COCHISE,CR,18,2012-2016,4003,ALL,ALL,ALL,ALL,221,19.5,2020-09-25T12:31:12.137,"Age-adjusted incidence rate of Bladder Cancer (including in situ) per 100,000 population over a five year period",Incidence of Bladder Cancer,Cancer,Any Race Ethnicity,Any Gender
 COCONINO,CR,18,2012-2016,4005,ALL,ALL,ALL,ALL,221,17.1,2020-09-25T12:31:12.137,"Age-adjusted incidence rate of Bladder Cancer (including in situ) per 100,000 population over a five year period",Incidence of Bladder Cancer,Cancer,Any Race Ethnicity,Any Gender

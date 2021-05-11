@@ -1,4 +1,4 @@
-﻿Name,Domain,Indicator,Year,GeogID,AgeGroup,Gender,Month,Measure,Value,ts,measureName,indicatorName,contentAreaName,AgeGroup Text,GenderText
+Name,Domain,Indicator,Year,GeogID,AgeGroup,Gender,Month,Measure,Value,ts,measureName,indicatorName,contentAreaName,AgeGroup Text,GenderText
 MOHAVE,AS,35,2019,4015,20,ALL,ALL,99,77,2020-10-09T19:05:09.780,Number of hospitalizations for asthma,Hospitalizations for Asthma,Asthma,All Ages,Any Gender
 NAVAJO,AS,35,2019,4017,20,ALL,ALL,99,38,2020-10-09T19:05:09.780,Number of hospitalizations for asthma,Hospitalizations for Asthma,Asthma,All Ages,Any Gender
 PIMA,AS,35,2019,4019,20,ALL,ALL,99,583,2020-10-09T19:05:09.780,Number of hospitalizations for asthma,Hospitalizations for Asthma,Asthma,All Ages,Any Gender
