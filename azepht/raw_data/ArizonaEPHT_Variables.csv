@@ -28,4 +28,4 @@ Asthma,Hospitalizations for Asthma,Counties,Number of hospitalizations,2019,ahos
 Cancer,Incidence of Lung and Bronchus Cancer,Counties,"Age-adjusted rate per 100,000 population over a five year period",2012-2016,clung
 Cancer,Incidence of Testicular Cancers (Males only),Counties,"Age-adjusted rate per 100,000 population over a five year period",2012-2016,ctest
 Cancer,Incidence of Esophageal Cancer,Counties,"Age-adjusted rate per 100,000 population over a five year period",2012-2016,cesoph
-Cancer,Incidence of Non-Hodgkin's lymphoma,Counties,"Age-adjusted rate per 100,000 population over a five year period",2012-2016,clymph
+Cancer,Incidence of Non-Hodgkin's Lymphoma,Counties,"Age-adjusted rate per 100,000 population over a five year period",2012-2016,clymph
