@@ -1,44 +1,44 @@
-variable_name,variable_desc
-al,Concentration of al
-as,Concentration of as
-ba,Concentration of ba
-be,Concentration of be
-bi,Concentration of bi
-ca,Concentration of ca
-cd,Concentration of cd
-ce,Concentration of ce
-co,Concentration of co
-cr,Concentration of cr
-cs,Concentration of cs
-cu,Concentration of cu
-fe,Concentration of fe
-ga,Concentration of ga
-hg,Concentration of hg
-in,Concentration of in
-k,Concentration of k
-la,Concentration of la
-li,Concentration of li
-mg,Concentration of mg
-mn,Concentration of mn
-mo,Concentration of mo
-na,Concentration of na
-nb,Concentration of nb
-ni,Concentration of ni
-p,Concentration of p
-pb,Concentration of pb
-rb,Concentration of rb
-s,Concentration of s
-sb,Concentration of sb
-sc,Concentration of sc
-se,Concentration of se
-sn,Concentration of sn
-sr,Concentration of sr
-te,Concentration of te
-th,Concentration of th
-ti,Concentration of ti
-tl,Concentration of tl
-u,Concentration of u
-v,Concentration of v
-w,Concentration of w
-y,Concentration of y
-zn,Concentration of zn
+variable_name,Mineral,,,variable_desc,SPRDIOterm
+al,aluminum,,,Concentation of aluminumin top soil,SRPDIO:2020230
+sb,antimony,,,Concentation of antimonyin top soil,SRPDIO:2020231
+as,arsenic,,,Concentation of arsenic in top soil,SRPDIO:2020232
+ba,barium,,,Concentation of barium in top soil,SRPDIO:2020233
+be,beryllium,,,Concentation of beryllium in top soil,SRPDIO:2020234
+bi,bismuth,,,Concentation of bismuth in top soil,SRPDIO:2020235
+cd,cadmium,,,Concentation of cadmium in top soil,SRPDIO:2020237
+cs,cesium,,,Concentation of caesium in top soil,SRPDIO:2020238
+ca,calcium,,,Concentation of calcium in top soil,SRPDIO:2020239
+ce,cerium,,,Concentation of cerium in top soil,SRPDIO:2020240
+cr,chromium,,,Concentation of chromium in top soil,SRPDIO:2020241
+co,cobalt,,,Concentation of cobalt in top soil,SRPDIO:2020242
+cu,copper,,,Concentation of copper in top soil,SRPDIO:2020243
+ga,gallium,,,Concentation of gallium in top soil,SRPDIO:2020244
+in,indium,,,Concentation of indium in top soil,SRPDIO:2020246
+fe,iron,,,Concentation of iron in top soil,SRPDIO:2020247
+la,lanthanum,,,Concentation of lanthanum in top soil,SRPDIO:2020248
+pb,lead,,,Concentation of lead in top soil,SRPDIO:2020249
+li,lithium,,,Concentation of lithium in top soil,SRPDIO:2020250
+mg,magnesium,,,Concentation of magnesium in top soil,SRPDIO:2020251
+mn,manganese,,,Concentation of manganese in top soil,SRPDIO:2020252
+hg,mercury,,,Concentation of mercury in top soil,SRPDIO:2020253
+mo,molybdenum,,,Concentation of molybdenum in top soil,SRPDIO:2020254
+ni,nickel,,,Concentation of nickel in top soil,SRPDIO:2020255
+nb,niobium,,,Concentation of niobium in top soil,SRPDIO:2020256
+p,phosphorus,,,Concentation of phosphorus in top soil,SRPDIO:2020257
+k,potassium,,,Concentation of potassium in top soil,SRPDIO:2020258
+rb,rubidium,,,Concentation of rubidium in top soil,SRPDIO:2020259
+sc,scandium,,,Concentation of scandium in top soil,SRPDIO:2020287
+se,selenium,,,Concentation of selenium in top soil,SRPDIO:2020260
+na,sodium,,,Concentation of sodium in top soil,SRPDIO:2020263
+sr,stronium,,,Concentation of stronium in top soil,SRPDIO:2020264
+s,sulfur,,,Concentation of sulfur in top soil,SRPDIO:2020265
+te,tellurium,,,Concentation of tellurium in top soil,SRPDIO:2020266
+tl,thallium,,,Concentation of thallium in top soil,SRPDIO:2020267
+th,thorium,,,Concentation of thorium in top soil,SRPDIO:2020268
+sn,tin,,,Concentation of tin in top soil,SRPDIO:2020269
+ti,titanium,,,Concentation of titanium in top soil,SRPDIO:2020270
+w,tungsten,,,Concentation of tungsten in top soil,SRPDIO:2020271
+u,uranium,,,Concentation of uranium in top soil,SRPDIO:2020272
+v,vanadium,,,Concentation of vanadium in top soil,SRPDIO:2020273
+y,yttrrium,,,Concentation of yttrrium in top soil,SRPDIO:2020274
+zn,zinc,,,Concentation of zinc in top soil,SRPDIO:2020275

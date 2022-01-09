@@ -1,25 +1,25 @@
-variable_name,variable_desc
-Aluminum,Concentration of Aluminum in water
-Barium,Concentration of Barium in water
-Beryllium,Concentration of Beryllium in water
-Cadmium,Concentration of Cadmium in water
-Calcium,Concentration of Calcium in water
-Chromium,Concentration of Chromium in water
-Cobalt,Concentration of Cobalt in water
-Copper,Concentration of Copper in water
-Iron,Concentration of Iron in water
-Lead,Concentration of Lead in water
-Magnesium,Concentration of Magnesium in water
-Manganese,Concentration of Manganese in water
-Mercury,Concentration of Mercury in water
-Molybdenum,Concentration of Molybdenum in water
-Nickel,Concentration of Nickel in water
-Potassium,Concentration of Potassium in water
-Silver,Concentration of Silver in water
-Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Concentration of Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water
-Sodium,Concentration of Sodium in water
-"Sodium, percent total cations","Concentration of Sodium, percent total cations in water"
-Strontium,Concentration of Strontium in water
-Thallium,Concentration of Thallium in water
-Vanadium,Concentration of Vanadium in water
-Zinc,Concentration of Zinc in water
+variable_name,variable_desc,SPRDIOterm
+Aluminum,Concentration of Aluminum in water,SRPDIO:2020184
+Barium,Concentration of Barium in water,SRPDIO:2020187
+Beryllium,Concentration of Beryllium in water,SRPDIO:2020188
+Cadmium,Concentration of Cadmium in water,SRPDIO:2020191
+Calcium,Concentration of Calcium in water,SRPDIO:2020193
+Chromium,Concentration of Chromium in water,SRPDIO:2020195
+Cobalt,Concentration of Cobalt in water,SRPDIO:2020196
+Copper,Concentration of Copper in water,SRPDIO:2020197
+Iron,Concentration of Iron in water,SRPDIO:2000155
+Lead,Concentration of Lead in water,SRPDIO:2020203
+Magnesium,Concentration of Magnesium in water,SRPDIO:2020205
+Manganese,Concentration of Manganese in water,SRPDIO:2020206
+Mercury,Concentration of Mercury in water,SRPDIO:2020207
+Molybdenum,Concentration of Molybdenum in water,SRPDIO:2020208
+Nickel,Concentration of Nickel in water,SRPDIO:2020209
+Potassium,Concentration of Potassium in water,SRPDIO:2020212
+Silver,Concentration of Silver in water,SRPDIO:2020216
+Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)],Sodium adsorption ratio [(Na)/(sq root of 1/2 Ca + Mg)] in water,SRPDIO:4000010
+Sodium,Concentration of Sodium in water,SRPDIO:2020217
+"Sodium, percent total cations",The percent total cations in water that are sodium,SRPDIO:4000011
+Strontium,Concentration of Strontium in water,SRPDIO:2020218
+Thallium,Concentration of Thallium in water,SRPDIO:2020221
+Vanadium,Concentration of Vanadium in water,SRPDIO:2020227
+Zinc,Concentration of Zinc in water,SRPDIO:2020229
