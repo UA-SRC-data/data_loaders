@@ -1,23 +1,23 @@
-variable_name,medium
-aluminum,Garden Soil
-aluminum,Yard Soil
-arsenic,Garden Soil
-arsenic,Yard Soil
-barium,Garden Soil
-barium,Yard Soil
-beryllium,Garden Soil
-beryllium,Yard Soil
-cadmium,Garden Soil
-cadmium,Yard Soil
-chromium,Garden Soil
-chromium,Yard Soil
-copper,Garden Soil
-copper,Yard Soil
-lead,Garden Soil
-lead,Yard Soil
-manganese,Garden Soil
-manganese,Yard Soil
-nickel,Garden Soil
-nickel,Yard Soil
-zinc,Garden Soil
-zinc,Yard Soil
+variable_name,medium,SPRDIOterm,SRPDIOlabel
+aluminum,Garden Soil,SRPDIO:2020138,concentration of elemental aluminium in garden soil
+aluminum,Yard Soil,SRPDIO:2020230,concentration of elemental aluminium in topsoil
+arsenic,Garden Soil,SRPDIO:2020140,concentration of elemental arsenic in garden soil
+arsenic,Yard Soil,SRPDIO:2020232,concentration of elemental arsenic in topsoil
+barium,Garden Soil,SRPDIO:2020141,concentration of elemental barium in garden soil
+barium,Yard Soil,SRPDIO:2020233,concentration of elemental barium in topsoil
+beryllium,Garden Soil,SRPDIO:2020142,concentration of elemental beryllium in garden soil
+beryllium,Yard Soil,SRPDIO:2020234,concentration of elemental beryllium in topsoil
+cadmium,Garden Soil,SRPDIO:2020145,concentration of elemental cadmium in garden soil
+cadmium,Yard Soil,SRPDIO:2020237,concentration of elemental cadmium in topsoil
+chromium,Garden Soil,SRPDIO:2020149,concentration of elemental chromium in garden soil
+chromium,Yard Soil,SRPDIO:2020241,concentration of elemental chromium in topsoil
+copper,Garden Soil,SRPDIO:2020151,concentration of elemental copper in garden soil
+copper,Yard Soil,SRPDIO:2020243,concentration of elemental copper in topsoil
+lead,Garden Soil,SRPDIO:2020157,concentration of elemental lead in garden soil
+lead,Yard Soil,SRPDIO:2020249,concentration of elemental lead in topsoil
+manganese,Garden Soil,SRPDIO:2020160,concentration of elemental manganese in garden soil
+manganese,Yard Soil,SRPDIO:2020252,concentration of elemental manganese in topsoil
+nickel,Garden Soil,SRPDIO:2020163,concentration of elemental nickel in garden soil
+nickel,Yard Soil,SRPDIO:2020255,concentration of elemental nickel in topsoil
+zinc,Garden Soil,SRPDIO:2020183,concentration of elemental zinc in garden soil
+zinc,Yard Soil,SRPDIO:2020275,concentration of elemental zinc in topsoil

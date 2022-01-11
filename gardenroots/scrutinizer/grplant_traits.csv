@@ -1,109 +1,100 @@
-variable_name,medium
-aluminum,Brassica Vegetables
-aluminum,Bulb Vegetables
-aluminum,Fruiting Vegetables
-aluminum,Herbs
-aluminum,Leafy
-aluminum,Legumes
-aluminum,Other
-aluminum,Root and Tuber Vegetables
-arsenic,
-arsenic,Brassica Vegetables
-arsenic,Bulb Vegetables
-arsenic,Fruiting Vegetables
-arsenic,Fruits
-arsenic,Herbs
-arsenic,Leafy
-arsenic,Legumes
-arsenic,Other
-arsenic,Root and Tuber Vegetables
-barium,
-barium,Brassica Vegetables
-barium,Bulb Vegetables
-barium,Fruiting Vegetables
-barium,Fruits
-barium,Herbs
-barium,Leafy
-barium,Legumes
-barium,Other
-barium,Root and Tuber Vegetables
-beryllium,
-beryllium,Brassica Vegetables
-beryllium,Bulb Vegetables
-beryllium,Fruiting Vegetables
-beryllium,Fruits
-beryllium,Herbs
-beryllium,Leafy
-beryllium,Legumes
-beryllium,Other
-beryllium,Root and Tuber Vegetables
-cadmium,
-cadmium,Brassica Vegetables
-cadmium,Bulb Vegetables
-cadmium,Fruiting Vegetables
-cadmium,Fruits
-cadmium,Herbs
-cadmium,Leafy
-cadmium,Legumes
-cadmium,Other
-cadmium,Root and Tuber Vegetables
-chromium,
-chromium,Brassica Vegetables
-chromium,Bulb Vegetables
-chromium,Fruiting Vegetables
-chromium,Fruits
-chromium,Herbs
-chromium,Leafy
-chromium,Legumes
-chromium,Other
-chromium,Root and Tuber Vegetables
-copper,
-copper,Brassica Vegetables
-copper,Bulb Vegetables
-copper,Fruiting Vegetables
-copper,Fruits
-copper,Herbs
-copper,Leafy
-copper,Legumes
-copper,Other
-copper,Root and Tuber Vegetables
-lead,
-lead,Brassica Vegetables
-lead,Bulb Vegetables
-lead,Fruiting Vegetables
-lead,Fruits
-lead,Herbs
-lead,Leafy
-lead,Legumes
-lead,Other
-lead,Root and Tuber Vegetables
-manganese,
-manganese,Brassica Vegetables
-manganese,Bulb Vegetables
-manganese,Fruiting Vegetables
-manganese,Fruits
-manganese,Herbs
-manganese,Leafy
-manganese,Legumes
-manganese,Other
-manganese,Root and Tuber Vegetables
-nickel,
-nickel,Brassica Vegetables
-nickel,Bulb Vegetables
-nickel,Fruiting Vegetables
-nickel,Fruits
-nickel,Herbs
-nickel,Leafy
-nickel,Legumes
-nickel,Other
-nickel,Root and Tuber Vegetables
-zinc,
-zinc,Brassica Vegetables
-zinc,Bulb Vegetables
-zinc,Fruiting Vegetables
-zinc,Fruits
-zinc,Herbs
-zinc,Leafy
-zinc,Legumes
-zinc,Other
-zinc,Root and Tuber Vegetables
+variable_name,medium,SPRDIOterm,SRPDIOlabel,comment
+aluminum,Brassica Vegetables,SRPDIO:2000000,concentration of elemental aluminium in shoot system,
+aluminum,Bulb Vegetables,SRPDIO:2000092,concentration of elemental aluminium in bulb,
+aluminum,Fruiting Vegetables,SRPDIO:2000138,concentration of elemental aluminium in fruit,
+aluminum,Fruits,SRPDIO:2000138,concentration of elemental aluminium in fruit,
+aluminum,Herbs,SRPDIO:2000230,concentration of elemental aluminium in vascular leaf,
+aluminum,Leafy,SRPDIO:2000230,concentration of elemental aluminium in vascular leaf,
+aluminum,Legumes,SRPDIO:2000276,concentration of elemental aluminium in seed,
+aluminum,Other,SRPDIO:2000046,concentration of elemental aluminium in plant structure,
+aluminum,Root and Tuber Vegetables,SRPDIO:2000322,concentration of elemental aluminium in root,I'll need to make a new class for tubers and a union class for these variables.
+arsenic,Brassica Vegetables,SRPDIO:2000002,concentration of elemental arsenic in shoot system,
+arsenic,Bulb Vegetables,SRPDIO:2000186,concentration of elemental arsenic in bulb,
+arsenic,Fruiting Vegetables,SRPDIO:2000140,concentration of elemental arsenic in fruit,
+arsenic,Fruits,SRPDIO:2000140,concentration of elemental arsenic in fruit,
+arsenic,Herbs,SRPDIO:2000232,concentration of elemental arsenic in vascular leaf,
+arsenic,Leafy,SRPDIO:2000232,concentration of elemental arsenic in vascular leaf,
+arsenic,Legumes,SRPDIO:2000278,concentration of elemental arsenic in seed,Should this be fruit? What part was measured?
+arsenic,Other,SRPDIO:2000048,concentration of elemental arsenic in plant structure,
+arsenic,Root and Tuber Vegetables,SRPDIO:2000324,concentration of elemental arsenic in root,I'll need to make a new class for tubers and a union class for these variables.
+barium,Brassica Vegetables,SRPDIO:2000003,concentration of elemental barium in shoot system,
+barium,Bulb Vegetables,SRPDIO:2000095,concentration of elemental barium in bulb,
+barium,Fruiting Vegetables,SRPDIO:2000141,concentration of elemental barium in fruit,
+barium,Fruits,SRPDIO:2000141,concentration of elemental barium in fruit,
+barium,Herbs,SRPDIO:2000233,concentration of elemental barium in vascular leaf,
+barium,Leafy,SRPDIO:2000233,concentration of elemental barium in vascular leaf,
+barium,Legumes,SRPDIO:2000279,concentration of elemental barium in seed,
+barium,Other,SRPDIO:2000049,concentration of elemental barium in plant structure,
+barium,Root and Tuber Vegetables,SRPDIO:2000325,concentration of elemental barium in root,I'll need to make a new class for tubers and a union class for these variables.
+beryllium,Brassica Vegetables,SRPDIO:2000004,concentration of elemental beryllium in shoot system,
+beryllium,Bulb Vegetables,SRPDIO:2000096,concentration of elemental beryllium in bulb,
+beryllium,Fruiting Vegetables,SRPDIO:2000142,concentration of elemental beryllium in fruit,
+beryllium,Fruits,SRPDIO:2000142,concentration of elemental beryllium in fruit,
+beryllium,Herbs,SRPDIO:2000234,concentration of elemental beryllium in vascular leaf,
+beryllium,Leafy,SRPDIO:2000234,concentration of elemental beryllium in vascular leaf,
+beryllium,Legumes,SRPDIO:2000280,concentration of elemental beryllium in seed,
+beryllium,Other,SRPDIO:2000050,concentration of elemental beryllium in plant structure,
+beryllium,Root and Tuber Vegetables,SRPDIO:2000329,concentration of elemental cadmium in root,I'll need to make a new class for tubers and a union class for these variables.
+cadmium,Brassica Vegetables,SRPDIO:2000421,concentration of elemental cadmium in shoot system,
+cadmium,Bulb Vegetables,SRPDIO:2000099,concentration of elemental cadmium in bulb,
+cadmium,Fruiting Vegetables,SRPDIO:2000145,concentration of elemental cadmium in fruit,
+cadmium,Fruits,SRPDIO:2000145,concentration of elemental cadmium in fruit,
+cadmium,Herbs,SRPDIO:2000237,concentration of elemental cadmium in vascular leaf,
+cadmium,Leafy,SRPDIO:2000237,concentration of elemental cadmium in vascular leaf,
+cadmium,Legumes,SRPDIO:2000283,concentration of elemental cadmium in seed,
+cadmium,Other,SRPDIO:2000053,concentration of elemental cadmium in plant structure,
+cadmium,Root and Tuber Vegetables,SRPDIO:2000329,concentration of elemental cadmium in root,I'll need to make a new class for tubers and a union class for these variables.
+chromium,Brassica Vegetables,SRPDIO:2000011,concentration of elemental chromium in shoot system,
+chromium,Bulb Vegetables,SRPDIO:2000103,concentration of elemental chromium in bulb,
+chromium,Fruiting Vegetables,SRPDIO:2000149,concentration of elemental chromium in fruit,
+chromium,Fruits,SRPDIO:2000149,concentration of elemental chromium in fruit,
+chromium,Herbs,SRPDIO:2000241,concentration of elemental chromium in vascular leaf,
+chromium,Leafy,SRPDIO:2000241,concentration of elemental chromium in vascular leaf,
+chromium,Legumes,SRPDIO:2000287,concentration of elemental chromium in seed,
+chromium,Other,SRPDIO:2000057,concentration of elemental chromium in plant structure,
+chromium,Root and Tuber Vegetables,SRPDIO:2000333,concentration of elemental chromium in root,I'll need to make a new class for tubers and a union class for these variables.
+copper,Brassica Vegetables,SRPDIO:2000013,concentration of elemental copper in shoot system,
+copper,Bulb Vegetables,SRPDIO:2000105,concentration of elemental copper in bulb,
+copper,Fruiting Vegetables,SRPDIO:2000151,concentration of elemental copper in fruit,
+copper,Fruits,SRPDIO:2000151,concentration of elemental copper in fruit,
+copper,Herbs,SRPDIO:2000243,concentration of elemental copper in vascular leaf,
+copper,Leafy,SRPDIO:2000243,concentration of elemental copper in vascular leaf,
+copper,Legumes,SRPDIO:2000289,concentration of elemental copper in seed,
+copper,Other,SRPDIO:2000059,concentration of elemental copper in plant structure,
+copper,Root and Tuber Vegetables,SRPDIO:2000335,concentration of elemental copper in root,I'll need to make a new class for tubers and a union class for these variables.
+lead,Brassica Vegetables,SRPDIO:2000019,concentration of elemental lead in shoot system,
+lead,Bulb Vegetables,SRPDIO:2000111,concentration of elemental lead in bulb,
+lead,Fruiting Vegetables,SRPDIO:2000157,concentration of elemental lead in fruit,
+lead,Fruits,SRPDIO:2000157,concentration of elemental lead in fruit,
+lead,Herbs,SRPDIO:2000249,concentration of elemental lead in vascular leaf,
+lead,Leafy,SRPDIO:2000249,concentration of elemental lead in vascular leaf,
+lead,Legumes,SRPDIO:2000295,concentration of elemental lead in seed,
+lead,Other,SRPDIO:2000065,concentration of elemental lead in plant structure,
+lead,Root and Tuber Vegetables,SRPDIO:2000341,concentration of elemental lead in root,I'll need to make a new class for tubers and a union class for these variables.
+manganese,Brassica Vegetables,SRPDIO:2000022,concentration of elemental manganese in shoot system,
+manganese,Bulb Vegetables,SRPDIO:2000114,concentration of elemental manganese in bulb,
+manganese,Fruiting Vegetables,SRPDIO:2000160,concentration of elemental manganese in fruit,
+manganese,Fruits,SRPDIO:2000160,concentration of elemental manganese in fruit,
+manganese,Herbs,SRPDIO:2000252,concentration of elemental manganese in vascular leaf,
+manganese,Leafy,SRPDIO:2000252,concentration of elemental manganese in vascular leaf,
+manganese,Legumes,SRPDIO:2000298,concentration of elemental manganese in seed,
+manganese,Other,SRPDIO:2000068,concentration of elemental manganese in plant structure,
+manganese,Root and Tuber Vegetables,SRPDIO:2000344,concentration of elemental manganese in root,I'll need to make a new class for tubers and a union class for these variables.
+nickel,Brassica Vegetables,SRPDIO:2000025,concentration of elemental nickel in shoot system,
+nickel,Bulb Vegetables,SRPDIO:2000117,concentration of elemental nickel in bulb,
+nickel,Fruiting Vegetables,SRPDIO:2000163,concentration of elemental nickel in fruit,
+nickel,Fruits,SRPDIO:2000163,concentration of elemental nickel in fruit,
+nickel,Herbs,SRPDIO:2000255,concentration of elemental nickel in vascular leaf,
+nickel,Leafy,SRPDIO:2000255,concentration of elemental nickel in vascular leaf,
+nickel,Legumes,SRPDIO:2000301,concentration of elemental nickel in seed,
+nickel,Other,SRPDIO:2000071,concentration of elemental nickel in plant structure,
+nickel,Root and Tuber Vegetables,SRPDIO:2000347,concentration of elemental nickel in root,I'll need to make a new class for tubers and a union class for these variables.
+zinc,Brassica Vegetables,SRPDIO:2000045,concentration of elemental zinc in shoot system,
+zinc,Bulb Vegetables,SRPDIO:2000137,concentration of elemental zinc in bulb,
+zinc,Fruiting Vegetables,SRPDIO:2000183,concentration of elemental zinc in fruit,
+zinc,Fruits,SRPDIO:2000183,concentration of elemental zinc in fruit,
+zinc,Herbs,SRPDIO:2000275,concentration of elemental zinc in vascular leaf,
+zinc,Leafy,SRPDIO:2000275,concentration of elemental zinc in vascular leaf,
+zinc,Legumes,SRPDIO:2000321,concentration of elemental zinc in seed,
+zinc,Other,SRPDIO:2000091,concentration of elemental zinc in plant structure,
+zinc,Root and Tuber Vegetables,SRPDIO:2000367,concentration of elemental zinc in root,I'll need to make a new class for tubers and a union class for these variables.
