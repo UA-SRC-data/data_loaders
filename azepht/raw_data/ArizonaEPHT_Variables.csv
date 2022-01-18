@@ -1,31 +1,27 @@
-Content Area,Indicator,Geography,Measure,Year,Code
-Cancer,Incidence of Bladder Cancer,Counties,"Age-adjusted rate per 100,000 population over a five year period",2012-2016,cbladder
-Cancer,Incidence of Brain and other nervous system cancer,Counties,"Age-adjusted rate per 100,000 population over a five year period",2012-2016,cbrainnerv
-Cancer,Incidence of Breast Cancer (Females only),Counties,"Age-adjusted rate per 100,000 population over a five year period",2012-2016,cbreast
-Cancer,Incidence of Esophogeal Cancer,Counties,"Age-adjusted rate per 100,000 population over a five year period",2012-2016,cesoph
-Cancer,Incidence of Kidney Cancer,Counties,"Age-adjusted rate per 100,000 population over a five year period",2012-2016,ckidney
-Cancer,Incidence of Larynx Cancer,Counties,"Age-adjusted rate per 100,000 population over a five year period",2012-2016,clarynx
-Cancer,Incidence of Leukemia,Counties,"Age-adjusted rate per 100,000 population over a five year period",2012-2016,cleuk
-Cancer,Incidence of Liver Cancer,Counties,"Age-adjusted rate per 100,000 population over a five year period",2012-2016,cliver
-Cancer,Incidence of Lung and Brochus Cancer,Counties,"Age-adjusted rate per 100,000 population over a five year period",2012-2016,clung
-Cancer,Incidence of non Hodgekin's lymphoma,Counties,"Age-adjusted rate per 100,000 population over a five year period",2012-2016,clymph
-Cancer,Incidence of Oral Cancer,Counties,"Age-adjusted rate per 100,000 population over a five year period",2012-2016,coral
-Cancer,Incidence of Pancreatic Cancer,Counties,"Age-adjusted rate per 100,000 population over a five year period",2012-2016,cpanc
-Cancer,Incidence of Testicular Cancers,Counties,"Age-adjusted rate per 100,000 population over a five year period",2012-2016,ctest
-Cancer,Incidence of Thyroid Cancers,Counties,"Age-adjusted rate per 100,000 population over a five year period",2012-2016,cthyroid
-Drinking Water Quality,Public Water Use,Counties,Number of people served by CWS,2019,dwcws
-Drinking Water Quality,Arsenic in Community Water Systems,Counties,Yearly distribution of number of CWS by max arsenic concentrations,2019,dwarcws
-Community Design,Access to Parks and Public Elementary Schools,PCAs (Subcounty),Percentage of population living within a half a mile of a park,2019,cdpark
-Community Design,Land use,Counties,Percent of land used for agriculture,2013,cdag
-Community Design,Land use,Counties,Percent of land used for development,2013,cddev
-Community Design,Proximity of Population and Schools to Highways,PCAs (Subcounty),Percent of population proximity to highway,2019,cdhighway
-Asthma,Emergency department visits for asthma,Counties,"Age-adjusted rate per 10,000 population",2019,aemageadj
-Asthma,Emergency department visits for asthma,Counties,"Crude rate per 10,000 population",2019,aemcrude
-Asthma,Emergency department visits for asthma,Counties,Number of emergency department visits,2019,aemvisit
-Asthma,Hospitalizations for Asthma,Counties,"Age-adjusted rate per 10,000 population",2019,ahospageadj
-Asthma,Hospitalizations for Asthma,Counties,"Crude rate per 10,000 population",2019,ahospcrude
-Asthma,Hospitalizations for Asthma,Counties,Number of hospitalizations,2019,ahosp
-Cancer,Incidence of Lung and Bronchus Cancers,Counties,"Age-adjusted rate per 100,000 population over a five year period",2012-2016,clung
-Cancer,Incidence of Testicular Cancer (Males only),Counties,"Age-adjusted rate per 100,000 population over a five year period",2012-2016,ctest
-Cancer,Incidence of Esophageal Cancer,Counties,"Age-adjusted rate per 100,000 population over a five year period",2012-2016,cesoph
-Cancer,Incidence of Non-Hodgkin's Lymphoma,Counties,"Age-adjusted rate per 100,000 population over a five year period",2012-2016,clymph
+Content Area,variable_name,Geography,Description,Year,Code,label
+Cancer,Incidence of Bladder Cancer,Counties,"Age-adjusted rate of bladder cancer per 100,000 population over a five year period",2012-2016,cbladder,incidence of bladder cancer
+Cancer,Incidence of Brain and other nervous system cancer,Counties,"Age-adjusted rate of brain and other nervous system cancerper 100,000 population over a five year period",2012-2016,cbrainnerv,incidence of brain and other nervous system cancer
+Cancer,Incidence of Breast Cancer (Females only),Counties,"Age-adjusted rate of breast cancer (females only) per 100,000 population over a five year period",2012-2016,cbreast,incidence of breast cancer (females only)
+Cancer,Incidence of Esophogeal Cancer,Counties,"Age-adjusted rate of esophogeal cancer per 100,000 population over a five year period",2012-2016,cesoph,incidence of esophogeal cancer
+Cancer,Incidence of Kidney Cancer,Counties,"Age-adjusted rate of kidney cancer per 100,000 population over a five year period",2012-2016,ckidney,incidence of kidney cancer
+Cancer,Incidence of Larynx Cancer,Counties,"Age-adjusted rate of larynx cancer per 100,000 population over a five year period",2012-2016,clarynx,incidence of larynx cancer
+Cancer,Incidence of Leukemia,Counties,"Age-adjusted rate of leukemia per 100,000 population over a five year period",2012-2016,cleuk,incidence of leukemia
+Cancer,Incidence of Liver Cancer,Counties,"Age-adjusted rate of liver cancer per 100,000 population over a five year period",2012-2016,cliver,incidence of liver cancer
+Cancer,Incidence of Lung and Brochus Cancer,Counties,"Age-adjusted rate of lung and brochus cancer per 100,000 population over a five year period",2012-2016,clung,incidence of lung and brochus cancer
+Cancer,Incidence of non Hodgekin's lymphoma,Counties,"Age-adjusted rate of non Hodgekin's lymphoma per 100,000 population over a five year period",2012-2016,clymph,incidence of non Hodgekin's lymphoma
+Cancer,Incidence of Oral Cancer,Counties,"Age-adjusted rate of oral cancer per 100,000 population over a five year period",2012-2016,coral,incidence of oral cancer
+Cancer,Incidence of Pancreatic Cancer,Counties,"Age-adjusted rate of pancreatic cancer per 100,000 population over a five year period",2012-2016,cpanc,incidence of pancreatic cancer
+Cancer,Incidence of Testicular Cancers,Counties,"Age-adjusted rate of testicular cancer (males only) per 100,000 population over a five year period",2012-2016,ctest,incidence of testicular cancers (males only)
+Cancer,Incidence of Thyroid Cancers,Counties,"Age-adjusted rate of testicular cancer per 100,000 population over a five year period",2012-2016,cthyroid,incidence of thyroid cancers
+Drinking Water Quality,Public Water Use,Counties,Number of people served by CWS,2019,dwcws,public water use
+Drinking Water Quality,Arsenic in Community Water Systems,Counties,Yearly distribution of number of CWS by max arsenic concentrations,2019,dwarcws,arsenic in community water systems
+Community Design,Access to Parks and Public Elementary Schools,PCAs (Subcounty),Percentage of population living within a half a mile of a park,2019,cdpark,access to parks and public elementary schools
+Community Design,Land use,Counties,Percent of land used for agriculture,2013,cdag,land use for agriculture
+Community Design,Land use,Counties,Percent of land used for development,2013,cddev,land use for development
+Community Design,Proximity of Population and Schools to Highways,PCAs (Subcounty),Percent of population proximity to highway,2019,cdhighway,proximity of population and highways
+Asthma,Emergency department visits for asthma,Counties,"Age-adjusted rate of emergency department visits for asthma  per 10,000 population",2019,aemageadj,age adjusted rate of emergency department visits for asthma
+Asthma,Emergency department visits for asthma,Counties,"Crude rate of emergency department visits for asthma per 10,000 population",2019,aemcrude,crude rate of emergency department visits for asthma
+Asthma,Emergency department visits for asthma,Counties,Number of emergency department visits for asthma,2019,aemvisit,number of mergency department visits for asthma
+Asthma,Hospitalizations for Asthma,Counties,"Age-adjusted rate of hospitalizations for asthma per 10,000 population",2019,ahospageadj,age adjusted rate of hospitalizations for asthma
+Asthma,Hospitalizations for Asthma,Counties,"Crude rate of hospitalizations for asthma  per 10,000 population",2019,ahospcrude,crude rate of hospitalizations for asthma
+Asthma,Hospitalizations for Asthma,Counties,Number of hospitalizations for asthma,2019,ahosp,number of hospitalizations for asthma
