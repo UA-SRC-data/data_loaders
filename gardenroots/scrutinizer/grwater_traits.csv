@@ -1,23 +1,23 @@
-variable_name,medium
-aluminum,Field Blank
-aluminum,Water
-arsenic,Field Blank
-arsenic,Water
-barium,Field Blank
-barium,Water
-beryllium,Field Blank
-beryllium,Water
-cadmium,Field Blank
-cadmium,Water
-chromium,Field Blank
-chromium,Water
-copper,Field Blank
-copper,Water
-lead,Field Blank
-lead,Water
-manganese,Field Blank
-manganese,Water
-nickel,Field Blank
-nickel,Water
-zinc,Field Blank
-zinc,Water
+variable_name,medium,SPRDIOterm,SRPDIOlabel
+aluminum,Field Blank,SRPDIO:2020292,
+arsenic,Field Blank,SRPDIO:2020293,
+barium,Field Blank,SRPDIO:2020294,
+beryllium,Field Blank,SRPDIO:2020295,
+cadmium,Field Blank,SRPDIO:2020296,
+chromium,Field Blank,SRPDIO:2020297,
+copper,Field Blank,SRPDIO:2020298,
+lead,Field Blank,SRPDIO:2020299,
+manganese,Field Blank,SRPDIO:2020300,
+nickel,Field Blank,SRPDIO:2020301,
+zinc,Field Blank,SRPDIO:2020302,
+aluminum,Water,SRPDIO:2020303,
+arsenic,Water,SRPDIO:2020304,
+barium,Water,SRPDIO:2020305,
+beryllium,Water,SRPDIO:2020306,
+cadmium,Water,SRPDIO:2020307,
+chromium,Water,SRPDIO:2020308,
+copper,Water,SRPDIO:2020309,
+lead,Water,SRPDIO:2020310,
+manganese,Water,SRPDIO:2020311,
+nickel,Water,SRPDIO:2020312,
+zinc,Water,SRPDIO:2020313,
